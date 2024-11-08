@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-hdpi_app_icon_round.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-hdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-hdpi_app_icon.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-ldpi_app_icon.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-ldpi/app_icon.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-mdpi_app_icon_round.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-mdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxxhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-mdpi_app_icon.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxhdpi_app_icon.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xhdpi_app_icon.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-ldpi_ic_launcher_background.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "com.vuforia.engine.VuforiaEngine.launcher-merged_res-7:/mipmap-ldpi_app_icon_round.png.flat",
+        "source": "com.vuforia.engine.VuforiaEngine.launcher-main-9:/mipmap-ldpi/app_icon_round.png"
+    }
+]

@@ -1,0 +1,286 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vuforia.engine.VuforiaEngine"
+4    android:installLocation="preferExternal"
+5    android:versionCode="10273"
+6    android:versionName="10.27.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="35" />
+10-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+20-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+21
+22    <uses-feature android:glEsVersion="0x00020000" />
+22-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-54
+22-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:19-51
+23    <uses-feature
+23-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-14:36
+24        android:name="android.hardware.vulkan.version"
+24-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-55
+25        android:required="false" />
+25-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-33
+26    <uses-feature
+26-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-17:36
+27        android:name="android.hardware.camera"
+27-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-47
+28        android:required="true" />
+28-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-20:36
+30        android:name="android.hardware.camera.autofocus"
+30-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-57
+31        android:required="false" />
+31-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-33
+32    <uses-feature
+32-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-23:36
+33        android:name="android.hardware.camera.front"
+33-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-53
+34        android:required="false" />
+34-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-33
+35    <uses-feature
+35-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-26:36
+36        android:name="android.hardware.touchscreen"
+36-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-52
+37        android:required="false" />
+37-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33
+38    <uses-feature
+38-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:5-29:36
+39        android:name="android.hardware.touchscreen.multitouch"
+39-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-63
+40        android:required="false" />
+40-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33
+41    <uses-feature
+41-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:5-32:36
+42        android:name="android.hardware.touchscreen.multitouch.distinct"
+42-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-72
+43        android:required="false" />
+43-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-33
+44
+45    <queries>
+45-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:20:5-22:15
+46        <package android:name="com.google.ar.core" />
+46-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:21:9-54
+46-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:21:18-51
+47    </queries>
+48
+49    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+49-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:9:5-79
+49-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:9:22-76
+50    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+50-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:11:5-79
+50-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:11:22-76
+51    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+51-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:4:2-98
+51-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:4:19-74
+52    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+52-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:5:2-99
+52-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:5:19-75
+53    <!--
+54        Required by Vuforia: Add this permission to access IMU sensors at high rate
+55        for device tracker functionality on Android 12+.
+56    -->
+57    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+57-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:16:5-85
+57-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:16:22-82
+58
+59    <application
+59-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-126
+60        android:debuggable="true"
+61        android:extractNativeLibs="true"
+61-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:18-50
+62        android:icon="@mipmap/app_icon"
+62-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+63        android:label="@string/app_name"
+63-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+64        android:requestLegacyExternalStorage="true"
+64-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:6:15-58
+65        android:roundIcon="@mipmap/app_icon_round" >
+65-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:81-123
+66        <meta-data
+66-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:33
+67            android:name="unity.splash-mode"
+67-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-45
+68            android:value="0" />
+68-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-30
+69        <meta-data
+69-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:36
+70            android:name="unity.splash-enable"
+70-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-47
+71            android:value="True" />
+71-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-33
+72        <meta-data
+72-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-43:36
+73            android:name="unity.launch-fullscreen"
+73-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-51
+74            android:value="True" />
+74-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-33
+75        <meta-data
+75-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-46:36
+76            android:name="unity.render-outside-safearea"
+76-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-57
+77            android:value="True" />
+77-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-33
+78        <meta-data
+78-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:9-49:50
+79            android:name="notch.config"
+79-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-40
+80            android:value="portrait|landscape" />
+80-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-47
+81        <meta-data
+81-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:9-52:36
+82            android:name="unity.auto-report-fully-drawn"
+82-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-57
+83            android:value="true" />
+83-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-33
+84
+85        <activity
+85-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:9-75:20
+86            android:name="com.unity3d.player.UnityPlayerActivity"
+86-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-66
+87            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+87-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-194
+88            android:exported="true"
+88-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:13-36
+89            android:hardwareAccelerated="false"
+89-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:13-48
+90            android:launchMode="singleTask"
+90-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-44
+91            android:resizeableActivity="false"
+91-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-47
+92            android:screenOrientation="portrait"
+92-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-49
+93            android:theme="@style/UnityThemeSelector" >
+93-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-54
+94            <intent-filter>
+94-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-67:29
+95                <category android:name="android.intent.category.LAUNCHER" />
+95-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-77
+95-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:27-74
+96
+97                <action android:name="android.intent.action.MAIN" />
+97-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-69
+97-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:25-66
+98            </intent-filter>
+99
+100            <meta-data
+100-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:13-71:40
+101                android:name="unityplayer.UnityActivity"
+101-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:17-57
+102                android:value="true" />
+102-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:17-37
+103            <meta-data
+103-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-74:40
+104                android:name="notch_support"
+104-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:17-45
+105                android:value="true" />
+105-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:17-37
+106        </activity>
+107
+108        <meta-data
+108-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:9-79:40
+109            android:name="com.google.ar.core"
+109-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-46
+110            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+110-->[:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:13-37
+111        <meta-data
+111-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:27:9-29:41
+112            android:name="com.google.ar.core.min_apk_version"
+112-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:28:13-62
+113            android:value="223110000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+113-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:29:13-38
+114        <activity
+114-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:31:9-37:80
+115            android:name="com.google.ar.core.InstallActivity"
+115-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:32:13-62
+116            android:configChanges="keyboardHidden|orientation|screenSize"
+116-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:33:13-74
+117            android:excludeFromRecents="true"
+117-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:34:13-46
+118            android:exported="false"
+118-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:35:13-37
+119            android:launchMode="singleTop"
+119-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:36:13-43
+120            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+120-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:37:13-77
+121        <activity
+121-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:14:9-18:74
+122            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+122-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:15:13-74
+123            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+123-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:16:13-170
+124            android:hardwareAccelerated="true"
+124-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:17:13-47
+125            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+125-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:18:13-71
+126        <activity
+126-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:19:9-23:86
+127            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+127-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:20:13-85
+128            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+128-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:21:13-170
+129            android:hardwareAccelerated="true"
+129-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:22:13-47
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+130-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:23:13-83
+131        <activity
+131-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:24:9-28:86
+132            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+132-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:25:13-93
+133            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+133-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:26:13-170
+134            android:hardwareAccelerated="false"
+134-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:27:13-48
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+135-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:28:13-83
+136        <activity
+136-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:29:9-33:74
+137            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+137-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:30:13-82
+138            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+138-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:31:13-170
+139            android:hardwareAccelerated="false"
+139-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:32:13-48
+140            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+140-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:33:13-71
+141
+142        <provider
+142-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:25:9-33:20
+143            android:name="com.vuforia.engine.app.VuforiaContentProvider"
+143-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:26:13-73
+144            android:authorities="com.vuforia.engine.VuforiaEngine.vuforia.share"
+144-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:27:13-65
+145            android:exported="false"
+145-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:28:13-37
+146            android:grantUriPermissions="true" >
+146-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:29:13-47
+147            <meta-data
+147-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:30:13-32:53
+148                android:name="android.support.FILE_PROVIDER_PATHS"
+148-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:31:17-67
+149                android:resource="@xml/filepaths" />
+149-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:32:17-50
+150        </provider>
+151    </application>
+152
+153</manifest>

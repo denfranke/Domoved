@@ -1,0 +1,229 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ArBtnManager">
+			<method name="_FixOrUnfixModelInWorld"/>
+			<method name="_FixOrUnfixModelInWorld"/>
+			<method name="_SizeScrollBarUpdater"/>
+			<method name="_SizeScrollBarUpdater"/>
+		</type>
+		<type fullname="ChangeImageInBtn">
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+			<method name="_ChangeBtn"/>
+		</type>
+		<type fullname="ChangeReality">
+			<method name="_OpenOrCloseAR"/>
+			<method name="_OpenOrCloseAR"/>
+			<method name="_OpenOrCloseAR"/>
+			<method name="_OpenOrCloseAR"/>
+			<method name="_OpenOrCloseVR"/>
+			<method name="_OpenOrCloseVR"/>
+		</type>
+		<type fullname="DayTimeScrollbar">
+			<method name="Updater"/>
+			<method name="Updater"/>
+		</type>
+		<type fullname="DbConnector">
+			<method name="_StartTutorial"/>
+			<method name="openCitiesMenu"/>
+			<method name="openCitiesMenu"/>
+			<method name="openDistrictsMenu"/>
+			<method name="openHousesMenu"/>
+			<method name="openMainMenu"/>
+			<method name="openStreetsMenu"/>
+			<method name="Quit"/>
+		</type>
+		<type fullname="HintsManagerToAR">
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+		</type>
+		<type fullname="HintsManagerToNormalMode">
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenNextHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+			<method name="_OpenPreviousHint"/>
+		</type>
+		<type fullname="ObjectMovement">
+			<method name="Updater"/>
+			<method name="Updater"/>
+		</type>
+		<type fullname="SettingsBtn">
+			<method name="_ChangeFlatSizesVisiblity"/>
+			<method name="_ChangeFlatSizesVisiblity"/>
+			<method name="_ChangeFlatSizesVisiblity"/>
+			<method name="_ChangeFlatSizesVisiblity"/>
+			<method name="_ChangeFurnituresVisiblity"/>
+			<method name="_ChangeFurnituresVisiblity"/>
+			<method name="_ChangeFurnituresVisiblity"/>
+			<method name="_ChangeFurnituresVisiblity"/>
+			<method name="_ChangeLightsSourseVisiblity"/>
+			<method name="_ChangeLightsSourseVisiblity"/>
+			<method name="_ChangeLightsSourseVisiblity"/>
+			<method name="_ChangeLightsSourseVisiblity"/>
+			<method name="_ChangeWallpapersVisiblity"/>
+			<method name="_ChangeWallpapersVisiblity"/>
+			<method name="_ChangeWallpapersVisiblity"/>
+			<method name="_ChangeWallpapersVisiblity"/>
+			<method name="_ChangeWallsVisiblity"/>
+			<method name="_ChangeWallsVisiblity"/>
+			<method name="_ChangeWallsVisiblity"/>
+			<method name="_ChangeWallsVisiblity"/>
+			<method name="_TurnOnOrOffFlatLights"/>
+			<method name="_TurnOnOrOffFlatLights"/>
+			<method name="_TurnOnOrOffFlatLights"/>
+			<method name="_TurnOnOrOffFlatLights"/>
+		</type>
+		<type fullname="WorkSpace">
+			<method name="_OpenMainMenuScene"/>
+			<method name="_OpenMainMenuScene"/>
+			<method name="_OpenMainMenuScene"/>
+			<method name="_OpenMainMenuScene"/>
+			<method name="_OpenOrCloseHelpSpace"/>
+			<method name="_OpenOrCloseHelpSpace"/>
+			<method name="_OpenOrCloseHelpSpace"/>
+			<method name="_OpenOrCloseHelpSpace"/>
+			<method name="_OpenOrCloseInfoSpace"/>
+			<method name="_OpenOrCloseInfoSpace"/>
+			<method name="_OpenOrCloseInfoSpace"/>
+			<method name="_OpenOrCloseInfoSpace"/>
+			<method name="_OpenOrCloseInfoSpaceInAR"/>
+			<method name="_OpenOrCloseInfoSpaceInAR"/>
+			<method name="_OpenOrCloseInfoSpaceInAR"/>
+			<method name="_OpenOrCloseInfoSpaceInAR"/>
+			<method name="_OpenOrCloseScrollBar"/>
+			<method name="_OpenOrCloseScrollBar"/>
+			<method name="_OpenOrCloseSettingsSpace"/>
+			<method name="_OpenOrCloseSettingsSpace"/>
+			<method name="_OpenOrCloseSettingsSpace"/>
+			<method name="_OpenOrCloseSettingsSpace"/>
+			<method name="_OpenOrCloseSettingsSpaceInAR"/>
+			<method name="_OpenOrCloseSettingsSpaceInAR"/>
+			<method name="_OpenOrCloseSettingsSpaceInAR"/>
+			<method name="_OpenOrCloseSettingsSpaceInAR"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.UI" ignoreIfMissing="1">
+		<type fullname="UnityEngine.UI.Selectable">
+			<method name="set_interactable"/>
+			<method name="set_interactable"/>
+		</type>
+	</assembly>
+	<assembly fullname="Vuforia.Unity.Engine" ignoreIfMissing="1">
+		<type fullname="Vuforia.AreaTargetCaptureBehaviour">
+			<method name="CancelTargetGeneration"/>
+			<method name="CancelTargetGeneration"/>
+			<method name="DestroyCapture"/>
+			<method name="DestroyCapture"/>
+			<method name="StartCapture"/>
+			<method name="StartCapture"/>
+			<method name="StopCapture"/>
+			<method name="StopCapture"/>
+		</type>
+		<type fullname="Vuforia.ContentPositioningBehaviour">
+			<method name="PositionContentAtPlaneAnchor"/>
+			<method name="PositionContentAtPlaneAnchor"/>
+		</type>
+		<type fullname="Vuforia.Internal.AreaTargetCaptureInfoPopup">
+			<method name="OnCaptureCreationError"/>
+			<method name="OnCaptureCreationError"/>
+			<method name="OnCaptureStarted"/>
+			<method name="OnCaptureStarted"/>
+			<method name="OnCaptureStatusInfoUpdated"/>
+			<method name="OnCaptureStatusInfoUpdated"/>
+			<method name="OnGenerationCompleted"/>
+			<method name="OnGenerationCompleted"/>
+			<method name="OnGenerationError"/>
+			<method name="OnGenerationError"/>
+		</type>
+		<type fullname="Vuforia.Internal.AreaTargetCaptureOverlayCanvas">
+			<method name="OnCaptureStarted"/>
+			<method name="OnCaptureStarted"/>
+			<method name="OnCaptureStopped"/>
+			<method name="OnCaptureStopped"/>
+			<method name="OnGenerateClicked"/>
+			<method name="OnGenerateClicked"/>
+			<method name="OnGenerationCompleted"/>
+			<method name="OnGenerationCompleted"/>
+			<method name="OnGenerationProgressUpdated"/>
+			<method name="OnGenerationProgressUpdated"/>
+			<method name="OnGenerationRemainingTimeUpdated"/>
+			<method name="OnGenerationRemainingTimeUpdated"/>
+			<method name="OnGenerationStarted"/>
+			<method name="OnGenerationStarted"/>
+			<method name="OnPause"/>
+			<method name="OnPause"/>
+			<method name="OnResume"/>
+			<method name="OnResume"/>
+			<method name="OnTargetNameChanged"/>
+			<method name="OnTargetNameChanged"/>
+			<method name="OnTargetNameSet"/>
+			<method name="OnTargetNameSet"/>
+		</type>
+		<type fullname="Vuforia.PlaneFinderBehaviour">
+			<method name="PerformHitTest"/>
+			<method name="PerformHitTest"/>
+		</type>
+		<type fullname="Vuforia.SessionRecorderBehaviour">
+			<method name="ShareRecording"/>
+		</type>
+	</assembly>
+</linker>
