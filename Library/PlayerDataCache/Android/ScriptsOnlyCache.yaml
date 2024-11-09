@@ -25,12 +25,15 @@ ScriptsOnlyBuild:
     - SettingsBtn
     - WorkSpace
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -842,11 +845,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 23282}
     - Class: 114
-      Script: {instanceID: 23816}
+      Script: {instanceID: 23814}
     - Class: 114
-      Script: {instanceID: 24348}
+      Script: {instanceID: 24346}
     - Class: 114
-      Script: {instanceID: 24806}
+      Script: {instanceID: 24804}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -957,15 +960,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 23282}
     - Class: 114
-      Script: {instanceID: 23622}
+      Script: {instanceID: 23620}
     - Class: 114
-      Script: {instanceID: 23642}
+      Script: {instanceID: 23640}
     - Class: 114
-      Script: {instanceID: 25010}
+      Script: {instanceID: 25008}
     - Class: 114
-      Script: {instanceID: 25044}
+      Script: {instanceID: 25042}
     - Class: 114
-      Script: {instanceID: 56702}
+      Script: {instanceID: 53144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1070,11 +1073,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 23282}
     - Class: 114
-      Script: {instanceID: 23622}
+      Script: {instanceID: 23620}
     - Class: 114
-      Script: {instanceID: 23642}
+      Script: {instanceID: 23640}
     - Class: 114
-      Script: {instanceID: 25010}
+      Script: {instanceID: 25008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
