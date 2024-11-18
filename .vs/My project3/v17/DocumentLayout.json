@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Documents\\Unity\\My project3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|d:\\documents\\unity\\my project3\\assets\\scripts\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|d:\\documents\\unity\\my project3\\assets\\scripts\\playervrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playervrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\arbtnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arbtnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC05C4B9-311F-B2AE-63B5-4BAA58EABFC4}|Unity.InputSystem.csproj|D:\\Documents\\Unity\\My project3\\library\\packagecache\\com.unity.inputsystem@1.11.0\\inputsystem\\plugins\\xr\\trackedposedriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC05C4B9-311F-B2AE-63B5-4BAA58EABFC4}|Unity.InputSystem.csproj|solutionrelative:library\\packagecache\\com.unity.inputsystem@1.11.0\\inputsystem\\plugins\\xr\\trackedposedriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\changereality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changereality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +38,64 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrackedPoseDriver.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.inputsystem@1.11.0\\InputSystem\\Plugins\\XR\\TrackedPoseDriver.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.inputsystem@1.11.0\\InputSystem\\Plugins\\XR\\TrackedPoseDriver.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.inputsystem@1.11.0\\InputSystem\\Plugins\\XR\\TrackedPoseDriver.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.inputsystem@1.11.0\\InputSystem\\Plugins\\XR\\TrackedPoseDriver.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAuwOYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:14:52.912Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerVRController.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\PlayerVRController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerVRController.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\PlayerVRController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerVRController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:09:47.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "WorkSpace.cs",
               "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\WorkSpace.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WorkSpace.cs",
               "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\WorkSpace.cs",
               "RelativeToolTip": "Assets\\Scripts\\WorkSpace.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwI4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:46:48.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T14:12:30.073Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ArBtnManager.cs",
-              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ArBtnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ArBtnManager.cs",
-              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ArBtnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ArBtnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "VRModeController.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\VRModeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VRModeController.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\VRModeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VRModeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:45:54.954Z"
+              "WhenOpened": "2024-11-16T14:10:29.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeReality.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ChangeReality.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeReality.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ChangeReality.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChangeReality.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:14:26.286Z"
             }
           ]
         }

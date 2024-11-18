@@ -2032,6 +2032,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D DateTimeParse_ParseExact_m6B8EA03D11917CF54BEF6554360B7184EE45206A (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_s, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_format, DateTimeFormatInfo_t0457520F9FA7B5C8EAAEB3AD50413B6AEEB7458A* ___2_dtfi, int32_t ___3_style, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A* ___4_offset, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeFormat_Format_mE29072D46A40E3F42E100A7F85452B42B8DC692B (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_dateTime, String_t* ___1_format, RuntimeObject* ___2_provider, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___3_offset, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_m6179A30F1E22CDF5F9340DFE115E923C18BC13F9 (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_mAC5241022745D7158B8ED97099483537115ACA80 (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, String_t* ___0_format, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_mB9E1813AAC8B185A5B374B150F5080AF1CB119C6 (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, RuntimeObject* ___0_formatProvider, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_m4B5BB65E069D2146E808A1CE5F424ACA2F4D2281 (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, String_t* ___0_format, RuntimeObject* ___1_formatProvider, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DateTimeFormat_TryFormat_mFBA0ED63E8D61B02348D9278A7132CEAE2258837 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_dateTime, Span_1_tEDDF15FCF9EC6DEBA0F696BAACDDBAB9D92C252D ___1_destination, int32_t* ___2_charsWritten, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___3_format, RuntimeObject* ___4_provider, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___5_offset, const RuntimeMethod* method) ;
@@ -8416,6 +8417,37 @@ IL2CPP_EXTERN_C  String_t* DateTimeOffset_ToString_m6179A30F1E22CDF5F9340DFE115E
 	_thisAdjusted = reinterpret_cast<DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4*>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = DateTimeOffset_ToString_m6179A30F1E22CDF5F9340DFE115E923C18BC13F9(_thisAdjusted, method);
+	return _returnValue;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_mAC5241022745D7158B8ED97099483537115ACA80 (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, String_t* ___0_format, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeFormat_tE5F9F8059A3910CA0E37935312AAEDC297D907A2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var);
+		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_0;
+		L_0 = DateTimeOffset_get_ClockDateTime_mEBD2897618EB54200ADD029865ED6F73CB762D43(__this, NULL);
+		String_t* L_1 = ___0_format;
+		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_2;
+		L_2 = DateTimeOffset_get_Offset_mE90E2548227F1EE8BF4A6A5EB71B32D48D3035A4(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DateTimeFormat_tE5F9F8059A3910CA0E37935312AAEDC297D907A2_il2cpp_TypeInfo_var);
+		String_t* L_3;
+		L_3 = DateTimeFormat_Format_mE29072D46A40E3F42E100A7F85452B42B8DC692B(L_0, L_1, (RuntimeObject*)NULL, L_2, NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* DateTimeOffset_ToString_mAC5241022745D7158B8ED97099483537115ACA80_AdjustorThunk (RuntimeObject* __this, String_t* ___0_format, const RuntimeMethod* method)
+{
+	DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = DateTimeOffset_ToString_mAC5241022745D7158B8ED97099483537115ACA80(_thisAdjusted, ___0_format, method);
 	return _returnValue;
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTimeOffset_ToString_mB9E1813AAC8B185A5B374B150F5080AF1CB119C6 (DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4* __this, RuntimeObject* ___0_formatProvider, const RuntimeMethod* method) 

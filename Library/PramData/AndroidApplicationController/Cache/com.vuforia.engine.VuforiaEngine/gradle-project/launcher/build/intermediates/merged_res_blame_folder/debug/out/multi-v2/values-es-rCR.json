@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeDebugResources-5:/values-es-rCR/values-es-rCR.xml",
+            "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeDebugResources-32:/values-es-rCR/values-es-rCR.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-es-rCR\\values.xml",

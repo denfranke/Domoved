@@ -24,7 +24,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.CJK.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.MidEast.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.Other.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\NativeGallery.Runtime.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Analytics.DataPrivacy.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Configuration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Device.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Environments.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Networking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Registration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Scheduler.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Telemetry.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Threading.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.Advertisements.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\VuforiaScripts.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Runtime\\Vuforia.Unity.Engine.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Runtime\\Vuforia.Unity.Wrapper.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\AnalyticsStandardEvents\\Unity.Analytics.StandardEvents.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\Unity.Analytics.Editor.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\Unity.Analytics.Tracker.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\Newtonsoft.Json.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Documents\\Unity\\My project3\\Assets\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Runtime\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\AnalyticsStandardEvents\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.CJK.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.MidEast.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.Other.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\CardboardSamples.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Google.XR.Cardboard.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\NativeGallery.Runtime.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Analytics.DataPrivacy.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.InputSystem.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.InputSystem.TestFramework.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Mathematics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Configuration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Device.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Environments.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Networking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Registration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Scheduler.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Telemetry.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Services.Core.Threading.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.ARCore.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.ARFoundation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.ARFoundation.InternalUtils.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.ARFoundation.VisualScripting.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.ARSubsystems.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.CoreUtils.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.Management.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\Unity.XR.Simulation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.Advertisements.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.SpatialTracking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\\VuforiaScripts.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Runtime\\Vuforia.Unity.Engine.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Runtime\\Vuforia.Unity.Wrapper.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\AnalyticsStandardEvents\\Unity.Analytics.StandardEvents.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\Unity.Analytics.Editor.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\Unity.Analytics.Tracker.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\Newtonsoft.Json.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\\ReportGeneratorMerged.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Documents\\Unity\\My project3\\Assets\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\ScriptAssemblies\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Runtime\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.analytics@3.8.1\\AnalyticsStandardEvents\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.6\\lib\\ReportGenerator\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -33,9 +33,15 @@
         "Assets/I18N.MidEast.dll",
         "Assets/I18N.Other.dll",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/CardboardSamples.dll",
+        "Library/ScriptAssemblies/Google.XR.Cardboard.dll",
         "Library/ScriptAssemblies/NativeGallery.Runtime.dll",
         "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
         "Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.Services.Analytics.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll",
@@ -54,9 +60,21 @@
         "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
         "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARCore.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARFoundation.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll",
+        "Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll",
+        "Library/ScriptAssemblies/Unity.XR.CoreUtils.dll",
+        "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
+        "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
+        "Library/ScriptAssemblies/Unity.XR.Management.dll",
+        "Library/ScriptAssemblies/Unity.XR.Simulation.dll",
         "Library/ScriptAssemblies/UnityEngine.Advertisements.dll",
+        "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
         "Library/ScriptAssemblies/VuforiaScripts.dll",
         "Library/PackageCache/com.ptc.vuforia.engine@5c22b2884c76/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll",
         "Library/PackageCache/com.ptc.vuforia.engine@5c22b2884c76/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll",
@@ -248,6 +266,12 @@
       "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/CardboardSamples.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Google.XR.Cardboard.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/NativeGallery.Runtime.dll"
     },
     {
@@ -255,6 +279,18 @@
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Analytics.dll"
@@ -311,13 +347,49 @@
       "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARCore.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARFoundation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.CoreUtils.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Management.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.XR.Simulation.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/UnityEngine.Advertisements.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll"
     },
     {
       "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
     },
     {
       "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
     },
     {
       "File": "Library/ScriptAssemblies/VuforiaScripts.dll"

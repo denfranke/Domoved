@@ -19,10 +19,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <uses-feature android:glEsVersion="0x00020000" />
     <uses-feature
-        android:name="android.hardware.vulkan.version"
-        android:required="false" />
+        android:glEsVersion="0x00030000"
+        android:required="true" />
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
@@ -41,9 +40,20 @@
     <uses-feature
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+    <uses-feature
+        android:name="com.google.ar.core.depth"
+        android:required="true" />
 
     <queries>
         <package android:name="com.google.ar.core" />
+        <package android:name="com.android.vending" />
+
+        <intent>
+            <action android:name="com.google.android.play.core.install.BIND_INSTALL_SERVICE" />
+        </intent>
     </queries>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -55,8 +65,16 @@
         for device tracker functionality on Android 12+.
     -->
     <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <permission
+        android:name="com.vuforia.engine.VuforiaEngine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.vuforia.engine.VuforiaEngine.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
@@ -106,11 +124,14 @@
         </activity>
 
         <meta-data
+            android:name="unityplayer.SkipPermissionsDialog"
+            android:value="true" />
+        <meta-data
             android:name="com.google.ar.core"
-            android:value="optional" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+            android:value="required" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
         <meta-data
             android:name="com.google.ar.core.min_apk_version"
-            android:value="223110000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+            android:value="240220000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
         <activity
             android:name="com.google.ar.core.InstallActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -147,6 +168,50 @@
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/filepaths" />
+        </provider>
+
+        <activity
+            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+            android:exported="false"
+            android:label="@string/title_activity_qr_code_capture"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <!--
+          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+          NFC tag is detected.
+        -->
+        <activity
+            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+            android:exported="true"
+            android:label="@string/headset_detection_activity_title" >
+
+            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="cardboard" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.vuforia.engine.VuforiaEngine.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
         </provider>
     </application>
 

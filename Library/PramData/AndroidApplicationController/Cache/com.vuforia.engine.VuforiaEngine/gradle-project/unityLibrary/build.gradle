@@ -10,11 +10,20 @@ apply plugin: 'com.android.library'
 
 
 dependencies {
-    implementation 'com.google.ar:core:1.36.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation 'androidx.appcompat:appcompat:1.6.1'
+  implementation 'com.google.android.gms:play-services-vision:20.1.3'
+  implementation 'com.google.android.material:material:1.6.1'
+  implementation 'com.google.protobuf:protobuf-javalite:3.19.4'
+    implementation(name: 'arcore_client', ext:'aar')
     implementation(name: 'UnityAds', ext:'aar')
+    implementation(name: 'UnityARCore', ext:'aar')
     implementation(name: 'NativeGallery', ext:'aar')
     implementation(name: 'VuforiaEngine', ext:'aar')
+    implementation(name: 'GfxPluginCardboard', ext:'aar')
+    implementation(name: 'ARPresto', ext:'aar')
+    implementation(name: 'unityandroidpermissions', ext:'aar')
+    implementation project('xrmanifest.androidlib')
 
 }
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeDebugResources-5:/values-v30/values-v30.xml",
+            "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeDebugResources-32:/values-v30/values-v30.xml",
             "map": [
                 {
                     "source": "D:\\Documents\\Unity\\My project3\\Library\\PramData\\AndroidApplicationController\\Cache\\com.vuforia.engine.VuforiaEngine\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v30\\values-v30.xml",

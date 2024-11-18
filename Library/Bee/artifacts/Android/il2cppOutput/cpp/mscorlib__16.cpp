@@ -5860,7 +5860,7 @@ IL_0055:
 		RuntimeConstructorInfo_tB41E49C7CFA74A03CCC986E78ABB0C0BD331A5AE* L_21 = V_2;
 		NullCheck(L_21);
 		bool L_22;
-		L_22 = VirtualFuncInvoker0< bool >::Invoke(33, L_21);
+		L_22 = VirtualFuncInvoker0< bool >::Invoke(34, L_21);
 		if (L_22)
 		{
 			goto IL_0055;

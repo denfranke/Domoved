@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.XR;
+using UnityEngine.XR.Management;
 
 public class DbConnector : MonoBehaviour
 {
@@ -23,6 +25,12 @@ public class DbConnector : MonoBehaviour
     //private string ip = "172.23.49.114";
 
     private string curCity = "", curDistrict = "", curStreet = "", curHouse = "";
+
+    private void Awake ()
+    {
+        XRGeneralSettings.Instance.Manager.StopSubsystems();
+        XRGeneralSettings.Instance.Manager.DeinitializeLoader();
+    }
 
     private void Start ()
     {

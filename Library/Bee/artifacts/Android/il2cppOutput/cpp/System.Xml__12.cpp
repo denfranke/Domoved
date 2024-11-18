@@ -5717,7 +5717,7 @@ IL_01aa:
 		MethodInfo_t* L_62 = V_2;
 		NullCheck(L_62);
 		Type_t* L_63;
-		L_63 = VirtualFuncInvoker0< Type_t* >::Invoke(40, L_62);
+		L_63 = VirtualFuncInvoker0< Type_t* >::Invoke(41, L_62);
 		NullCheck(L_63);
 		PropertyInfo_t* L_64;
 		L_64 = Type_GetProperty_mD183124FC8A89121E8368058B327A7750B14281D(L_63, _stringLiteralA29F3B17CF6E8054389BB8337ACBE5E4C8F4722B, NULL);

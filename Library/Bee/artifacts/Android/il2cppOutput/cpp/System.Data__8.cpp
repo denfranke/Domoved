@@ -5884,7 +5884,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDataReader__ctor_m47304573377C28638C3
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_5 = ___0_command;
 		NullCheck(L_5);
 		int32_t L_6;
-		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(13, L_5);
+		L_6 = VirtualFuncInvoker0< int32_t >::Invoke(14, L_5);
 		__this->____defaultTimeoutMilliseconds = ((int64_t)il2cpp_codegen_multiply(((int64_t)L_6), ((int64_t)((int32_t)1000))));
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_7 = ___0_command;
 		NullCheck(L_7);
@@ -8695,7 +8695,7 @@ IL_0158:
 					SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_22;
 					L_22 = SqlDataReader_get_Connection_mAA8F0A56F8E1F298CFA2548BAC0C0239FFFE9150_inline(__this, NULL);
 					NullCheck(L_22);
-					VirtualActionInvoker0::Invoke(17, L_22);
+					VirtualActionInvoker0::Invoke(18, L_22);
 				}
 
 IL_017e:
@@ -15599,7 +15599,7 @@ IL_0026:
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_7 = __this->____command;
 		NullCheck(L_7);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(13, L_7);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(14, L_7);
 		G_B6_0 = L_8;
 		G_B6_1 = G_B5_0;
 		G_B6_2 = G_B5_1;
@@ -18165,7 +18165,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlDependency_ComputeHashAndAddToDi
 		L_1 = SqlCommand_get_Connection_m18BC8B1D92547AB086FB62ED80AB52ADA4C7ADEC_inline(L_0, NULL);
 		NullCheck(L_1);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(11, L_1);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(12, L_1);
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_3 = ___0_command;
 		String_t* L_4;
 		L_4 = SqlDependency_ComputeCommandHash_m7FE1378D7EAB219C678635C57FF5CBDE461C6408(__this, L_2, L_3, NULL);
@@ -18492,7 +18492,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlDependency_ComputeCommandHash_m7
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_3 = ___1_command;
 		NullCheck(L_3);
 		String_t* L_4;
-		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(11, L_3);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(12, L_3);
 		NullCheck(L_1);
 		StringBuilder_t* L_5;
 		L_5 = StringBuilder_AppendFormat_mAB076D92DC92723B2224D75987BE463AF1CE7132(L_1, _stringLiteral15FA1CE6D61140BB384C5F38AEE0D356402DA549, L_2, L_4, NULL);

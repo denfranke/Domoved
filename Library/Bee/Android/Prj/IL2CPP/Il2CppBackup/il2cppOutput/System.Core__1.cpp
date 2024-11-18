@@ -8526,7 +8526,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugViewWriter_WriteLine_mAD23CC084D231
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_0 = __this->____out;
 		NullCheck(L_0);
-		VirtualActionInvoker0::Invoke(17, L_0);
+		VirtualActionInvoker0::Invoke(18, L_0);
 		__this->____column = 0;
 		return;
 	}
@@ -8537,7 +8537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugViewWriter_Write_m3E7ACA1062A8C9466
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_0 = __this->____out;
 		String_t* L_1 = ___0_s;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_0, L_1);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_0, L_1);
 		int32_t L_2 = __this->____column;
 		String_t* L_3 = ___0_s;
 		NullCheck(L_3);
@@ -19652,7 +19652,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* LambdaExpression_get_ReturnType_mA8E8
 		L_1 = TypeUtils_GetInvokeMethod_m62AB477BF6415EEB6F7108534BAB598CA9CDCA02(L_0, NULL);
 		NullCheck(L_1);
 		Type_t* L_2;
-		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(40, L_1);
+		L_2 = VirtualFuncInvoker0< Type_t* >::Invoke(41, L_1);
 		return L_2;
 	}
 }
@@ -20227,7 +20227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* MethodCallExpression_get_Type_m7D7993
 		L_0 = MethodCallExpression_get_Method_m76D210171E9633BD4E62F23C9300CF86098E5615_inline(__this, NULL);
 		NullCheck(L_0);
 		Type_t* L_1;
-		L_1 = VirtualFuncInvoker0< Type_t* >::Invoke(40, L_0);
+		L_1 = VirtualFuncInvoker0< Type_t* >::Invoke(41, L_0);
 		return L_1;
 	}
 }
@@ -24827,7 +24827,7 @@ IL_0072:
 		L_20 = UnaryExpression_get_Method_mA8D37E71BEA657B6999A51277A7D7CBDF951E265_inline(__this, NULL);
 		NullCheck(L_20);
 		Type_t* L_21;
-		L_21 = VirtualFuncInvoker0< Type_t* >::Invoke(40, L_20);
+		L_21 = VirtualFuncInvoker0< Type_t* >::Invoke(41, L_20);
 		Type_t* L_22;
 		L_22 = VirtualFuncInvoker0< Type_t* >::Invoke(5, __this);
 		il2cpp_codegen_runtime_class_init_inline(TypeUtils_t2C9FA7DD0D8907A05421D44B8E7F1D4F602C9FE7_il2cpp_TypeInfo_var);

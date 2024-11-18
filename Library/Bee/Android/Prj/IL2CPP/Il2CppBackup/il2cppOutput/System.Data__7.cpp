@@ -15156,7 +15156,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCommand__ctor_mEB9312E80EE23AFD11EDA5
 	{
 		SqlCommand__ctor_m59178622D95B4BFD8CEBE7EBBD40ED9E4F5E6B48(__this, NULL);
 		String_t* L_0 = ___0_cmdText;
-		VirtualActionInvoker1< String_t* >::Invoke(12, __this, L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(13, __this, L_0);
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_1 = ___1_connection;
 		SqlCommand_set_Connection_m70541FE849182FEBDA609263E8816A502BC067F0(__this, L_1, NULL);
 		return;
@@ -15185,18 +15185,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCommand__ctor_m1F18C231327CB46F3EF767
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_0 = ___0_from;
 		NullCheck(L_0);
 		String_t* L_1;
-		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(11, L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(12, __this, L_1);
+		L_1 = VirtualFuncInvoker0< String_t* >::Invoke(12, L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(13, __this, L_1);
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_2 = ___0_from;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(13, L_2);
-		VirtualActionInvoker1< int32_t >::Invoke(14, __this, L_3);
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(14, L_2);
+		VirtualActionInvoker1< int32_t >::Invoke(15, __this, L_3);
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_4 = ___0_from;
 		NullCheck(L_4);
 		int32_t L_5;
-		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(15, L_4);
-		VirtualActionInvoker1< int32_t >::Invoke(16, __this, L_5);
+		L_5 = VirtualFuncInvoker0< int32_t >::Invoke(16, L_4);
+		VirtualActionInvoker1< int32_t >::Invoke(17, __this, L_5);
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_6 = ___0_from;
 		NullCheck(L_6);
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_7;
@@ -15205,8 +15205,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCommand__ctor_m1F18C231327CB46F3EF767
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_8 = ___0_from;
 		NullCheck(L_8);
 		bool L_9;
-		L_9 = VirtualFuncInvoker0< bool >::Invoke(17, L_8);
-		VirtualActionInvoker1< bool >::Invoke(18, __this, L_9);
+		L_9 = VirtualFuncInvoker0< bool >::Invoke(18, L_8);
+		VirtualActionInvoker1< bool >::Invoke(19, __this, L_9);
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_10 = ___0_from;
 		NullCheck(L_10);
 		SqlTransaction_t6443DDD93168EA1A7D9B0BB5F562B469161BB2CE* L_11;
@@ -15215,8 +15215,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCommand__ctor_m1F18C231327CB46F3EF767
 		SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* L_12 = ___0_from;
 		NullCheck(L_12);
 		int32_t L_13;
-		L_13 = VirtualFuncInvoker0< int32_t >::Invoke(19, L_12);
-		VirtualActionInvoker1< int32_t >::Invoke(20, __this, L_13);
+		L_13 = VirtualFuncInvoker0< int32_t >::Invoke(20, L_12);
+		VirtualActionInvoker1< int32_t >::Invoke(21, __this, L_13);
 		SqlParameterCollection_t3D49135247253222428FB0B57B2AED936FE47A54* L_14;
 		L_14 = SqlCommand_get_Parameters_m8DD817376051B3AD5F570CAB82EF78A7BBAFDF42(__this, NULL);
 		V_0 = L_14;
@@ -16257,7 +16257,7 @@ IL_005f:
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_16 = __this->____activeConnection;
 		NullCheck(L_16);
 		String_t* L_17;
-		L_17 = VirtualFuncInvoker0< String_t* >::Invoke(15, L_16);
+		L_17 = VirtualFuncInvoker0< String_t* >::Invoke(16, L_16);
 		SqlInternalConnectionTds_t16C367B74F1733C98D435645147E1F6D96423B92* L_18;
 		L_18 = SqlCommand_get_InternalTdsConnection_mF628E94E4C35F5093463A1B5529E6493E258F253(__this, NULL);
 		NullCheck(L_18);
@@ -16267,7 +16267,7 @@ IL_005f:
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_21 = __this->____activeConnection;
 		NullCheck(L_21);
 		String_t* L_22;
-		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(14, L_21);
+		L_22 = VirtualFuncInvoker0< String_t* >::Invoke(15, L_21);
 		il2cpp_codegen_runtime_class_init_inline(SqlDependency_tE0D875A426976DED2C2C6150DDBFD472CFC61CEE_il2cpp_TypeInfo_var);
 		String_t* L_23;
 		L_23 = SqlDependency_GetDefaultComposedOptions_mF12C3088B72544E064570D2F4005928C2D92CC8E(L_17, L_19, L_20, L_22, NULL);
@@ -16289,7 +16289,7 @@ IL_0091:
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_28 = __this->____activeConnection;
 		NullCheck(L_28);
 		String_t* L_29;
-		L_29 = VirtualFuncInvoker0< String_t* >::Invoke(15, L_28);
+		L_29 = VirtualFuncInvoker0< String_t* >::Invoke(16, L_28);
 		NullCheck(L_27);
 		SqlDependency_AddToServerList_m9E1767D12856AF2952F9639CA5BF855324312DD3(L_27, L_29, NULL);
 	}
@@ -16307,7 +16307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqlDataReader_t685770A6BB75F4EC0609A3CD357676
 		int32_t L_1 = ___1_runBehavior;
 		bool L_2 = ___2_returnStream;
 		int32_t L_3;
-		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(13, __this);
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(14, __this);
 		String_t* L_4 = ___3_method;
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_5;
 		L_5 = SqlCommand_RunExecuteReader_m628AEEDF354F4ADD33CA09AFA026EC71C4EED744(__this, L_0, L_1, L_2, (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37*)NULL, L_3, (&V_0), (bool)0, L_4, NULL);
@@ -16813,7 +16813,7 @@ IL_01fd_2:
 					L_107 = SqlCommand_get_Notification_m1C7061B77C9769DFA4C2931D8A9CA50F3E78484A_inline(__this, NULL);
 					TdsParserStateObject_tB40308FBDB791C057F0C214C1EBA8BFAEAA20D38* L_108 = __this->____stateObj;
 					int32_t L_109;
-					L_109 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+					L_109 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 					U3CU3Ec__DisplayClass143_0_t9BC9C00E1B3403DDE72C97AA82833DDE8E2B2933* L_110 = V_0;
 					NullCheck(L_110);
 					bool L_111 = L_110->___asyncWrite;
@@ -16827,7 +16827,7 @@ IL_01fd_2:
 IL_0254_2:
 				{
 					int32_t L_113;
-					L_113 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+					L_113 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 					if ((!(((uint32_t)1) == ((uint32_t)L_113))))
 					{
 						goto IL_02bf_2;
@@ -16880,7 +16880,7 @@ IL_0254_2:
 IL_02bf_2:
 				{
 					int32_t L_133;
-					L_133 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+					L_133 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 					if ((!(((uint32_t)1) == ((uint32_t)L_133))))
 					{
 						goto IL_03ac_2;
@@ -16984,7 +16984,7 @@ IL_0360_2:
 					L_157 = SqlCommand_get_Notification_m1C7061B77C9769DFA4C2931D8A9CA50F3E78484A_inline(__this, NULL);
 					TdsParserStateObject_tB40308FBDB791C057F0C214C1EBA8BFAEAA20D38* L_158 = __this->____stateObj;
 					int32_t L_159;
-					L_159 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+					L_159 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 					U3CU3Ec__DisplayClass143_0_t9BC9C00E1B3403DDE72C97AA82833DDE8E2B2933* L_160 = V_0;
 					NullCheck(L_160);
 					bool L_161 = L_160->___asyncWrite;
@@ -17082,7 +17082,7 @@ IL_0436_2:
 					L_195 = SqlCommand_get_Notification_m1C7061B77C9769DFA4C2931D8A9CA50F3E78484A_inline(__this, NULL);
 					TdsParserStateObject_tB40308FBDB791C057F0C214C1EBA8BFAEAA20D38* L_196 = __this->____stateObj;
 					int32_t L_197;
-					L_197 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+					L_197 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 					U3CU3Ec__DisplayClass143_0_t9BC9C00E1B3403DDE72C97AA82833DDE8E2B2933* L_198 = V_0;
 					NullCheck(L_198);
 					bool L_199 = L_198->___asyncWrite;
@@ -17543,7 +17543,7 @@ IL_004f:
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_17 = __this->____activeConnection;
 		NullCheck(L_17);
 		int32_t L_18;
-		L_18 = VirtualFuncInvoker0< int32_t >::Invoke(16, L_17);
+		L_18 = VirtualFuncInvoker0< int32_t >::Invoke(17, L_17);
 		if (L_18)
 		{
 			goto IL_0064;
@@ -17562,7 +17562,7 @@ IL_0064:
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_21 = __this->____activeConnection;
 		NullCheck(L_21);
 		int32_t L_22;
-		L_22 = VirtualFuncInvoker0< int32_t >::Invoke(16, L_21);
+		L_22 = VirtualFuncInvoker0< int32_t >::Invoke(17, L_21);
 		if ((!(((uint32_t)L_22) == ((uint32_t)((int32_t)16)))))
 		{
 			goto IL_007c;
@@ -17659,7 +17659,7 @@ IL_00c7:
 IL_00e8:
 	{
 		String_t* L_40;
-		L_40 = VirtualFuncInvoker0< String_t* >::Invoke(11, __this);
+		L_40 = VirtualFuncInvoker0< String_t* >::Invoke(12, __this);
 		bool L_41;
 		L_41 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_40, NULL);
 		if (!L_41)
@@ -18965,7 +18965,7 @@ IL_001e:
 		SqlParameter_tCD19FA095A677C4B5223590C25BDB12DF774E398* L_8 = V_3;
 		int32_t L_9 = V_0;
 		int32_t L_10;
-		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 		NullCheck(L_8);
 		SqlParameter_Validate_m3ECAE31D081AD1C467C20E5F7CF7ED0F5DBFBB2D(L_8, L_9, (bool)((((int32_t)4) == ((int32_t)L_10))? 1 : 0), NULL);
 		SqlParameter_tCD19FA095A677C4B5223590C25BDB12DF774E398* L_11 = V_3;
@@ -19420,7 +19420,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCommand_BuildRPC_mB831C0970A30F902BD7
 		_SqlRPC_t9F8BF64F2BEF1E06FD2FE33F35BF38D96BF6AD04** L_4 = ___2_rpc;
 		_SqlRPC_t9F8BF64F2BEF1E06FD2FE33F35BF38D96BF6AD04* L_5 = *((_SqlRPC_t9F8BF64F2BEF1E06FD2FE33F35BF38D96BF6AD04**)L_4);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(11, __this);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(12, __this);
 		NullCheck(L_5);
 		L_5->___rpcName = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&L_5->___rpcName), (void*)L_6);
@@ -19774,7 +19774,7 @@ IL_0018:
 		SqlParameter_tCD19FA095A677C4B5223590C25BDB12DF774E398* L_6 = V_4;
 		int32_t L_7 = V_3;
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(15, __this);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
 		NullCheck(L_6);
 		SqlParameter_Validate_m3ECAE31D081AD1C467C20E5F7CF7ED0F5DBFBB2D(L_6, L_7, (bool)((((int32_t)4) == ((int32_t)L_8))? 1 : 0), NULL);
 		SqlParameter_tCD19FA095A677C4B5223590C25BDB12DF774E398* L_9 = V_4;
@@ -20564,7 +20564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SqlCommand_GetCommandText_m130AF0D6
 		String_t* L_1;
 		L_1 = SqlCommand_GetSetOptionsString_mDF49D36B2FFA3482389BFAE782A08A7623929928(__this, L_0, NULL);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(11, __this);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(12, __this);
 		String_t* L_3;
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_1, L_2, NULL);
 		return L_3;
@@ -21316,7 +21316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlConnection__ctor_m31A70D3F4AA0BE1BCDB
 	{
 		SqlConnection__ctor_mA170F107A61C2F360C0A9169B321329A689D4128(__this, NULL);
 		String_t* L_0 = ___0_connectionString;
-		VirtualActionInvoker1< String_t* >::Invoke(12, __this, L_0);
+		VirtualActionInvoker1< String_t* >::Invoke(13, __this, L_0);
 		SqlConnection_CacheConnectionStringProperties_m137539EC03DAA92E6F8A71B4137E0FB10AA92577(__this, NULL);
 		return;
 	}
@@ -22091,7 +22091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlConnection_Close_mB8B37FE9E15460CB71A
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
 		int32_t L_0;
-		L_0 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
+		L_0 = VirtualFuncInvoker0< int32_t >::Invoke(17, __this);
 		V_0 = L_0;
 		il2cpp_codegen_initobj((&V_1), sizeof(Guid_t));
 		il2cpp_codegen_initobj((&V_2), sizeof(Guid_t));
@@ -22212,7 +22212,7 @@ IL_006b_2:
 					Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_24 = V_5;
 					AsyncHelper_WaitForCompletion_mA351D3269D94DC5BCAEDA6702F0F0FC43CAFC522(L_24, 0, (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)NULL, (bool)0, NULL);
 					int32_t L_25;
-					L_25 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
+					L_25 = VirtualFuncInvoker0< int32_t >::Invoke(17, __this);
 					if ((((int32_t)L_25) == ((int32_t)1)))
 					{
 						goto IL_0089_2;
@@ -22221,7 +22221,7 @@ IL_006b_2:
 				{
 					il2cpp_codegen_runtime_class_init_inline(DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_il2cpp_TypeInfo_var);
 					StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* L_26 = ((DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_StaticFields*)il2cpp_codegen_static_fields_for(DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_il2cpp_TypeInfo_var))->___StateChangeClosed;
-					VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(18, __this, L_26);
+					VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(19, __this, L_26);
 				}
 
 IL_0089_2:
@@ -23750,7 +23750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlConnection_OnError_m540ABD67E8BC70E57
 	}
 	{
 		int32_t L_3;
-		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(16, __this);
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(17, __this);
 		if ((!(((uint32_t)1) == ((uint32_t)L_3))))
 		{
 			goto IL_0044;
@@ -23781,7 +23781,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlConnection_OnError_m540ABD67E8BC70E57
 
 IL_003e:
 	{
-		VirtualActionInvoker0::Invoke(17, __this);
+		VirtualActionInvoker0::Invoke(18, __this);
 	}
 
 IL_0044:
@@ -24796,7 +24796,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlConnection_Dispose_m7E7AB272C74BED60E
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____userConnectionOptions), (void*)(DbConnectionOptions_tA7B55DACBCC4D58ABBE993AFA6D1B98830E55B25*)NULL);
 		__this->____poolGroup = (DbConnectionPoolGroup_tBE470E1A1E2029EAAAF96719408055F773EACAE0*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____poolGroup), (void*)(DbConnectionPoolGroup_tBE470E1A1E2029EAAAF96719408055F773EACAE0*)NULL);
-		VirtualActionInvoker0::Invoke(17, __this);
+		VirtualActionInvoker0::Invoke(18, __this);
 	}
 
 IL_0017:
@@ -24945,7 +24945,7 @@ IL_002c:
 	{
 		il2cpp_codegen_runtime_class_init_inline(DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_il2cpp_TypeInfo_var);
 		StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* L_11 = ((DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_StaticFields*)il2cpp_codegen_static_fields_for(DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_il2cpp_TypeInfo_var))->___StateChangeOpen;
-		VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(18, __this, L_11);
+		VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(19, __this, L_11);
 		return;
 	}
 
@@ -24967,7 +24967,7 @@ IL_0046:
 	{
 		il2cpp_codegen_runtime_class_init_inline(DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_il2cpp_TypeInfo_var);
 		StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* L_14 = ((DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_StaticFields*)il2cpp_codegen_static_fields_for(DbConnectionInternal_t9679A5A04D3536D79E5FC615574010BF2DBE17B8_il2cpp_TypeInfo_var))->___StateChangeClosed;
-		VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(18, __this, L_14);
+		VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(19, __this, L_14);
 		return;
 	}
 
@@ -24985,7 +24985,7 @@ IL_0059:
 		int32_t L_18 = V_1;
 		StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* L_19 = (StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01*)il2cpp_codegen_object_new(StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01_il2cpp_TypeInfo_var);
 		StateChangeEventArgs__ctor_m4357ED909843DEBC3F188798343B05A8E1ED2B8E(L_19, L_17, L_18, NULL);
-		VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(18, __this, L_19);
+		VirtualActionInvoker1< StateChangeEventArgs_t345AA3A91563693A0B1CC804BF45729645FE2F01* >::Invoke(19, __this, L_19);
 	}
 
 IL_006a:
@@ -25510,7 +25510,7 @@ IL_011c_3:
 								CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED L_27 = __this->___U3CctokenU3E5__3;
 								NullCheck(L_26);
 								Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_28;
-								L_28 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(20, L_26, L_27);
+								L_28 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED >::Invoke(21, L_26, L_27);
 								NullCheck(L_28);
 								ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C L_29;
 								L_29 = Task_ConfigureAwait_m0DD682B1D29B85067C993734C12E26554D6CBFF4(L_28, (bool)0, NULL);
@@ -25959,7 +25959,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass118_0_U3COnErrorU3E
 	{
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_3 = __this->___U3CU3E4__this;
 		NullCheck(L_3);
-		VirtualActionInvoker0::Invoke(17, L_3);
+		VirtualActionInvoker0::Invoke(18, L_3);
 	}
 
 IL_001e:

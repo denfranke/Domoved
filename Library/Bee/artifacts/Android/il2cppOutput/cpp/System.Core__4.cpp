@@ -6699,7 +6699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* TypeExtensions_GetReturnType_mC3B1296
 		MethodBase_t* L_2 = ___0_mi;
 		NullCheck(((MethodInfo_t*)CastclassClass((RuntimeObject*)L_2, MethodInfo_t_il2cpp_TypeInfo_var)));
 		Type_t* L_3;
-		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(40, ((MethodInfo_t*)CastclassClass((RuntimeObject*)L_2, MethodInfo_t_il2cpp_TypeInfo_var)));
+		L_3 = VirtualFuncInvoker0< Type_t* >::Invoke(41, ((MethodInfo_t*)CastclassClass((RuntimeObject*)L_2, MethodInfo_t_il2cpp_TypeInfo_var)));
 		return L_3;
 	}
 
@@ -9294,7 +9294,7 @@ IL_002e:
 		MethodInfo_t* L_11 = V_2;
 		NullCheck(L_11);
 		Type_t* L_12;
-		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(40, L_11);
+		L_12 = VirtualFuncInvoker0< Type_t* >::Invoke(41, L_11);
 		Type_t* L_13 = ___2_typeTo;
 		il2cpp_codegen_runtime_class_init_inline(TypeUtils_t2C9FA7DD0D8907A05421D44B8E7F1D4F602C9FE7_il2cpp_TypeInfo_var);
 		bool L_14;
@@ -9988,7 +9988,7 @@ IL_0000:
 		MethodInfo_t* L_10 = V_0;
 		NullCheck(L_10);
 		bool L_11;
-		L_11 = VirtualFuncInvoker0< bool >::Invoke(29, L_10);
+		L_11 = VirtualFuncInvoker0< bool >::Invoke(30, L_10);
 		if (L_11)
 		{
 			goto IL_002d;

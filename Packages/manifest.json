@@ -1,5 +1,6 @@
 {
-    "dependencies": {
+  "dependencies": {
+    "com.google.xr.cardboard": "https://github.com/googlevr/cardboard-xr-plugin.git",
     "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.27.3.tgz",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
@@ -17,6 +18,8 @@
     "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.4",
+    "com.unity.xr.arcore": "5.1.5",
+    "com.unity.xr.interaction.toolkit": "2.6.3",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

@@ -2015,6 +2015,7 @@ inline int32_t ReadOnlySpan_1_get_Length_m54864A0BB817050A9110E85BB5FB31EF636999
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9E8DC9AEFDC34AC67473EFAEAB78C5066C1A0D09 (String_t* ___0_resourceFormat, RuntimeObject* ___1_p1, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, String_t* ___1_paramName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871 (Guid_t* __this, uint32_t ___0_a, uint16_t ___1_b, uint16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mC52E0191E06C110F9F6E0A417BCA4437D79CC130 (Guid_t* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GuidResult_Init_mA6B695110665C265D17C97D0AB8AA25D25D874AB_inline (GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79* __this, int32_t ___0_canThrow, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline (String_t* ___0_value, const RuntimeMethod* method) ;
@@ -2022,6 +2023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_TryParseGuid_m6792F3C351DA8944391B8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Exception_t* GuidResult_GetGuidParseException_m64B716090AACED88AAA921D1B6EE7BC3AB7F606B (GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mAE66BA1C43B4194F4F7991E2E30370E36CBBF830 (Guid_t* __this, String_t* ___0_g, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Guid_t Guid_Parse_m47AC2E6437504837BAB8F5011FFEC0DEB3C6B8E7 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_TryParse_m211611A7A9B654A73F12DAAC58AF3C7DBCC0E84C (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, Guid_t* ___1_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_TryParseExact_mEEC6651F6CAA3AE40C3FF4A7690DAF26DA5C3786 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_format, Guid_t* ___2_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 MemoryExtensions_Trim_m8062B15A9D800FE916FEF8755F6C4F38B66E6030 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_span, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GuidResult_SetFailure_mAD082AA9068B9208F6D872480AD041716484A1CA (GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79* __this, int32_t ___0_failure, String_t* ___1_failureMessageID, const RuntimeMethod* method) ;
@@ -5231,6 +5233,41 @@ IL2CPP_EXTERN_C  void Guid__ctor_m6533072DFD3E81582E8949EB2D5BFABEFC7C403D_Adjus
 	_thisAdjusted = reinterpret_cast<Guid_t*>(__this + _offset);
 	Guid__ctor_m6533072DFD3E81582E8949EB2D5BFABEFC7C403D(_thisAdjusted, ___0_b, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871 (Guid_t* __this, uint32_t ___0_a, uint16_t ___1_b, uint16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) 
+{
+	{
+		uint32_t L_0 = ___0_a;
+		__this->____a = L_0;
+		uint16_t L_1 = ___1_b;
+		__this->____b = ((int16_t)L_1);
+		uint16_t L_2 = ___2_c;
+		__this->____c = ((int16_t)L_2);
+		uint8_t L_3 = ___3_d;
+		__this->____d = L_3;
+		uint8_t L_4 = ___4_e;
+		__this->____e = L_4;
+		uint8_t L_5 = ___5_f;
+		__this->____f = L_5;
+		uint8_t L_6 = ___6_g;
+		__this->____g = L_6;
+		uint8_t L_7 = ___7_h;
+		__this->____h = L_7;
+		uint8_t L_8 = ___8_i;
+		__this->____i = L_8;
+		uint8_t L_9 = ___9_j;
+		__this->____j = L_9;
+		uint8_t L_10 = ___10_k;
+		__this->____k = L_10;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_a, uint16_t ___1_b, uint16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method)
+{
+	Guid_t* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Guid_t*>(__this + _offset);
+	Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871(_thisAdjusted, ___0_a, ___1_b, ___2_c, ___3_d, ___4_e, ___5_f, ___6_g, ___7_h, ___8_i, ___9_j, ___10_k, method);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mC52E0191E06C110F9F6E0A417BCA4437D79CC130 (Guid_t* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) 
 {
 	{
@@ -5371,6 +5408,62 @@ IL_0023:
 		Exception_t* L_4;
 		L_4 = GuidResult_GetGuidParseException_m64B716090AACED88AAA921D1B6EE7BC3AB7F606B((&V_0), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Guid_Parse_m47AC2E6437504837BAB8F5011FFEC0DEB3C6B8E7_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_TryParse_m0A3C27800A8CEB35EF6CABBABD87ED7F968A7B4D (String_t* ___0_input, Guid_t* ___1_result, const RuntimeMethod* method) 
+{
+	{
+		String_t* L_0 = ___0_input;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		Guid_t* L_1 = ___1_result;
+		il2cpp_codegen_initobj(L_1, sizeof(Guid_t));
+		return (bool)0;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = ___0_input;
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_3;
+		L_3 = String_op_Implicit_m7D7FE0449303AF92D8B2A85A06ADC6933B2ECC3A_inline(L_2, NULL);
+		Guid_t* L_4 = ___1_result;
+		bool L_5;
+		L_5 = Guid_TryParse_m211611A7A9B654A73F12DAAC58AF3C7DBCC0E84C(L_3, L_4, NULL);
+		return L_5;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_TryParse_m211611A7A9B654A73F12DAAC58AF3C7DBCC0E84C (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_input, Guid_t* ___1_result, const RuntimeMethod* method) 
+{
+	GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79));
+		GuidResult_Init_mA6B695110665C265D17C97D0AB8AA25D25D874AB_inline((&V_0), 0, NULL);
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___0_input;
+		bool L_1;
+		L_1 = Guid_TryParseGuid_m6792F3C351DA8944391B880568730DDEA8A34E01(L_0, ((int32_t)15), (&V_0), NULL);
+		if (!L_1)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		Guid_t* L_2 = ___1_result;
+		GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79 L_3 = V_0;
+		Guid_t L_4 = L_3.____parsedGuid;
+		*(Guid_t*)L_2 = L_4;
+		return (bool)1;
+	}
+
+IL_002a:
+	{
+		Guid_t* L_5 = ___1_result;
+		il2cpp_codegen_initobj(L_5, sizeof(Guid_t));
+		return (bool)0;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Guid_TryParseExact_m8318795A2B6B90900272736AF2A803438FEDB7DE (String_t* ___0_input, String_t* ___1_format, Guid_t* ___2_result, const RuntimeMethod* method) 
@@ -13571,6 +13664,24 @@ IL_0015:
 	{
 		RuntimeObject* L_4 = V_0;
 		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LazyHelper_GetModeFromIsThreadSafe_mBDD3B61E4FF9D24310C7DDA18CCA809A278F0FDB (bool ___0_isThreadSafe, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = ___0_isThreadSafe;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		return (int32_t)(0);
+	}
+
+IL_0005:
+	{
+		return (int32_t)(2);
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LazyHelper__cctor_m75E26D9832D8E23A18ABEE47B1F1EE2B436C35B6 (const RuntimeMethod* method) 

@@ -7048,7 +7048,7 @@ IL_0165_1:
 			TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_43 = L_42->___writer;
 			NullCheck(L_43);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_44;
-			L_44 = VirtualFuncInvoker0< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* >::Invoke(21, L_43);
+			L_44 = VirtualFuncInvoker0< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* >::Invoke(22, L_43);
 			NullCheck(L_44);
 			ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C L_45;
 			L_45 = Task_ConfigureAwait_m0DD682B1D29B85067C993734C12E26554D6CBFF4(L_44, (bool)0, NULL);
@@ -7462,7 +7462,7 @@ IL_00e6_3:
 						int32_t L_63 = L_62->___bufPos;
 						NullCheck(L_59);
 						Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_64;
-						L_64 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(20, L_59, L_61, 1, ((int32_t)il2cpp_codegen_subtract(L_63, 1)));
+						L_64 = VirtualFuncInvoker3< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(21, L_59, L_61, 1, ((int32_t)il2cpp_codegen_subtract(L_63, 1)));
 						NullCheck(L_64);
 						ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C L_65;
 						L_65 = Task_ConfigureAwait_m0DD682B1D29B85067C993734C12E26554D6CBFF4(L_64, (bool)0, NULL);
@@ -20000,14 +20000,14 @@ IL_0042:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_17 = __this->___textWriter;
 		NullCheck(L_17);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_17, _stringLiteralCEB6890FC169A5D98961042EBCAD0677F2F0656F);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_17, _stringLiteralCEB6890FC169A5D98961042EBCAD0677F2F0656F);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_18 = __this->___textWriter;
 		NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472* L_19;
 		L_19 = NumberFormatInfo_get_InvariantInfo_m4689F466D2607C7369BCE394E3FB3681A6E644FA(NULL);
 		String_t* L_20;
 		L_20 = Int32_ToString_mE871810BC163EE4EF88E7C7682A6AD39911173B8((&V_0), _stringLiteralD5D2875F228D651E1289522AEAAB8C492001C1BE, L_19, NULL);
 		NullCheck(L_18);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_18, L_20);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_18, L_20);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_21 = __this->___textWriter;
 		NullCheck(L_21);
 		VirtualActionInvoker1< Il2CppChar >::Invoke(13, L_21, ((int32_t)59));
@@ -20119,7 +20119,7 @@ IL_004d:
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_20 = __this->___textWriter;
 		String_t* L_21 = ___0_text;
 		NullCheck(L_20);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_20, L_21);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_20, L_21);
 		return;
 	}
 
@@ -20708,7 +20708,7 @@ IL_00a4:
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_41 = __this->___textWriter;
 		String_t* L_42 = ___0_text;
 		NullCheck(L_41);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_41, L_42);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_41, L_42);
 		return;
 	}
 }
@@ -20990,11 +20990,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlTextEncoder_WriteCharEntityImpl_m700B
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_0 = __this->___textWriter;
 		NullCheck(L_0);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_0, _stringLiteralCEB6890FC169A5D98961042EBCAD0677F2F0656F);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_0, _stringLiteralCEB6890FC169A5D98961042EBCAD0677F2F0656F);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_1 = __this->___textWriter;
 		String_t* L_2 = ___0_strVal;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_1, L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_1, L_2);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_3 = __this->___textWriter;
 		NullCheck(L_3);
 		VirtualActionInvoker1< Il2CppChar >::Invoke(13, L_3, ((int32_t)59));
@@ -21010,7 +21010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlTextEncoder_WriteEntityRefImpl_m3177B
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_1 = __this->___textWriter;
 		String_t* L_2 = ___0_name;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_1, L_2);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_1, L_2);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_3 = __this->___textWriter;
 		NullCheck(L_3);
 		VirtualActionInvoker1< Il2CppChar >::Invoke(13, L_3, ((int32_t)59));

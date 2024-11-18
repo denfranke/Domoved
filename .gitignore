@@ -17,3 +17,6 @@ Temp/FSTimeGet-768f7f015b1d2474e9017b22558caa9f
 Temp/FSTimeGet-bd06a9b6a863821408f7d3bfa151f2d9
 Temp/FSTimeGet-bdbbe1f83ace9d14ea17901c2ddc3741
 Temp/UnityLockfile
+Assets/Editor/Migration/com.ptc.vuforia.engine-10.27.3.tgz
+Library/PramData/AndroidApplicationController/Cache/com.DefaultCompany.Myproject3/gradle-project/unityLibrary/xrmanifest.androidlib/build/intermediates/runtime_library_classes_dir/debug/com/UnityTechnologies/XR/Manifest/BuildConfig.class
+Library/PramData/AndroidApplicationController/Cache/com.vuforia.engine.VuforiaEngine/gradle-project/unityLibrary/xrmanifest.androidlib/build/intermediates/runtime_library_classes_dir/debug/com/UnityTechnologies/XR/Manifest/BuildConfig.class

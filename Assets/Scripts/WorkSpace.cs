@@ -65,7 +65,7 @@ public class WorkSpace : MonoBehaviour
         CreateFlatsAtScene();
 
         ParentInArModeWhereFlat.transform.GetChild(0).gameObject.SetActive(false);
-        //ParentInVrModeWhereFlat.transform.GetChild(PlayerPrefs.GetInt("Id_Flat")-1).gameObject.SetActive(false);
+        ParentInVrModeWhereFlat.transform.GetChild(0).gameObject.SetActive(false);
         ParentInNormalModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
 
         SettingsSpace.SetActive(true);
@@ -80,14 +80,14 @@ public class WorkSpace : MonoBehaviour
         SettingsSpaceInAR.SetActive(false);
 
         ParentInArModeWhereFlat.transform.GetChild(0).gameObject.SetActive(false);
-        //ParentInVrModeWhereFlat.transform.GetChild(PlayerPrefs.GetInt("Id_Flat")-1).gameObject.SetActive(true);
+        ParentInVrModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
 
-        //SettingsSpaceInAR.SetActive(true);
-        //CreateSettingsLines("VrMode");
-        //SettingsSpaceInAR.SetActive(false);
+        SettingsSpaceInAR.SetActive(true);
+        CreateSettingsLines("VrMode");
+        SettingsSpaceInAR.SetActive(false);
 
         ParentInArModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
-        //ParentInVrModeWhereFlat.transform.GetChild(PlayerPrefs.GetInt("Id_Flat") - 1).gameObject.SetActive(true);
+        ParentInVrModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
         ParentInNormalModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
 
         GameObject.Find("ArMode").SetActive(false);
@@ -135,22 +135,23 @@ public class WorkSpace : MonoBehaviour
         FlatInNormalMode.SetParent(ParentInNormalModeWhereFlat.transform, false);
         FlatInNormalMode.eulerAngles = new Vector3(0, NorthDirectionOfFlatInDegrees, 0);
 
-        //Transform FlatInVrMode = Instantiate(FlatPrefab).transform;
-        //FlatInVrMode.SetParent(ParentInVrModeWhereFlat.transform, false);
-        //FlatInVrMode.eulerAngles = new Vector3(0, NorthDirectionOfFlatInDegrees, 0);
+        Transform FlatInVrMode = Instantiate(FlatPrefab).transform;
+        FlatInVrMode.SetParent(ParentInVrModeWhereFlat.transform, false);
+        FlatInVrMode.eulerAngles = new Vector3(0, NorthDirectionOfFlatInDegrees, 0);
 
         Transform FlatInArMode = Instantiate(FlatPrefab).transform;
         FlatInArMode.SetParent(ParentInArModeWhereFlat.transform, false);
         FlatInArMode.eulerAngles = new Vector3(0, NorthDirectionOfFlatInDegrees, 0);
-        FlatInArMode.localScale = new Vector3(0.0333333f, 0.0333333f, 0.0333333f);
         if(FlatNameInUnity!="FlatTutorial")
         foreach(Light l in FlatInArMode.GetComponentsInChildren<Light>())
         {
             if(l.tag == "LightInFlat")
             {
-                l.intensity = 0.2f;
+                l.intensity = 0.333f;
+                //l.intensity = 0.2f;
             }
         }
+        FlatInArMode.localScale = new Vector3(0.0333333f, 0.0333333f, 0.0333333f);
     }
 
     private void ClearSettingsLines ()
@@ -219,7 +220,7 @@ public class WorkSpace : MonoBehaviour
     private void MaterialListener (GameObject obj, string SpriteName)
     {
         MeshRenderer[] objFlatInArMode = ParentInArModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();//FlatPrefab.transform.GetComponentsInChildren<MeshRenderer>();
-        //MeshRenderer[] objFlatInVrMode = ParentInVrModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
+        MeshRenderer[] objFlatInVrMode = ParentInVrModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
         MeshRenderer[] objFlatInNormalMode = ParentInNormalModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
 
         Material[] materials;
@@ -242,14 +243,14 @@ public class WorkSpace : MonoBehaviour
                         b.material = mat;
                     }
                 }
-                //foreach(MeshRenderer b in objFlatInVrMode)
-                //{
-                //    if(obj.name == b.gameObject.transform.parent.name || obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
-                //    {
-                //        b.material = mat;
-                //        //Debug.Log(obj.name);
-                //    }
-                //}
+                foreach(MeshRenderer b in objFlatInVrMode)
+                {
+                    if(obj.name == b.gameObject.transform.parent.name || obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
+                    {
+                        b.material = mat;
+                        //Debug.Log(obj.name);
+                    }
+                }
                 foreach(MeshRenderer b in objFlatInNormalMode)
                 {
                     if(obj.name == b.gameObject.transform.parent.name || obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
@@ -290,7 +291,7 @@ public class WorkSpace : MonoBehaviour
                 myNewMaterial.SetTexture("_MainTex", texture);
 
                 MeshRenderer[] objFlatInArMode = ParentInArModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
-                //MeshRenderer[] objFlatInVrMode = ParentInVrModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
+                MeshRenderer[] objFlatInVrMode = ParentInVrModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
                 MeshRenderer[] objFlatInNormalMode = ParentInNormalModeWhereFlat.transform.GetComponentsInChildren<MeshRenderer>();
 
                 foreach(MeshRenderer b in objFlatInArMode)
@@ -300,13 +301,13 @@ public class WorkSpace : MonoBehaviour
                         b.material = myNewMaterial;
                     }
                 }
-                //foreach(MeshRenderer b in objFlatInVrMode)
-                //{
-                //    if(obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
-                //    {
-                //          b.material = myNewMaterial;
-                //    }
-                //}
+                foreach(MeshRenderer b in objFlatInVrMode)
+                {
+                    if(obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
+                    {
+                        b.material = myNewMaterial;
+                    }
+                }
                 foreach(MeshRenderer b in objFlatInNormalMode)
                 {
                     if(obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
@@ -323,6 +324,11 @@ public class WorkSpace : MonoBehaviour
         });
 
         Debug.Log("Permission result: " + permission);
+    }
+    public void _OpenOrCloseInfoSpaceInVR ()
+    {
+        InfoSpaceInVR.SetActive(!InfoSpaceInVR.activeSelf);
+        MainSpaceInVR.SetActive(!MainSpaceInVR.activeSelf);
     }
 
     public void _OpenOrCloseInfoSpaceInAR ()
@@ -349,6 +355,12 @@ public class WorkSpace : MonoBehaviour
                 ActiveInteractiveObject.SetInteractive(true);
             }
         }
+    }
+    
+    public void _OpenOrCloseSettingsSpaceInVR ()
+    {
+        SettingsSpaceInVR.SetActive(!SettingsSpaceInVR.activeSelf);
+        MainSpaceInVR.SetActive(!MainSpaceInVR.activeSelf);
     }
 
     public void _OpenOrCloseSettingsSpaceInAR ()

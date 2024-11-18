@@ -15516,7 +15516,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Func_4_t714EA7575BC4411791EB413BE56D4DD1F8C57
 		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
 		NullCheck(L_0);
 		Delegate_t* L_3;
-		L_3 = VirtualFuncInvoker1< Delegate_t*, Type_t* >::Invoke(44, L_0, L_2);
+		L_3 = VirtualFuncInvoker1< Delegate_t*, Type_t* >::Invoke(45, L_0, L_2);
 		return ((Func_4_t714EA7575BC4411791EB413BE56D4DD1F8C570B9*)Castclass((RuntimeObject*)L_3, Func_4_t714EA7575BC4411791EB413BE56D4DD1F8C570B9_il2cpp_TypeInfo_var));
 	}
 }
@@ -15861,7 +15861,7 @@ IL_002a:
 		String_t* L_12;
 		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(48, L_11);
 		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(16, L_10, L_12);
+		VirtualActionInvoker1< String_t* >::Invoke(17, L_10, L_12);
 		NullCheck(L_10);
 		VirtualActionInvoker0::Invoke(10, L_10);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_13 = __this->____stream;
@@ -19818,7 +19818,7 @@ IL_017a:
 		DbConnection_tC49F5E2144AE2E053E71F1AE2EF1022916AE4662* L_79 = L_78->___owningConnection;
 		NullCheck(L_79);
 		int32_t L_80;
-		L_80 = VirtualFuncInvoker0< int32_t >::Invoke(13, L_79);
+		L_80 = VirtualFuncInvoker0< int32_t >::Invoke(14, L_79);
 		if ((((int32_t)L_80) <= ((int32_t)0)))
 		{
 			goto IL_01b5;
@@ -19832,7 +19832,7 @@ IL_017a:
 		DbConnection_tC49F5E2144AE2E053E71F1AE2EF1022916AE4662* L_83 = L_82->___owningConnection;
 		NullCheck(L_83);
 		int32_t L_84;
-		L_84 = VirtualFuncInvoker0< int32_t >::Invoke(13, L_83);
+		L_84 = VirtualFuncInvoker0< int32_t >::Invoke(14, L_83);
 		V_11 = ((int32_t)il2cpp_codegen_multiply(L_84, ((int32_t)1000)));
 		U3CU3Ec__DisplayClass40_1_t88129EA4DF7E508F71984D1AB1E1CA1215783ADD* L_85 = V_4;
 		NullCheck(L_85);

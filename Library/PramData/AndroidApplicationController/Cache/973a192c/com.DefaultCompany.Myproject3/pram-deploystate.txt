@@ -1,0 +1,15 @@
+assets/bin/Data/boot.config:353-638675164466950609
+assets/bin/Data/data.unity3d:101811400-638675164463144360
+assets/bin/Data/Managed/Metadata/global-metadata.dat:9388184-638675157101639793
+assets/bin/Data/Managed/Resources/I18N.CJK.dll-resources.dat:641770-638675157101294633
+assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat:337563-638675157101314626
+assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat:93718-638675157101709789
+assets/bin/Data/Managed/Resources/System.Drawing.dll-resources.dat:25453-638675157101719789
+assets/bin/Data/RuntimeInitializeOnLoads.json:4126-638673493472398116
+assets/bin/Data/ScriptingAssemblies.json:3870-638673580752631564
+assets/bin/Data/unity default resources:1121184-638673493472368117
+assets/bin/Data/unity_app_guid:36-638675164469084170
+assets/bin/Data/UnitySubsystems/GfxPluginCardboard/UnitySubsystemsManifest.json:206-638673493472358125
+assets/UnityServicesProjectConfiguration.json:1075-638674576828419924
+jniLibs/arm64-v8a/libil2cpp.so:50949536-638675157386501378
+jniLibs/arm64-v8a/libmain.so:8720-638673493469568120

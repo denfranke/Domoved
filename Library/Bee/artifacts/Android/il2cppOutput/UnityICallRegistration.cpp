@@ -14,6 +14,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakErase();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_LeakErase();
 
+		//System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCmp(System.Void*,System.Void*,System.Int64)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCmp();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCmp();
+
 		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::Free(System.Void*,Unity.Collections.Allocator)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_Free();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_Free();
@@ -26,9 +30,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpy();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpy();
 
+		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyReplicate(System.Void*,System.Void*,System.Int32,System.Int32)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyReplicate();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyReplicate();
+
 		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpyStride(System.Void*,System.Int32,System.Void*,System.Int32,System.Int32,System.Int32)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyStride();
 		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemCpyStride();
+
+		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemMove(System.Void*,System.Void*,System.Int64)
+		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemMove();
+		Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemMove();
 
 		//System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemSet(System.Void*,System.Byte,System.Int64)
 		void Register_Unity_Collections_LowLevel_Unsafe_UnsafeUtility_MemSet();
@@ -45,6 +57,18 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : Unity.Collections.LowLevel.Unsafe.UnsafeUtility
 
 	//Start Registrations for type : Unity.Jobs.JobHandle
+
+		//System.Boolean Unity.Jobs.JobHandle::ScheduleBatchedJobsAndIsCompleted(Unity.Jobs.JobHandle&)
+		void Register_Unity_Jobs_JobHandle_ScheduleBatchedJobsAndIsCompleted();
+		Register_Unity_Jobs_JobHandle_ScheduleBatchedJobsAndIsCompleted();
+
+		//System.Void Unity.Jobs.JobHandle::CombineDependenciesInternal2_Injected(Unity.Jobs.JobHandle&,Unity.Jobs.JobHandle&,Unity.Jobs.JobHandle&)
+		void Register_Unity_Jobs_JobHandle_CombineDependenciesInternal2_Injected();
+		Register_Unity_Jobs_JobHandle_CombineDependenciesInternal2_Injected();
+
+		//System.Void Unity.Jobs.JobHandle::CombineDependenciesInternal3_Injected(Unity.Jobs.JobHandle&,Unity.Jobs.JobHandle&,Unity.Jobs.JobHandle&,Unity.Jobs.JobHandle&)
+		void Register_Unity_Jobs_JobHandle_CombineDependenciesInternal3_Injected();
+		Register_Unity_Jobs_JobHandle_CombineDependenciesInternal3_Injected();
 
 		//System.Void Unity.Jobs.JobHandle::CombineDependenciesInternalPtr_Injected(System.Void*,System.Int32,Unity.Jobs.JobHandle&)
 		void Register_Unity_Jobs_JobHandle_CombineDependenciesInternalPtr_Injected();
@@ -73,6 +97,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void Unity.Jobs.LowLevel.Unsafe.JobsUtility::ScheduleParallelFor_Injected(Unity.Jobs.LowLevel.Unsafe.JobsUtility/JobScheduleParameters&,System.Int32,System.Int32,Unity.Jobs.JobHandle&)
 		void Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_ScheduleParallelFor_Injected();
 		Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_ScheduleParallelFor_Injected();
+
+		//System.Void Unity.Jobs.LowLevel.Unsafe.JobsUtility::Schedule_Injected(Unity.Jobs.LowLevel.Unsafe.JobsUtility/JobScheduleParameters&,Unity.Jobs.JobHandle&)
+		void Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_Schedule_Injected();
+		Register_Unity_Jobs_LowLevel_Unsafe_JobsUtility_Schedule_Injected();
 
 	//End Registrations for type : Unity.Jobs.LowLevel.Unsafe.JobsUtility
 
@@ -794,6 +822,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AnimationCurve_Internal_Equals();
 		Register_UnityEngine_AnimationCurve_Internal_Equals();
 
+		//System.Int32 UnityEngine.AnimationCurve::AddKey_Internal_Injected(UnityEngine.Keyframe&)
+		void Register_UnityEngine_AnimationCurve_AddKey_Internal_Injected();
+		Register_UnityEngine_AnimationCurve_AddKey_Internal_Injected();
+
 		//System.Int32 UnityEngine.AnimationCurve::GetHashCode()
 		void Register_UnityEngine_AnimationCurve_GetHashCode();
 		Register_UnityEngine_AnimationCurve_GetHashCode();
@@ -814,9 +846,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AnimationCurve_Internal_Destroy();
 		Register_UnityEngine_AnimationCurve_Internal_Destroy();
 
+		//System.Void UnityEngine.AnimationCurve::RemoveKey(System.Int32)
+		void Register_UnityEngine_AnimationCurve_RemoveKey();
+		Register_UnityEngine_AnimationCurve_RemoveKey();
+
 		//UnityEngine.Keyframe[] UnityEngine.AnimationCurve::GetKeys()
 		void Register_UnityEngine_AnimationCurve_GetKeys();
 		Register_UnityEngine_AnimationCurve_GetKeys();
+
+		//UnityEngine.WrapMode UnityEngine.AnimationCurve::get_postWrapMode()
+		void Register_UnityEngine_AnimationCurve_get_postWrapMode();
+		Register_UnityEngine_AnimationCurve_get_postWrapMode();
+
+		//UnityEngine.WrapMode UnityEngine.AnimationCurve::get_preWrapMode()
+		void Register_UnityEngine_AnimationCurve_get_preWrapMode();
+		Register_UnityEngine_AnimationCurve_get_preWrapMode();
 
 	//End Registrations for type : UnityEngine.AnimationCurve
 
@@ -870,6 +914,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
 
+		//System.Boolean UnityEngine.Application::get_runInBackground()
+		void Register_UnityEngine_Application_get_runInBackground();
+		Register_UnityEngine_Application_get_runInBackground();
+
+		//System.Int32 UnityEngine.Application::get_targetFrameRate()
+		void Register_UnityEngine_Application_get_targetFrameRate();
+		Register_UnityEngine_Application_get_targetFrameRate();
+
 		//System.String UnityEngine.Application::get_buildGUID()
 		void Register_UnityEngine_Application_get_buildGUID();
 		Register_UnityEngine_Application_get_buildGUID();
@@ -922,6 +974,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_set_runInBackground();
 		Register_UnityEngine_Application_set_runInBackground();
 
+		//System.Void UnityEngine.Application::set_targetFrameRate(System.Int32)
+		void Register_UnityEngine_Application_set_targetFrameRate();
+		Register_UnityEngine_Application_set_targetFrameRate();
+
 		//UnityEngine.AsyncOperation UnityEngine.Application::RequestUserAuthorization(UnityEngine.UserAuthorization)
 		void Register_UnityEngine_Application_RequestUserAuthorization();
 		Register_UnityEngine_Application_RequestUserAuthorization();
@@ -956,6 +1012,22 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AudioSettings
 
+	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Void UnityEngine.AudioSource::PlayOneShotHelper(UnityEngine.AudioSource,UnityEngine.AudioClip,System.Single)
+		void Register_UnityEngine_AudioSource_PlayOneShotHelper();
+		Register_UnityEngine_AudioSource_PlayOneShotHelper();
+
+		//System.Void UnityEngine.AudioSource::set_loop(System.Boolean)
+		void Register_UnityEngine_AudioSource_set_loop();
+		Register_UnityEngine_AudioSource_set_loop();
+
+		//System.Void UnityEngine.AudioSource::set_playOnAwake(System.Boolean)
+		void Register_UnityEngine_AudioSource_set_playOnAwake();
+		Register_UnityEngine_AudioSource_set_playOnAwake();
+
+	//End Registrations for type : UnityEngine.AudioSource
+
 	//Start Registrations for type : UnityEngine.Behaviour
 
 		//System.Boolean UnityEngine.Behaviour::get_enabled()
@@ -974,6 +1046,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.BoxCollider
 
+		//System.Void UnityEngine.BoxCollider::get_center_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_BoxCollider_get_center_Injected();
+		Register_UnityEngine_BoxCollider_get_center_Injected();
+
+		//System.Void UnityEngine.BoxCollider::get_size_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_BoxCollider_get_size_Injected();
+		Register_UnityEngine_BoxCollider_get_size_Injected();
+
 		//System.Void UnityEngine.BoxCollider::set_size_Injected(UnityEngine.Vector3&)
 		void Register_UnityEngine_BoxCollider_set_size_Injected();
 		Register_UnityEngine_BoxCollider_set_size_Injected();
@@ -985,6 +1065,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Camera::get_allowHDR()
 		void Register_UnityEngine_Camera_get_allowHDR();
 		Register_UnityEngine_Camera_get_allowHDR();
+
+		//System.Boolean UnityEngine.Camera::get_stereoEnabled()
+		void Register_UnityEngine_Camera_get_stereoEnabled();
+		Register_UnityEngine_Camera_get_stereoEnabled();
 
 		//System.Int32 UnityEngine.Camera::GetAllCamerasCount()
 		void Register_UnityEngine_Camera_GetAllCamerasCount();
@@ -1042,6 +1126,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_Render();
 		Register_UnityEngine_Camera_Render();
 
+		//System.Void UnityEngine.Camera::ResetAspect()
+		void Register_UnityEngine_Camera_ResetAspect();
+		Register_UnityEngine_Camera_ResetAspect();
+
 		//System.Void UnityEngine.Camera::ScreenPointToRay_Injected(UnityEngine.Vector2&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Ray&)
 		void Register_UnityEngine_Camera_ScreenPointToRay_Injected();
 		Register_UnityEngine_Camera_ScreenPointToRay_Injected();
@@ -1049,6 +1137,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Camera::ScreenToViewportPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Camera_ScreenToViewportPoint_Injected();
 		Register_UnityEngine_Camera_ScreenToViewportPoint_Injected();
+
+		//System.Void UnityEngine.Camera::ScreenToWorldPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
+		void Register_UnityEngine_Camera_ScreenToWorldPoint_Injected();
+		Register_UnityEngine_Camera_ScreenToWorldPoint_Injected();
 
 		//System.Void UnityEngine.Camera::SetupCurrent(UnityEngine.Camera)
 		void Register_UnityEngine_Camera_SetupCurrent();
@@ -1065,6 +1157,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Camera::WorldToScreenPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
 		void Register_UnityEngine_Camera_WorldToScreenPoint_Injected();
 		Register_UnityEngine_Camera_WorldToScreenPoint_Injected();
+
+		//System.Void UnityEngine.Camera::WorldToViewportPoint_Injected(UnityEngine.Vector3&,UnityEngine.Camera/MonoOrStereoscopicEye,UnityEngine.Vector3&)
+		void Register_UnityEngine_Camera_WorldToViewportPoint_Injected();
+		Register_UnityEngine_Camera_WorldToViewportPoint_Injected();
 
 		//System.Void UnityEngine.Camera::get_pixelRect_Injected(UnityEngine.Rect&)
 		void Register_UnityEngine_Camera_get_pixelRect_Injected();
@@ -1126,6 +1222,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Camera_set_projectionMatrix_Injected();
 		Register_UnityEngine_Camera_set_projectionMatrix_Injected();
 
+		//System.Void UnityEngine.Camera::set_rect_Injected(UnityEngine.Rect&)
+		void Register_UnityEngine_Camera_set_rect_Injected();
+		Register_UnityEngine_Camera_set_rect_Injected();
+
 		//System.Void UnityEngine.Camera::set_targetTexture(UnityEngine.RenderTexture)
 		void Register_UnityEngine_Camera_set_targetTexture();
 		Register_UnityEngine_Camera_set_targetTexture();
@@ -1166,6 +1266,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Canvas_get_isRootCanvas();
 		Register_UnityEngine_Canvas_get_isRootCanvas();
 
+		//System.Boolean UnityEngine.Canvas::get_overridePixelPerfect()
+		void Register_UnityEngine_Canvas_get_overridePixelPerfect();
+		Register_UnityEngine_Canvas_get_overridePixelPerfect();
+
 		//System.Boolean UnityEngine.Canvas::get_overrideSorting()
 		void Register_UnityEngine_Canvas_get_overrideSorting();
 		Register_UnityEngine_Canvas_get_overrideSorting();
@@ -1190,6 +1294,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Canvas_get_targetDisplay();
 		Register_UnityEngine_Canvas_get_targetDisplay();
 
+		//System.Single UnityEngine.Canvas::get_normalizedSortingGridSize()
+		void Register_UnityEngine_Canvas_get_normalizedSortingGridSize();
+		Register_UnityEngine_Canvas_get_normalizedSortingGridSize();
+
+		//System.Single UnityEngine.Canvas::get_planeDistance()
+		void Register_UnityEngine_Canvas_get_planeDistance();
+		Register_UnityEngine_Canvas_get_planeDistance();
+
 		//System.Single UnityEngine.Canvas::get_referencePixelsPerUnit()
 		void Register_UnityEngine_Canvas_get_referencePixelsPerUnit();
 		Register_UnityEngine_Canvas_get_referencePixelsPerUnit();
@@ -1198,9 +1310,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Canvas_get_scaleFactor();
 		Register_UnityEngine_Canvas_get_scaleFactor();
 
+		//System.String UnityEngine.Canvas::get_sortingLayerName()
+		void Register_UnityEngine_Canvas_get_sortingLayerName();
+		Register_UnityEngine_Canvas_get_sortingLayerName();
+
 		//System.Void UnityEngine.Canvas::SetExternalCanvasEnabled(System.Boolean)
 		void Register_UnityEngine_Canvas_SetExternalCanvasEnabled();
 		Register_UnityEngine_Canvas_SetExternalCanvasEnabled();
+
+		//System.Void UnityEngine.Canvas::get_pixelRect_Injected(UnityEngine.Rect&)
+		void Register_UnityEngine_Canvas_get_pixelRect_Injected();
+		Register_UnityEngine_Canvas_get_pixelRect_Injected();
 
 		//System.Void UnityEngine.Canvas::get_renderingDisplaySize_Injected(UnityEngine.Vector2&)
 		void Register_UnityEngine_Canvas_get_renderingDisplaySize_Injected();
@@ -1210,9 +1330,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Canvas_set_additionalShaderChannels();
 		Register_UnityEngine_Canvas_set_additionalShaderChannels();
 
+		//System.Void UnityEngine.Canvas::set_normalizedSortingGridSize(System.Single)
+		void Register_UnityEngine_Canvas_set_normalizedSortingGridSize();
+		Register_UnityEngine_Canvas_set_normalizedSortingGridSize();
+
+		//System.Void UnityEngine.Canvas::set_overridePixelPerfect(System.Boolean)
+		void Register_UnityEngine_Canvas_set_overridePixelPerfect();
+		Register_UnityEngine_Canvas_set_overridePixelPerfect();
+
 		//System.Void UnityEngine.Canvas::set_overrideSorting(System.Boolean)
 		void Register_UnityEngine_Canvas_set_overrideSorting();
 		Register_UnityEngine_Canvas_set_overrideSorting();
+
+		//System.Void UnityEngine.Canvas::set_planeDistance(System.Single)
+		void Register_UnityEngine_Canvas_set_planeDistance();
+		Register_UnityEngine_Canvas_set_planeDistance();
 
 		//System.Void UnityEngine.Canvas::set_referencePixelsPerUnit(System.Single)
 		void Register_UnityEngine_Canvas_set_referencePixelsPerUnit();
@@ -1230,9 +1362,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Canvas_set_sortingLayerID();
 		Register_UnityEngine_Canvas_set_sortingLayerID();
 
+		//System.Void UnityEngine.Canvas::set_sortingLayerName(System.String)
+		void Register_UnityEngine_Canvas_set_sortingLayerName();
+		Register_UnityEngine_Canvas_set_sortingLayerName();
+
 		//System.Void UnityEngine.Canvas::set_sortingOrder(System.Int32)
 		void Register_UnityEngine_Canvas_set_sortingOrder();
 		Register_UnityEngine_Canvas_set_sortingOrder();
+
+		//System.Void UnityEngine.Canvas::set_targetDisplay(System.Int32)
+		void Register_UnityEngine_Canvas_set_targetDisplay();
+		Register_UnityEngine_Canvas_set_targetDisplay();
 
 		//UnityEngine.AdditionalCanvasShaderChannels UnityEngine.Canvas::get_additionalShaderChannels()
 		void Register_UnityEngine_Canvas_get_additionalShaderChannels();
@@ -1392,7 +1532,43 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.CanvasRenderer
 
+	//Start Registrations for type : UnityEngine.CapsuleCollider
+
+		//System.Int32 UnityEngine.CapsuleCollider::get_direction()
+		void Register_UnityEngine_CapsuleCollider_get_direction();
+		Register_UnityEngine_CapsuleCollider_get_direction();
+
+		//System.Single UnityEngine.CapsuleCollider::get_height()
+		void Register_UnityEngine_CapsuleCollider_get_height();
+		Register_UnityEngine_CapsuleCollider_get_height();
+
+		//System.Single UnityEngine.CapsuleCollider::get_radius()
+		void Register_UnityEngine_CapsuleCollider_get_radius();
+		Register_UnityEngine_CapsuleCollider_get_radius();
+
+		//System.Void UnityEngine.CapsuleCollider::get_center_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_CapsuleCollider_get_center_Injected();
+		Register_UnityEngine_CapsuleCollider_get_center_Injected();
+
+	//End Registrations for type : UnityEngine.CapsuleCollider
+
 	//Start Registrations for type : UnityEngine.CharacterController
+
+		//System.Boolean UnityEngine.CharacterController::get_isGrounded()
+		void Register_UnityEngine_CharacterController_get_isGrounded();
+		Register_UnityEngine_CharacterController_get_isGrounded();
+
+		//System.Single UnityEngine.CharacterController::get_skinWidth()
+		void Register_UnityEngine_CharacterController_get_skinWidth();
+		Register_UnityEngine_CharacterController_get_skinWidth();
+
+		//System.Void UnityEngine.CharacterController::set_center_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_CharacterController_set_center_Injected();
+		Register_UnityEngine_CharacterController_set_center_Injected();
+
+		//System.Void UnityEngine.CharacterController::set_height(System.Single)
+		void Register_UnityEngine_CharacterController_set_height();
+		Register_UnityEngine_CharacterController_set_height();
 
 		//UnityEngine.CollisionFlags UnityEngine.CharacterController::Move_Injected(UnityEngine.Vector3&)
 		void Register_UnityEngine_CharacterController_Move_Injected();
@@ -1402,13 +1578,41 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Collider
 
+		//System.Boolean UnityEngine.Collider::get_enabled()
+		void Register_UnityEngine_Collider_get_enabled();
+		Register_UnityEngine_Collider_get_enabled();
+
+		//System.Boolean UnityEngine.Collider::get_isTrigger()
+		void Register_UnityEngine_Collider_get_isTrigger();
+		Register_UnityEngine_Collider_get_isTrigger();
+
+		//System.Void UnityEngine.Collider::ClosestPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Collider_ClosestPoint_Injected();
+		Register_UnityEngine_Collider_ClosestPoint_Injected();
+
+		//System.Void UnityEngine.Collider::get_bounds_Injected(UnityEngine.Bounds&)
+		void Register_UnityEngine_Collider_get_bounds_Injected();
+		Register_UnityEngine_Collider_get_bounds_Injected();
+
 		//System.Void UnityEngine.Collider::set_enabled(System.Boolean)
 		void Register_UnityEngine_Collider_set_enabled();
 		Register_UnityEngine_Collider_set_enabled();
 
+		//System.Void UnityEngine.Collider::set_isTrigger(System.Boolean)
+		void Register_UnityEngine_Collider_set_isTrigger();
+		Register_UnityEngine_Collider_set_isTrigger();
+
+		//UnityEngine.Rigidbody UnityEngine.Collider::get_attachedRigidbody()
+		void Register_UnityEngine_Collider_get_attachedRigidbody();
+		Register_UnityEngine_Collider_get_attachedRigidbody();
+
 	//End Registrations for type : UnityEngine.Collider
 
 	//Start Registrations for type : UnityEngine.Component
+
+		//System.Void UnityEngine.Component::BroadcastMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
+		void Register_UnityEngine_Component_BroadcastMessage();
+		Register_UnityEngine_Component_BroadcastMessage();
 
 		//System.Void UnityEngine.Component::GetComponentFastPath(System.Type,System.IntPtr)
 		void Register_UnityEngine_Component_GetComponentFastPath();
@@ -1417,6 +1621,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Component::GetComponentsForListInternal(System.Type,System.Object)
 		void Register_UnityEngine_Component_GetComponentsForListInternal();
 		Register_UnityEngine_Component_GetComponentsForListInternal();
+
+		//System.Void UnityEngine.Component::SendMessage(System.String,System.Object,UnityEngine.SendMessageOptions)
+		void Register_UnityEngine_Component_SendMessage();
+		Register_UnityEngine_Component_SendMessage();
 
 		//UnityEngine.GameObject UnityEngine.Component::get_gameObject()
 		void Register_UnityEngine_Component_get_gameObject();
@@ -1435,6 +1643,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_ComputeShader_FindKernel();
 
 	//End Registrations for type : UnityEngine.ComputeShader
+
+	//Start Registrations for type : UnityEngine.ContactFilter2D
+
+		//System.Void UnityEngine.ContactFilter2D::CheckConsistency_Injected(UnityEngine.ContactFilter2D&)
+		void Register_UnityEngine_ContactFilter2D_CheckConsistency_Injected();
+		Register_UnityEngine_ContactFilter2D_CheckConsistency_Injected();
+
+	//End Registrations for type : UnityEngine.ContactFilter2D
 
 	//Start Registrations for type : UnityEngine.ContactPair
 
@@ -1461,6 +1677,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Cubemap::get_isReadable()
 		void Register_UnityEngine_Cubemap_get_isReadable();
 		Register_UnityEngine_Cubemap_get_isReadable();
+
+		//System.Void UnityEngine.Cubemap::UpdateExternalTexture(System.IntPtr)
+		void Register_UnityEngine_Cubemap_UpdateExternalTexture();
+		Register_UnityEngine_Cubemap_UpdateExternalTexture();
 
 	//End Registrations for type : UnityEngine.Cubemap
 
@@ -1493,6 +1713,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Cursor
 
 	//Start Registrations for type : UnityEngine.Debug
+
+		//System.Boolean UnityEngine.Debug::get_isDebugBuild()
+		void Register_UnityEngine_Debug_get_isDebugBuild();
+		Register_UnityEngine_Debug_get_isDebugBuild();
 
 		//System.Int32 UnityEngine.Debug::ExtractStackTraceNoAlloc(System.Byte*,System.Int32,System.String)
 		void Register_UnityEngine_Debug_ExtractStackTraceNoAlloc();
@@ -1842,9 +2066,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Gizmos_DrawLine_Injected();
 		Register_UnityEngine_Gizmos_DrawLine_Injected();
 
+		//System.Void UnityEngine.Gizmos::DrawSphere_Injected(UnityEngine.Vector3&,System.Single)
+		void Register_UnityEngine_Gizmos_DrawSphere_Injected();
+		Register_UnityEngine_Gizmos_DrawSphere_Injected();
+
 		//System.Void UnityEngine.Gizmos::DrawWireCube_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Gizmos_DrawWireCube_Injected();
 		Register_UnityEngine_Gizmos_DrawWireCube_Injected();
+
+		//System.Void UnityEngine.Gizmos::DrawWireSphere_Injected(UnityEngine.Vector3&,System.Single)
+		void Register_UnityEngine_Gizmos_DrawWireSphere_Injected();
+		Register_UnityEngine_Gizmos_DrawWireSphere_Injected();
 
 		//System.Void UnityEngine.Gizmos::set_color_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_Gizmos_set_color_Injected();
@@ -1869,6 +2101,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.GL::GLClear_Injected(System.Boolean,System.Boolean,UnityEngine.Color&,System.Single)
 		void Register_UnityEngine_GL_GLClear_Injected();
 		Register_UnityEngine_GL_GLClear_Injected();
+
+		//System.Void UnityEngine.GL::GLIssuePluginEvent(System.IntPtr,System.Int32)
+		void Register_UnityEngine_GL_GLIssuePluginEvent();
+		Register_UnityEngine_GL_GLIssuePluginEvent();
 
 		//System.Void UnityEngine.GL::GLLoadPixelMatrixScript(System.Single,System.Single,System.Single,System.Single)
 		void Register_UnityEngine_GL_GLLoadPixelMatrixScript();
@@ -1930,6 +2166,34 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Gradient_Cleanup();
 		Register_UnityEngine_Gradient_Cleanup();
 
+		//System.Void UnityEngine.Gradient::SetKeys(UnityEngine.GradientColorKey[],UnityEngine.GradientAlphaKey[])
+		void Register_UnityEngine_Gradient_SetKeys();
+		Register_UnityEngine_Gradient_SetKeys();
+
+		//System.Void UnityEngine.Gradient::set_alphaKeys(UnityEngine.GradientAlphaKey[])
+		void Register_UnityEngine_Gradient_set_alphaKeys();
+		Register_UnityEngine_Gradient_set_alphaKeys();
+
+		//System.Void UnityEngine.Gradient::set_colorKeys(UnityEngine.GradientColorKey[])
+		void Register_UnityEngine_Gradient_set_colorKeys();
+		Register_UnityEngine_Gradient_set_colorKeys();
+
+		//System.Void UnityEngine.Gradient::set_mode(UnityEngine.GradientMode)
+		void Register_UnityEngine_Gradient_set_mode();
+		Register_UnityEngine_Gradient_set_mode();
+
+		//UnityEngine.GradientAlphaKey[] UnityEngine.Gradient::get_alphaKeys()
+		void Register_UnityEngine_Gradient_get_alphaKeys();
+		Register_UnityEngine_Gradient_get_alphaKeys();
+
+		//UnityEngine.GradientColorKey[] UnityEngine.Gradient::get_colorKeys()
+		void Register_UnityEngine_Gradient_get_colorKeys();
+		Register_UnityEngine_Gradient_get_colorKeys();
+
+		//UnityEngine.GradientMode UnityEngine.Gradient::get_mode()
+		void Register_UnityEngine_Gradient_get_mode();
+		Register_UnityEngine_Gradient_get_mode();
+
 	//End Registrations for type : UnityEngine.Gradient
 
 	//Start Registrations for type : UnityEngine.Graphics
@@ -1941,6 +2205,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Graphics::Blit2(UnityEngine.Texture,UnityEngine.RenderTexture)
 		void Register_UnityEngine_Graphics_Blit2();
 		Register_UnityEngine_Graphics_Blit2();
+
+		//System.Void UnityEngine.Graphics::Internal_DrawMesh_Injected(UnityEngine.Mesh,System.Int32,UnityEngine.Matrix4x4&,UnityEngine.Material,System.Int32,UnityEngine.Camera,UnityEngine.MaterialPropertyBlock,UnityEngine.Rendering.ShadowCastingMode,System.Boolean,UnityEngine.Transform,UnityEngine.Rendering.LightProbeUsage,UnityEngine.LightProbeProxyVolume)
+		void Register_UnityEngine_Graphics_Internal_DrawMesh_Injected();
+		Register_UnityEngine_Graphics_Internal_DrawMesh_Injected();
 
 		//System.Void UnityEngine.Graphics::Internal_SetNullRT()
 		void Register_UnityEngine_Graphics_Internal_SetNullRT();
@@ -2342,6 +2610,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_get_compositionString();
 		Register_UnityEngine_Input_get_compositionString();
 
+		//System.String[] UnityEngine.Input::GetJoystickNames()
+		void Register_UnityEngine_Input_GetJoystickNames();
+		Register_UnityEngine_Input_GetJoystickNames();
+
 		//System.Void UnityEngine.Input::ClearLastPenContactEvent()
 		void Register_UnityEngine_Input_ClearLastPenContactEvent();
 		Register_UnityEngine_Input_ClearLastPenContactEvent();
@@ -2380,7 +2652,27 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Input
 
+	//Start Registrations for type : UnityEngine.IntegratedSubsystem
+
+		//System.Void UnityEngine.IntegratedSubsystem::SetHandle(UnityEngine.IntegratedSubsystem)
+		void Register_UnityEngine_IntegratedSubsystem_SetHandle();
+		Register_UnityEngine_IntegratedSubsystem_SetHandle();
+
+		//System.Void UnityEngine.IntegratedSubsystem::Start()
+		void Register_UnityEngine_IntegratedSubsystem_Start();
+		Register_UnityEngine_IntegratedSubsystem_Start();
+
+		//System.Void UnityEngine.IntegratedSubsystem::Stop()
+		void Register_UnityEngine_IntegratedSubsystem_Stop();
+		Register_UnityEngine_IntegratedSubsystem_Stop();
+
+	//End Registrations for type : UnityEngine.IntegratedSubsystem
+
 	//Start Registrations for type : UnityEngine.Internal.InputUnsafeUtility
+
+		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetButton(System.String)
+		void Register_UnityEngine_Internal_InputUnsafeUtility_GetButton();
+		Register_UnityEngine_Internal_InputUnsafeUtility_GetButton();
 
 		//System.Boolean UnityEngine.Internal.InputUnsafeUtility::GetButtonDown(System.String)
 		void Register_UnityEngine_Internal_InputUnsafeUtility_GetButtonDown();
@@ -2427,6 +2719,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Internal_InputUnsafeUtility_GetAxis__Unmanaged();
 
 	//End Registrations for type : UnityEngine.Internal.InputUnsafeUtility
+
+	//Start Registrations for type : UnityEngine.JsonUtility
+
+		//System.Object UnityEngine.JsonUtility::FromJsonInternal(System.String,System.Object,System.Type)
+		void Register_UnityEngine_JsonUtility_FromJsonInternal();
+		Register_UnityEngine_JsonUtility_FromJsonInternal();
+
+		//System.String UnityEngine.JsonUtility::ToJsonInternal(System.Object,System.Boolean)
+		void Register_UnityEngine_JsonUtility_ToJsonInternal();
+		Register_UnityEngine_JsonUtility_ToJsonInternal();
+
+	//End Registrations for type : UnityEngine.JsonUtility
 
 	//Start Registrations for type : UnityEngine.LayerMask
 
@@ -2496,6 +2800,54 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Light
 
+	//Start Registrations for type : UnityEngine.LineRenderer
+
+		//System.Boolean UnityEngine.LineRenderer::get_useWorldSpace()
+		void Register_UnityEngine_LineRenderer_get_useWorldSpace();
+		Register_UnityEngine_LineRenderer_get_useWorldSpace();
+
+		//System.Void UnityEngine.LineRenderer::SetColorGradient(UnityEngine.Gradient)
+		void Register_UnityEngine_LineRenderer_SetColorGradient();
+		Register_UnityEngine_LineRenderer_SetColorGradient();
+
+		//System.Void UnityEngine.LineRenderer::SetPositions(UnityEngine.Vector3[])
+		void Register_UnityEngine_LineRenderer_SetPositions();
+		Register_UnityEngine_LineRenderer_SetPositions();
+
+		//System.Void UnityEngine.LineRenderer::SetPositionsWithNativeContainer(System.IntPtr,System.Int32)
+		void Register_UnityEngine_LineRenderer_SetPositionsWithNativeContainer();
+		Register_UnityEngine_LineRenderer_SetPositionsWithNativeContainer();
+
+		//System.Void UnityEngine.LineRenderer::SetWidthCurve(UnityEngine.AnimationCurve)
+		void Register_UnityEngine_LineRenderer_SetWidthCurve();
+		Register_UnityEngine_LineRenderer_SetWidthCurve();
+
+		//System.Void UnityEngine.LineRenderer::get_endColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_LineRenderer_get_endColor_Injected();
+		Register_UnityEngine_LineRenderer_get_endColor_Injected();
+
+		//System.Void UnityEngine.LineRenderer::get_startColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_LineRenderer_get_startColor_Injected();
+		Register_UnityEngine_LineRenderer_get_startColor_Injected();
+
+		//System.Void UnityEngine.LineRenderer::set_endColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_LineRenderer_set_endColor_Injected();
+		Register_UnityEngine_LineRenderer_set_endColor_Injected();
+
+		//System.Void UnityEngine.LineRenderer::set_positionCount(System.Int32)
+		void Register_UnityEngine_LineRenderer_set_positionCount();
+		Register_UnityEngine_LineRenderer_set_positionCount();
+
+		//System.Void UnityEngine.LineRenderer::set_startColor_Injected(UnityEngine.Color&)
+		void Register_UnityEngine_LineRenderer_set_startColor_Injected();
+		Register_UnityEngine_LineRenderer_set_startColor_Injected();
+
+		//System.Void UnityEngine.LineRenderer::set_widthMultiplier(System.Single)
+		void Register_UnityEngine_LineRenderer_set_widthMultiplier();
+		Register_UnityEngine_LineRenderer_set_widthMultiplier();
+
+	//End Registrations for type : UnityEngine.LineRenderer
+
 	//Start Registrations for type : UnityEngine.LowLevel.PlayerLoop
 
 		//System.Void UnityEngine.LowLevel.PlayerLoop::SetPlayerLoopInternal(UnityEngine.LowLevel.PlayerLoopSystemInternal[])
@@ -2517,6 +2869,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Material::HasVectorImpl(System.Int32)
 		void Register_UnityEngine_Material_HasVectorImpl();
 		Register_UnityEngine_Material_HasVectorImpl();
+
+		//System.Boolean UnityEngine.Material::IsKeywordEnabled(System.String)
+		void Register_UnityEngine_Material_IsKeywordEnabled();
+		Register_UnityEngine_Material_IsKeywordEnabled();
 
 		//System.Boolean UnityEngine.Material::SetPass(System.Int32)
 		void Register_UnityEngine_Material_SetPass();
@@ -2586,6 +2942,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Material_SetMatrixImpl_Injected();
 		Register_UnityEngine_Material_SetMatrixImpl_Injected();
 
+		//System.Void UnityEngine.Material::SetOverrideTag(System.String,System.String)
+		void Register_UnityEngine_Material_SetOverrideTag();
+		Register_UnityEngine_Material_SetOverrideTag();
+
 		//System.Void UnityEngine.Material::SetShaderKeywords(System.String[])
 		void Register_UnityEngine_Material_SetShaderKeywords();
 		Register_UnityEngine_Material_SetShaderKeywords();
@@ -2634,6 +2994,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_MaterialPropertyBlock_DestroyImpl();
 		Register_UnityEngine_MaterialPropertyBlock_DestroyImpl();
 
+		//System.Void UnityEngine.MaterialPropertyBlock::SetColorImpl_Injected(System.Int32,UnityEngine.Color&)
+		void Register_UnityEngine_MaterialPropertyBlock_SetColorImpl_Injected();
+		Register_UnityEngine_MaterialPropertyBlock_SetColorImpl_Injected();
+
+		//System.Void UnityEngine.MaterialPropertyBlock::SetFloatImpl(System.Int32,System.Single)
+		void Register_UnityEngine_MaterialPropertyBlock_SetFloatImpl();
+		Register_UnityEngine_MaterialPropertyBlock_SetFloatImpl();
+
 		//System.Void UnityEngine.MaterialPropertyBlock::SetTextureImpl(System.Int32,UnityEngine.Texture)
 		void Register_UnityEngine_MaterialPropertyBlock_SetTextureImpl();
 		Register_UnityEngine_MaterialPropertyBlock_SetTextureImpl();
@@ -2641,6 +3009,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.MaterialPropertyBlock::SetVectorArrayImpl(System.Int32,UnityEngine.Vector4[],System.Int32)
 		void Register_UnityEngine_MaterialPropertyBlock_SetVectorArrayImpl();
 		Register_UnityEngine_MaterialPropertyBlock_SetVectorArrayImpl();
+
+		//System.Void UnityEngine.MaterialPropertyBlock::SetVectorImpl_Injected(System.Int32,UnityEngine.Vector4&)
+		void Register_UnityEngine_MaterialPropertyBlock_SetVectorImpl_Injected();
+		Register_UnityEngine_MaterialPropertyBlock_SetVectorImpl_Injected();
 
 	//End Registrations for type : UnityEngine.MaterialPropertyBlock
 
@@ -2657,6 +3029,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Mathf::GammaToLinearSpace(System.Single)
 		void Register_UnityEngine_Mathf_GammaToLinearSpace();
 		Register_UnityEngine_Mathf_GammaToLinearSpace();
+
+		//System.Single UnityEngine.Mathf::LinearToGammaSpace(System.Single)
+		void Register_UnityEngine_Mathf_LinearToGammaSpace();
+		Register_UnityEngine_Mathf_LinearToGammaSpace();
 
 		//System.Void UnityEngine.Mathf::CorrelatedColorTemperatureToRGB_Injected(System.Single,UnityEngine.Color&)
 		void Register_UnityEngine_Mathf_CorrelatedColorTemperatureToRGB_Injected();
@@ -2829,6 +3205,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.Mesh/MeshDataArray
 
 	//Start Registrations for type : UnityEngine.MeshCollider
+
+		//System.Boolean UnityEngine.MeshCollider::get_convex()
+		void Register_UnityEngine_MeshCollider_get_convex();
+		Register_UnityEngine_MeshCollider_get_convex();
 
 		//System.Void UnityEngine.MeshCollider::set_cookingOptions(UnityEngine.MeshColliderCookingOptions)
 		void Register_UnityEngine_MeshCollider_set_cookingOptions();
@@ -3126,6 +3506,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Object_Internal_CloneSingleWithParent();
 		Register_UnityEngine_Object_Internal_CloneSingleWithParent();
 
+		//UnityEngine.Object UnityEngine.Object::Internal_InstantiateSingle_Injected(UnityEngine.Object,UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
+		Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
+
+		//UnityEngine.Object[] UnityEngine.Object::FindObjectsByType(System.Type,UnityEngine.FindObjectsInactive,UnityEngine.FindObjectsSortMode)
+		void Register_UnityEngine_Object_FindObjectsByType();
+		Register_UnityEngine_Object_FindObjectsByType();
+
 		//UnityEngine.Object[] UnityEngine.Object::FindObjectsOfType(System.Type,System.Boolean)
 		void Register_UnityEngine_Object_FindObjectsOfType();
 		Register_UnityEngine_Object_FindObjectsOfType();
@@ -3146,13 +3534,25 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Physics
 
+		//System.Boolean UnityEngine.Physics::GetIgnoreCollision(UnityEngine.Collider,UnityEngine.Collider)
+		void Register_UnityEngine_Physics_GetIgnoreCollision();
+		Register_UnityEngine_Physics_GetIgnoreCollision();
+
 		//System.Boolean UnityEngine.Physics::get_invokeCollisionCallbacks()
 		void Register_UnityEngine_Physics_get_invokeCollisionCallbacks();
 		Register_UnityEngine_Physics_get_invokeCollisionCallbacks();
 
+		//System.Boolean UnityEngine.Physics::get_queriesHitTriggers()
+		void Register_UnityEngine_Physics_get_queriesHitTriggers();
+		Register_UnityEngine_Physics_get_queriesHitTriggers();
+
 		//System.Boolean UnityEngine.Physics::get_reuseCollisionCallbacks()
 		void Register_UnityEngine_Physics_get_reuseCollisionCallbacks();
 		Register_UnityEngine_Physics_get_reuseCollisionCallbacks();
+
+		//System.Void UnityEngine.Physics::IgnoreCollision(UnityEngine.Collider,UnityEngine.Collider,System.Boolean)
+		void Register_UnityEngine_Physics_IgnoreCollision();
+		Register_UnityEngine_Physics_IgnoreCollision();
 
 		//System.Void UnityEngine.Physics::SendOnCollisionEnter(UnityEngine.Component,UnityEngine.Collision)
 		void Register_UnityEngine_Physics_SendOnCollisionEnter();
@@ -3170,6 +3570,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Physics_get_defaultPhysicsScene_Injected();
 		Register_UnityEngine_Physics_get_defaultPhysicsScene_Injected();
 
+		//System.Void UnityEngine.Physics::get_gravity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Physics_get_gravity_Injected();
+		Register_UnityEngine_Physics_get_gravity_Injected();
+
 		//UnityEngine.Collider UnityEngine.Physics::GetColliderByInstanceID(System.Int32)
 		void Register_UnityEngine_Physics_GetColliderByInstanceID();
 		Register_UnityEngine_Physics_GetColliderByInstanceID();
@@ -3184,6 +3588,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Physics
 
+	//Start Registrations for type : UnityEngine.Physics2D
+
+		//System.Boolean UnityEngine.Physics2D::get_queriesHitTriggers()
+		void Register_UnityEngine_Physics2D_get_queriesHitTriggers();
+		Register_UnityEngine_Physics2D_get_queriesHitTriggers();
+
+		//UnityEngine.RaycastHit2D[] UnityEngine.Physics2D::GetRayIntersectionAll_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32)
+		void Register_UnityEngine_Physics2D_GetRayIntersectionAll_Internal_Injected();
+		Register_UnityEngine_Physics2D_GetRayIntersectionAll_Internal_Injected();
+
+	//End Registrations for type : UnityEngine.Physics2D
+
 	//Start Registrations for type : UnityEngine.PhysicsScene
 
 		//System.Boolean UnityEngine.PhysicsScene::Internal_RaycastTest_Injected(UnityEngine.PhysicsScene&,UnityEngine.Ray&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
@@ -3194,11 +3610,67 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_PhysicsScene_Internal_Raycast_Injected();
 		Register_UnityEngine_PhysicsScene_Internal_Raycast_Injected();
 
+		//System.Boolean UnityEngine.PhysicsScene::IsValid_Internal_Injected(UnityEngine.PhysicsScene&)
+		void Register_UnityEngine_PhysicsScene_IsValid_Internal_Injected();
+		Register_UnityEngine_PhysicsScene_IsValid_Internal_Injected();
+
 		//System.Int32 UnityEngine.PhysicsScene::Internal_RaycastNonAlloc_Injected(UnityEngine.PhysicsScene&,UnityEngine.Ray&,UnityEngine.RaycastHit[],System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
 		void Register_UnityEngine_PhysicsScene_Internal_RaycastNonAlloc_Injected();
 		Register_UnityEngine_PhysicsScene_Internal_RaycastNonAlloc_Injected();
 
+		//System.Int32 UnityEngine.PhysicsScene::Internal_SphereCastNonAlloc_Injected(UnityEngine.PhysicsScene&,UnityEngine.Vector3&,System.Single,UnityEngine.Vector3&,UnityEngine.RaycastHit[],System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+		void Register_UnityEngine_PhysicsScene_Internal_SphereCastNonAlloc_Injected();
+		Register_UnityEngine_PhysicsScene_Internal_SphereCastNonAlloc_Injected();
+
+		//System.Int32 UnityEngine.PhysicsScene::OverlapSphereNonAlloc_Internal_Injected(UnityEngine.PhysicsScene&,UnityEngine.Vector3&,System.Single,UnityEngine.Collider[],System.Int32,UnityEngine.QueryTriggerInteraction)
+		void Register_UnityEngine_PhysicsScene_OverlapSphereNonAlloc_Internal_Injected();
+		Register_UnityEngine_PhysicsScene_OverlapSphereNonAlloc_Internal_Injected();
+
 	//End Registrations for type : UnityEngine.PhysicsScene
+
+	//Start Registrations for type : UnityEngine.PhysicsScene2D
+
+		//System.Boolean UnityEngine.PhysicsScene2D::IsValid_Internal_Injected(UnityEngine.PhysicsScene2D&)
+		void Register_UnityEngine_PhysicsScene2D_IsValid_Internal_Injected();
+		Register_UnityEngine_PhysicsScene2D_IsValid_Internal_Injected();
+
+		//System.Int32 UnityEngine.PhysicsScene2D::GetRayIntersectionArray_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.RaycastHit2D[])
+		void Register_UnityEngine_PhysicsScene2D_GetRayIntersectionArray_Internal_Injected();
+		Register_UnityEngine_PhysicsScene2D_GetRayIntersectionArray_Internal_Injected();
+
+		//System.Int32 UnityEngine.PhysicsScene2D::RaycastArray_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D[])
+		void Register_UnityEngine_PhysicsScene2D_RaycastArray_Internal_Injected();
+		Register_UnityEngine_PhysicsScene2D_RaycastArray_Internal_Injected();
+
+		//System.Int32 UnityEngine.PhysicsScene2D::RaycastList_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,System.Collections.Generic.List`1<UnityEngine.RaycastHit2D>)
+		void Register_UnityEngine_PhysicsScene2D_RaycastList_Internal_Injected();
+		Register_UnityEngine_PhysicsScene2D_RaycastList_Internal_Injected();
+
+		//System.Void UnityEngine.PhysicsScene2D::GetRayIntersection_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,System.Int32,UnityEngine.RaycastHit2D&)
+		void Register_UnityEngine_PhysicsScene2D_GetRayIntersection_Internal_Injected();
+		Register_UnityEngine_PhysicsScene2D_GetRayIntersection_Internal_Injected();
+
+		//System.Void UnityEngine.PhysicsScene2D::Raycast_Internal_Injected(UnityEngine.PhysicsScene2D&,UnityEngine.Vector2&,UnityEngine.Vector2&,System.Single,UnityEngine.ContactFilter2D&,UnityEngine.RaycastHit2D&)
+		void Register_UnityEngine_PhysicsScene2D_Raycast_Internal_Injected();
+		Register_UnityEngine_PhysicsScene2D_Raycast_Internal_Injected();
+
+	//End Registrations for type : UnityEngine.PhysicsScene2D
+
+	//Start Registrations for type : UnityEngine.PhysicsSceneExtensions
+
+		//System.Void UnityEngine.PhysicsSceneExtensions::GetPhysicsScene_Internal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.PhysicsScene&)
+		void Register_UnityEngine_PhysicsSceneExtensions_GetPhysicsScene_Internal_Injected();
+		Register_UnityEngine_PhysicsSceneExtensions_GetPhysicsScene_Internal_Injected();
+
+	//End Registrations for type : UnityEngine.PhysicsSceneExtensions
+
+	//Start Registrations for type : UnityEngine.PhysicsSceneExtensions2D
+
+		//System.Void UnityEngine.PhysicsSceneExtensions2D::GetPhysicsScene_Internal_Injected(UnityEngine.SceneManagement.Scene&,UnityEngine.PhysicsScene2D&)
+		void Register_UnityEngine_PhysicsSceneExtensions2D_GetPhysicsScene_Internal_Injected();
+		Register_UnityEngine_PhysicsSceneExtensions2D_GetPhysicsScene_Internal_Injected();
+
+	//End Registrations for type : UnityEngine.PhysicsSceneExtensions2D
 
 	//Start Registrations for type : UnityEngine.Playables.PlayableHandle
 
@@ -3298,6 +3770,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.QualitySettings
 
+		//System.Int32 UnityEngine.QualitySettings::get_vSyncCount()
+		void Register_UnityEngine_QualitySettings_get_vSyncCount();
+		Register_UnityEngine_QualitySettings_get_vSyncCount();
+
+		//System.Void UnityEngine.QualitySettings::set_vSyncCount(System.Int32)
+		void Register_UnityEngine_QualitySettings_set_vSyncCount();
+		Register_UnityEngine_QualitySettings_set_vSyncCount();
+
 		//UnityEngine.ColorSpace UnityEngine.QualitySettings::get_activeColorSpace()
 		void Register_UnityEngine_QualitySettings_get_activeColorSpace();
 		Register_UnityEngine_QualitySettings_get_activeColorSpace();
@@ -3318,6 +3798,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Quaternion_Internal_FromEulerRad_Injected();
 		Register_UnityEngine_Quaternion_Internal_FromEulerRad_Injected();
 
+		//System.Void UnityEngine.Quaternion::Internal_ToAxisAngleRad_Injected(UnityEngine.Quaternion&,UnityEngine.Vector3&,System.Single&)
+		void Register_UnityEngine_Quaternion_Internal_ToAxisAngleRad_Injected();
+		Register_UnityEngine_Quaternion_Internal_ToAxisAngleRad_Injected();
+
 		//System.Void UnityEngine.Quaternion::Internal_ToEulerRad_Injected(UnityEngine.Quaternion&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Quaternion_Internal_ToEulerRad_Injected();
 		Register_UnityEngine_Quaternion_Internal_ToEulerRad_Injected();
@@ -3325,6 +3809,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Quaternion::Inverse_Injected(UnityEngine.Quaternion&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Quaternion_Inverse_Injected();
 		Register_UnityEngine_Quaternion_Inverse_Injected();
+
+		//System.Void UnityEngine.Quaternion::Lerp_Injected(UnityEngine.Quaternion&,UnityEngine.Quaternion&,System.Single,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Quaternion_Lerp_Injected();
+		Register_UnityEngine_Quaternion_Lerp_Injected();
 
 		//System.Void UnityEngine.Quaternion::LookRotation_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 		void Register_UnityEngine_Quaternion_LookRotation_Injected();
@@ -3335,6 +3823,18 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Quaternion_Slerp_Injected();
 
 	//End Registrations for type : UnityEngine.Quaternion
+
+	//Start Registrations for type : UnityEngine.Random
+
+		//System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
+		void Register_UnityEngine_Random_RandomRangeInt();
+		Register_UnityEngine_Random_RandomRangeInt();
+
+		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
+		void Register_UnityEngine_Random_Range();
+		Register_UnityEngine_Random_Range();
+
+	//End Registrations for type : UnityEngine.Random
 
 	//Start Registrations for type : UnityEngine.RectOffset
 
@@ -3452,11 +3952,47 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.RectTransformUtility
 
+	//Start Registrations for type : UnityEngine.ReflectionProbe
+
+		//System.Void UnityEngine.ReflectionProbe::get_size_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_ReflectionProbe_get_size_Injected();
+		Register_UnityEngine_ReflectionProbe_get_size_Injected();
+
+		//System.Void UnityEngine.ReflectionProbe::set_boxProjection(System.Boolean)
+		void Register_UnityEngine_ReflectionProbe_set_boxProjection();
+		Register_UnityEngine_ReflectionProbe_set_boxProjection();
+
+		//System.Void UnityEngine.ReflectionProbe::set_center_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_ReflectionProbe_set_center_Injected();
+		Register_UnityEngine_ReflectionProbe_set_center_Injected();
+
+		//System.Void UnityEngine.ReflectionProbe::set_customBakedTexture(UnityEngine.Texture)
+		void Register_UnityEngine_ReflectionProbe_set_customBakedTexture();
+		Register_UnityEngine_ReflectionProbe_set_customBakedTexture();
+
+		//System.Void UnityEngine.ReflectionProbe::set_mode(UnityEngine.Rendering.ReflectionProbeMode)
+		void Register_UnityEngine_ReflectionProbe_set_mode();
+		Register_UnityEngine_ReflectionProbe_set_mode();
+
+		//System.Void UnityEngine.ReflectionProbe::set_size_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_ReflectionProbe_set_size_Injected();
+		Register_UnityEngine_ReflectionProbe_set_size_Injected();
+
+		//UnityEngine.Texture UnityEngine.ReflectionProbe::get_customBakedTexture()
+		void Register_UnityEngine_ReflectionProbe_get_customBakedTexture();
+		Register_UnityEngine_ReflectionProbe_get_customBakedTexture();
+
+	//End Registrations for type : UnityEngine.ReflectionProbe
+
 	//Start Registrations for type : UnityEngine.Renderer
 
 		//System.Boolean UnityEngine.Renderer::get_enabled()
 		void Register_UnityEngine_Renderer_get_enabled();
 		Register_UnityEngine_Renderer_get_enabled();
+
+		//System.Int32 UnityEngine.Renderer::GetMaterialCount()
+		void Register_UnityEngine_Renderer_GetMaterialCount();
+		Register_UnityEngine_Renderer_GetMaterialCount();
 
 		//System.Int32 UnityEngine.Renderer::get_sortingGroupID()
 		void Register_UnityEngine_Renderer_get_sortingGroupID();
@@ -3473,6 +4009,30 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Renderer::get_sortingOrder()
 		void Register_UnityEngine_Renderer_get_sortingOrder();
 		Register_UnityEngine_Renderer_get_sortingOrder();
+
+		//System.Void UnityEngine.Renderer::CopyMaterialArray(UnityEngine.Material[])
+		void Register_UnityEngine_Renderer_CopyMaterialArray();
+		Register_UnityEngine_Renderer_CopyMaterialArray();
+
+		//System.Void UnityEngine.Renderer::CopySharedMaterialArray(UnityEngine.Material[])
+		void Register_UnityEngine_Renderer_CopySharedMaterialArray();
+		Register_UnityEngine_Renderer_CopySharedMaterialArray();
+
+		//System.Void UnityEngine.Renderer::Internal_GetPropertyBlock(UnityEngine.MaterialPropertyBlock)
+		void Register_UnityEngine_Renderer_Internal_GetPropertyBlock();
+		Register_UnityEngine_Renderer_Internal_GetPropertyBlock();
+
+		//System.Void UnityEngine.Renderer::Internal_GetPropertyBlockMaterialIndex(UnityEngine.MaterialPropertyBlock,System.Int32)
+		void Register_UnityEngine_Renderer_Internal_GetPropertyBlockMaterialIndex();
+		Register_UnityEngine_Renderer_Internal_GetPropertyBlockMaterialIndex();
+
+		//System.Void UnityEngine.Renderer::Internal_SetPropertyBlock(UnityEngine.MaterialPropertyBlock)
+		void Register_UnityEngine_Renderer_Internal_SetPropertyBlock();
+		Register_UnityEngine_Renderer_Internal_SetPropertyBlock();
+
+		//System.Void UnityEngine.Renderer::Internal_SetPropertyBlockMaterialIndex(UnityEngine.MaterialPropertyBlock,System.Int32)
+		void Register_UnityEngine_Renderer_Internal_SetPropertyBlockMaterialIndex();
+		Register_UnityEngine_Renderer_Internal_SetPropertyBlockMaterialIndex();
 
 		//System.Void UnityEngine.Renderer::SetMaterial(UnityEngine.Material)
 		void Register_UnityEngine_Renderer_SetMaterial();
@@ -3678,9 +4238,17 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.ResourcesAPIInternal
 
+		//System.Void UnityEngine.ResourcesAPIInternal::UnloadAsset(UnityEngine.Object)
+		void Register_UnityEngine_ResourcesAPIInternal_UnloadAsset();
+		Register_UnityEngine_ResourcesAPIInternal_UnloadAsset();
+
 		//UnityEngine.Object UnityEngine.ResourcesAPIInternal::Load(System.String,System.Type)
 		void Register_UnityEngine_ResourcesAPIInternal_Load();
 		Register_UnityEngine_ResourcesAPIInternal_Load();
+
+		//UnityEngine.Object[] UnityEngine.ResourcesAPIInternal::FindObjectsOfTypeAll(System.Type)
+		void Register_UnityEngine_ResourcesAPIInternal_FindObjectsOfTypeAll();
+		Register_UnityEngine_ResourcesAPIInternal_FindObjectsOfTypeAll();
 
 		//UnityEngine.Object[] UnityEngine.ResourcesAPIInternal::LoadAll(System.String,System.Type)
 		void Register_UnityEngine_ResourcesAPIInternal_LoadAll();
@@ -3691,6 +4259,74 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_ResourcesAPIInternal_FindShaderByName();
 
 	//End Registrations for type : UnityEngine.ResourcesAPIInternal
+
+	//Start Registrations for type : UnityEngine.Rigidbody
+
+		//System.Boolean UnityEngine.Rigidbody::get_isKinematic()
+		void Register_UnityEngine_Rigidbody_get_isKinematic();
+		Register_UnityEngine_Rigidbody_get_isKinematic();
+
+		//System.Boolean UnityEngine.Rigidbody::get_useGravity()
+		void Register_UnityEngine_Rigidbody_get_useGravity();
+		Register_UnityEngine_Rigidbody_get_useGravity();
+
+		//System.Single UnityEngine.Rigidbody::get_angularDrag()
+		void Register_UnityEngine_Rigidbody_get_angularDrag();
+		Register_UnityEngine_Rigidbody_get_angularDrag();
+
+		//System.Single UnityEngine.Rigidbody::get_drag()
+		void Register_UnityEngine_Rigidbody_get_drag();
+		Register_UnityEngine_Rigidbody_get_drag();
+
+		//System.Void UnityEngine.Rigidbody::MovePosition_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_MovePosition_Injected();
+		Register_UnityEngine_Rigidbody_MovePosition_Injected();
+
+		//System.Void UnityEngine.Rigidbody::MoveRotation_Injected(UnityEngine.Quaternion&)
+		void Register_UnityEngine_Rigidbody_MoveRotation_Injected();
+		Register_UnityEngine_Rigidbody_MoveRotation_Injected();
+
+		//System.Void UnityEngine.Rigidbody::get_angularVelocity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_get_angularVelocity_Injected();
+		Register_UnityEngine_Rigidbody_get_angularVelocity_Injected();
+
+		//System.Void UnityEngine.Rigidbody::get_position_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_get_position_Injected();
+		Register_UnityEngine_Rigidbody_get_position_Injected();
+
+		//System.Void UnityEngine.Rigidbody::get_velocity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_get_velocity_Injected();
+		Register_UnityEngine_Rigidbody_get_velocity_Injected();
+
+		//System.Void UnityEngine.Rigidbody::get_worldCenterOfMass_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_get_worldCenterOfMass_Injected();
+		Register_UnityEngine_Rigidbody_get_worldCenterOfMass_Injected();
+
+		//System.Void UnityEngine.Rigidbody::set_angularDrag(System.Single)
+		void Register_UnityEngine_Rigidbody_set_angularDrag();
+		Register_UnityEngine_Rigidbody_set_angularDrag();
+
+		//System.Void UnityEngine.Rigidbody::set_angularVelocity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_set_angularVelocity_Injected();
+		Register_UnityEngine_Rigidbody_set_angularVelocity_Injected();
+
+		//System.Void UnityEngine.Rigidbody::set_drag(System.Single)
+		void Register_UnityEngine_Rigidbody_set_drag();
+		Register_UnityEngine_Rigidbody_set_drag();
+
+		//System.Void UnityEngine.Rigidbody::set_isKinematic(System.Boolean)
+		void Register_UnityEngine_Rigidbody_set_isKinematic();
+		Register_UnityEngine_Rigidbody_set_isKinematic();
+
+		//System.Void UnityEngine.Rigidbody::set_useGravity(System.Boolean)
+		void Register_UnityEngine_Rigidbody_set_useGravity();
+		Register_UnityEngine_Rigidbody_set_useGravity();
+
+		//System.Void UnityEngine.Rigidbody::set_velocity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Rigidbody_set_velocity_Injected();
+		Register_UnityEngine_Rigidbody_set_velocity_Injected();
+
+	//End Registrations for type : UnityEngine.Rigidbody
 
 	//Start Registrations for type : UnityEngine.SceneManagement.Scene
 
@@ -3758,6 +4394,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Screen_SetOrientationEnabled();
 		Register_UnityEngine_Screen_SetOrientationEnabled();
 
+		//System.Void UnityEngine.Screen::get_safeArea_Injected(UnityEngine.Rect&)
+		void Register_UnityEngine_Screen_get_safeArea_Injected();
+		Register_UnityEngine_Screen_get_safeArea_Injected();
+
+		//System.Void UnityEngine.Screen::set_brightness(System.Single)
+		void Register_UnityEngine_Screen_set_brightness();
+		Register_UnityEngine_Screen_set_brightness();
+
 		//System.Void UnityEngine.Screen::set_sleepTimeout(System.Int32)
 		void Register_UnityEngine_Screen_set_sleepTimeout();
 		Register_UnityEngine_Screen_set_sleepTimeout();
@@ -3804,6 +4448,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Shader
 
+	//Start Registrations for type : UnityEngine.SkinnedMeshRenderer
+
+		//System.Single UnityEngine.SkinnedMeshRenderer::GetBlendShapeWeight(System.Int32)
+		void Register_UnityEngine_SkinnedMeshRenderer_GetBlendShapeWeight();
+		Register_UnityEngine_SkinnedMeshRenderer_GetBlendShapeWeight();
+
+		//System.Void UnityEngine.SkinnedMeshRenderer::SetBlendShapeWeight(System.Int32,System.Single)
+		void Register_UnityEngine_SkinnedMeshRenderer_SetBlendShapeWeight();
+		Register_UnityEngine_SkinnedMeshRenderer_SetBlendShapeWeight();
+
+	//End Registrations for type : UnityEngine.SkinnedMeshRenderer
+
 	//Start Registrations for type : UnityEngine.SortingLayer
 
 		//System.Int32 UnityEngine.SortingLayer::GetLayerValueFromID(System.Int32)
@@ -3811,6 +4467,22 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_SortingLayer_GetLayerValueFromID();
 
 	//End Registrations for type : UnityEngine.SortingLayer
+
+	//Start Registrations for type : UnityEngine.SphereCollider
+
+		//System.Single UnityEngine.SphereCollider::get_radius()
+		void Register_UnityEngine_SphereCollider_get_radius();
+		Register_UnityEngine_SphereCollider_get_radius();
+
+		//System.Void UnityEngine.SphereCollider::get_center_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_SphereCollider_get_center_Injected();
+		Register_UnityEngine_SphereCollider_get_center_Injected();
+
+		//System.Void UnityEngine.SphereCollider::set_radius(System.Single)
+		void Register_UnityEngine_SphereCollider_set_radius();
+		Register_UnityEngine_SphereCollider_set_radius();
+
+	//End Registrations for type : UnityEngine.SphereCollider
 
 	//Start Registrations for type : UnityEngine.Sprite
 
@@ -3858,6 +4530,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Sprite_get_rect_Injected();
 		Register_UnityEngine_Sprite_get_rect_Injected();
 
+		//UnityEngine.Sprite UnityEngine.Sprite::CreateSprite_Injected(UnityEngine.Texture2D,UnityEngine.Rect&,UnityEngine.Vector2&,System.Single,System.UInt32,UnityEngine.SpriteMeshType,UnityEngine.Vector4&,System.Boolean,UnityEngine.SecondarySpriteTexture[])
+		void Register_UnityEngine_Sprite_CreateSprite_Injected();
+		Register_UnityEngine_Sprite_CreateSprite_Injected();
+
 		//UnityEngine.Texture2D UnityEngine.Sprite::get_associatedAlphaSplitTexture()
 		void Register_UnityEngine_Sprite_get_associatedAlphaSplitTexture();
 		Register_UnityEngine_Sprite_get_associatedAlphaSplitTexture();
@@ -3876,7 +4552,51 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Sprite
 
+	//Start Registrations for type : UnityEngine.SubsystemBindings
+
+		//System.Void UnityEngine.SubsystemBindings::DestroySubsystem(System.IntPtr)
+		void Register_UnityEngine_SubsystemBindings_DestroySubsystem();
+		Register_UnityEngine_SubsystemBindings_DestroySubsystem();
+
+	//End Registrations for type : UnityEngine.SubsystemBindings
+
+	//Start Registrations for type : UnityEngine.SubsystemDescriptorBindings
+
+		//System.IntPtr UnityEngine.SubsystemDescriptorBindings::Create(System.IntPtr)
+		void Register_UnityEngine_SubsystemDescriptorBindings_Create();
+		Register_UnityEngine_SubsystemDescriptorBindings_Create();
+
+		//System.String UnityEngine.SubsystemDescriptorBindings::GetId(System.IntPtr)
+		void Register_UnityEngine_SubsystemDescriptorBindings_GetId();
+		Register_UnityEngine_SubsystemDescriptorBindings_GetId();
+
+	//End Registrations for type : UnityEngine.SubsystemDescriptorBindings
+
+	//Start Registrations for type : UnityEngine.SubsystemManager
+
+		//System.Void UnityEngine.SubsystemManager::StaticConstructScriptingClassMap()
+		void Register_UnityEngine_SubsystemManager_StaticConstructScriptingClassMap();
+		Register_UnityEngine_SubsystemManager_StaticConstructScriptingClassMap();
+
+	//End Registrations for type : UnityEngine.SubsystemManager
+
+	//Start Registrations for type : UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
+
+		//System.Void UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore::ReportSingleSubsystemAnalytics(System.String)
+		void Register_UnityEngine_SubsystemsImplementation_SubsystemDescriptorStore_ReportSingleSubsystemAnalytics();
+		Register_UnityEngine_SubsystemsImplementation_SubsystemDescriptorStore_ReportSingleSubsystemAnalytics();
+
+	//End Registrations for type : UnityEngine.SubsystemsImplementation.SubsystemDescriptorStore
+
 	//Start Registrations for type : UnityEngine.SystemInfo
+
+		//System.Boolean UnityEngine.SystemInfo::GetGraphicsMultiThreaded()
+		void Register_UnityEngine_SystemInfo_GetGraphicsMultiThreaded();
+		Register_UnityEngine_SystemInfo_GetGraphicsMultiThreaded();
+
+		//System.Boolean UnityEngine.SystemInfo::HasRenderTextureNative(UnityEngine.RenderTextureFormat)
+		void Register_UnityEngine_SystemInfo_HasRenderTextureNative();
+		Register_UnityEngine_SystemInfo_HasRenderTextureNative();
 
 		//System.Boolean UnityEngine.SystemInfo::IsFormatSupported(UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.Experimental.Rendering.FormatUsage)
 		void Register_UnityEngine_SystemInfo_IsFormatSupported();
@@ -4048,6 +4768,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.TextGenerator
 
+	//Start Registrations for type : UnityEngine.TextMesh
+
+		//System.Void UnityEngine.TextMesh::set_text(System.String)
+		void Register_UnityEngine_TextMesh_set_text();
+		Register_UnityEngine_TextMesh_set_text();
+
+	//End Registrations for type : UnityEngine.TextMesh
+
 	//Start Registrations for type : UnityEngine.Texture
 
 		//System.Boolean UnityEngine.Texture::get_isReadable()
@@ -4065,6 +4793,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Texture::Internal_GetActiveTextureColorSpace()
 		void Register_UnityEngine_Texture_Internal_GetActiveTextureColorSpace();
 		Register_UnityEngine_Texture_Internal_GetActiveTextureColorSpace();
+
+		//System.IntPtr UnityEngine.Texture::GetNativeTexturePtr()
+		void Register_UnityEngine_Texture_GetNativeTexturePtr();
+		Register_UnityEngine_Texture_GetNativeTexturePtr();
 
 		//System.Void UnityEngine.Texture::get_texelSize_Injected(UnityEngine.Vector2&)
 		void Register_UnityEngine_Texture_get_texelSize_Injected();
@@ -4158,6 +4890,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Texture2D_SetPixelsImpl();
 		Register_UnityEngine_Texture2D_SetPixelsImpl();
 
+		//System.Void UnityEngine.Texture2D::UpdateExternalTexture(System.IntPtr)
+		void Register_UnityEngine_Texture2D_UpdateExternalTexture();
+		Register_UnityEngine_Texture2D_UpdateExternalTexture();
+
 		//UnityEngine.Color[] UnityEngine.Texture2D::GetPixels(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
 		void Register_UnityEngine_Texture2D_GetPixels();
 		Register_UnityEngine_Texture2D_GetPixels();
@@ -4198,13 +4934,25 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Texture3D_get_isReadable();
 		Register_UnityEngine_Texture3D_get_isReadable();
 
+		//System.Void UnityEngine.Texture3D::UpdateExternalTexture(System.IntPtr)
+		void Register_UnityEngine_Texture3D_UpdateExternalTexture();
+		Register_UnityEngine_Texture3D_UpdateExternalTexture();
+
 	//End Registrations for type : UnityEngine.Texture3D
 
 	//Start Registrations for type : UnityEngine.Time
 
+		//System.Int32 UnityEngine.Time::get_frameCount()
+		void Register_UnityEngine_Time_get_frameCount();
+		Register_UnityEngine_Time_get_frameCount();
+
 		//System.Single UnityEngine.Time::get_deltaTime()
 		void Register_UnityEngine_Time_get_deltaTime();
 		Register_UnityEngine_Time_get_deltaTime();
+
+		//System.Single UnityEngine.Time::get_fixedUnscaledTime()
+		void Register_UnityEngine_Time_get_fixedUnscaledTime();
+		Register_UnityEngine_Time_get_fixedUnscaledTime();
 
 		//System.Single UnityEngine.Time::get_realtimeSinceStartup()
 		void Register_UnityEngine_Time_get_realtimeSinceStartup();
@@ -4290,17 +5038,45 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Transform_IsChildOf();
 		Register_UnityEngine_Transform_IsChildOf();
 
+		//System.Boolean UnityEngine.Transform::get_hasChanged()
+		void Register_UnityEngine_Transform_get_hasChanged();
+		Register_UnityEngine_Transform_get_hasChanged();
+
+		//System.Int32 UnityEngine.Transform::GetSiblingIndex()
+		void Register_UnityEngine_Transform_GetSiblingIndex();
+		Register_UnityEngine_Transform_GetSiblingIndex();
+
 		//System.Int32 UnityEngine.Transform::get_childCount()
 		void Register_UnityEngine_Transform_get_childCount();
 		Register_UnityEngine_Transform_get_childCount();
+
+		//System.Void UnityEngine.Transform::GetPositionAndRotation(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Transform_GetPositionAndRotation();
+		Register_UnityEngine_Transform_GetPositionAndRotation();
+
+		//System.Void UnityEngine.Transform::InverseTransformDirection_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_InverseTransformDirection_Injected();
+		Register_UnityEngine_Transform_InverseTransformDirection_Injected();
 
 		//System.Void UnityEngine.Transform::InverseTransformPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_InverseTransformPoint_Injected();
 		Register_UnityEngine_Transform_InverseTransformPoint_Injected();
 
+		//System.Void UnityEngine.Transform::InverseTransformVector_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_InverseTransformVector_Injected();
+		Register_UnityEngine_Transform_InverseTransformVector_Injected();
+
+		//System.Void UnityEngine.Transform::RotateAroundInternal_Injected(UnityEngine.Vector3&,System.Single)
+		void Register_UnityEngine_Transform_RotateAroundInternal_Injected();
+		Register_UnityEngine_Transform_RotateAroundInternal_Injected();
+
 		//System.Void UnityEngine.Transform::SetAsFirstSibling()
 		void Register_UnityEngine_Transform_SetAsFirstSibling();
 		Register_UnityEngine_Transform_SetAsFirstSibling();
+
+		//System.Void UnityEngine.Transform::SetLocalPositionAndRotation_Injected(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+		void Register_UnityEngine_Transform_SetLocalPositionAndRotation_Injected();
+		Register_UnityEngine_Transform_SetLocalPositionAndRotation_Injected();
 
 		//System.Void UnityEngine.Transform::SetParent(UnityEngine.Transform,System.Boolean)
 		void Register_UnityEngine_Transform_SetParent();
@@ -4317,6 +5093,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::TransformPoint_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_TransformPoint_Injected();
 		Register_UnityEngine_Transform_TransformPoint_Injected();
+
+		//System.Void UnityEngine.Transform::TransformVector_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Transform_TransformVector_Injected();
+		Register_UnityEngine_Transform_TransformVector_Injected();
 
 		//System.Void UnityEngine.Transform::get_localPosition_Injected(UnityEngine.Vector3&)
 		void Register_UnityEngine_Transform_get_localPosition_Injected();
@@ -4373,6 +5153,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Transform::set_rotation_Injected(UnityEngine.Quaternion&)
 		void Register_UnityEngine_Transform_set_rotation_Injected();
 		Register_UnityEngine_Transform_set_rotation_Injected();
+
+		//UnityEngine.Transform UnityEngine.Transform::FindRelativeTransformWithPath(UnityEngine.Transform,System.String,System.Boolean)
+		void Register_UnityEngine_Transform_FindRelativeTransformWithPath();
+		Register_UnityEngine_Transform_FindRelativeTransformWithPath();
 
 		//UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)
 		void Register_UnityEngine_Transform_GetChild();
@@ -4588,6 +5372,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.UnityLogWriter
 
+	//Start Registrations for type : UnityEngine.Vector3
+
+		//System.Void UnityEngine.Vector3::Slerp_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,UnityEngine.Vector3&)
+		void Register_UnityEngine_Vector3_Slerp_Injected();
+		Register_UnityEngine_Vector3_Slerp_Injected();
+
+	//End Registrations for type : UnityEngine.Vector3
+
 	//Start Registrations for type : UnityEngine.WebCamTexture
 
 		//System.Boolean UnityEngine.WebCamTexture::get_didUpdateThisFrame()
@@ -4631,6 +5423,102 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_WebCamTexture_get_devices();
 
 	//End Registrations for type : UnityEngine.WebCamTexture
+
+	//Start Registrations for type : UnityEngine.XR.InputDevices
+
+		//System.Boolean UnityEngine.XR.InputDevices::IsDeviceValid(System.UInt64)
+		void Register_UnityEngine_XR_InputDevices_IsDeviceValid();
+		Register_UnityEngine_XR_InputDevices_IsDeviceValid();
+
+		//System.Boolean UnityEngine.XR.InputDevices::SendHapticImpulse(System.UInt64,System.UInt32,System.Single,System.Single)
+		void Register_UnityEngine_XR_InputDevices_SendHapticImpulse();
+		Register_UnityEngine_XR_InputDevices_SendHapticImpulse();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_Quaternionf(System.UInt64,System.String,UnityEngine.Quaternion&)
+		void Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_Quaternionf();
+		Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_Quaternionf();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_UInt32(System.UInt64,System.String,System.UInt32&)
+		void Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_UInt32();
+		Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_UInt32();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_Vector2f(System.UInt64,System.String,UnityEngine.Vector2&)
+		void Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_Vector2f();
+		Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_Vector2f();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_Vector3f(System.UInt64,System.String,UnityEngine.Vector3&)
+		void Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_Vector3f();
+		Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_Vector3f();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_bool(System.UInt64,System.String,System.Boolean&)
+		void Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_bool();
+		Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_bool();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetFeatureValue_float(System.UInt64,System.String,System.Single&)
+		void Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_float();
+		Register_UnityEngine_XR_InputDevices_TryGetFeatureValue_float();
+
+		//System.Boolean UnityEngine.XR.InputDevices::TryGetHapticCapabilities(System.UInt64,UnityEngine.XR.HapticCapabilities&)
+		void Register_UnityEngine_XR_InputDevices_TryGetHapticCapabilities();
+		Register_UnityEngine_XR_InputDevices_TryGetHapticCapabilities();
+
+		//System.Void UnityEngine.XR.InputDevices::GetDevices_Internal(System.Collections.Generic.List`1<UnityEngine.XR.InputDevice>)
+		void Register_UnityEngine_XR_InputDevices_GetDevices_Internal();
+		Register_UnityEngine_XR_InputDevices_GetDevices_Internal();
+
+		//UnityEngine.XR.InputDeviceCharacteristics UnityEngine.XR.InputDevices::GetDeviceCharacteristics(System.UInt64)
+		void Register_UnityEngine_XR_InputDevices_GetDeviceCharacteristics();
+		Register_UnityEngine_XR_InputDevices_GetDeviceCharacteristics();
+
+	//End Registrations for type : UnityEngine.XR.InputDevices
+
+	//Start Registrations for type : UnityEngine.XR.InputTracking
+
+		//System.UInt64 UnityEngine.XR.InputTracking::GetDeviceIdAtXRNode(UnityEngine.XR.XRNode)
+		void Register_UnityEngine_XR_InputTracking_GetDeviceIdAtXRNode();
+		Register_UnityEngine_XR_InputTracking_GetDeviceIdAtXRNode();
+
+		//System.Void UnityEngine.XR.InputTracking::GetNodeStates_Internal(System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState>)
+		void Register_UnityEngine_XR_InputTracking_GetNodeStates_Internal();
+		Register_UnityEngine_XR_InputTracking_GetNodeStates_Internal();
+
+	//End Registrations for type : UnityEngine.XR.InputTracking
+
+	//Start Registrations for type : UnityEngine.XR.XRDevice
+
+		//System.Void UnityEngine.XR.XRDevice::DisableAutoXRCameraTracking(UnityEngine.Camera,System.Boolean)
+		void Register_UnityEngine_XR_XRDevice_DisableAutoXRCameraTracking();
+		Register_UnityEngine_XR_XRDevice_DisableAutoXRCameraTracking();
+
+	//End Registrations for type : UnityEngine.XR.XRDevice
+
+	//Start Registrations for type : UnityEngine.XR.XRInputSubsystem
+
+		//System.Boolean UnityEngine.XR.XRInputSubsystem::TryRecenter()
+		void Register_UnityEngine_XR_XRInputSubsystem_TryRecenter();
+		Register_UnityEngine_XR_XRInputSubsystem_TryRecenter();
+
+		//System.Boolean UnityEngine.XR.XRInputSubsystem::TrySetTrackingOriginMode(UnityEngine.XR.TrackingOriginModeFlags)
+		void Register_UnityEngine_XR_XRInputSubsystem_TrySetTrackingOriginMode();
+		Register_UnityEngine_XR_XRInputSubsystem_TrySetTrackingOriginMode();
+
+		//UnityEngine.XR.TrackingOriginModeFlags UnityEngine.XR.XRInputSubsystem::GetSupportedTrackingOriginModes()
+		void Register_UnityEngine_XR_XRInputSubsystem_GetSupportedTrackingOriginModes();
+		Register_UnityEngine_XR_XRInputSubsystem_GetSupportedTrackingOriginModes();
+
+		//UnityEngine.XR.TrackingOriginModeFlags UnityEngine.XR.XRInputSubsystem::GetTrackingOriginMode()
+		void Register_UnityEngine_XR_XRInputSubsystem_GetTrackingOriginMode();
+		Register_UnityEngine_XR_XRInputSubsystem_GetTrackingOriginMode();
+
+	//End Registrations for type : UnityEngine.XR.XRInputSubsystem
+
+	//Start Registrations for type : UnityEngine.XR.XRMeshSubsystem/MeshTransformList
+
+		//System.Void UnityEngine.XR.XRMeshSubsystem/MeshTransformList::Dispose(System.IntPtr)
+		void Register_UnityEngine_XR_XRMeshSubsystem_MeshTransformList_Dispose();
+		Register_UnityEngine_XR_XRMeshSubsystem_MeshTransformList_Dispose();
+
+	//End Registrations for type : UnityEngine.XR.XRMeshSubsystem/MeshTransformList
 
 	//Start Registrations for type : UnityEngine.Yoga.Native
 
@@ -4903,5 +5791,41 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Yoga_Native_YGNodeStyleGetDirection();
 
 	//End Registrations for type : UnityEngine.Yoga.Native
+
+	//Start Registrations for type : UnityEngineInternal.Input.NativeInputSystem
+
+		//System.Double UnityEngineInternal.Input.NativeInputSystem::get_currentTime()
+		void Register_UnityEngineInternal_Input_NativeInputSystem_get_currentTime();
+		Register_UnityEngineInternal_Input_NativeInputSystem_get_currentTime();
+
+		//System.Double UnityEngineInternal.Input.NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup()
+		void Register_UnityEngineInternal_Input_NativeInputSystem_get_currentTimeOffsetToRealtimeSinceStartup();
+		Register_UnityEngineInternal_Input_NativeInputSystem_get_currentTimeOffsetToRealtimeSinceStartup();
+
+		//System.Int32 UnityEngineInternal.Input.NativeInputSystem::AllocateDeviceId()
+		void Register_UnityEngineInternal_Input_NativeInputSystem_AllocateDeviceId();
+		Register_UnityEngineInternal_Input_NativeInputSystem_AllocateDeviceId();
+
+		//System.Int64 UnityEngineInternal.Input.NativeInputSystem::IOCTL(System.Int32,System.Int32,System.IntPtr,System.Int32)
+		void Register_UnityEngineInternal_Input_NativeInputSystem_IOCTL();
+		Register_UnityEngineInternal_Input_NativeInputSystem_IOCTL();
+
+		//System.Void UnityEngineInternal.Input.NativeInputSystem::QueueInputEvent(System.IntPtr)
+		void Register_UnityEngineInternal_Input_NativeInputSystem_QueueInputEvent();
+		Register_UnityEngineInternal_Input_NativeInputSystem_QueueInputEvent();
+
+		//System.Void UnityEngineInternal.Input.NativeInputSystem::SetPollingFrequency(System.Single)
+		void Register_UnityEngineInternal_Input_NativeInputSystem_SetPollingFrequency();
+		Register_UnityEngineInternal_Input_NativeInputSystem_SetPollingFrequency();
+
+		//System.Void UnityEngineInternal.Input.NativeInputSystem::Update(UnityEngineInternal.Input.NativeInputUpdateType)
+		void Register_UnityEngineInternal_Input_NativeInputSystem_Update();
+		Register_UnityEngineInternal_Input_NativeInputSystem_Update();
+
+		//System.Void UnityEngineInternal.Input.NativeInputSystem::set_hasDeviceDiscoveredCallback(System.Boolean)
+		void Register_UnityEngineInternal_Input_NativeInputSystem_set_hasDeviceDiscoveredCallback();
+		Register_UnityEngineInternal_Input_NativeInputSystem_set_hasDeviceDiscoveredCallback();
+
+	//End Registrations for type : UnityEngineInternal.Input.NativeInputSystem
 
 }

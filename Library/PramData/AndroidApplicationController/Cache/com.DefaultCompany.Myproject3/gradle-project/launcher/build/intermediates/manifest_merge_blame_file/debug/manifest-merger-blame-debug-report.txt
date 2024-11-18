@@ -1,0 +1,375 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Myproject3"
+4    android:installLocation="preferExternal"
+5    android:versionCode="10273"
+6    android:versionName="10.27.3" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="35" />
+10-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-64
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+20-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+21
+22    <uses-feature
+22-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-54
+23        android:glEsVersion="0x00030000"
+23-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:19-51
+24        android:required="true" />
+24-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:13:9-32
+25    <uses-feature
+25-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-14:36
+26        android:name="android.hardware.vulkan.version"
+26-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-55
+27        android:required="false" />
+27-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-33
+28    <uses-feature
+28-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-17:36
+29        android:name="android.hardware.camera"
+29-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-47
+30        android:required="true" />
+30-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-33
+31    <uses-feature
+31-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-20:36
+32        android:name="android.hardware.camera.autofocus"
+32-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-57
+33        android:required="false" />
+33-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-33
+34    <uses-feature
+34-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:5-23:36
+35        android:name="android.hardware.camera.front"
+35-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-53
+36        android:required="false" />
+36-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-33
+37    <uses-feature
+37-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-26:36
+38        android:name="android.hardware.touchscreen"
+38-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-52
+39        android:required="false" />
+39-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33
+40    <uses-feature
+40-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:5-29:36
+41        android:name="android.hardware.touchscreen.multitouch"
+41-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-63
+42        android:required="false" />
+42-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33
+43    <uses-feature
+43-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:5-32:36
+44        android:name="android.hardware.touchscreen.multitouch.distinct"
+44-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-72
+45        android:required="false" />
+45-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-33
+46
+47    <queries>
+47-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:20:5-22:15
+48        <package android:name="com.google.ar.core" />
+48-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:21:9-54
+48-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:21:18-51
+49    </queries>
+50
+51    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+51-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:9:5-79
+51-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:9:22-76
+52    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+52-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:11:5-79
+52-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:11:22-76
+53    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+53-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:4:2-98
+53-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:4:19-74
+54    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+54-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:5:2-99
+54-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:5:19-75
+55    <!--
+56        Required by Vuforia: Add this permission to access IMU sensors at high rate
+57        for device tracker functionality on Android 12+.
+58    -->
+59    <uses-permission android:name="android.permission.HIGH_SAMPLING_RATE_SENSORS" />
+59-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:16:5-85
+59-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:16:22-82
+60    <uses-permission android:name="android.permission.NFC" />
+60-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:18:5-62
+60-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:18:22-59
+61
+62    <permission
+62-->[androidx.core:core:1.9.0] C:\Users\Денис\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+63        android:name="com.DefaultCompany.Myproject3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+63-->[androidx.core:core:1.9.0] C:\Users\Денис\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+64        android:protectionLevel="signature" />
+64-->[androidx.core:core:1.9.0] C:\Users\Денис\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+65
+66    <uses-permission android:name="com.DefaultCompany.Myproject3.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+66-->[androidx.core:core:1.9.0] C:\Users\Денис\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+66-->[androidx.core:core:1.9.0] C:\Users\Денис\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+67
+68    <application
+68-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:3:3-126
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.9.0] C:\Users\Денис\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+70        android:debuggable="true"
+71        android:extractNativeLibs="true"
+71-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:18-50
+72        android:icon="@mipmap/app_icon"
+72-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:3:49-80
+73        android:label="@string/app_name"
+73-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:3:16-48
+74        android:requestLegacyExternalStorage="true"
+74-->[:NativeGallery:] C:\Users\Денис\.gradle\caches\transforms-3\845c81591626c6b84f2b5b442174039c\transformed\jetified-NativeGallery\AndroidManifest.xml:6:15-58
+75        android:roundIcon="@mipmap/app_icon_round" >
+75-->D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\launcher\src\main\AndroidManifest.xml:3:81-123
+76        <meta-data
+76-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-37:33
+77            android:name="unity.splash-mode"
+77-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-45
+78            android:value="0" />
+78-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-30
+79        <meta-data
+79-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:36
+80            android:name="unity.splash-enable"
+80-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-47
+81            android:value="True" />
+81-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-33
+82        <meta-data
+82-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-43:36
+83            android:name="unity.launch-fullscreen"
+83-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-51
+84            android:value="True" />
+84-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-33
+85        <meta-data
+85-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-46:36
+86            android:name="unity.render-outside-safearea"
+86-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-57
+87            android:value="True" />
+87-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-33
+88        <meta-data
+88-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:9-49:50
+89            android:name="notch.config"
+89-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-40
+90            android:value="portrait|landscape" />
+90-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-47
+91        <meta-data
+91-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:9-52:36
+92            android:name="unity.auto-report-fully-drawn"
+92-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-57
+93            android:value="true" />
+93-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-33
+94
+95        <activity
+95-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:9-75:20
+96            android:name="com.unity3d.player.UnityPlayerActivity"
+96-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-66
+97            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+97-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-194
+98            android:exported="true"
+98-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:13-36
+99            android:hardwareAccelerated="false"
+99-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:13-48
+100            android:launchMode="singleTask"
+100-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-44
+101            android:resizeableActivity="false"
+101-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-47
+102            android:screenOrientation="portrait"
+102-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-49
+103            android:theme="@style/UnityThemeSelector" >
+103-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-54
+104            <intent-filter>
+104-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-67:29
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-77
+105-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:27-74
+106
+107                <action android:name="android.intent.action.MAIN" />
+107-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-69
+107-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:25-66
+108            </intent-filter>
+109
+110            <meta-data
+110-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:13-71:40
+111                android:name="unityplayer.UnityActivity"
+111-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:17-57
+112                android:value="true" />
+112-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:17-37
+113            <meta-data
+113-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-74:40
+114                android:name="notch_support"
+114-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:17-45
+115                android:value="true" />
+115-->[:unityLibrary] D:\Documents\Unity\My project3\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.Myproject3\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:17-37
+116        </activity> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+117        <meta-data
+117-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:27:9-29:41
+118            android:name="com.google.ar.core.min_apk_version"
+118-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:28:13-62
+119            android:value="223110000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+119-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:29:13-38
+120        <activity
+120-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:31:9-37:80
+121            android:name="com.google.ar.core.InstallActivity"
+121-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:32:13-62
+122            android:configChanges="keyboardHidden|orientation|screenSize"
+122-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:33:13-74
+123            android:excludeFromRecents="true"
+123-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:34:13-46
+124            android:exported="false"
+124-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:35:13-37
+125            android:launchMode="singleTop"
+125-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:36:13-43
+126            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+126-->[com.google.ar:core:1.36.0] C:\Users\Денис\.gradle\caches\transforms-3\d5e017fbc646108d278d9d065862a3b2\transformed\jetified-core-1.36.0\AndroidManifest.xml:37:13-77
+127        <activity
+127-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:14:9-18:74
+128            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+128-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:15:13-74
+129            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+129-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:16:13-170
+130            android:hardwareAccelerated="true"
+130-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:17:13-47
+131            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+131-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:18:13-71
+132        <activity
+132-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:19:9-23:86
+133            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+133-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:20:13-85
+134            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+134-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:21:13-170
+135            android:hardwareAccelerated="true"
+135-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:22:13-47
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+136-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:23:13-83
+137        <activity
+137-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:24:9-28:86
+138            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+138-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:25:13-93
+139            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+139-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:26:13-170
+140            android:hardwareAccelerated="false"
+140-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:27:13-48
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+141-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:28:13-83
+142        <activity
+142-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:29:9-33:74
+143            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+143-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:30:13-82
+144            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+144-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:31:13-170
+145            android:hardwareAccelerated="false"
+145-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:32:13-48
+146            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+146-->[:UnityAds:] C:\Users\Денис\.gradle\caches\transforms-3\56c2a13d010b4b839effeccd13ace3ab\transformed\jetified-UnityAds\AndroidManifest.xml:33:13-71
+147
+148        <provider
+148-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:25:9-33:20
+149            android:name="com.vuforia.engine.app.VuforiaContentProvider"
+149-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:26:13-73
+150            android:authorities="com.DefaultCompany.Myproject3.vuforia.share"
+150-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:27:13-65
+151            android:exported="false"
+151-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:28:13-37
+152            android:grantUriPermissions="true" >
+152-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:29:13-47
+153            <meta-data
+153-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:30:13-32:53
+154                android:name="android.support.FILE_PROVIDER_PATHS"
+154-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:31:17-67
+155                android:resource="@xml/filepaths" />
+155-->[:VuforiaEngine:] C:\Users\Денис\.gradle\caches\transforms-3\eb10837eba75ce62ce08bf9f456f9973\transformed\jetified-VuforiaEngine\AndroidManifest.xml:32:17-50
+156        </provider>
+157
+158        <activity
+158-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:21:9-25:66
+159            android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
+159-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:22:13-74
+160            android:exported="false"
+160-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:23:13-37
+161            android:label="@string/title_activity_qr_code_capture"
+161-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:24:13-67
+162            android:theme="@style/Theme.AppCompat.NoActionBar" />
+162-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:25:13-63
+163        <!--
+164          Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
+165          NFC tag is detected.
+166        -->
+167        <activity
+167-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:31:9-44:20
+168            android:name="com.google.cardboard.sdk.HeadsetDetectionActivity"
+168-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:32:13-77
+169            android:exported="true"
+169-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:33:13-36
+170            android:label="@string/headset_detection_activity_title" >
+170-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:34:13-69
+171
+172            <!-- Handles the Cardboard V1 NFC tag released at Google I/O 2014. -->
+173            <intent-filter>
+173-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:37:13-43:29
+174                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+174-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:38:17-77
+174-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:38:25-74
+175
+176                <category android:name="android.intent.category.DEFAULT" />
+176-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:40:17-76
+176-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:40:27-73
+177
+178                <data android:scheme="cardboard" />
+178-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:42:17-52
+178-->[:GfxPluginCardboard:] C:\Users\Денис\.gradle\caches\transforms-3\a7691b59c182ea3e74b77e1f730bc61c\transformed\jetified-GfxPluginCardboard\AndroidManifest.xml:42:23-49
+179            </intent-filter>
+180        </activity>
+181        <activity
+181-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\d17d02f5366156714d3cc668f98acb3c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+182            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+182-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\d17d02f5366156714d3cc668f98acb3c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\d17d02f5366156714d3cc668f98acb3c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\d17d02f5366156714d3cc668f98acb3c\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+185
+186        <meta-data
+186-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\029c518da2676d2da1e192a53738e24a\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+187            android:name="com.google.android.gms.version"
+187-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\029c518da2676d2da1e192a53738e24a\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+188            android:value="@integer/google_play_services_version" />
+188-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\Денис\.gradle\caches\transforms-3\029c518da2676d2da1e192a53738e24a\transformed\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+189
+190        <provider
+190-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+191            android:name="androidx.startup.InitializationProvider"
+191-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+192            android:authorities="com.DefaultCompany.Myproject3.androidx-startup"
+192-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+193            android:exported="false" >
+193-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+194            <meta-data
+194-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+195                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+195-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+196                android:value="androidx.startup" />
+196-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Денис\.gradle\caches\transforms-3\f8c9f96e058eeab992770628d0528359\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+197            <meta-data
+197-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Денис\.gradle\caches\transforms-3\27047c5d0bb513344ae4ceefe258867b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+198                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+198-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Денис\.gradle\caches\transforms-3\27047c5d0bb513344ae4ceefe258867b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+199                android:value="androidx.startup" />
+199-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Денис\.gradle\caches\transforms-3\27047c5d0bb513344ae4ceefe258867b\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+200        </provider>
+201    </application>
+202
+203</manifest>

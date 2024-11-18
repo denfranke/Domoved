@@ -667,6 +667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RectTransform_set_sizeDelta_mC9A980EA6036E6725EF24CEDF3EE80A9B2B50EE5 (RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___0_a, Delegate_t* ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___0_source, Delegate_t* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_get_pixelRect_Injected_mB3A2018CC6C5B1C25336D4277CBAC66C415EC432 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___0_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_get_renderingDisplaySize_Injected_m38178534B7A5DF0A60E47EDD92583476C6FBBB84 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_ret, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_SendPreWillRenderCanvases_mE397C15067BBE1B0C65D7A6FE94046B9AF375DD9 (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_SendWillRenderCanvases_m2DA2A7A53FCE4B746A17CD5F0FCE6B21B1B46779 (const RuntimeMethod* method) ;
@@ -2142,6 +2143,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_isRootCanvas_m57410F800ED6E96
 	bool icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D Canvas_get_pixelRect_m6093115759D4B39B4076AFE44F7ECC886B1F6C9F (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Canvas_get_pixelRect_Injected_mB3A2018CC6C5B1C25336D4277CBAC66C415EC432(__this, (&V_0), NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_0 = V_0;
+		return L_0;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Canvas_get_scaleFactor_m6B8D694A68376EE5E13D9B0B0F037E2E90C99921 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
 	typedef float (*Canvas_get_scaleFactor_m6B8D694A68376EE5E13D9B0B0F037E2E90C99921_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
@@ -2176,6 +2187,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_referencePixelsPerUnit_m7114F
 	_il2cpp_icall_func = (Canvas_set_referencePixelsPerUnit_m7114F49D5EAAA8FA40AA5A3191B02325FEBF9B30_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_referencePixelsPerUnit(System.Single)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_overridePixelPerfect_mB21AFBB874D36098315B886D943D2381E96CF2E6 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
+{
+	typedef bool (*Canvas_get_overridePixelPerfect_mB21AFBB874D36098315B886D943D2381E96CF2E6_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
+	static Canvas_get_overridePixelPerfect_mB21AFBB874D36098315B886D943D2381E96CF2E6_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_get_overridePixelPerfect_mB21AFBB874D36098315B886D943D2381E96CF2E6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_overridePixelPerfect()");
+	bool icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_overridePixelPerfect_m09F509C6DD5D8BC7F356586E43CCACF727FB5352 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_set_overridePixelPerfect_m09F509C6DD5D8BC7F356586E43CCACF727FB5352_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, bool);
+	static Canvas_set_overridePixelPerfect_m09F509C6DD5D8BC7F356586E43CCACF727FB5352_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_set_overridePixelPerfect_m09F509C6DD5D8BC7F356586E43CCACF727FB5352_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_overridePixelPerfect(System.Boolean)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
 	typedef bool (*Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
@@ -2184,6 +2212,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Canvas_get_pixelPerfect_mFD997D340F57D87
 	_il2cpp_icall_func = (Canvas_get_pixelPerfect_mFD997D340F57D87C0307F92A9AA1155EF3DF7E75_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_pixelPerfect()");
 	bool icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Canvas_get_planeDistance_mA37842426E220D0CDA03606E674B581F67BC3338 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
+{
+	typedef float (*Canvas_get_planeDistance_mA37842426E220D0CDA03606E674B581F67BC3338_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
+	static Canvas_get_planeDistance_mA37842426E220D0CDA03606E674B581F67BC3338_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_get_planeDistance_mA37842426E220D0CDA03606E674B581F67BC3338_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_planeDistance()");
+	float icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_planeDistance_m730278089C7546A512385305C1F250C6477C279E (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_set_planeDistance_m730278089C7546A512385305C1F250C6477C279E_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, float);
+	static Canvas_set_planeDistance_m730278089C7546A512385305C1F250C6477C279E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_set_planeDistance_m730278089C7546A512385305C1F250C6477C279E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_planeDistance(System.Single)");
+	_il2cpp_icall_func(__this, ___0_value);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_renderOrder_m4BC79FD8062270F9848DFE38DE6CC578BBF7DFAC (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
@@ -2237,6 +2282,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_targetDisplay_m2F2FCEA6885
 	int32_t icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_targetDisplay_mE0E9078C5DBE321BF15B3F02D85FD255897ADA7B (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_set_targetDisplay_mE0E9078C5DBE321BF15B3F02D85FD255897ADA7B_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, int32_t);
+	static Canvas_set_targetDisplay_mE0E9078C5DBE321BF15B3F02D85FD255897ADA7B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_set_targetDisplay_mE0E9078C5DBE321BF15B3F02D85FD255897ADA7B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_targetDisplay(System.Int32)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Canvas_get_sortingLayerID_m38FE23D0D6A2001F62CA24676298E95BEE968AB6 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
 {
 	typedef int32_t (*Canvas_get_sortingLayerID_m38FE23D0D6A2001F62CA24676298E95BEE968AB6_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
@@ -2269,6 +2322,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_additionalShaderChannels_m182
 	static Canvas_set_additionalShaderChannels_m182712BE72B72BE41FAFE97F2FD79C2476132DB0_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
 	_il2cpp_icall_func = (Canvas_set_additionalShaderChannels_m182712BE72B72BE41FAFE97F2FD79C2476132DB0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_additionalShaderChannels(UnityEngine.AdditionalCanvasShaderChannels)");
+	_il2cpp_icall_func(__this, ___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Canvas_get_sortingLayerName_mEBB0FD08B3B7763947CCB308B55AA3BFD9484B21 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
+{
+	typedef String_t* (*Canvas_get_sortingLayerName_mEBB0FD08B3B7763947CCB308B55AA3BFD9484B21_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
+	static Canvas_get_sortingLayerName_mEBB0FD08B3B7763947CCB308B55AA3BFD9484B21_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_get_sortingLayerName_mEBB0FD08B3B7763947CCB308B55AA3BFD9484B21_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_sortingLayerName()");
+	String_t* icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_sortingLayerName_m5812AF732B17DB18E574D41F9AB133B8798EC32D (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_set_sortingLayerName_m5812AF732B17DB18E574D41F9AB133B8798EC32D_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, String_t*);
+	static Canvas_set_sortingLayerName_m5812AF732B17DB18E574D41F9AB133B8798EC32D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_set_sortingLayerName_m5812AF732B17DB18E574D41F9AB133B8798EC32D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_sortingLayerName(System.String)");
 	_il2cpp_icall_func(__this, ___0_value);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* Canvas_get_rootCanvas_m74DEA02014963B54DF651BE14284BDAFDA61DDFE (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
@@ -2390,6 +2460,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E
 	_il2cpp_icall_func = (Canvas_get_worldCamera_mD2FDE13B61A5213F4E64B40008EB0A8D2D07B853_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_worldCamera()");
 	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* icallRetVal = _il2cpp_icall_func(__this);
 	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Canvas_get_normalizedSortingGridSize_mF7452EC8FC2EF133A2D2C9988620A3624828368E (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, const RuntimeMethod* method) 
+{
+	typedef float (*Canvas_get_normalizedSortingGridSize_mF7452EC8FC2EF133A2D2C9988620A3624828368E_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*);
+	static Canvas_get_normalizedSortingGridSize_mF7452EC8FC2EF133A2D2C9988620A3624828368E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_get_normalizedSortingGridSize_mF7452EC8FC2EF133A2D2C9988620A3624828368E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_normalizedSortingGridSize()");
+	float icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_set_normalizedSortingGridSize_mBFF42D7BE6330782C4D76B0E9EC5A8D60DB76078 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, float ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_set_normalizedSortingGridSize_mBFF42D7BE6330782C4D76B0E9EC5A8D60DB76078_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, float);
+	static Canvas_set_normalizedSortingGridSize_mBFF42D7BE6330782C4D76B0E9EC5A8D60DB76078_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_set_normalizedSortingGridSize_mBFF42D7BE6330782C4D76B0E9EC5A8D60DB76078_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::set_normalizedSortingGridSize(System.Single)");
+	_il2cpp_icall_func(__this, ___0_value);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* Canvas_GetDefaultCanvasMaterial_m7A0E204A9DC6A1390692788E37DBE7D8C6B71CD2 (const RuntimeMethod* method) 
 {
@@ -2587,6 +2674,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas__ctor_mED11565079AACEF05FCB42C088
 		Behaviour__ctor_m00422B6EFEA829BCB116D715E74F1EAD2CB6F4F8(__this, NULL);
 		return;
 	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_get_pixelRect_Injected_mB3A2018CC6C5B1C25336D4277CBAC66C415EC432 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___0_ret, const RuntimeMethod* method) 
+{
+	typedef void (*Canvas_get_pixelRect_Injected_mB3A2018CC6C5B1C25336D4277CBAC66C415EC432_ftn) (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*);
+	static Canvas_get_pixelRect_Injected_mB3A2018CC6C5B1C25336D4277CBAC66C415EC432_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Canvas_get_pixelRect_Injected_mB3A2018CC6C5B1C25336D4277CBAC66C415EC432_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Canvas::get_pixelRect_Injected(UnityEngine.Rect&)");
+	_il2cpp_icall_func(__this, ___0_ret);
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Canvas_get_renderingDisplaySize_Injected_m38178534B7A5DF0A60E47EDD92583476C6FBBB84 (Canvas_t2DB4CEFDFF732884866C83F11ABF75F5AE8FFB26* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_ret, const RuntimeMethod* method) 
 {

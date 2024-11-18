@@ -10638,7 +10638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlInternalConnectionTds_BreakConnection
 	{
 		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_2 = V_0;
 		NullCheck(L_2);
-		VirtualActionInvoker0::Invoke(17, L_2);
+		VirtualActionInvoker0::Invoke(18, L_2);
 	}
 
 IL_0016:
@@ -24801,7 +24801,7 @@ IL_0098:
 		StringWriter_tF48052BE4F980E5C85403221E835768E4156267D* L_23 = __this->____strWriter;
 		NullCheck(L_23);
 		StringBuilder_t* L_24;
-		L_24 = VirtualFuncInvoker0< StringBuilder_t* >::Invoke(22, L_23);
+		L_24 = VirtualFuncInvoker0< StringBuilder_t* >::Invoke(23, L_23);
 		V_2 = L_24;
 		goto IL_00eb;
 	}
