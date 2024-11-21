@@ -4,6 +4,23 @@
             "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeDebugResources-32:/values-az/values-az.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\8f56f7bd0e5bdc0c456829721fdd8247\\transformed\\jetified-arcore_client\\res\\values-az\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,293,405,523",
+                        "endColumns": "49,52,111,117,85",
+                        "endOffsets": "239,292,404,522,608"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "270,324,381,497,619",
+                        "endColumns": "53,56,115,121,89",
+                        "endOffsets": "319,376,492,614,704"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\029c518da2676d2da1e192a53738e24a\\transformed\\jetified-play-services-basement-17.4.0\\res\\values-az\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -71,23 +88,6 @@
                         "endLines": "5,38,39,40,41,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109",
                         "endColumns": "12,79,95,115,79,63,93,67,58,94,63,58,66,62,53,114,57,61,53,70,131,83,79,103,75,75,83,66,65,69,77,82,69,75,77,70,85,82,92,92,72,71,93,53,66,83,87,63,64,63,101,96,95,96,79",
                         "endOffsets": "265,3492,3588,3704,3784,6583,6677,6745,6804,6899,6963,7022,7089,7152,7206,7321,7379,7441,7495,7566,7698,7782,7862,7966,8042,8118,8202,8269,8335,8405,8483,8566,8636,8712,8790,8861,8947,9030,9123,9216,9289,9361,9455,9509,9576,9660,9748,9812,9877,9941,10043,10140,10236,10333,10413"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-az\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,240,293,405,523",
-                        "endColumns": "49,52,111,117,85",
-                        "endOffsets": "239,292,404,522,608"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "270,324,381,497,619",
-                        "endColumns": "53,56,115,121,89",
-                        "endOffsets": "319,376,492,614,704"
                     }
                 },
                 {

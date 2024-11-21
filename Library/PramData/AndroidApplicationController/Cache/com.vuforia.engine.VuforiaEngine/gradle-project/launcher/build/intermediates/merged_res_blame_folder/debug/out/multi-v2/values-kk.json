@@ -23,6 +23,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\8f56f7bd0e5bdc0c456829721fdd8247\\transformed\\jetified-arcore_client\\res\\values-kk\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,235,288,436,587",
+                        "endColumns": "44,52,147,150,86",
+                        "endOffsets": "234,287,435,586,673"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "278,327,384,536,691",
+                        "endColumns": "48,56,151,154,90",
+                        "endOffsets": "322,379,531,686,777"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d17d02f5366156714d3cc668f98acb3c\\transformed\\jetified-play-services-base-17.4.0\\res\\values-kk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -88,23 +105,6 @@
                         "startOffsets": "782,890,995,1105,1190,1296,1415,1495,1572,1663,1756,1851,1945,2045,2138,2233,2330,2421,2512,2593,2698,2801,2899,3006,3112,3212,3378,10476",
                         "endColumns": "107,104,109,84,105,118,79,76,90,92,94,93,99,92,94,96,90,90,80,104,102,97,106,105,99,165,94,81",
                         "endOffsets": "885,990,1100,1185,1291,1410,1490,1567,1658,1751,1846,1940,2040,2133,2228,2325,2416,2507,2588,2693,2796,2894,3001,3107,3207,3373,3468,10553"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-kk\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,235,288,436,587",
-                        "endColumns": "44,52,147,150,86",
-                        "endOffsets": "234,287,435,586,673"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "278,327,384,536,691",
-                        "endColumns": "48,56,151,154,90",
-                        "endOffsets": "322,379,531,686,777"
                     }
                 }
             ]

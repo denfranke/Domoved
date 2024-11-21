@@ -13,13 +13,12 @@ public class PlayerVRController : MonoBehaviour
 
     void Start ()
     {
-        //controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
     void Update()
     {
-        test();
-        //PlayerMovement(); 
+        PlayerMovement(); 
     }
 
     private void PlayerMovement ()
@@ -31,15 +30,5 @@ public class PlayerVRController : MonoBehaviour
         velocity = Camera.main.transform.TransformDirection(velocity);
         velocity.y -= gravity;
         controller.Move(velocity*Time.deltaTime);
-    }
-
-    private void test ()
-    {
-        float moveHorizontal = Input.GetAxis("Horizontal");
-        float moveVertical = Input.GetAxis("Vertical");
-        if(moveHorizontal!=0 && moveVertical!=0)
-        Debug.Log(moveHorizontal+"______"+ moveVertical);
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        transform.Translate(movement * speed * Time.deltaTime);
     }
 }

@@ -576,7 +576,7 @@ namespace UnityEngine.InputSystem.XR
         /// <param name="newRotation">The new local rotation to possibly set.</param>
         protected virtual void SetLocalTransform(Vector3 newPosition, Quaternion newRotation)
         {
-            Debug.Log(newPosition);
+            //Debug.Log(newPosition);
             var positionValid = m_IgnoreTrackingState || (m_CurrentTrackingState & TrackingStates.Position) != 0;
             var rotationValid = m_IgnoreTrackingState || (m_CurrentTrackingState & TrackingStates.Rotation) != 0;
 

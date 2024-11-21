@@ -795,15 +795,16 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/MainMenu.unity",
-              "Assets/Scenes/WorkSpace.unity"
+              "Assets/Scenes/MainMenu.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "CapsuleCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainMenu.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

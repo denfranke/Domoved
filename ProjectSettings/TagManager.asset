@@ -3,17 +3,27 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SettingHeadLine
+  - ListLine
+  - MaterialScrollView
+  - Flat
+  - Door
+  - Floor
+  - Wallpaper
+  - Furniture
+  - LightInFlat
+  - TeleportPoint
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Interactive
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Roof
+  - Floor
+  - Furniture
   - 
   - 
   - 

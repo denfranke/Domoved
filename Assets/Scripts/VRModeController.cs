@@ -58,7 +58,6 @@ public class VRModeController : MonoBehaviour
             {
                 Api.ScanDeviceParams();
             }
-
             Api.UpdateScreenParams();
         }
         //else

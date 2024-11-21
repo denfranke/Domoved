@@ -17,7 +17,7 @@
 //-----------------------------------------------------------------------
 
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 /// <summary>
 /// Draws a circular reticle in front of any object that the user points at.
@@ -126,9 +126,12 @@ public class CardboardReticlePointer : MonoBehaviour
     /// </summary>
     private float _reticleOuterDiameter;
 
-    /// <summary>
-    /// Start is called before the first frame update.
-    /// </summary>
+    [SerializeField] private float timeForSelection;// = 2.5f;
+    
+    private float timeCounter;
+    private float timeProggres;
+    private bool runTimer;
+
     private void Start()
     {
         Renderer rendererComponent = GetComponent<Renderer>();
@@ -137,6 +140,11 @@ public class CardboardReticlePointer : MonoBehaviour
         _reticleMaterial = rendererComponent.material;
 
         CreateMesh();
+    }
+
+    private void GazeSelection ()
+    {
+        _gazedAtObject?.SendMessage("OnPointerClickXR", null, SendMessageOptions.DontRequireReceiver);
     }
 
     /// <summary>
@@ -149,20 +157,19 @@ public class CardboardReticlePointer : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit, _RETICLE_MAX_DISTANCE))
         {
-            // GameObject detected in front of the camera.
             if (_gazedAtObject != hit.transform.gameObject)
             {
-                // New GameObject.
                 if (IsInteractive(_gazedAtObject))
                 {
-                    _gazedAtObject?.SendMessage("OnPointerExit");
+                    _gazedAtObject?.SendMessage("OnPointerExitXR", null, SendMessageOptions.DontRequireReceiver);
                 }
 
                 _gazedAtObject = hit.transform.gameObject;
 
                 if (IsInteractive(_gazedAtObject))
                 {
-                    _gazedAtObject.SendMessage("OnPointerEnter");
+                    _gazedAtObject.SendMessage("OnPointerEnterXR", null, SendMessageOptions.DontRequireReceiver);
+                    StartGazeSelection();
                 }
             }
 
@@ -170,26 +177,31 @@ public class CardboardReticlePointer : MonoBehaviour
         }
         else
         {
-            // No GameObject detected in front of the camera.
             if (IsInteractive(_gazedAtObject))
             {
-                _gazedAtObject?.SendMessage("OnPointerExit");
+                _gazedAtObject?.SendMessage("OnPointerExitXR", null, SendMessageOptions.DontRequireReceiver);
             }
 
+            CancelGazeSelection();
             _gazedAtObject = null;
             ResetParams();
         }
 
-        // Checks for screen touches.
-        if (Google.XR.Cardboard.Api.IsTriggerPressed)
+        if(Google.XR.Cardboard.Api.IsTriggerPressed)
         {
-            if (IsInteractive(_gazedAtObject))
+            if(IsInteractive(_gazedAtObject))
             {
-                _gazedAtObject?.SendMessage("OnPointerClick");
+                _gazedAtObject?.SendMessage("OnPointerClickXR", null, SendMessageOptions.DontRequireReceiver);
             }
         }
 
         UpdateDiameters();
+
+        if(runTimer)
+        {
+            timeProggres += Time.deltaTime;
+            AddValue(timeProggres);
+        }
     }
 
     /// <summary>
@@ -325,4 +337,32 @@ public class CardboardReticlePointer : MonoBehaviour
     {
         return (1 << gameObject?.layer & ReticleInteractionLayerMask) != 0;
     }
+
+    public void StartGazeSelection ()
+    {
+        runTimer = true;
+        timeProggres = 0;
+    }
+
+    public void CancelGazeSelection ()
+    {
+        runTimer = false;
+        timeProggres = 0;
+        timeCounter = 0;
+    }
+
+    private void AddValue (float val)
+    {
+        timeCounter = val;
+        if(timeCounter >= timeForSelection)
+        {
+            timeCounter = 0;
+            runTimer = false;
+            if(IsInteractive(_gazedAtObject))
+            {
+                _gazedAtObject?.SendMessage("OnPointerClickXR", null, SendMessageOptions.DontRequireReceiver);
+            }
+        }
+    }
+
 }

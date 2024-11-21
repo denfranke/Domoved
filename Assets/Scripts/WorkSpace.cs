@@ -60,9 +60,15 @@ public class WorkSpace : MonoBehaviour
     private string FlatNameInUnity;
     private int NorthDirectionOfFlatInDegrees;
 
+    public GameObject ArMode;
+    public GameObject VrMode;
+
     void Start ()
     {
         CreateFlatsAtScene();
+
+        ArMode.SetActive(true);
+        VrMode.SetActive(true);
 
         ParentInArModeWhereFlat.transform.GetChild(0).gameObject.SetActive(false);
         ParentInVrModeWhereFlat.transform.GetChild(0).gameObject.SetActive(false);
@@ -90,8 +96,8 @@ public class WorkSpace : MonoBehaviour
         ParentInVrModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
         ParentInNormalModeWhereFlat.transform.GetChild(0).gameObject.SetActive(true);
 
-        GameObject.Find("ArMode").SetActive(false);
-        GameObject.Find("VrMode").SetActive(false);
+        ArMode.SetActive(false);
+        VrMode.SetActive(false);
 
         InfoSpace.SetActive(true);
         InfoSpaceInAR.SetActive(true);
@@ -128,12 +134,22 @@ public class WorkSpace : MonoBehaviour
     {
         NorthDirectionOfFlatInDegrees = PlayerPrefs.GetInt("NorthDirectionOfFlatInDegrees");
         FlatNameInUnity = PlayerPrefs.GetString("FlatNameInUnity");
-        //Debug.Log("________ "+FlatNameInUnity);
-        FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/" + FlatNameInUnity);
+        if(FlatNameInUnity != "" && FlatNameInUnity != null)
+            FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/" + FlatNameInUnity);
+        else
+            FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/Flat1");
 
         Transform FlatInNormalMode = Instantiate(FlatPrefab).transform;
         FlatInNormalMode.SetParent(ParentInNormalModeWhereFlat.transform, false);
         FlatInNormalMode.eulerAngles = new Vector3(0, NorthDirectionOfFlatInDegrees, 0);
+
+        foreach(TeleportPoint teleportPoint in FlatInNormalMode.GetComponentsInChildren<TeleportPoint>())
+        {
+            if(teleportPoint.tag == "TeleportPoint")
+            {
+                teleportPoint.gameObject.SetActive(false);
+            }
+        }
 
         Transform FlatInVrMode = Instantiate(FlatPrefab).transform;
         FlatInVrMode.SetParent(ParentInVrModeWhereFlat.transform, false);
@@ -142,15 +158,26 @@ public class WorkSpace : MonoBehaviour
         Transform FlatInArMode = Instantiate(FlatPrefab).transform;
         FlatInArMode.SetParent(ParentInArModeWhereFlat.transform, false);
         FlatInArMode.eulerAngles = new Vector3(0, NorthDirectionOfFlatInDegrees, 0);
-        if(FlatNameInUnity!="FlatTutorial")
-        foreach(Light l in FlatInArMode.GetComponentsInChildren<Light>())
+
+        foreach(TeleportPoint teleportPoint in FlatInArMode.GetComponentsInChildren<TeleportPoint>())
         {
-            if(l.tag == "LightInFlat")
+            if(teleportPoint.tag== "TeleportPoint")
             {
-                l.intensity = 0.333f;
-                //l.intensity = 0.2f;
+                teleportPoint.gameObject.SetActive(false);
             }
         }
+
+        if(FlatNameInUnity != "FlatTutorial")
+        {
+            foreach(Light l in FlatInArMode.GetComponentsInChildren<Light>())
+            {
+                if(l.tag == "LightInFlat")
+                {
+                    l.intensity = 0.333f;
+                }
+            }
+        }
+
         FlatInArMode.localScale = new Vector3(0.0333333f, 0.0333333f, 0.0333333f);
     }
 
@@ -356,7 +383,7 @@ public class WorkSpace : MonoBehaviour
             }
         }
     }
-    
+
     public void _OpenOrCloseSettingsSpaceInVR ()
     {
         SettingsSpaceInVR.SetActive(!SettingsSpaceInVR.activeSelf);

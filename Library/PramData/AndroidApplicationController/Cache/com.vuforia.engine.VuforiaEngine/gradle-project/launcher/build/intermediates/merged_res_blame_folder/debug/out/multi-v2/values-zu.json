@@ -74,23 +74,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-zu\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,239,289,428,558",
-                        "endColumns": "48,49,138,129,86",
-                        "endOffsets": "238,288,427,557,644"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "276,329,383,526,660",
-                        "endColumns": "52,53,142,133,90",
-                        "endOffsets": "324,378,521,655,746"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\f5e4bff6dddc95c1e4569b2a41c648ee\\transformed\\core-1.9.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
@@ -105,6 +88,23 @@
                         "startOffsets": "10756",
                         "endColumns": "100",
                         "endOffsets": "10852"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\8f56f7bd0e5bdc0c456829721fdd8247\\transformed\\jetified-arcore_client\\res\\values-zu\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,239,289,428,558",
+                        "endColumns": "48,49,138,129,86",
+                        "endOffsets": "238,288,427,557,644"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "276,329,383,526,660",
+                        "endColumns": "52,53,142,133,90",
+                        "endOffsets": "324,378,521,655,746"
                     }
                 }
             ]

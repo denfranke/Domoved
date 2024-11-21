@@ -24760,13 +24760,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_PerformUpdate_m50A4CBF
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_SetLocalTransform_m6C68735BAD17BB4D30A7E1CA0963FA892EF91312 (TrackedPoseDriver_t779D5EAD0B11F253C64256301D08963E951CEA98* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_newPosition, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_newRotation, const RuntimeMethod* method) 
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
 	bool V_0 = false;
 	bool V_1 = false;
 	bool V_2 = false;
@@ -24779,180 +24772,175 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TrackedPoseDriver_SetLocalTransform_m6C6
 	int32_t G_B20_0 = 0;
 	int32_t G_B22_0 = 0;
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_newPosition;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = L_0;
-		RuntimeObject* L_2 = Box(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var, &L_1);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		bool L_3 = __this->___m_IgnoreTrackingState;
-		if (L_3)
+		bool L_0 = __this->___m_IgnoreTrackingState;
+		if (L_0)
 		{
-			goto IL_0022;
+			goto IL_0016;
 		}
 	}
 	{
-		int32_t L_4 = __this->___m_CurrentTrackingState;
-		G_B3_0 = ((!(((uint32_t)((int32_t)((int32_t)L_4&1))) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_0023;
+		int32_t L_1 = __this->___m_CurrentTrackingState;
+		G_B3_0 = ((!(((uint32_t)((int32_t)((int32_t)L_1&1))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_0017;
 	}
 
-IL_0022:
+IL_0016:
 	{
 		G_B3_0 = 1;
 	}
 
-IL_0023:
+IL_0017:
 	{
 		V_0 = (bool)G_B3_0;
-		bool L_5 = __this->___m_IgnoreTrackingState;
-		if (L_5)
+		bool L_2 = __this->___m_IgnoreTrackingState;
+		if (L_2)
 		{
-			goto IL_0039;
+			goto IL_002d;
 		}
 	}
 	{
-		int32_t L_6 = __this->___m_CurrentTrackingState;
-		G_B6_0 = ((!(((uint32_t)((int32_t)((int32_t)L_6&2))) <= ((uint32_t)0)))? 1 : 0);
-		goto IL_003a;
+		int32_t L_3 = __this->___m_CurrentTrackingState;
+		G_B6_0 = ((!(((uint32_t)((int32_t)((int32_t)L_3&2))) <= ((uint32_t)0)))? 1 : 0);
+		goto IL_002e;
 	}
 
-IL_0039:
+IL_002d:
 	{
 		G_B6_0 = 1;
 	}
 
-IL_003a:
+IL_002e:
 	{
 		V_1 = (bool)G_B6_0;
-		int32_t L_7 = __this->___m_TrackingType;
-		bool L_8 = V_1;
-		bool L_9 = V_0;
-		V_2 = (bool)((int32_t)(((int32_t)(((((int32_t)L_7) == ((int32_t)0))? 1 : 0)&(int32_t)L_8))&(int32_t)L_9));
-		bool L_10 = V_2;
-		if (!L_10)
+		int32_t L_4 = __this->___m_TrackingType;
+		bool L_5 = V_1;
+		bool L_6 = V_0;
+		V_2 = (bool)((int32_t)(((int32_t)(((((int32_t)L_4) == ((int32_t)0))? 1 : 0)&(int32_t)L_5))&(int32_t)L_6));
+		bool L_7 = V_2;
+		if (!L_7)
 		{
-			goto IL_005d;
+			goto IL_0051;
 		}
 	}
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11;
-		L_11 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = ___0_newPosition;
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13 = ___1_newRotation;
-		NullCheck(L_11);
-		Transform_SetLocalPositionAndRotation_m0FB0FCF462AB7CD21880042918BCC372A59E734D(L_11, L_12, L_13, NULL);
-		goto IL_00b9;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_newPosition;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_newRotation;
+		NullCheck(L_8);
+		Transform_SetLocalPositionAndRotation_m0FB0FCF462AB7CD21880042918BCC372A59E734D(L_8, L_9, L_10, NULL);
+		goto IL_00ad;
 	}
 
-IL_005d:
+IL_0051:
 	{
-		bool L_14 = V_1;
-		if (!L_14)
+		bool L_11 = V_1;
+		if (!L_11)
 		{
-			goto IL_0076;
+			goto IL_006a;
 		}
 	}
 	{
-		int32_t L_15 = __this->___m_TrackingType;
-		if (!L_15)
+		int32_t L_12 = __this->___m_TrackingType;
+		if (!L_12)
 		{
-			goto IL_0073;
+			goto IL_0067;
 		}
 	}
 	{
-		int32_t L_16 = __this->___m_TrackingType;
-		G_B12_0 = ((((int32_t)L_16) == ((int32_t)1))? 1 : 0);
-		goto IL_0074;
+		int32_t L_13 = __this->___m_TrackingType;
+		G_B12_0 = ((((int32_t)L_13) == ((int32_t)1))? 1 : 0);
+		goto IL_0068;
 	}
 
-IL_0073:
+IL_0067:
 	{
 		G_B12_0 = 1;
 	}
 
-IL_0074:
+IL_0068:
 	{
 		G_B14_0 = G_B12_0;
-		goto IL_0077;
+		goto IL_006b;
 	}
 
-IL_0076:
+IL_006a:
 	{
 		G_B14_0 = 0;
 	}
 
-IL_0077:
+IL_006b:
 	{
 		V_3 = (bool)G_B14_0;
-		bool L_17 = V_3;
+		bool L_14 = V_3;
+		if (!L_14)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
+		L_15 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___1_newRotation;
+		NullCheck(L_15);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_15, L_16, NULL);
+	}
+
+IL_007e:
+	{
+		bool L_17 = V_0;
 		if (!L_17)
 		{
-			goto IL_008a;
+			goto IL_0097;
 		}
 	}
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18;
-		L_18 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_19 = ___1_newRotation;
-		NullCheck(L_18);
-		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_18, L_19, NULL);
+		int32_t L_18 = __this->___m_TrackingType;
+		if (!L_18)
+		{
+			goto IL_0094;
+		}
+	}
+	{
+		int32_t L_19 = __this->___m_TrackingType;
+		G_B20_0 = ((((int32_t)L_19) == ((int32_t)2))? 1 : 0);
+		goto IL_0095;
 	}
 
-IL_008a:
-	{
-		bool L_20 = V_0;
-		if (!L_20)
-		{
-			goto IL_00a3;
-		}
-	}
-	{
-		int32_t L_21 = __this->___m_TrackingType;
-		if (!L_21)
-		{
-			goto IL_00a0;
-		}
-	}
-	{
-		int32_t L_22 = __this->___m_TrackingType;
-		G_B20_0 = ((((int32_t)L_22) == ((int32_t)2))? 1 : 0);
-		goto IL_00a1;
-	}
-
-IL_00a0:
+IL_0094:
 	{
 		G_B20_0 = 1;
 	}
 
-IL_00a1:
+IL_0095:
 	{
 		G_B22_0 = G_B20_0;
-		goto IL_00a4;
+		goto IL_0098;
 	}
 
-IL_00a3:
+IL_0097:
 	{
 		G_B22_0 = 0;
 	}
 
-IL_00a4:
+IL_0098:
 	{
 		V_4 = (bool)G_B22_0;
-		bool L_23 = V_4;
-		if (!L_23)
+		bool L_20 = V_4;
+		if (!L_20)
 		{
-			goto IL_00b9;
+			goto IL_00ad;
 		}
 	}
 	{
-		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_24;
-		L_24 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = ___0_newPosition;
-		NullCheck(L_24);
-		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_24, L_25, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21;
+		L_21 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22 = ___0_newPosition;
+		NullCheck(L_21);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_21, L_22, NULL);
 	}
 
-IL_00b9:
+IL_00ad:
 	{
 		return;
 	}

@@ -1324,17 +1324,17 @@
       <Project>{29651ECC-C64B-B74C-7F20-E7A9A5C28C89}</Project>
       <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
-      <Project>{BEEE78ED-FDC6-E5AE-9C13-5162651F96FF}</Project>
-      <Name>UnityEngine.Advertisements.Editor</Name>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{C471B118-70C2-E73E-9C76-9AC741D56934}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
       <Project>{C5C51782-3C54-372F-FF33-66274E66138A}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{C471B118-70C2-E73E-9C76-9AC741D56934}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
+    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
+      <Project>{C732D882-D627-D18B-2929-D819105606BD}</Project>
+      <Name>UnityEngine.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
       <Project>{43179B79-A27F-DB57-BA32-AF6BD56DD558}</Project>
@@ -1344,9 +1344,9 @@
       <Project>{906355D0-4CE0-AA90-2B5B-3DD6A7B2CF6A}</Project>
       <Name>Analytics</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.SpatialTracking.csproj">
-      <Project>{C732D882-D627-D18B-2929-D819105606BD}</Project>
-      <Name>UnityEngine.SpatialTracking</Name>
+    <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
+      <Project>{BEEE78ED-FDC6-E5AE-9C13-5162651F96FF}</Project>
+      <Name>UnityEngine.Advertisements.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
       <Project>{C6945AB4-69F8-C7C9-5E4C-09404BDCF311}</Project>
@@ -1380,10 +1380,6 @@
       <Project>{71FD3B5F-7DB9-5EC8-3837-D2C973980FD2}</Project>
       <Name>Unity.Services.Analytics</Name>
     </ProjectReference>
-    <ProjectReference Include="Google.XR.Cardboard.csproj">
-      <Project>{DF47BBEE-9CD6-2FB5-3B9A-67556A42AC2F}</Project>
-      <Name>Google.XR.Cardboard</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{BAB169A6-69E2-CE2D-5C35-6F574577914E}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
@@ -1399,6 +1395,10 @@
     <ProjectReference Include="Unity.XR.ARFoundation.InternalUtils.csproj">
       <Project>{3C33F58C-59A7-C4BE-007F-1226988F3447}</Project>
       <Name>Unity.XR.ARFoundation.InternalUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.XR.Cardboard.csproj">
+      <Project>{DF47BBEE-9CD6-2FB5-3B9A-67556A42AC2F}</Project>
+      <Name>Google.XR.Cardboard</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
       <Project>{EDD9996A-04FE-1F16-D8C5-F61801D6E2EB}</Project>

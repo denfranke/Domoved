@@ -21,7 +21,7 @@ public class DbConnector : MonoBehaviour
     public GameObject HousesMenu;
     public GameObject FlatsMenu;
 
-    private string ip = "192.168.1.83";
+    private string ip = "192.168.1.67";
     //private string ip = "172.23.49.114";
 
     private string curCity = "", curDistrict = "", curStreet = "", curHouse = "";

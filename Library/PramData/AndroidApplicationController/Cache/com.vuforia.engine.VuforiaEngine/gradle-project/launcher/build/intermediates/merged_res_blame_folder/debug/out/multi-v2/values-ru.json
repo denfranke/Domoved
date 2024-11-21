@@ -4,6 +4,23 @@
             "outputFile": "com.vuforia.engine.VuforiaEngine.launcher-mergeDebugResources-32:/values-ru/values-ru.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\8f56f7bd0e5bdc0c456829721fdd8247\\transformed\\jetified-arcore_client\\res\\values-ru\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,237,285,410,535",
+                        "endColumns": "46,47,124,124,82",
+                        "endOffsets": "236,284,409,534,617"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "386,437,489,618,747",
+                        "endColumns": "50,51,128,128,86",
+                        "endOffsets": "432,484,613,742,829"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\07151636ec540644dd261701c2aa6351\\transformed\\appcompat-1.6.1\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -88,23 +105,6 @@
                         "startOffsets": "5118",
                         "endColumns": "215",
                         "endOffsets": "5329"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-ru\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,237,285,410,535",
-                        "endColumns": "46,47,124,124,82",
-                        "endOffsets": "236,284,409,534,617"
-                    },
-                    "to": {
-                        "startLines": "8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "386,437,489,618,747",
-                        "endColumns": "50,51,128,128,86",
-                        "endOffsets": "432,484,613,742,829"
                     }
                 }
             ]

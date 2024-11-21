@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\8f56f7bd0e5bdc0c456829721fdd8247\\transformed\\jetified-arcore_client\\res\\values-de\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,240,289,423,560",
+                        "endColumns": "49,48,133,136,90",
+                        "endOffsets": "239,288,422,559,650"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "288,342,395,533,674",
+                        "endColumns": "53,52,137,140,94",
+                        "endOffsets": "337,390,528,669,764"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\029c518da2676d2da1e192a53738e24a\\transformed\\jetified-play-services-basement-17.4.0\\res\\values-de\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -69,23 +86,6 @@
                         "startOffsets": "10833",
                         "endColumns": "100",
                         "endOffsets": "10929"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-de\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,240,289,423,560",
-                        "endColumns": "49,48,133,136,90",
-                        "endOffsets": "239,288,422,559,650"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "288,342,395,533,674",
-                        "endColumns": "53,52,137,140,94",
-                        "endOffsets": "337,390,528,669,764"
                     }
                 },
                 {

@@ -38,23 +38,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\d5e017fbc646108d278d9d065862a3b2\\transformed\\jetified-core-1.36.0\\res\\values-mn\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8",
-                        "startColumns": "0,0,0,0,0",
-                        "startOffsets": "190,237,292,415,545",
-                        "endColumns": "46,54,122,129,88",
-                        "endOffsets": "236,291,414,544,633"
-                    },
-                    "to": {
-                        "startLines": "6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "270,321,380,507,641",
-                        "endColumns": "50,58,126,133,92",
-                        "endOffsets": "316,375,502,636,729"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\b4663f81e26c8ae5f971877736cee71c\\transformed\\material-1.6.1\\res\\values-mn\\values-mn.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
@@ -105,6 +88,23 @@
                         "startOffsets": "734,848,948,1057,1143,1249,1363,1446,1527,1618,1711,1806,1902,1999,2092,2186,2278,2369,2459,2539,2646,2749,2846,2953,3055,3168,3327,10476",
                         "endColumns": "113,99,108,85,105,113,82,80,90,92,94,95,96,92,93,91,90,89,79,106,102,96,106,101,112,158,98,80",
                         "endOffsets": "843,943,1052,1138,1244,1358,1441,1522,1613,1706,1801,1897,1994,2087,2181,2273,2364,2454,2534,2641,2744,2841,2948,3050,3163,3322,3421,10552"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Денис\\.gradle\\caches\\transforms-3\\8f56f7bd0e5bdc0c456829721fdd8247\\transformed\\jetified-arcore_client\\res\\values-mn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,237,292,415,545",
+                        "endColumns": "46,54,122,129,88",
+                        "endOffsets": "236,291,414,544,633"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "270,321,380,507,641",
+                        "endColumns": "50,58,126,133,92",
+                        "endOffsets": "316,375,502,636,729"
                     }
                 }
             ]

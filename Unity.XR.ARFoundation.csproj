@@ -115,8 +115,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\AREnvironmentProbeManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\ARTrackableManager.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\SubsystemLifecycleManager.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\ARRaycastUpdatedEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\ARPointCloudUpdatedEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\ARRaycastUpdatedEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\AREnvironmentProbe.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\LoaderUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.arfoundation@5.1.5\Runtime\ARFoundation\ARTrackable.cs" />

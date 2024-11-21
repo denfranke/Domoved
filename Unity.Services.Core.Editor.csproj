@@ -126,8 +126,8 @@
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\Linker\Models\XmlLinkedPreserve.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\ProjectBindRedirect\ProjectBindRedirectPopupWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\UiHelpers\OfflineUiHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\EditorGameServiceDashboardHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\UiHelpers\LoggedOutUiHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\EditorGameServiceDashboardHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\Analytics\EditorGameServiceAnalyticsSender.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\EditorGameService\DefaultCdnConfiguredEndpoint.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.12.5\Editor\Core\UiHelpers\SettingsCommonHeaderUiHelper.cs" />
