@@ -30,13 +30,13 @@ public class DayTimeScrollbar : MonoBehaviour
         {
             sun.transform.rotation = Quaternion.Euler(MaxAltitude * GetComponent<Scrollbar>().value * 2,
                 -83 + MaxAzimuth * GetComponent<Scrollbar>().value * 2, 0);
-            _light.intensity = GetComponent<Scrollbar>().value;
+            _light.intensity = GetComponent<Scrollbar>().value*2;
         }
         else
         {
             sun.transform.rotation = Quaternion.Euler(MaxAltitude * (1 - GetComponent<Scrollbar>().value) * 2,
                 MaxAzimuth * (GetComponent<Scrollbar>().value - 0.5f) * 2, 0);
-            _light.intensity = 1-GetComponent<Scrollbar>().value;
+            _light.intensity = (1-GetComponent<Scrollbar>().value)*2;
         }
 
         if(sun.transform.rotation.x >= 0 && sun.transform.rotation.x < 90)

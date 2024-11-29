@@ -10,7 +10,7 @@ public class CameraMovement : MonoBehaviour
     public float _speedZ = 5;
     [Tooltip("Скорость поворота камеры по оси Y")]
     public float rotationSpeedY = 1;
-    [Tooltip("Скорость поворота камеры по оси X")]
+    [Tooltip("Скорость наклона камеры")]
     public float rotationSpeedX = 1;
     [Tooltip("Доступный радиус перемещения камеры")]
     public float _radius = 10;
@@ -19,7 +19,9 @@ public class CameraMovement : MonoBehaviour
 
     public GameObject _CamObjDir;
 
-    private Vector3 _targetPos;
+    public float OrbitRotationSpeed = 1f;
+    private bool OrbitRotation = false;
+
     private Touch _touch;
     private Vector2 lastTouchPosition;
     private Vector3 euler;
@@ -30,15 +32,12 @@ public class CameraMovement : MonoBehaviour
 
     private void Start ()
     {
-        //changeImageInBtn = GameObject.Find("CameraManageBtnObj").GetComponent<ChangeImageInBtn>();
-        // _dayTimeScrollbar = GameObject.Find("TimeScrollBar").GetComponent<DayTimeScrollbar>();
         euler = transform.localEulerAngles;
 
         if(_target == null)
         {
             _target = this.transform;
         }
-        _targetPos = _target.position;
     }
 
     private void Update ()
@@ -80,7 +79,15 @@ public class CameraMovement : MonoBehaviour
                         Vector2 deltaPosition = touch.position - lastTouchPosition;
 
                         euler.y += deltaPosition.x * rotationSpeedY * Time.deltaTime;
-                        transform.localEulerAngles = euler;
+
+                        if(OrbitRotation)
+                        {
+                            transform.RotateAround(_target.transform.position, Vector3.up, deltaPosition.x * OrbitRotationSpeed * Time.deltaTime);
+                        }
+                        else
+                        {
+                            transform.localEulerAngles = euler;
+                        }
 
                         _CamObjDir.transform.eulerAngles = new Vector3(0, euler.y, 0);
 
@@ -106,7 +113,6 @@ public class CameraMovement : MonoBehaviour
                         euler.x = Mathf.Clamp(euler.x, 20.0f, 90.0f);
                         transform.localEulerAngles = euler;
 
-
                         lastTouchPosition = touch.position;
                     }
                 }
@@ -122,5 +128,10 @@ public class CameraMovement : MonoBehaviour
     public bool GetInteractive ()
     {
         return Interactive;
+    }
+
+    public void TurnOnOrOffOrbitRotation ()
+    {
+        OrbitRotation = !OrbitRotation;
     }
 }

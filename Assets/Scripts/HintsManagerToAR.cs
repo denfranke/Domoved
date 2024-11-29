@@ -24,6 +24,11 @@ public class HintsManagerToAR : MonoBehaviour
         hints[currHint].SetActive(true);
     }
 
+    public void _CloseAllHints ()
+    {
+        gameObject.SetActive(false);
+    }
+
     public void updater ()
     {
         switch(currHint)
@@ -49,9 +54,15 @@ public class HintsManagerToAR : MonoBehaviour
                 break;
             case 5://AR
                 ObjectsForHints[5].SetActive(true);
+                break;
+            case 6://vr перемещение без джойстика
+                break;
+            case 7://vr настройка
+                break;
+            case 8://vr закрытие
                 ObjectsForHints[6].SetActive(false);
                 break;
-            case 6://VR
+            case 9://vr кнопка
                 ObjectsForHints[6].SetActive(true);
                 break;
         }

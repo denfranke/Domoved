@@ -77,6 +77,7 @@ extern void CameraMovement_Start_mBBF1258D871D26851766FE3CA23546A9F7BF2629 (void
 extern void CameraMovement_Update_m42273F0005E91309F6A375EB990391D92F6727FE (void);
 extern void CameraMovement_SetInteractive_mEB3D5AC68092FA77BC0B3452F0588FB0BB687324 (void);
 extern void CameraMovement_GetInteractive_m7A9DBA0F00ECE4D94898CEC8BEB486F286C8F1F6 (void);
+extern void CameraMovement_TurnOnOrOffOrbitRotation_m30D5FA9CF6FB6D2554C78CEDDC1970A79A234473 (void);
 extern void CameraMovement__ctor_m89EBDC0905F17D37C7604387BED054FDCCADAFD3 (void);
 extern void CameraZooming_Start_m2166075B055DEBF7C8FCF84472902AA96974D147 (void);
 extern void CameraZooming_Update_m49D291EEA2EB2440BAEC4B7165CAABEA41DCBBD3 (void);
@@ -143,11 +144,13 @@ extern void DbConnector__StartTutorial_mDD04F9265341BFEEC6E69713AC41F20DE84EE563
 extern void DbConnector__ctor_m4789A6736C450B7D8D4E28F7B50C3F5A29D362F0 (void);
 extern void HintsManagerToAR__OpenNextHint_mCA765C26A4B14C6FFC51AB840E94A4C5E70143C9 (void);
 extern void HintsManagerToAR__OpenPreviousHint_m9C9F50F5EBDBF376B222D89B188575A956710A14 (void);
+extern void HintsManagerToAR__CloseAllHints_mCA274F4C5C4B2C6FEADF8632FBFE9BABFDE2730B (void);
 extern void HintsManagerToAR_updater_m5DA255B311B13A29E57440B6DD39D0A5B8520128 (void);
 extern void HintsManagerToAR__ctor_m25F0CE5BE2B683E6301B73F8B9DDE46B8EFC47C2 (void);
 extern void HintsManagerToNormalMode_Start_m459CE49E65D0C6B44D29645BD982A6F52F639086 (void);
 extern void HintsManagerToNormalMode__OpenNextHint_m32FF13D1E0703F4C3B6FFB56DBDFF92E57DCF0D8 (void);
 extern void HintsManagerToNormalMode__OpenPreviousHint_m6AFA872B99A040BA29309A13EC005E5EA0221F01 (void);
+extern void HintsManagerToNormalMode__CloseAllHints_m19D22A8D604702681FC324332125D701F9F20338 (void);
 extern void HintsManagerToNormalMode_updater_mD2F58ACC25CF92F0A810C43E93195DEFEB2DC585 (void);
 extern void HintsManagerToNormalMode__ctor_mD81CF856732E2D9EC06F01A86C61CB99790F4F95 (void);
 extern void InfoPanel_Start_m0E468A96DE7D43A8649B6F2325C54E590D67F80D (void);
@@ -173,7 +176,7 @@ extern void SettingsBtn__ChangeWallsVisiblity_mECBFEB02BE4A2991F99F586410136480E
 extern void SettingsBtn__ChangeWallpapersVisiblity_m9D0A592EF375D324B6F7E9495A056FB435DD67C2 (void);
 extern void SettingsBtn__ChangeLightsSourseVisiblity_mF1ABC3C46E627AD55850C7B03FD7CBCA1979B8A1 (void);
 extern void SettingsBtn__TurnOnOrOffFlatLights_m1E2165654204F08B417F51868AD796B1E6A652C9 (void);
-extern void SettingsBtn_changeImageInBtn_mB5F2D9F4E12C4EBA04208EB4F2A90523A3329522 (void);
+extern void SettingsBtn__changeImageInBtn_m6AD1DF30190542E1A0B778401FA63BA5E53EBC08 (void);
 extern void SettingsBtn__ctor_mF39EA4D345F831B5C5D4C40A57C60E2CFEE3E794 (void);
 extern void SunConroller_Start_m45F80B26754D3294AA5AE24B8C67A94FAB263970 (void);
 extern void SunConroller_Update_mD99BBAC829E70F431418A47379B0EEDA16242AA4 (void);
@@ -464,7 +467,7 @@ extern void U3CopeningU3Ed__5_MoveNext_mC64117C143618A9F2A35D3A610856CCE23CD577A
 extern void U3CopeningU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6BF49B13B3AEA89BDE8C06A39C64F52CDDA6770B (void);
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m012A9CBE69059A1EE21B0EB45D3CB59675CC4A0E (void);
 extern void U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m7DE53FEB321C4930699C6DD1990874E90E1CDA82 (void);
-static Il2CppMethodPointer s_methodPointers[452] = 
+static Il2CppMethodPointer s_methodPointers[455] = 
 {
 	TableFlipL_Start_m0593EFF2345620173604B8933379E83820FD12C8,
 	TableFlipL_OnMouseOver_m3799C9F20B4367FF848CF30D478EABE94498E23B,
@@ -531,6 +534,7 @@ static Il2CppMethodPointer s_methodPointers[452] =
 	CameraMovement_Update_m42273F0005E91309F6A375EB990391D92F6727FE,
 	CameraMovement_SetInteractive_mEB3D5AC68092FA77BC0B3452F0588FB0BB687324,
 	CameraMovement_GetInteractive_m7A9DBA0F00ECE4D94898CEC8BEB486F286C8F1F6,
+	CameraMovement_TurnOnOrOffOrbitRotation_m30D5FA9CF6FB6D2554C78CEDDC1970A79A234473,
 	CameraMovement__ctor_m89EBDC0905F17D37C7604387BED054FDCCADAFD3,
 	CameraZooming_Start_m2166075B055DEBF7C8FCF84472902AA96974D147,
 	CameraZooming_Update_m49D291EEA2EB2440BAEC4B7165CAABEA41DCBBD3,
@@ -597,11 +601,13 @@ static Il2CppMethodPointer s_methodPointers[452] =
 	DbConnector__ctor_m4789A6736C450B7D8D4E28F7B50C3F5A29D362F0,
 	HintsManagerToAR__OpenNextHint_mCA765C26A4B14C6FFC51AB840E94A4C5E70143C9,
 	HintsManagerToAR__OpenPreviousHint_m9C9F50F5EBDBF376B222D89B188575A956710A14,
+	HintsManagerToAR__CloseAllHints_mCA274F4C5C4B2C6FEADF8632FBFE9BABFDE2730B,
 	HintsManagerToAR_updater_m5DA255B311B13A29E57440B6DD39D0A5B8520128,
 	HintsManagerToAR__ctor_m25F0CE5BE2B683E6301B73F8B9DDE46B8EFC47C2,
 	HintsManagerToNormalMode_Start_m459CE49E65D0C6B44D29645BD982A6F52F639086,
 	HintsManagerToNormalMode__OpenNextHint_m32FF13D1E0703F4C3B6FFB56DBDFF92E57DCF0D8,
 	HintsManagerToNormalMode__OpenPreviousHint_m6AFA872B99A040BA29309A13EC005E5EA0221F01,
+	HintsManagerToNormalMode__CloseAllHints_m19D22A8D604702681FC324332125D701F9F20338,
 	HintsManagerToNormalMode_updater_mD2F58ACC25CF92F0A810C43E93195DEFEB2DC585,
 	HintsManagerToNormalMode__ctor_mD81CF856732E2D9EC06F01A86C61CB99790F4F95,
 	InfoPanel_Start_m0E468A96DE7D43A8649B6F2325C54E590D67F80D,
@@ -627,7 +633,7 @@ static Il2CppMethodPointer s_methodPointers[452] =
 	SettingsBtn__ChangeWallpapersVisiblity_m9D0A592EF375D324B6F7E9495A056FB435DD67C2,
 	SettingsBtn__ChangeLightsSourseVisiblity_mF1ABC3C46E627AD55850C7B03FD7CBCA1979B8A1,
 	SettingsBtn__TurnOnOrOffFlatLights_m1E2165654204F08B417F51868AD796B1E6A652C9,
-	SettingsBtn_changeImageInBtn_mB5F2D9F4E12C4EBA04208EB4F2A90523A3329522,
+	SettingsBtn__changeImageInBtn_m6AD1DF30190542E1A0B778401FA63BA5E53EBC08,
 	SettingsBtn__ctor_mF39EA4D345F831B5C5D4C40A57C60E2CFEE3E794,
 	SunConroller_Start_m45F80B26754D3294AA5AE24B8C67A94FAB263970,
 	SunConroller_Update_mD99BBAC829E70F431418A47379B0EEDA16242AA4,
@@ -919,7 +925,7 @@ static Il2CppMethodPointer s_methodPointers[452] =
 	U3CopeningU3Ed__5_System_Collections_IEnumerator_Reset_m012A9CBE69059A1EE21B0EB45D3CB59675CC4A0E,
 	U3CopeningU3Ed__5_System_Collections_IEnumerator_get_Current_m7DE53FEB321C4930699C6DD1990874E90E1CDA82,
 };
-static const int32_t s_InvokerIndices[452] = 
+static const int32_t s_InvokerIndices[455] = 
 {
 	9176,
 	9176,
@@ -989,6 +995,7 @@ static const int32_t s_InvokerIndices[452] =
 	9176,
 	9176,
 	9176,
+	9176,
 	7218,
 	9176,
 	9176,
@@ -1047,6 +1054,8 @@ static const int32_t s_InvokerIndices[452] =
 	2118,
 	9176,
 	7171,
+	9176,
+	9176,
 	9176,
 	9176,
 	9176,
@@ -1378,7 +1387,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	452,
+	455,
 	s_methodPointers,
 	0,
 	NULL,

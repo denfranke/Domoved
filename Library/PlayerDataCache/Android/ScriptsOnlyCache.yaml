@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
+    - SojaExiles.BRGlassDoor
     - SojaExiles.Drawer_Pull_X
     - SojaExiles.Drawer_Pull_Z
     - SojaExiles.Drawer_Pull_Zopp
@@ -476,6 +477,249 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -551,24 +795,6 @@ ScriptsOnlyBuild:
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.AreaTargetCaptureBehaviour
     methodName: CancelTargetGeneration
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeFurnituresVisiblity
@@ -618,6 +844,12 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeReality
     methodName: _OpenOrCloseAR
   - assembly: Assembly-CSharp
+    fullTypeName: CameraMovement
+    methodName: TurnOnOrOffOrbitRotation
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _changeImageInBtn
+  - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenOrCloseSettingsSpaceInVR
   - assembly: Assembly-CSharp
@@ -753,11 +985,20 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsBtn
     methodName: _TurnOnOrOffFlatLights
   - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _CloseAllHints
+  - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeWallpapersVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToAR
+    methodName: _OpenNextHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
     methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _OpenNextHint
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenNextHint
@@ -768,6 +1009,15 @@ ScriptsOnlyBuild:
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
+    fullTypeName: VRModeController
+    methodName: _ActiveVrBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _CloseAllHints
+  - assembly: Assembly-CSharp
+    fullTypeName: WorkSpace
+    methodName: _OpenOrCloseSettingsSpaceInVR
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenNextHint
   - assembly: Assembly-CSharp
@@ -775,13 +1025,22 @@ ScriptsOnlyBuild:
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
+    methodName: _ChangeFurnituresVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
     methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeLightsSourseVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeFlatSizesVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeReality
+    methodName: _OpenOrCloseVR
   - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenOrCloseSettingsSpaceInAR
@@ -792,11 +1051,23 @@ ScriptsOnlyBuild:
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _TurnOnOrOffFlatLights
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenNextHint
   - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallpapersVisiblity
+  - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenMainMenuScene
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _OpenNextHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeWallpapersVisiblity
@@ -819,6 +1090,15 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsBtn
     methodName: _ChangeWallsVisiblity
   - assembly: Assembly-CSharp
+    fullTypeName: ChangeReality
+    methodName: _OpenOrCloseVR
+  - assembly: Assembly-CSharp
+    fullTypeName: WorkSpace
+    methodName: _OpenMainMenuScene
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _OpenNextHint
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenNextHint
   - assembly: Assembly-CSharp
@@ -827,6 +1107,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ChangeReality
     methodName: _OpenOrCloseVR
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFlatSizesVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: ChangeImageInBtn
     methodName: _ChangeBtn
@@ -845,6 +1131,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeFurnituresVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraMovement
+    methodName: TurnOnOrOffOrbitRotation
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _changeImageInBtn
   - assembly: Assembly-CSharp
     fullTypeName: ChangeImageInBtn
     methodName: _ChangeBtn
@@ -855,6 +1147,9 @@ ScriptsOnlyBuild:
     fullTypeName: SettingsBtn
     methodName: _ChangeLightsSourseVisiblity
   - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenNextHint
   - assembly: Assembly-CSharp
@@ -864,8 +1159,14 @@ ScriptsOnlyBuild:
     fullTypeName: HintsManagerToAR
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
+    fullTypeName: WorkSpace
+    methodName: _OpenOrCloseInfoSpaceInVR
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
@@ -880,9 +1181,6 @@ ScriptsOnlyBuild:
     methodName: _OpenOrCloseSettingsSpace
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
-    methodName: _OpenPreviousHint
-  - assembly: Assembly-CSharp
-    fullTypeName: HintsManagerToAR
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
@@ -921,6 +1219,9 @@ ScriptsOnlyBuild:
     fullTypeName: HintsManagerToAR
     methodName: _OpenNextHint
   - assembly: Assembly-CSharp
+    fullTypeName: ChangeReality
+    methodName: _OpenOrCloseAR
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
@@ -948,11 +1249,23 @@ ScriptsOnlyBuild:
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: ChangeReality
+    methodName: _OpenOrCloseVR
+  - assembly: Assembly-CSharp
     fullTypeName: DayTimeScrollbar
     methodName: Updater
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenNextHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
     fullTypeName: ChangeImageInBtn
     methodName: _ChangeBtn
@@ -968,6 +1281,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToAR
     methodName: _OpenNextHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _OpenPreviousHint
   - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToNormalMode
     methodName: _OpenPreviousHint
@@ -981,14 +1297,26 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeReality
     methodName: _OpenOrCloseAR
   - assembly: Assembly-CSharp
+    fullTypeName: WorkSpace
+    methodName: _OpenOrCloseInfoSpaceInVR
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToAR
+    methodName: _OpenNextHint
+  - assembly: Assembly-CSharp
     fullTypeName: HintsManagerToAR
     methodName: _OpenPreviousHint
+  - assembly: Assembly-CSharp
+    fullTypeName: HintsManagerToNormalMode
+    methodName: _OpenNextHint
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.ContentPositioningBehaviour
     methodName: PositionContentAtPlaneAnchor
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.PlaneFinderBehaviour
     methodName: PerformHitTest
+  - assembly: Assembly-CSharp
+    fullTypeName: WorkSpace
+    methodName: _OpenOrCloseSettingsSpaceInVR
   sceneClasses:
     Assets/Scenes/MainMenu.unity:
     - Class: 1
@@ -1032,97 +1360,99 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16888}
-    - Class: 114
-      Script: {instanceID: 16892}
-    - Class: 114
-      Script: {instanceID: 16894}
-    - Class: 114
       Script: {instanceID: 16896}
-    - Class: 114
-      Script: {instanceID: 16898}
     - Class: 114
       Script: {instanceID: 16900}
     - Class: 114
+      Script: {instanceID: 16902}
+    - Class: 114
       Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 16946}
+      Script: {instanceID: 16906}
     - Class: 114
-      Script: {instanceID: 17062}
+      Script: {instanceID: 16908}
     - Class: 114
-      Script: {instanceID: 17602}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 18104}
+      Script: {instanceID: 16954}
     - Class: 114
-      Script: {instanceID: 18108}
+      Script: {instanceID: 17070}
     - Class: 114
-      Script: {instanceID: 19116}
+      Script: {instanceID: 17610}
     - Class: 114
-      Script: {instanceID: 19192}
+      Script: {instanceID: 18112}
     - Class: 114
-      Script: {instanceID: 19194}
+      Script: {instanceID: 18116}
     - Class: 114
-      Script: {instanceID: 19196}
+      Script: {instanceID: 19124}
     - Class: 114
-      Script: {instanceID: 19284}
+      Script: {instanceID: 19200}
     - Class: 114
-      Script: {instanceID: 19290}
+      Script: {instanceID: 19202}
+    - Class: 114
+      Script: {instanceID: 19204}
     - Class: 114
       Script: {instanceID: 19292}
     - Class: 114
-      Script: {instanceID: 19294}
+      Script: {instanceID: 19298}
     - Class: 114
-      Script: {instanceID: 19296}
+      Script: {instanceID: 19300}
     - Class: 114
-      Script: {instanceID: 19320}
+      Script: {instanceID: 19302}
     - Class: 114
-      Script: {instanceID: 19326}
+      Script: {instanceID: 19304}
     - Class: 114
-      Script: {instanceID: 20766}
+      Script: {instanceID: 19328}
     - Class: 114
-      Script: {instanceID: 20798}
+      Script: {instanceID: 19334}
     - Class: 114
-      Script: {instanceID: 20810}
+      Script: {instanceID: 20774}
     - Class: 114
-      Script: {instanceID: 21418}
+      Script: {instanceID: 20806}
     - Class: 114
-      Script: {instanceID: 21566}
+      Script: {instanceID: 20818}
     - Class: 114
-      Script: {instanceID: 22110}
+      Script: {instanceID: 21426}
     - Class: 114
-      Script: {instanceID: 23332}
+      Script: {instanceID: 21574}
     - Class: 114
-      Script: {instanceID: 23606}
+      Script: {instanceID: 22118}
     - Class: 114
-      Script: {instanceID: 23702}
+      Script: {instanceID: 22330}
     - Class: 114
-      Script: {instanceID: 24020}
+      Script: {instanceID: 23340}
     - Class: 114
-      Script: {instanceID: 24464}
+      Script: {instanceID: 23614}
     - Class: 114
-      Script: {instanceID: 24466}
+      Script: {instanceID: 23710}
     - Class: 114
-      Script: {instanceID: 24570}
+      Script: {instanceID: 24028}
     - Class: 114
-      Script: {instanceID: 24890}
+      Script: {instanceID: 24472}
     - Class: 114
-      Script: {instanceID: 25008}
+      Script: {instanceID: 24474}
     - Class: 114
-      Script: {instanceID: 25308}
+      Script: {instanceID: 24578}
     - Class: 114
-      Script: {instanceID: 25404}
+      Script: {instanceID: 24898}
     - Class: 114
-      Script: {instanceID: 26022}
+      Script: {instanceID: 25016}
     - Class: 114
-      Script: {instanceID: 27034}
+      Script: {instanceID: 25316}
     - Class: 114
-      Script: {instanceID: 27046}
+      Script: {instanceID: 25412}
     - Class: 114
-      Script: {instanceID: 27304}
+      Script: {instanceID: 26030}
     - Class: 114
-      Script: {instanceID: 27868}
+      Script: {instanceID: 27042}
     - Class: 114
-      Script: {instanceID: 28488}
+      Script: {instanceID: 27054}
+    - Class: 114
+      Script: {instanceID: 27312}
+    - Class: 114
+      Script: {instanceID: 27876}
+    - Class: 114
+      Script: {instanceID: 28496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1171,80 +1501,90 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16892}
-    - Class: 114
-      Script: {instanceID: 16894}
-    - Class: 114
-      Script: {instanceID: 16896}
-    - Class: 114
-      Script: {instanceID: 16898}
-    - Class: 114
       Script: {instanceID: 16900}
+    - Class: 114
+      Script: {instanceID: 16902}
     - Class: 114
       Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 16946}
+      Script: {instanceID: 16906}
     - Class: 114
-      Script: {instanceID: 17914}
+      Script: {instanceID: 16908}
     - Class: 114
-      Script: {instanceID: 18732}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 19034}
+      Script: {instanceID: 16954}
     - Class: 114
-      Script: {instanceID: 19186}
+      Script: {instanceID: 17922}
     - Class: 114
-      Script: {instanceID: 19188}
+      Script: {instanceID: 18038}
     - Class: 114
-      Script: {instanceID: 19210}
+      Script: {instanceID: 18740}
     - Class: 114
-      Script: {instanceID: 19272}
+      Script: {instanceID: 19010}
     - Class: 114
-      Script: {instanceID: 19318}
+      Script: {instanceID: 19042}
     - Class: 114
-      Script: {instanceID: 20578}
+      Script: {instanceID: 19194}
     - Class: 114
-      Script: {instanceID: 20766}
+      Script: {instanceID: 19196}
     - Class: 114
-      Script: {instanceID: 20810}
+      Script: {instanceID: 19218}
     - Class: 114
-      Script: {instanceID: 21418}
+      Script: {instanceID: 19280}
     - Class: 114
-      Script: {instanceID: 22602}
+      Script: {instanceID: 19326}
     - Class: 114
-      Script: {instanceID: 23450}
+      Script: {instanceID: 20586}
     - Class: 114
-      Script: {instanceID: 23702}
+      Script: {instanceID: 20774}
     - Class: 114
-      Script: {instanceID: 24020}
+      Script: {instanceID: 20818}
     - Class: 114
-      Script: {instanceID: 24466}
+      Script: {instanceID: 21426}
     - Class: 114
-      Script: {instanceID: 24588}
+      Script: {instanceID: 22356}
     - Class: 114
-      Script: {instanceID: 24784}
+      Script: {instanceID: 22610}
     - Class: 114
-      Script: {instanceID: 25470}
+      Script: {instanceID: 23458}
     - Class: 114
-      Script: {instanceID: 25922}
+      Script: {instanceID: 23710}
     - Class: 114
-      Script: {instanceID: 26022}
+      Script: {instanceID: 24028}
     - Class: 114
-      Script: {instanceID: 26078}
+      Script: {instanceID: 24474}
     - Class: 114
-      Script: {instanceID: 26700}
+      Script: {instanceID: 24596}
     - Class: 114
-      Script: {instanceID: 27034}
+      Script: {instanceID: 24792}
     - Class: 114
-      Script: {instanceID: 27046}
+      Script: {instanceID: 25478}
     - Class: 114
-      Script: {instanceID: 27716}
+      Script: {instanceID: 25930}
     - Class: 114
-      Script: {instanceID: 27742}
+      Script: {instanceID: 26030}
     - Class: 114
-      Script: {instanceID: 28650}
+      Script: {instanceID: 26084}
     - Class: 114
-      Script: {instanceID: 61194}
+      Script: {instanceID: 26086}
+    - Class: 114
+      Script: {instanceID: 26514}
+    - Class: 114
+      Script: {instanceID: 26708}
+    - Class: 114
+      Script: {instanceID: 27042}
+    - Class: 114
+      Script: {instanceID: 27054}
+    - Class: 114
+      Script: {instanceID: 27724}
+    - Class: 114
+      Script: {instanceID: 27750}
+    - Class: 114
+      Script: {instanceID: 28658}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -1288,85 +1628,85 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16892}
-    - Class: 114
-      Script: {instanceID: 16894}
-    - Class: 114
-      Script: {instanceID: 16896}
-    - Class: 114
-      Script: {instanceID: 16898}
-    - Class: 114
       Script: {instanceID: 16900}
+    - Class: 114
+      Script: {instanceID: 16902}
     - Class: 114
       Script: {instanceID: 16904}
     - Class: 114
-      Script: {instanceID: 16946}
+      Script: {instanceID: 16906}
     - Class: 114
-      Script: {instanceID: 17914}
+      Script: {instanceID: 16908}
     - Class: 114
-      Script: {instanceID: 18030}
+      Script: {instanceID: 16912}
     - Class: 114
-      Script: {instanceID: 18732}
+      Script: {instanceID: 16954}
     - Class: 114
-      Script: {instanceID: 19002}
+      Script: {instanceID: 17922}
     - Class: 114
-      Script: {instanceID: 19034}
+      Script: {instanceID: 18038}
     - Class: 114
-      Script: {instanceID: 19186}
+      Script: {instanceID: 18740}
     - Class: 114
-      Script: {instanceID: 19188}
+      Script: {instanceID: 19010}
     - Class: 114
-      Script: {instanceID: 19210}
+      Script: {instanceID: 19042}
     - Class: 114
-      Script: {instanceID: 19272}
+      Script: {instanceID: 19194}
     - Class: 114
-      Script: {instanceID: 19318}
+      Script: {instanceID: 19196}
     - Class: 114
-      Script: {instanceID: 20578}
+      Script: {instanceID: 19218}
     - Class: 114
-      Script: {instanceID: 20766}
+      Script: {instanceID: 19280}
     - Class: 114
-      Script: {instanceID: 20810}
+      Script: {instanceID: 19326}
     - Class: 114
-      Script: {instanceID: 21418}
+      Script: {instanceID: 20586}
     - Class: 114
-      Script: {instanceID: 22158}
+      Script: {instanceID: 20774}
     - Class: 114
-      Script: {instanceID: 22348}
+      Script: {instanceID: 20818}
     - Class: 114
-      Script: {instanceID: 22602}
+      Script: {instanceID: 21426}
     - Class: 114
-      Script: {instanceID: 23702}
+      Script: {instanceID: 22166}
     - Class: 114
-      Script: {instanceID: 24020}
+      Script: {instanceID: 22356}
     - Class: 114
-      Script: {instanceID: 24466}
+      Script: {instanceID: 22610}
     - Class: 114
-      Script: {instanceID: 24588}
+      Script: {instanceID: 23710}
     - Class: 114
-      Script: {instanceID: 24784}
+      Script: {instanceID: 24028}
     - Class: 114
-      Script: {instanceID: 25470}
+      Script: {instanceID: 24474}
     - Class: 114
-      Script: {instanceID: 25922}
+      Script: {instanceID: 24596}
     - Class: 114
-      Script: {instanceID: 26022}
+      Script: {instanceID: 24792}
     - Class: 114
-      Script: {instanceID: 26076}
+      Script: {instanceID: 25478}
     - Class: 114
-      Script: {instanceID: 26078}
+      Script: {instanceID: 25930}
     - Class: 114
-      Script: {instanceID: 26506}
+      Script: {instanceID: 26030}
     - Class: 114
-      Script: {instanceID: 27028}
+      Script: {instanceID: 26084}
     - Class: 114
-      Script: {instanceID: 27034}
+      Script: {instanceID: 26086}
     - Class: 114
-      Script: {instanceID: 27046}
+      Script: {instanceID: 26514}
     - Class: 114
-      Script: {instanceID: 27716}
+      Script: {instanceID: 27036}
     - Class: 114
-      Script: {instanceID: 27742}
+      Script: {instanceID: 27042}
+    - Class: 114
+      Script: {instanceID: 27054}
+    - Class: 114
+      Script: {instanceID: 27724}
+    - Class: 114
+      Script: {instanceID: 27750}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2458,7 +2798,7 @@ ScriptsOnlyBuild:
     className: TrackedDevicePhysicsRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 861197c1760c80359ae33fcecb089092
+      Hash: 8da6236e5ae31b82a1dbc4b0326188b5
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: CameraMovement

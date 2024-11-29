@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\Documents\\Unity\\My project3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|d:\\documents\\unity\\my project3\\assets\\scripts\\arbtnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\arbtnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|d:\\documents\\unity\\my project3\\assets\\scripts\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\changereality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changereality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|d:\\documents\\unity\\my project3\\assets\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91CB8CCB-C703-BC4A-8FED-783C436CD4CF}|CardboardSamples.csproj|D:\\Documents\\Unity\\My project3\\assets\\samples\\google cardboard xr plugin for unity\\1.26.0\\hello cardboard\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91CB8CCB-C703-BC4A-8FED-783C436CD4CF}|CardboardSamples.csproj|solutionrelative:assets\\samples\\google cardboard xr plugin for unity\\1.26.0\\hello cardboard\\scripts\\vrmodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DF47BBEE-9CD6-2FB5-3B9A-67556A42AC2F}|Google.XR.Cardboard.csproj|D:\\Documents\\Unity\\My project3\\library\\packagecache\\com.google.xr.cardboard@de21979f29\\runtime\\cardboardreticlepointer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF47BBEE-9CD6-2FB5-3B9A-67556A42AC2F}|Google.XR.Cardboard.csproj|solutionrelative:library\\packagecache\\com.google.xr.cardboard@de21979f29\\runtime\\cardboardreticlepointer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\hintsmanagertoar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hintsmanagertoar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|D:\\Documents\\Unity\\My project3\\assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC2DB532-20EE-E310-D469-CF3F15690EB0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,15 +43,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArBtnManager.cs",
-              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ArBtnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ArBtnManager.cs",
-              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ArBtnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ArBtnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "WorkSpace.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\WorkSpace.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WorkSpace.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\WorkSpace.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WorkSpace.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAswBsBAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T10:24:44.913Z",
+              "WhenOpened": "2024-11-28T10:43:37.289Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VRModeController.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\VRModeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VRModeController.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\VRModeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VRModeController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAIBZwDoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:35:16.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VrModeController.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Samples\\Google Cardboard XR Plugin for Unity\\1.26.0\\Hello Cardboard\\Scripts\\VrModeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\Google Cardboard XR Plugin for Unity\\1.26.0\\Hello Cardboard\\Scripts\\VrModeController.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Samples\\Google Cardboard XR Plugin for Unity\\1.26.0\\Hello Cardboard\\Scripts\\VrModeController.cs",
+              "RelativeToolTip": "Assets\\Samples\\Google Cardboard XR Plugin for Unity\\1.26.0\\Hello Cardboard\\Scripts\\VrModeController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:34:47.94Z"
             },
             {
               "$type": "Document",
@@ -53,33 +86,33 @@
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.google.xr.cardboard@de21979f29\\Runtime\\CardboardReticlePointer.cs",
               "ToolTip": "D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.google.xr.cardboard@de21979f29\\Runtime\\CardboardReticlePointer.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.google.xr.cardboard@de21979f29\\Runtime\\CardboardReticlePointer.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAwIAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAgwJMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:27:08.645Z"
+              "WhenOpened": "2024-11-25T16:33:07.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VRModeController.cs",
-              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\VRModeController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\VRModeController.cs",
-              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\VRModeController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\VRModeController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAADwvzQAAAASAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "HintsManagerToAR.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\HintsManagerToAR.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HintsManagerToAR.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\HintsManagerToAR.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HintsManagerToAR.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T14:10:29.929Z"
+              "WhenOpened": "2024-11-25T16:32:11.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChangeReality.cs",
-              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ChangeReality.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeReality.cs",
-              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\ChangeReality.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ChangeReality.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CameraMovement.cs",
+              "DocumentMoniker": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\CameraMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMovement.cs",
+              "ToolTip": "D:\\Documents\\Unity\\My project3\\Assets\\Scripts\\CameraMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraMovement.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswEgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T13:14:26.286Z"
+              "WhenOpened": "2024-11-23T08:37:47.048Z"
             }
           ]
         }

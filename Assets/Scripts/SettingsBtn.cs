@@ -30,24 +30,24 @@ public class SettingsBtn : MonoBehaviour
     public void _ChangeFlatSizesVisiblity ()//вкл/выкл отображения размеров
     {
         FlatSizes.SetActive(!FlatSizes.activeSelf);
-        changeImageInBtn();
+        _changeImageInBtn();
     }
     public void _ChangeFurnituresVisiblity ()//вкл/выкл отображения мебели
     {
         FlatsFurniture.SetActive(!FlatsFurniture.activeSelf);
-        changeImageInBtn();
+        _changeImageInBtn();
     }
 
     public void _ChangeWallsVisiblity ()//вкл/выкл отображения стен
     {
         Walls.SetActive(!Walls.activeSelf);
-        changeImageInBtn();
+        _changeImageInBtn();
     }
 
     public void _ChangeWallpapersVisiblity ()//вкл/выкл отображения обоев
     {
         Wallpapers.SetActive(!Wallpapers.activeSelf);
-        changeImageInBtn();
+        _changeImageInBtn();
     }
 
     public void _ChangeLightsSourseVisiblity ()//вкл/выкл отображения ламп, но не освещения
@@ -60,7 +60,7 @@ public class SettingsBtn : MonoBehaviour
                 l.enabled = flag;
         }
         flag=!flag;
-        changeImageInBtn();
+        _changeImageInBtn();
     }
     
     public void _TurnOnOrOffFlatLights ()//вкл/выкл освещения
@@ -71,10 +71,10 @@ public class SettingsBtn : MonoBehaviour
                 l.gameObject.GetComponent<MeshRenderer>().enabled= !l.enabled;
             l.enabled = !l.enabled;
         }
-        changeImageInBtn();
+        _changeImageInBtn();
     }
 
-    private void changeImageInBtn ()//для настроек 
+    public void _changeImageInBtn ()//для настроек 
     {
         if(GetComponent<Image>().sprite == offBtn)
             GetComponent<Image>().sprite = onBtn;

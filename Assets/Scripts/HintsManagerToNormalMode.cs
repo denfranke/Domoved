@@ -29,6 +29,11 @@ public class HintsManagerToNormalMode : MonoBehaviour
         hints[currHint].SetActive(true);
     }
 
+    public void _CloseAllHints ()
+    {
+        gameObject.SetActive(false);
+    }
+
     public void updater ()
     {
         switch(currHint)
@@ -89,10 +94,16 @@ public class HintsManagerToNormalMode : MonoBehaviour
                 ObjectsForHints[14].SetActive(false);
                 break;
             case 14://ar
-                ObjectsForHints[14].SetActive(true);
+                ObjectsForHints[14].SetActive(true);                
+                break;
+            case 15://vr перемещение без джойстика
+                break;
+            case 16://vr настройка
+                break;
+            case 17://vr закрытие
                 ObjectsForHints[15].SetActive(false);
                 break;
-            case 15://vr
+            case 18://vr кнопка
                 ObjectsForHints[15].SetActive(true);
                 break;
         }

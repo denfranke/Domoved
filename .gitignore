@@ -20,3 +20,6 @@ Temp/UnityLockfile
 Assets/Editor/Migration/com.ptc.vuforia.engine-10.27.3.tgz
 Library/PramData/AndroidApplicationController/Cache/com.DefaultCompany.Myproject3/gradle-project/unityLibrary/xrmanifest.androidlib/build/intermediates/runtime_library_classes_dir/debug/com/UnityTechnologies/XR/Manifest/BuildConfig.class
 Library/PramData/AndroidApplicationController/Cache/com.vuforia.engine.VuforiaEngine/gradle-project/unityLibrary/xrmanifest.androidlib/build/intermediates/runtime_library_classes_dir/debug/com/UnityTechnologies/XR/Manifest/BuildConfig.class
+Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+Library/PlayerDataCache/Android/Data/data.unity3d
+Library/PlayerDataCache/Android/Data/data.unity3d

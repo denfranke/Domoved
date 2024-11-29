@@ -193,6 +193,7 @@
           {
             "name": "FlareLayer",
             "scenes": [
+              "Assets/Scenes/TutorialScene.unity",
               "Assets/Scenes/WorkSpace.unity"
             ],
             "dependencyType": 0,

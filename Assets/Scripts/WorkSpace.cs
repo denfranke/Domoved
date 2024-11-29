@@ -116,8 +116,6 @@ public class WorkSpace : MonoBehaviour
 
         FurnitureManageObj = GameObject.Find("FurnitureManageObj");
         FurnitureManageObj.SetActive(false);
-        //BGFurnitureManageObj = GameObject.Find("BGFurnitureManageObj");
-        //BGFurnitureManageObj.SetActive(false);
     }
 
     private void Update ()
@@ -134,10 +132,11 @@ public class WorkSpace : MonoBehaviour
     {
         NorthDirectionOfFlatInDegrees = PlayerPrefs.GetInt("NorthDirectionOfFlatInDegrees");
         FlatNameInUnity = PlayerPrefs.GetString("FlatNameInUnity");
-        if(FlatNameInUnity != "" && FlatNameInUnity != null)
-            FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/" + FlatNameInUnity);
+
+        if(FlatNameInUnity == "" || FlatNameInUnity == null || SceneManager.GetActiveScene().name== "TutorialScene")
+            FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/FlatTutorial");
         else
-            FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/Flat1");
+            FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/" + FlatNameInUnity);
 
         Transform FlatInNormalMode = Instantiate(FlatPrefab).transform;
         FlatInNormalMode.SetParent(ParentInNormalModeWhereFlat.transform, false);
@@ -261,8 +260,10 @@ public class WorkSpace : MonoBehaviour
 
         foreach(Material mat in materials)
         {
+            //Debug.Log(mat.name+" "+ SpriteName);
             if(mat.name == SpriteName)
             {
+                Debug.Log(mat.name);
                 foreach(MeshRenderer b in objFlatInArMode)
                 {
                     if((obj.name == b.gameObject.transform.parent.name && obj.tag == b.gameObject.transform.parent.tag) || (obj.name == b.gameObject.name && obj.tag == b.gameObject.tag))
@@ -280,6 +281,7 @@ public class WorkSpace : MonoBehaviour
                 }
                 foreach(MeshRenderer b in objFlatInNormalMode)
                 {
+                        //Debug.Log(obj.name+" "+ b.gameObject.transform.parent.name +" "+ obj.name +" " + b.gameObject.name +" "+ obj.tag == b.gameObject.tag);
                     if(obj.name == b.gameObject.transform.parent.name || obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
                     {
                         if((obj.name == b.gameObject.transform.parent.name && obj.tag == b.gameObject.transform.parent.tag) || (obj.name == b.gameObject.name && obj.tag == b.gameObject.tag))
