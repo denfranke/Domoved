@@ -1,0 +1,165 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk android:minSdkVersion="26" />
+6-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+7
+8    <uses-permission android:name="android.permission.INTERNET" />
+8-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+8-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+9    <uses-permission android:name="android.permission.CAMERA" />
+9-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-63
+9-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-60
+10
+11    <uses-feature android:glEsVersion="0x00030000" />
+11-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-52
+11-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-49
+12    <uses-feature
+12-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-83
+13        android:name="android.hardware.camera"
+13-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-55
+14        android:required="false" />
+14-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:56-80
+15    <uses-feature
+15-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-93
+16        android:name="android.hardware.camera.autofocus"
+16-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-65
+17        android:required="false" />
+17-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:66-90
+18    <uses-feature
+18-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-89
+19        android:name="android.hardware.camera.front"
+19-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-61
+20        android:required="false" />
+20-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:62-86
+21    <uses-feature
+21-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-88
+22        android:name="android.hardware.touchscreen"
+22-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-60
+23        android:required="false" />
+23-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:61-85
+24    <uses-feature
+24-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-99
+25        android:name="android.hardware.touchscreen.multitouch"
+25-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-71
+26        android:required="false" />
+26-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:72-96
+27    <uses-feature
+27-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-108
+28        android:name="android.hardware.touchscreen.multitouch.distinct"
+28-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-80
+29        android:required="false" />
+29-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:81-105
+30    <uses-feature
+30-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-85
+31        android:name="android.hardware.camera.ar"
+31-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-58
+32        android:required="true" />
+32-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:59-82
+33    <uses-feature
+33-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-83
+34        android:name="com.google.ar.core.depth"
+34-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-56
+35        android:required="true" />
+35-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:57-80
+36
+37    <application android:extractNativeLibs="true" >
+37-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-29:17
+37-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+38        <meta-data
+38-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-69
+39            android:name="unity.splash-mode"
+39-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+40            android:value="0" />
+40-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:49-66
+41        <meta-data
+41-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-74
+42            android:name="unity.splash-enable"
+42-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-50
+43            android:value="True" />
+43-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:51-71
+44        <meta-data
+44-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-78
+45            android:name="unity.launch-fullscreen"
+45-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-54
+46            android:value="True" />
+46-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:55-75
+47        <meta-data
+47-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-84
+48            android:name="unity.render-outside-safearea"
+48-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-60
+49            android:value="True" />
+49-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:61-81
+50        <meta-data
+50-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-81
+51            android:name="notch.config"
+51-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+52            android:value="portrait|landscape" />
+52-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-78
+53        <meta-data
+53-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+54            android:name="unity.auto-report-fully-drawn"
+54-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-60
+55            android:value="true" />
+55-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:61-81
+56
+57        <activity
+57-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-26:16
+58            android:name="com.unity3d.player.UnityPlayerActivity"
+58-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:15-68
+59            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+59-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:180-361
+60            android:exported="true"
+60-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:433-456
+61            android:hardwareAccelerated="false"
+61-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:397-432
+62            android:launchMode="singleTask"
+62-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:148-179
+63            android:resizeableActivity="false"
+63-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:362-396
+64            android:screenOrientation="portrait"
+64-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:111-147
+65            android:theme="@style/UnityThemeSelector" >
+65-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:69-110
+66            <intent-filter>
+66-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-23:23
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:9-69
+67-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:19-66
+68
+69                <action android:name="android.intent.action.MAIN" />
+69-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:9-61
+69-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-58
+70            </intent-filter>
+71
+72            <meta-data
+72-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:7-82
+73                android:name="unityplayer.UnityActivity"
+73-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:18-58
+74                android:value="true" />
+74-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-79
+75            <meta-data
+75-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-70
+76                android:name="notch_support"
+76-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:18-46
+77                android:value="true" />
+77-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:47-67
+78        </activity>
+79
+80        <meta-data
+80-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:5-88
+81            android:name="unityplayer.SkipPermissionsDialog"
+81-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:16-64
+82            android:value="true" />
+82-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:65-85
+83        <meta-data
+83-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:5-77
+84            android:name="com.google.ar.core"
+84-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:16-49
+85            android:value="required" />
+85-->D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:50-74
+86    </application>
+87
+88</manifest>

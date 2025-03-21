@@ -1495,8 +1495,7 @@
         1487,
         1488,
         1489,
-        1490,
-        1491
+        1490
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -33703,30 +33702,17 @@
       "DebugActionIndex": 1486
     },
     {
-      "Annotation": "WriteText D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files",
-      "DisplayName": "Writing pram-shadow-files",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 368197,
-      "PayloadLength": 214,
-      "PayloadDebugContentSnippet": "unityLibrary/src/main/assets/b",
-      "Inputs": [],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files"
-      ],
-      "DebugActionIndex": 1487
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_ajt9.info",
       "DisplayName": "Writing unity_app_guid_ajt9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 368503,
+      "PayloadOffset": 368171,
       "PayloadLength": 1662,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_ajt9.info"
       ],
-      "DebugActionIndex": 1488
+      "DebugActionIndex": 1487
     },
     {
       "Annotation": "GuidGenerator D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -33762,25 +33748,25 @@
       "ToBuildDependencies": [
         5,
         180,
-        1488
+        1487
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1489
+      "DebugActionIndex": 1488
     },
     {
       "Annotation": "WriteText D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 370349,
+      "PayloadOffset": 370017,
       "PayloadLength": 72,
       "PayloadDebugContentSnippet": "2022.3.50f1;IL2CPP;Development",
       "Inputs": [],
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1490
+      "DebugActionIndex": 1489
     },
     {
       "Annotation": "Player",
@@ -34524,12 +34510,11 @@
         1470,
         1473,
         1483,
-        1487,
-        1489,
-        1490
+        1488,
+        1489
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1491
+      "DebugActionIndex": 1490
     }
   ],
   "FileSignatures": [
@@ -35092,7 +35077,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "SourceBuildPlayerFiles": 1471,
-          "Player": 1491
+          "Player": 1490
         }
 ,  "DefaultNodes": [
     0

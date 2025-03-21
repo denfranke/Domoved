@@ -420,6 +420,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral01E4871245BE0E74582F7DABBA84924D4A84CEC2
 IL2CPP_EXTERN_C String_t* _stringLiteral0561A578F08EC273CC9F9E211D782DC093FD62B1;
 IL2CPP_EXTERN_C String_t* _stringLiteral0663303EE185F34EED37B01211547BE74CC3AECC;
 IL2CPP_EXTERN_C String_t* _stringLiteral07139C18FC325E1A64FCFC5AB7AE5862E3E6BCE8;
+IL2CPP_EXTERN_C String_t* _stringLiteral07691FD67F9AFAC6D6179E48A38C5E1526753FAD;
 IL2CPP_EXTERN_C String_t* _stringLiteral0787AD0383A87AFCFCCB75C1C3932D79E4269EDA;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A3A5433BB28C2892150B3A4B448AF3B60FF65F1;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A59932C5138929B51C1C18758A3203B905A4E50;
@@ -438,7 +439,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1690F87675D46404DB6EEBA8A4B18F2A7FD4611D
 IL2CPP_EXTERN_C String_t* _stringLiteral16DD21BE77B115D392226EB71A2D3A9FDC29E3F0;
 IL2CPP_EXTERN_C String_t* _stringLiteral174ED8386002338D41311EA8103201765BC2ED20;
 IL2CPP_EXTERN_C String_t* _stringLiteral1933ED00833BAEEB5B3DF94E6522B91EE488239D;
-IL2CPP_EXTERN_C String_t* _stringLiteral19D665A346BAB8D3996EEFFAAD4CD08893B1ED24;
 IL2CPP_EXTERN_C String_t* _stringLiteral1E3D61D6C8FAA01A4AA3BF872B954AFEE9141798;
 IL2CPP_EXTERN_C String_t* _stringLiteral22C446C7E5E3265EDDBA27BFE391935857CD98BE;
 IL2CPP_EXTERN_C String_t* _stringLiteral23BC23743CA78CCF7AA374847689BBDC815DD7B2;
@@ -4465,12 +4465,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, float ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlConnection__ctor_m31A70D3F4AA0BE1BCDB350EC2392363BFA1D9E0E (SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* __this, String_t* ___0_connectionString, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 inline CreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386* GameObject_GetComponent_TisCreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386_mA9E91FBE6EE972459C1A1A1518DA412A67DFBFBB (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
 {
 	return ((  CreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbConnector_ClearFromButtons_m7C6452EFD61B91BCCBFFD5033BB7F9F65A325B57 (DbConnector_t64C5DC634A47B249785A2714489F1C9B5F1F1A40* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlCommand__ctor_mEB9312E80EE23AFD11EDA5DE8C33C10F27F446FF (SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* __this, String_t* ___0_cmdText, SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* ___1_connection, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* SqlCommand_ExecuteReader_mAA1701EEA33F859B728DFD4725BABBCDE7482E6F (SqlCommand_t1162E31C7244E80BC9A0CF24CBB8420A7CB4DB01* __this, const RuntimeMethod* method) ;
@@ -9027,66 +9027,90 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbConnector_Start_mEC8069B6FD04B9D6DFF47
 		__this->___dbConnection = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___dbConnection), (void*)L_3);
 	}
-	try
 	{
-		SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_4 = __this->___dbConnection;
-		NullCheck(L_4);
-		VirtualActionInvoker0::Invoke(20, L_4);
-		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3CA4AEE870E13F6D94C8E08E9FE0671630DCBE43, NULL);
-		goto IL_0064;
-	}
-	catch(Il2CppExceptionWrapper& e)
-	{
-		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
-			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
-			goto CATCH_0049;
-		}
-		throw e;
-	}
 
-CATCH_0049:
-	{
-		Exception_t* L_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		V_1 = L_5;
-		Exception_t* L_6 = V_1;
-		NullCheck(L_6);
-		String_t* L_7;
-		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_6);
-		String_t* L_8;
-		L_8 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral68DF02CFFF9E5030B9F0ADDC97644B8146437FEA)), L_7, NULL);
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
-		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_8, NULL);
-		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
-		goto IL_0064;
-	}
+FINALLY_0065:
+			{
+				{
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+					L_4 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral28B7EDF9E324F8C7C00DCE82B9611E6089187E1F, NULL);
+					il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+					bool L_5;
+					L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+					V_2 = L_5;
+					bool L_6 = V_2;
+					if (!L_6)
+					{
+						goto IL_008f;
+					}
+				}
+				{
+					GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7;
+					L_7 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral28B7EDF9E324F8C7C00DCE82B9611E6089187E1F, NULL);
+					NullCheck(L_7);
+					CreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386* L_8;
+					L_8 = GameObject_GetComponent_TisCreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386_mA9E91FBE6EE972459C1A1A1518DA412A67DFBFBB(L_7, GameObject_GetComponent_TisCreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386_mA9E91FBE6EE972459C1A1A1518DA412A67DFBFBB_RuntimeMethod_var);
+					__this->___createBtn = L_8;
+					Il2CppCodeGenWriteBarrier((void**)(&__this->___createBtn), (void*)L_8);
+				}
 
-IL_0064:
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9;
-		L_9 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral28B7EDF9E324F8C7C00DCE82B9611E6089187E1F, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		V_2 = L_10;
-		bool L_11 = V_2;
-		if (!L_11)
+IL_008f:
+				{
+					return;
+				}
+			}
+		});
+		try
 		{
-			goto IL_008d;
+			try
+			{
+				SqlConnection_t4767530EB81DB505F45D7732F02D01148131E5B8* L_9 = __this->___dbConnection;
+				NullCheck(L_9);
+				VirtualActionInvoker0::Invoke(20, L_9);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3CA4AEE870E13F6D94C8E08E9FE0671630DCBE43, NULL);
+				goto IL_0063_1;
+			}
+			catch(Il2CppExceptionWrapper& e)
+			{
+				if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+				{
+					IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+					goto CATCH_0049_1;
+				}
+				throw e;
+			}
+
+CATCH_0049_1:
+			{
+				Exception_t* L_10 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+				V_1 = L_10;
+				Exception_t* L_11 = V_1;
+				NullCheck(L_11);
+				String_t* L_12;
+				L_12 = VirtualFuncInvoker0< String_t* >::Invoke(3, L_11);
+				String_t* L_13;
+				L_13 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral68DF02CFFF9E5030B9F0ADDC97644B8146437FEA)), L_12, NULL);
+				il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+				Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_13, NULL);
+				IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+				goto IL_0091;
+			}
+
+IL_0063_1:
+			{
+				goto IL_0091;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
 		}
 	}
-	{
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
-		L_12 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral28B7EDF9E324F8C7C00DCE82B9611E6089187E1F, NULL);
-		NullCheck(L_12);
-		CreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386* L_13;
-		L_13 = GameObject_GetComponent_TisCreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386_mA9E91FBE6EE972459C1A1A1518DA412A67DFBFBB(L_12, GameObject_GetComponent_TisCreateButtons_t3722553F9DCB0E4D2725B3AADC7AB278ADA8D386_mA9E91FBE6EE972459C1A1A1518DA412A67DFBFBB_RuntimeMethod_var);
-		__this->___createBtn = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___createBtn), (void*)L_13);
-	}
 
-IL_008d:
+IL_0091:
 	{
 		return;
 	}
@@ -10261,13 +10285,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DbConnector__ctor_m4789A6736C450B7D8D4E2
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral19D665A346BAB8D3996EEFFAAD4CD08893B1ED24);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral07691FD67F9AFAC6D6179E48A38C5E1526753FAD);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		__this->___ip = _stringLiteral19D665A346BAB8D3996EEFFAAD4CD08893B1ED24;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___ip), (void*)_stringLiteral19D665A346BAB8D3996EEFFAAD4CD08893B1ED24);
+		__this->___ip = _stringLiteral07691FD67F9AFAC6D6179E48A38C5E1526753FAD;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___ip), (void*)_stringLiteral07691FD67F9AFAC6D6179E48A38C5E1526753FAD);
 		__this->___curCity = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___curCity), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
 		__this->___curDistrict = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;

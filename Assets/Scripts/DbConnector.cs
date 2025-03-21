@@ -21,7 +21,7 @@ public class DbConnector : MonoBehaviour
     public GameObject HousesMenu;
     public GameObject FlatsMenu;
 
-    private string ip = "192.168.1.67";
+    private string ip = "192.168.1.68";
     //private string ip = "172.23.49.114";
 
     private string curCity = "", curDistrict = "", curStreet = "", curHouse = "";
@@ -34,6 +34,7 @@ public class DbConnector : MonoBehaviour
 
     private void Start ()
     {
+        
         Debug.Log("Connecting to database...");
         //string connectionString = $"Data Source=172.23.50.39,1433; Initial Catalog=Flats; User ID=sa; Password=123;";
         string connectionString = $"Data Source=" + ip + ",1433; Initial Catalog=Flats; User ID=sa; Password=123;";
@@ -48,11 +49,13 @@ public class DbConnector : MonoBehaviour
         catch(Exception _exception)
         {
             Debug.LogWarning("ошибка " + _exception.ToString());
+            return;
         }
-
-        if(GameObject.Find("EventSystem") != null)
-            createBtn = GameObject.Find("EventSystem").GetComponent<CreateButtons>();
-
+        finally
+        {
+            if(GameObject.Find("EventSystem") != null)
+                createBtn = GameObject.Find("EventSystem").GetComponent<CreateButtons>();
+        }
         //if(GameObject.Find("InfoSpace") != null)
         //   infoPanel = GameObject.Find("InfoSpace").GetComponent<InfoPanel>();
     }
