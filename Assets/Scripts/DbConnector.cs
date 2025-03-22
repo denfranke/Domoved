@@ -21,7 +21,9 @@ public class DbConnector : MonoBehaviour
     public GameObject HousesMenu;
     public GameObject FlatsMenu;
 
-    private string ip = "192.168.1.68";
+    private string ip = "95.165.157.84";
+    //private string ip = "192.168.1.11";
+
     //private string ip = "172.23.49.114";
 
     private string curCity = "", curDistrict = "", curStreet = "", curHouse = "";
@@ -36,8 +38,8 @@ public class DbConnector : MonoBehaviour
     {
         
         Debug.Log("Connecting to database...");
-        //string connectionString = $"Data Source=172.23.50.39,1433; Initial Catalog=Flats; User ID=sa; Password=123;";
-        string connectionString = $"Data Source=" + ip + ",1433; Initial Catalog=Flats; User ID=sa; Password=123;";
+        string connectionString = $"Data Source=" + ip + ",42145; Initial Catalog=Flats; User ID=sa; Password=123;";
+        //string connectionString = $"Data Source=" + ip + ",1433; Initial Catalog=Flats; User ID=sa; Password=123;";
 
         dbConnection = new SqlConnection(connectionString);
 
@@ -49,7 +51,6 @@ public class DbConnector : MonoBehaviour
         catch(Exception _exception)
         {
             Debug.LogWarning("ошибка " + _exception.ToString());
-            return;
         }
         finally
         {
