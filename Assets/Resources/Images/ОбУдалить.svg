@@ -1,0 +1,19 @@
+<svg width="84" height="85" viewBox="0 0 84 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-4.34782" y="-7.34782" width="92.6956" height="92.6956"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(10.67px);clip-path:url(#bgblur_0_163_77_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_d_163_77)" data-figma-bg-blur-radius="21.3478">
+<circle cx="42" cy="39" r="25" fill="white"/>
+</g>
+<path d="M44.3232 25.7588C45.1523 25.7794 45.9434 26.1182 46.5312 26.7061C47.138 27.313 47.4785 28.1359 47.4785 28.9941V31.7734H54.999V33.3271H52.8936L51.8906 46.9473C51.8072 48.079 51.2982 49.1378 50.4668 49.9102C49.6353 50.6824 48.5421 51.1124 47.4072 51.1123H37.1572C36.0214 51.1139 34.9265 50.6855 34.0938 49.9131C33.2609 49.1405 32.7515 48.0801 32.668 46.9473L31.668 33.3271H29.5605V31.7734H37.0752V28.9941C37.0752 28.1359 37.4157 27.313 38.0225 26.7061C38.6294 26.0991 39.4532 25.7578 40.3115 25.7578H44.2422L44.3232 25.7588ZM37.8242 47.9219H39.1182V35.7432H37.8242V47.9219ZM41.6328 47.8359H42.9277V35.6572H41.6328V47.8359ZM45.4395 47.8359H46.7344V35.6572H45.4395V47.8359ZM40.3115 27.3115C39.8653 27.3115 39.4367 27.4882 39.1211 27.8037C38.8055 28.1193 38.6279 28.5478 38.6279 28.9941V31.7734H45.9258V28.9941L45.9248 28.9521C45.9141 28.521 45.7383 28.1094 45.4326 27.8037C45.1269 27.4981 44.7153 27.3222 44.2842 27.3115H40.3115Z" fill="#010101"/>
+<defs>
+<filter id="filter0_d_163_77" x="-4.34782" y="-7.34782" width="92.6956" height="92.6956" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="3.55797"/>
+<feGaussianBlur stdDeviation="8.45018"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_163_77"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_163_77" result="shape"/>
+</filter>
+<clipPath id="bgblur_0_163_77_clip_path" transform="translate(4.34782 7.34782)"><circle cx="42" cy="39" r="25"/>
+</clipPath></defs>
+</svg>

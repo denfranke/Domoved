@@ -17313,7 +17313,7 @@ IL_0054:
 		{
 			SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_11 = ___0_ds;
 			NullCheck(L_11);
-			VirtualActionInvoker0::Invoke(21, L_11);
+			VirtualActionInvoker0::Invoke(20, L_11);
 			goto IL_0062;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -17418,7 +17418,7 @@ IL_00c7:
 		{
 			SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_26 = ___0_ds;
 			NullCheck(L_26);
-			VirtualActionInvoker0::Invoke(21, L_26);
+			VirtualActionInvoker0::Invoke(20, L_26);
 			goto IL_00d3;
 		}
 		catch(Il2CppExceptionWrapper& e)

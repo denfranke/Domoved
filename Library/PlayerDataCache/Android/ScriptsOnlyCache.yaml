@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp:
+    - SettingsBtn
     - SojaExiles.BRGlassDoor
     - SojaExiles.Drawer_Pull_X
     - SojaExiles.Drawer_Pull_Z
@@ -35,12 +36,15 @@ ScriptsOnlyBuild:
     - CardboardReticlePointer
     - Google.XR.Cardboard.XRLoader
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -61,6 +65,10 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.VectorGraphics:
+    - Unity.VectorGraphics.SVGImage
+    Unity.VectorGraphics.dll:
+    - Unity.VectorGraphics.SVGImage
     Unity.XR.ARCore.Editor.dll:
     - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARCore.dll:
@@ -220,10 +228,10 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: DbConnector
-    methodName: openStreetsMenu
+    methodName: openStreetsMenuBtn
   - assembly: Assembly-CSharp
     fullTypeName: DbConnector
-    methodName: openHousesMenu
+    methodName: openHousesMenuBtn
   - assembly: Assembly-CSharp
     fullTypeName: DbConnector
     methodName: Quit
@@ -232,7 +240,7 @@ ScriptsOnlyBuild:
     methodName: _StartTutorial
   - assembly: Assembly-CSharp
     fullTypeName: DbConnector
-    methodName: openCitiesMenu
+    methodName: openCitiesMenuBtn
   - assembly: Assembly-CSharp
     fullTypeName: DbConnector
     methodName: openMainMenu
@@ -241,7 +249,28 @@ ScriptsOnlyBuild:
     methodName: openCitiesMenu
   - assembly: Assembly-CSharp
     fullTypeName: DbConnector
-    methodName: openDistrictsMenu
+    methodName: openDistrictsMenuBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _changeImageInBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeLightsSourseVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallpapersVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFurnituresVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFlatSizesVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _TurnOnOrOffFlatLights
   - assembly: Vuforia.Unity.Engine
     fullTypeName: Vuforia.Internal.AreaTargetCaptureInfoPopup
     methodName: OnCaptureCreationError
@@ -792,6 +821,48 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.AreaTargetCaptureBehaviour
     methodName: CancelTargetGeneration
   - assembly: Assembly-CSharp
+    fullTypeName: CameraMovement
+    methodName: TurnOnOrOffOrbitRotation
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _changeImageInBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFlatSizesVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallpapersVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _TurnOnOrOffFlatLights
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeLightsSourseVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFurnituresVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFlatSizesVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallpapersVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _TurnOnOrOffFlatLights
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeLightsSourseVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFurnituresVisiblity
+  - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeFurnituresVisiblity
   - assembly: Assembly-CSharp
@@ -840,12 +911,6 @@ ScriptsOnlyBuild:
     fullTypeName: ChangeReality
     methodName: _OpenOrCloseAR
   - assembly: Assembly-CSharp
-    fullTypeName: CameraMovement
-    methodName: TurnOnOrOffOrbitRotation
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
-    methodName: _changeImageInBtn
-  - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenOrCloseSettingsSpaceInVR
   - assembly: Assembly-CSharp
@@ -859,25 +924,16 @@ ScriptsOnlyBuild:
     methodName: _OpenOrCloseAR
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
-    methodName: _ChangeWallsVisiblity
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
     methodName: _ChangeLightsSourseVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: ChangeReality
     methodName: _OpenOrCloseVR
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
-    methodName: _ChangeWallpapersVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenOrCloseInfoSpaceInVR
   - assembly: Assembly-CSharp
     fullTypeName: ChangeImageInBtn
     methodName: _ChangeBtn
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
-    methodName: _TurnOnOrOffFlatLights
   - assembly: Assembly-CSharp
     fullTypeName: ChangeImageInBtn
     methodName: _ChangeBtn
@@ -906,8 +962,8 @@ ScriptsOnlyBuild:
     fullTypeName: Vuforia.PlaneFinderBehaviour
     methodName: PerformHitTest
   - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
-    methodName: _ChangeFlatSizesVisiblity
+    fullTypeName: ArBtnManager
+    methodName: _SizeScrollBarUpdater
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
     methodName: _ChangeFlatSizesVisiblity
@@ -955,12 +1011,6 @@ ScriptsOnlyBuild:
     methodName: _ChangeLightsSourseVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
-    methodName: _ChangeFurnituresVisiblity
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
-    methodName: _ChangeLightsSourseVisiblity
-  - assembly: Assembly-CSharp
-    fullTypeName: SettingsBtn
     methodName: _TurnOnOrOffFlatLights
   - assembly: Assembly-CSharp
     fullTypeName: SettingsBtn
@@ -968,6 +1018,48 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenOrCloseInfoSpace
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _changeImageInBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFlatSizesVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallpapersVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _TurnOnOrOffFlatLights
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeLightsSourseVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFurnituresVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _changeImageInBtn
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFlatSizesVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallpapersVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeWallsVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _TurnOnOrOffFlatLights
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeLightsSourseVisiblity
+  - assembly: Assembly-CSharp
+    fullTypeName: SettingsBtn
+    methodName: _ChangeFurnituresVisiblity
   - assembly: Assembly-CSharp
     fullTypeName: WorkSpace
     methodName: _OpenOrCloseInfoSpace
@@ -1356,99 +1448,103 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16908}
+      Script: {instanceID: 16930}
     - Class: 114
-      Script: {instanceID: 16912}
+      Script: {instanceID: 16934}
     - Class: 114
-      Script: {instanceID: 16914}
+      Script: {instanceID: 16936}
     - Class: 114
-      Script: {instanceID: 16916}
+      Script: {instanceID: 16938}
     - Class: 114
-      Script: {instanceID: 16918}
+      Script: {instanceID: 16940}
     - Class: 114
-      Script: {instanceID: 16920}
+      Script: {instanceID: 16942}
     - Class: 114
-      Script: {instanceID: 16924}
+      Script: {instanceID: 16946}
     - Class: 114
-      Script: {instanceID: 16966}
+      Script: {instanceID: 16988}
     - Class: 114
-      Script: {instanceID: 17082}
+      Script: {instanceID: 17104}
     - Class: 114
-      Script: {instanceID: 17622}
+      Script: {instanceID: 17646}
     - Class: 114
-      Script: {instanceID: 18124}
+      Script: {instanceID: 18158}
     - Class: 114
-      Script: {instanceID: 18128}
+      Script: {instanceID: 18162}
     - Class: 114
-      Script: {instanceID: 19136}
+      Script: {instanceID: 19176}
     - Class: 114
-      Script: {instanceID: 19212}
+      Script: {instanceID: 19252}
     - Class: 114
-      Script: {instanceID: 19214}
+      Script: {instanceID: 19254}
     - Class: 114
-      Script: {instanceID: 19216}
+      Script: {instanceID: 19256}
     - Class: 114
-      Script: {instanceID: 19304}
+      Script: {instanceID: 19344}
     - Class: 114
-      Script: {instanceID: 19310}
+      Script: {instanceID: 19350}
     - Class: 114
-      Script: {instanceID: 19312}
+      Script: {instanceID: 19352}
     - Class: 114
-      Script: {instanceID: 19314}
+      Script: {instanceID: 19354}
     - Class: 114
-      Script: {instanceID: 19316}
+      Script: {instanceID: 19356}
     - Class: 114
-      Script: {instanceID: 19340}
+      Script: {instanceID: 19380}
     - Class: 114
-      Script: {instanceID: 19346}
+      Script: {instanceID: 19386}
     - Class: 114
-      Script: {instanceID: 20786}
+      Script: {instanceID: 20584}
     - Class: 114
-      Script: {instanceID: 20818}
+      Script: {instanceID: 20834}
     - Class: 114
-      Script: {instanceID: 20830}
+      Script: {instanceID: 20866}
     - Class: 114
-      Script: {instanceID: 21438}
+      Script: {instanceID: 20878}
     - Class: 114
-      Script: {instanceID: 21586}
+      Script: {instanceID: 21492}
     - Class: 114
-      Script: {instanceID: 22130}
+      Script: {instanceID: 21640}
     - Class: 114
-      Script: {instanceID: 22342}
+      Script: {instanceID: 22188}
     - Class: 114
-      Script: {instanceID: 23352}
+      Script: {instanceID: 22400}
     - Class: 114
-      Script: {instanceID: 23626}
+      Script: {instanceID: 23416}
     - Class: 114
-      Script: {instanceID: 23722}
+      Script: {instanceID: 23690}
     - Class: 114
-      Script: {instanceID: 24040}
+      Script: {instanceID: 23786}
     - Class: 114
-      Script: {instanceID: 24484}
+      Script: {instanceID: 24106}
     - Class: 114
-      Script: {instanceID: 24486}
+      Script: {instanceID: 24550}
     - Class: 114
-      Script: {instanceID: 24590}
+      Script: {instanceID: 24552}
     - Class: 114
-      Script: {instanceID: 24910}
+      Script: {instanceID: 24656}
     - Class: 114
-      Script: {instanceID: 25028}
+      Script: {instanceID: 24980}
     - Class: 114
-      Script: {instanceID: 25328}
+      Script: {instanceID: 25098}
     - Class: 114
-      Script: {instanceID: 25424}
+      Script: {instanceID: 25402}
     - Class: 114
-      Script: {instanceID: 26042}
+      Script: {instanceID: 25498}
     - Class: 114
-      Script: {instanceID: 27054}
+      Script: {instanceID: 26122}
     - Class: 114
-      Script: {instanceID: 27066}
+      Script: {instanceID: 27144}
     - Class: 114
-      Script: {instanceID: 27324}
+      Script: {instanceID: 27156}
     - Class: 114
-      Script: {instanceID: 27888}
+      Script: {instanceID: 27416}
     - Class: 114
-      Script: {instanceID: 28508}
+      Script: {instanceID: 27832}
+    - Class: 114
+      Script: {instanceID: 27984}
+    - Class: 114
+      Script: {instanceID: 28610}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1458,6 +1554,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1497,87 +1595,89 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16912}
+      Script: {instanceID: 16934}
     - Class: 114
-      Script: {instanceID: 16914}
+      Script: {instanceID: 16936}
     - Class: 114
-      Script: {instanceID: 16916}
+      Script: {instanceID: 16938}
     - Class: 114
-      Script: {instanceID: 16918}
+      Script: {instanceID: 16940}
     - Class: 114
-      Script: {instanceID: 16920}
+      Script: {instanceID: 16942}
     - Class: 114
-      Script: {instanceID: 16924}
+      Script: {instanceID: 16946}
     - Class: 114
-      Script: {instanceID: 16966}
+      Script: {instanceID: 16988}
     - Class: 114
-      Script: {instanceID: 17934}
+      Script: {instanceID: 17966}
     - Class: 114
-      Script: {instanceID: 18050}
+      Script: {instanceID: 18082}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18788}
     - Class: 114
-      Script: {instanceID: 19022}
+      Script: {instanceID: 19058}
     - Class: 114
-      Script: {instanceID: 19054}
+      Script: {instanceID: 19090}
     - Class: 114
-      Script: {instanceID: 19206}
+      Script: {instanceID: 19246}
     - Class: 114
-      Script: {instanceID: 19208}
+      Script: {instanceID: 19248}
     - Class: 114
-      Script: {instanceID: 19230}
+      Script: {instanceID: 19270}
     - Class: 114
-      Script: {instanceID: 19292}
+      Script: {instanceID: 19332}
     - Class: 114
-      Script: {instanceID: 19338}
+      Script: {instanceID: 19378}
     - Class: 114
-      Script: {instanceID: 20598}
+      Script: {instanceID: 20584}
     - Class: 114
-      Script: {instanceID: 20786}
+      Script: {instanceID: 20644}
     - Class: 114
-      Script: {instanceID: 20830}
+      Script: {instanceID: 20834}
     - Class: 114
-      Script: {instanceID: 21438}
+      Script: {instanceID: 20878}
     - Class: 114
-      Script: {instanceID: 22368}
+      Script: {instanceID: 21492}
     - Class: 114
-      Script: {instanceID: 22622}
+      Script: {instanceID: 22426}
     - Class: 114
-      Script: {instanceID: 23470}
+      Script: {instanceID: 22680}
     - Class: 114
-      Script: {instanceID: 23722}
+      Script: {instanceID: 23534}
     - Class: 114
-      Script: {instanceID: 24040}
+      Script: {instanceID: 23786}
     - Class: 114
-      Script: {instanceID: 24486}
+      Script: {instanceID: 24106}
     - Class: 114
-      Script: {instanceID: 24608}
+      Script: {instanceID: 24552}
     - Class: 114
-      Script: {instanceID: 24804}
+      Script: {instanceID: 24674}
     - Class: 114
-      Script: {instanceID: 25490}
+      Script: {instanceID: 24874}
     - Class: 114
-      Script: {instanceID: 25942}
+      Script: {instanceID: 25566}
     - Class: 114
-      Script: {instanceID: 26042}
+      Script: {instanceID: 26020}
     - Class: 114
-      Script: {instanceID: 26096}
+      Script: {instanceID: 26122}
     - Class: 114
-      Script: {instanceID: 26098}
+      Script: {instanceID: 26176}
     - Class: 114
-      Script: {instanceID: 26526}
+      Script: {instanceID: 26178}
     - Class: 114
-      Script: {instanceID: 26720}
+      Script: {instanceID: 26606}
     - Class: 114
-      Script: {instanceID: 27054}
+      Script: {instanceID: 26804}
     - Class: 114
-      Script: {instanceID: 27066}
+      Script: {instanceID: 27144}
     - Class: 114
-      Script: {instanceID: 27736}
+      Script: {instanceID: 27156}
     - Class: 114
-      Script: {instanceID: 27762}
+      Script: {instanceID: 27832}
     - Class: 114
-      Script: {instanceID: 28670}
+      Script: {instanceID: 27858}
+    - Class: 114
+      Script: {instanceID: 28772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1624,85 +1724,87 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16912}
+      Script: {instanceID: 16934}
     - Class: 114
-      Script: {instanceID: 16914}
+      Script: {instanceID: 16936}
     - Class: 114
-      Script: {instanceID: 16916}
+      Script: {instanceID: 16938}
     - Class: 114
-      Script: {instanceID: 16918}
+      Script: {instanceID: 16940}
     - Class: 114
-      Script: {instanceID: 16920}
+      Script: {instanceID: 16942}
     - Class: 114
-      Script: {instanceID: 16924}
+      Script: {instanceID: 16946}
     - Class: 114
-      Script: {instanceID: 16966}
+      Script: {instanceID: 16988}
     - Class: 114
-      Script: {instanceID: 17934}
+      Script: {instanceID: 17966}
     - Class: 114
-      Script: {instanceID: 18050}
+      Script: {instanceID: 18082}
     - Class: 114
-      Script: {instanceID: 18752}
+      Script: {instanceID: 18788}
     - Class: 114
-      Script: {instanceID: 19022}
+      Script: {instanceID: 19058}
     - Class: 114
-      Script: {instanceID: 19054}
+      Script: {instanceID: 19090}
     - Class: 114
-      Script: {instanceID: 19206}
+      Script: {instanceID: 19246}
     - Class: 114
-      Script: {instanceID: 19208}
+      Script: {instanceID: 19248}
     - Class: 114
-      Script: {instanceID: 19230}
+      Script: {instanceID: 19270}
     - Class: 114
-      Script: {instanceID: 19292}
+      Script: {instanceID: 19332}
     - Class: 114
-      Script: {instanceID: 19338}
+      Script: {instanceID: 19378}
     - Class: 114
-      Script: {instanceID: 20598}
+      Script: {instanceID: 20584}
     - Class: 114
-      Script: {instanceID: 20786}
+      Script: {instanceID: 20644}
     - Class: 114
-      Script: {instanceID: 20830}
+      Script: {instanceID: 20834}
     - Class: 114
-      Script: {instanceID: 21438}
+      Script: {instanceID: 20878}
     - Class: 114
-      Script: {instanceID: 22178}
+      Script: {instanceID: 21492}
     - Class: 114
-      Script: {instanceID: 22368}
+      Script: {instanceID: 22236}
     - Class: 114
-      Script: {instanceID: 22622}
+      Script: {instanceID: 22426}
     - Class: 114
-      Script: {instanceID: 23722}
+      Script: {instanceID: 22680}
     - Class: 114
-      Script: {instanceID: 24040}
+      Script: {instanceID: 23786}
     - Class: 114
-      Script: {instanceID: 24486}
+      Script: {instanceID: 24106}
     - Class: 114
-      Script: {instanceID: 24608}
+      Script: {instanceID: 24552}
     - Class: 114
-      Script: {instanceID: 24804}
+      Script: {instanceID: 24674}
     - Class: 114
-      Script: {instanceID: 25490}
+      Script: {instanceID: 24874}
     - Class: 114
-      Script: {instanceID: 25942}
+      Script: {instanceID: 25566}
     - Class: 114
-      Script: {instanceID: 26042}
+      Script: {instanceID: 26020}
     - Class: 114
-      Script: {instanceID: 26096}
+      Script: {instanceID: 26122}
     - Class: 114
-      Script: {instanceID: 26098}
+      Script: {instanceID: 26176}
     - Class: 114
-      Script: {instanceID: 26526}
+      Script: {instanceID: 26178}
     - Class: 114
-      Script: {instanceID: 27048}
+      Script: {instanceID: 26606}
     - Class: 114
-      Script: {instanceID: 27054}
+      Script: {instanceID: 27138}
     - Class: 114
-      Script: {instanceID: 27066}
+      Script: {instanceID: 27144}
     - Class: 114
-      Script: {instanceID: 27736}
+      Script: {instanceID: 27156}
     - Class: 114
-      Script: {instanceID: 27762}
+      Script: {instanceID: 27832}
+    - Class: 114
+      Script: {instanceID: 27858}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -2164,7 +2266,7 @@ ScriptsOnlyBuild:
     className: XRManagerSettings
   - hash:
       serializedVersion: 2
-      Hash: a404d5debb3b069a86ed5e8e5860ae14
+      Hash: d1d94dd266fca85c90374b461361635f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ChangeImageInBtn
@@ -2792,6 +2894,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: TrackedDevicePhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 70c89c83bd2135794718fa7203c8c6b9
+    assemblyName: Unity.VectorGraphics
+    namespaceName: Unity.VectorGraphics
+    className: SVGImage
   - hash:
       serializedVersion: 2
       Hash: 8da6236e5ae31b82a1dbc4b0326188b5
@@ -5725,4 +5833,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/WorkSpace.unity
   - Assets/Scenes/TutorialScene.unity
-  playerPath: D:/Desktop/My project/Domoved.apk
+  playerPath: "D:/Desktop/\u0414\u0438\u043F\u043B\u043E\u043D\u044B\u0439 \u043F\u0440\u043E\u0435\u043A\u0442/Domoved(2.0).apk"

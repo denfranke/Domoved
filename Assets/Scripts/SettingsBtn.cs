@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VectorGraphics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -54,9 +55,9 @@ public class SettingsBtn : MonoBehaviour
     {
         foreach(MeshRenderer l in LightSources.GetComponentsInChildren<MeshRenderer>())
         {
-            if(GameObject.Find("ButtonLight").GetComponent<Image>().sprite == onBtn)
+            if(GameObject.Find("ButtonLight").GetComponentInChildren<SVGImage>().sprite == onBtn)
                 l.enabled = flag;
-            if(GameObject.Find("ButtonLight").GetComponent<Image>().sprite == offBtn && l.GetComponent<Light>()==null)
+            if(GameObject.Find("ButtonLight").GetComponentInChildren<SVGImage>().sprite == offBtn && l.GetComponent<Light>()==null)
                 l.enabled = flag;
         }
         flag=!flag;
@@ -67,8 +68,8 @@ public class SettingsBtn : MonoBehaviour
     {
         foreach(Light l in LightSources.GetComponentsInChildren<Light>())
         {
-            if(GameObject.Find("ButtonMeshLight").GetComponent<Image>().sprite==onBtn)
-                l.gameObject.GetComponent<MeshRenderer>().enabled= !l.enabled;
+            if(GameObject.Find("ButtonMeshLight").GetComponentInChildren<SVGImage>().sprite==onBtn)
+                l.gameObject.GetComponentInChildren<MeshRenderer>().enabled= !l.enabled;
             l.enabled = !l.enabled;
         }
         _changeImageInBtn();
@@ -76,9 +77,9 @@ public class SettingsBtn : MonoBehaviour
 
     public void _changeImageInBtn ()//для настроек 
     {
-        if(GetComponent<Image>().sprite == offBtn)
-            GetComponent<Image>().sprite = onBtn;
+        if(GetComponentInChildren<SVGImage>().sprite == offBtn)
+            GetComponentInChildren<SVGImage>().sprite = onBtn;
         else
-            GetComponent<Image>().sprite = offBtn;
+            GetComponentInChildren<SVGImage>().sprite = offBtn;
     }
 }

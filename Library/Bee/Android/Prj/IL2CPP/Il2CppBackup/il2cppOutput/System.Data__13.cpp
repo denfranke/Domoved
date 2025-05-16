@@ -15839,7 +15839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlXml_System_Xml_Serialization_IXmlSeri
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_5 = ___0_r;
 		NullCheck(L_5);
 		String_t* L_6;
-		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(48, L_5);
+		L_6 = VirtualFuncInvoker0< String_t* >::Invoke(49, L_5);
 		SqlXml_SetNull_mAA1CA6CE685C130014865FE7E927B83B159E23CC(__this, NULL);
 		return;
 	}
@@ -15859,7 +15859,7 @@ IL_002a:
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_11 = ___0_r;
 		NullCheck(L_11);
 		String_t* L_12;
-		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(48, L_11);
+		L_12 = VirtualFuncInvoker0< String_t* >::Invoke(49, L_11);
 		NullCheck(L_10);
 		VirtualActionInvoker1< String_t* >::Invoke(17, L_10, L_12);
 		NullCheck(L_10);

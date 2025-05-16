@@ -16400,7 +16400,7 @@ IL_0007:
 		int32_t L_1 = V_0;
 		NullCheck(L_0);
 		bool L_2;
-		L_2 = VirtualFuncInvoker1< bool, int32_t >::Invoke(44, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< bool, int32_t >::Invoke(43, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_001d;
@@ -16584,7 +16584,7 @@ IL_00c1:
 		int32_t L_15 = V_0;
 		NullCheck(L_14);
 		int64_t L_16;
-		L_16 = VirtualFuncInvoker1< int64_t, int32_t >::Invoke(40, L_14, L_15);
+		L_16 = VirtualFuncInvoker1< int64_t, int32_t >::Invoke(39, L_14, L_15);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetInt64_Unchecked_mE40991A0DC772E4582F0E47C25CDED6C753FEB35(L_11, L_12, L_13, L_16, NULL);
 		goto IL_0425;
@@ -16615,7 +16615,7 @@ IL_00eb:
 		int32_t L_28 = V_0;
 		NullCheck(L_27);
 		bool L_29;
-		L_29 = VirtualFuncInvoker1< bool, int32_t >::Invoke(29, L_27, L_28);
+		L_29 = VirtualFuncInvoker1< bool, int32_t >::Invoke(28, L_27, L_28);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetBoolean_Unchecked_m598BEA1148B2F3D15BCB271C84FCC2BB822C217F(L_24, L_25, L_26, L_29, NULL);
 		goto IL_0425;
@@ -16651,7 +16651,7 @@ IL_0115:
 		int32_t L_44 = V_0;
 		NullCheck(L_43);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_45;
-		L_45 = VirtualFuncInvoker1< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t >::Invoke(33, L_43, L_44);
+		L_45 = VirtualFuncInvoker1< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t >::Invoke(32, L_43, L_44);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetDateTime_Checked_mCAFD895BDA5D08BF53D543A28E3C69173FE62749(L_37, L_38, L_39, L_42, L_45, NULL);
 		goto IL_0425;
@@ -16675,7 +16675,7 @@ IL_0130:
 		int32_t L_52 = V_0;
 		NullCheck(L_51);
 		SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406 L_53;
-		L_53 = VirtualFuncInvoker1< SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406, int32_t >::Invoke(52, L_51, L_52);
+		L_53 = VirtualFuncInvoker1< SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406, int32_t >::Invoke(51, L_51, L_52);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetSqlDecimal_Unchecked_mC070EC6617CC56333CCB59635E587EC845814F36(L_48, L_49, L_50, L_53, NULL);
 		goto IL_0425;
@@ -16690,7 +16690,7 @@ IL_014e:
 		int32_t L_58 = V_0;
 		NullCheck(L_57);
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_59;
-		L_59 = VirtualFuncInvoker1< Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F, int32_t >::Invoke(34, L_57, L_58);
+		L_59 = VirtualFuncInvoker1< Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F, int32_t >::Invoke(33, L_57, L_58);
 		SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406 L_60;
 		memset((&L_60), 0, sizeof(L_60));
 		SqlDecimal__ctor_mEE042C2AF0437320CB7F863BEA8DDDE97AD3F0B2((&L_60), L_59, NULL);
@@ -16708,7 +16708,7 @@ IL_0167:
 		int32_t L_65 = V_0;
 		NullCheck(L_64);
 		double L_66;
-		L_66 = VirtualFuncInvoker1< double, int32_t >::Invoke(35, L_64, L_65);
+		L_66 = VirtualFuncInvoker1< double, int32_t >::Invoke(34, L_64, L_65);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetDouble_Unchecked_mDFDF1EF2BEF9F4454942F53378806330D74A5260(L_61, L_62, L_63, L_66, NULL);
 		goto IL_0425;
@@ -16739,7 +16739,7 @@ IL_0191:
 		int32_t L_78 = V_0;
 		NullCheck(L_77);
 		int32_t L_79;
-		L_79 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(39, L_77, L_78);
+		L_79 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(38, L_77, L_78);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetInt32_Unchecked_m3271547F38D6F4A9626806FCC8DC06C2DCD01CE9(L_74, L_75, L_76, L_79, NULL);
 		goto IL_0425;
@@ -16759,7 +16759,7 @@ IL_01a5:
 		int32_t L_87 = V_0;
 		NullCheck(L_86);
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_88;
-		L_88 = VirtualFuncInvoker1< Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F, int32_t >::Invoke(34, L_86, L_87);
+		L_88 = VirtualFuncInvoker1< Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F, int32_t >::Invoke(33, L_86, L_87);
 		SqlMoney_t88BD587F422EA297502BC57B18010762C03531BB L_89;
 		memset((&L_89), 0, sizeof(L_89));
 		SqlMoney__ctor_mFD70D7B1223E14F4F4A722B77BF35ADBB559DADA((&L_89), L_88, NULL);
@@ -16793,7 +16793,7 @@ IL_01db:
 		int32_t L_101 = V_0;
 		NullCheck(L_100);
 		float L_102;
-		L_102 = VirtualFuncInvoker1< float, int32_t >::Invoke(36, L_100, L_101);
+		L_102 = VirtualFuncInvoker1< float, int32_t >::Invoke(35, L_100, L_101);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetSingle_Unchecked_m769F81C48E7B48A02FFA9A322DFF3F19EECF714C(L_97, L_98, L_99, L_102, NULL);
 		goto IL_0425;
@@ -16808,7 +16808,7 @@ IL_01ef:
 		int32_t L_107 = V_0;
 		NullCheck(L_106);
 		Guid_t L_108;
-		L_108 = VirtualFuncInvoker1< Guid_t, int32_t >::Invoke(37, L_106, L_107);
+		L_108 = VirtualFuncInvoker1< Guid_t, int32_t >::Invoke(36, L_106, L_107);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetGuid_Unchecked_m40C58617C4F172536B75A488B9E53BFDCC93B0D3(L_103, L_104, L_105, L_108, NULL);
 		goto IL_0425;
@@ -16828,7 +16828,7 @@ IL_0203:
 		int32_t L_116 = V_0;
 		NullCheck(L_115);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_117;
-		L_117 = VirtualFuncInvoker1< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t >::Invoke(33, L_115, L_116);
+		L_117 = VirtualFuncInvoker1< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t >::Invoke(32, L_115, L_116);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetDateTime_Checked_mCAFD895BDA5D08BF53D543A28E3C69173FE62749(L_109, L_110, L_111, L_114, L_117, NULL);
 		goto IL_0425;
@@ -16843,7 +16843,7 @@ IL_021e:
 		int32_t L_122 = V_0;
 		NullCheck(L_121);
 		int16_t L_123;
-		L_123 = VirtualFuncInvoker1< int16_t, int32_t >::Invoke(38, L_121, L_122);
+		L_123 = VirtualFuncInvoker1< int16_t, int32_t >::Invoke(37, L_121, L_122);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetInt16_Unchecked_mC84EC00EB1022D68B27A30871D0658CAF93F810A(L_118, L_119, L_120, L_123, NULL);
 		goto IL_0425;
@@ -16863,7 +16863,7 @@ IL_0232:
 		int32_t L_131 = V_0;
 		NullCheck(L_130);
 		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_132;
-		L_132 = VirtualFuncInvoker1< Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F, int32_t >::Invoke(34, L_130, L_131);
+		L_132 = VirtualFuncInvoker1< Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F, int32_t >::Invoke(33, L_130, L_131);
 		SqlMoney_t88BD587F422EA297502BC57B18010762C03531BB L_133;
 		memset((&L_133), 0, sizeof(L_133));
 		SqlMoney__ctor_mFD70D7B1223E14F4F4A722B77BF35ADBB559DADA((&L_133), L_132, NULL);
@@ -16913,7 +16913,7 @@ IL_027e:
 		int32_t L_152 = V_0;
 		NullCheck(L_151);
 		uint8_t L_153;
-		L_153 = VirtualFuncInvoker1< uint8_t, int32_t >::Invoke(30, L_151, L_152);
+		L_153 = VirtualFuncInvoker1< uint8_t, int32_t >::Invoke(29, L_151, L_152);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetByte_Unchecked_m4770EB5A3C400ECCECB8444640755BA96ED25D50(L_148, L_149, L_150, L_153, NULL);
 		goto IL_0425;
@@ -16969,7 +16969,7 @@ IL_02be:
 		int32_t L_174 = V_0;
 		NullCheck(L_173);
 		SqlXml_tF404C3AC7DBB1462C00F4E9CA75EF9C804F23D0A* L_175;
-		L_175 = VirtualFuncInvoker1< SqlXml_tF404C3AC7DBB1462C00F4E9CA75EF9C804F23D0A*, int32_t >::Invoke(54, L_173, L_174);
+		L_175 = VirtualFuncInvoker1< SqlXml_tF404C3AC7DBB1462C00F4E9CA75EF9C804F23D0A*, int32_t >::Invoke(53, L_173, L_174);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetSqlXml_Unchecked_m2083A2FF8167B449BDF12DA20299422067754948(L_170, L_171, L_172, L_175, NULL);
 		goto IL_0425;
@@ -17007,13 +17007,13 @@ IL_02f2:
 		int32_t L_186 = V_0;
 		NullCheck(L_185);
 		RuntimeObject* L_187;
-		L_187 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(55, L_185, L_186);
+		L_187 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(54, L_185, L_186);
 		V_6 = L_187;
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_188 = V_4;
 		int32_t L_189 = V_0;
 		NullCheck(L_188);
 		int32_t L_190;
-		L_190 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(49, L_188, L_189);
+		L_190 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(48, L_188, L_189);
 		V_5 = L_190;
 		goto IL_0320;
 	}
@@ -17024,7 +17024,7 @@ IL_0317:
 		int32_t L_192 = V_0;
 		NullCheck(L_191);
 		RuntimeObject* L_193;
-		L_193 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(42, L_191, L_192);
+		L_193 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(41, L_191, L_192);
 		V_6 = L_193;
 	}
 
@@ -17130,7 +17130,7 @@ IL_039c:
 		int32_t L_237 = V_0;
 		NullCheck(L_236);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_238;
-		L_238 = VirtualFuncInvoker1< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t >::Invoke(33, L_236, L_237);
+		L_238 = VirtualFuncInvoker1< DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D, int32_t >::Invoke(32, L_236, L_237);
 		il2cpp_codegen_runtime_class_init_inline(ValueUtilsSmi_t8155D2A844D24D0E904B367818A996B69412FD2D_il2cpp_TypeInfo_var);
 		ValueUtilsSmi_SetDateTime_Checked_mCAFD895BDA5D08BF53D543A28E3C69173FE62749(L_230, L_231, L_232, L_235, L_238, NULL);
 		goto IL_0425;
@@ -17151,7 +17151,7 @@ IL_03b4:
 		int32_t L_242 = V_0;
 		NullCheck(L_241);
 		TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A L_243;
-		L_243 = VirtualFuncInvoker1< TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A, int32_t >::Invoke(56, L_241, L_242);
+		L_243 = VirtualFuncInvoker1< TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A, int32_t >::Invoke(55, L_241, L_242);
 		V_9 = L_243;
 		goto IL_03da;
 	}
@@ -17162,7 +17162,7 @@ IL_03cc:
 		int32_t L_245 = V_0;
 		NullCheck(L_244);
 		RuntimeObject* L_246;
-		L_246 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(42, L_244, L_245);
+		L_246 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(41, L_244, L_245);
 		V_9 = ((*(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)((TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)(TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A*)UnBox(L_246, TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var))));
 	}
 
@@ -17197,7 +17197,7 @@ IL_03ed:
 		int32_t L_257 = V_0;
 		NullCheck(L_256);
 		DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4 L_258;
-		L_258 = VirtualFuncInvoker1< DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4, int32_t >::Invoke(57, L_256, L_257);
+		L_258 = VirtualFuncInvoker1< DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4, int32_t >::Invoke(56, L_256, L_257);
 		V_11 = L_258;
 		goto IL_0413;
 	}
@@ -17208,7 +17208,7 @@ IL_0405:
 		int32_t L_260 = V_0;
 		NullCheck(L_259);
 		RuntimeObject* L_261;
-		L_261 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(42, L_259, L_260);
+		L_261 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(41, L_259, L_260);
 		V_11 = ((*(DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4*)((DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4*)(DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4*)UnBox(L_261, DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_il2cpp_TypeInfo_var))));
 	}
 
@@ -19019,7 +19019,7 @@ IL_0067:
 		int32_t L_28 = V_1;
 		NullCheck(L_24);
 		int64_t L_29;
-		L_29 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_24, L_25, L_26, L_27, 0, L_28);
+		L_29 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30, L_24, L_25, L_26, L_27, 0, L_28);
 		int64_t L_30 = L_29;
 		V_3 = L_30;
 		if (!L_30)
@@ -19525,7 +19525,7 @@ IL_007c:
 		int32_t L_31 = V_1;
 		NullCheck(L_27);
 		int64_t L_32;
-		L_32 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(32, L_27, L_28, L_29, L_30, 0, L_31);
+		L_32 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB*, int32_t, int32_t >::Invoke(31, L_27, L_28, L_29, L_30, 0, L_31);
 		int64_t L_33 = L_32;
 		V_3 = L_33;
 		if (!L_33)
@@ -19570,7 +19570,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueUtilsSmi_SetString_FromReader_mCF19
 		int32_t L_1 = ___2_ordinal;
 		NullCheck(L_0);
 		String_t* L_2;
-		L_2 = VirtualFuncInvoker1< String_t*, int32_t >::Invoke(41, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< String_t*, int32_t >::Invoke(40, L_0, L_1);
 		V_0 = L_2;
 		SmiMetaData_tD38969A14A38B607D8E47FE806C7263A207A11CC* L_3 = ___3_metaData;
 		NullCheck(L_3);
@@ -22638,7 +22638,7 @@ IL_002e:
 		DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F* L_13 = ___4_value;
 		NullCheck(L_13);
 		bool L_14;
-		L_14 = VirtualFuncInvoker0< bool >::Invoke(46, L_13);
+		L_14 = VirtualFuncInvoker0< bool >::Invoke(45, L_13);
 		if (L_14)
 		{
 			goto IL_0012;

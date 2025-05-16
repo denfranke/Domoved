@@ -188,8 +188,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: City
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a021ffec5aeeed54fa5c58548d76300b, type: 2}
-  m_sharedMaterial: {fileID: -5581104863450679342, guid: a021ffec5aeeed54fa5c58548d76300b,
+  m_fontAsset: {fileID: 11400000, guid: fac0268c14ff2a34f82cd20ff0828e81, type: 2}
+  m_sharedMaterial: {fileID: -8285963515962880423, guid: fac0268c14ff2a34f82cd20ff0828e81,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

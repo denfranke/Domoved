@@ -1180,13 +1180,17 @@
       <Project>{B2A7DFCF-0B88-8B8E-3D47-1D81CD973FA7}</Project>
       <Name>Unity.Services.Analytics.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.AI.Navigation.csproj">
-      <Project>{028F0C45-D7C7-F6B7-28CD-E0085B340F53}</Project>
-      <Name>Unity.AI.Navigation</Name>
+    <ProjectReference Include="Unity.VectorGraphics.csproj">
+      <Project>{960867DC-F526-A479-F908-1622DD6766CB}</Project>
+      <Name>Unity.VectorGraphics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
       <Project>{336E7CE8-97CE-9007-5733-BCCFA1CF8668}</Project>
       <Name>Unity.Analytics.DataPrivacy</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AI.Navigation.csproj">
+      <Project>{028F0C45-D7C7-F6B7-28CD-E0085B340F53}</Project>
+      <Name>Unity.AI.Navigation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
       <Project>{687A752A-FCA1-B483-E05D-F7A8F3FBE439}</Project>
@@ -1203,6 +1207,10 @@
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
       <Project>{D0FCE10B-6A22-F1DB-E40C-2A40B815B3D1}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VectorGraphics.Editor.csproj">
+      <Project>{6D02CCB4-D179-8AD1-03AD-950BD2C2932E}</Project>
+      <Name>Unity.VectorGraphics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.ARCore.csproj">
       <Project>{643135A7-8FF8-0ECB-65F5-BA845E853A4D}</Project>
@@ -1320,13 +1328,13 @@
       <Project>{7690214D-1CFF-EF0E-E146-460F358ECE8D}</Project>
       <Name>UnityEngine.Advertisements</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{8D75034B-B513-9550-7C4F-1B8BC2E26BE8}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
       <Project>{4EF08D6E-3088-A18D-99DF-DAB2D10CAC38}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{8D75034B-B513-9550-7C4F-1B8BC2E26BE8}</Project>
+      <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Google.XR.Cardboard.Editor.csproj">
       <Project>{1DEFD517-73DB-D0C5-8F8F-959E7F48F633}</Project>
@@ -1364,6 +1372,10 @@
       <Project>{C6945AB4-69F8-C7C9-5E4C-09404BDCF311}</Project>
       <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEditorBridge.003.csproj">
+      <Project>{11D4506E-3306-D6DD-0F8B-0EA166C1915C}</Project>
+      <Name>Unity.InternalAPIEditorBridge.003</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
       <Project>{933D4EC1-E0B7-F3E4-361D-293CC37EA8CC}</Project>
       <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
@@ -1391,6 +1403,10 @@
     <ProjectReference Include="Unity.Services.Analytics.csproj">
       <Project>{71FD3B5F-7DB9-5EC8-3837-D2C973980FD2}</Project>
       <Name>Unity.Services.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InternalAPIEngineBridge.003.csproj">
+      <Project>{5DD490C7-E45C-EADD-5DBB-F6B3FC9FDFFF}</Project>
+      <Name>Unity.InternalAPIEngineBridge.003</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{BAB169A6-69E2-CE2D-5C35-6F574577914E}</Project>

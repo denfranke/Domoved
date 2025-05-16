@@ -3,6 +3,10 @@ UnityEditor
 GridBrushEditor
 GridBrushEditorBase
 GridSelection
+SVGImageEditor
+
+SVGImage
+
 ActionBasedControllerEditor
 UnityEngine
 XR

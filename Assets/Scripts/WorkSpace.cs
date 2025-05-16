@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Linq;
 using TMPro;
+using Unity.VectorGraphics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -199,9 +200,9 @@ public class WorkSpace : MonoBehaviour
         doorsMaterials = Resources.LoadAll<Material>("DoorsMaterials");
 
         ClearSettingsLines();
-        CreateSettingsColumns("Floor", "Настройка текстур полов:", "Выбор текстуры для пола '", wallAndFloorsSprites, Mode);
-        CreateSettingsColumns("Wallpaper", "Настройка текстур обоев:", "Выбор текстуры для обоев '", wallAndFloorsSprites, Mode);
-        CreateSettingsColumns("Door", "Настройка текстур дверей:", "Выбор материала для двери '", doorsSprites, Mode);
+        CreateSettingsColumns("Floor", "Настройка текстур полов", "Выбор текстуры для пола  «", wallAndFloorsSprites, Mode);
+        CreateSettingsColumns("Wallpaper", "Настройка текстур обоев", "Выбор текстуры для обоев  «", wallAndFloorsSprites, Mode);
+        CreateSettingsColumns("Door", "Настройка текстур дверей", "Выбор материала для двери  «", doorsSprites, Mode);
     }
 
     private void CreateSettingsColumns (string findName, string HeadLine1Text, string HeadLine2Text, Sprite[] sprites, string Mode)
@@ -217,7 +218,7 @@ public class WorkSpace : MonoBehaviour
         {
             Transform HeadLine2 = Instantiate(SettingHeadLine2Prefab).transform;
             HeadLine2.SetParent(parent.transform, false);
-            HeadLine2.GetChild(0).GetComponent<TMP_Text>().text = HeadLine2Text + a.name + "'";
+            HeadLine2.GetChild(0).GetComponent<TMP_Text>().text = HeadLine2Text + a.name + "»";
             HeadLine2.GetChild(0).GetComponent<TMP_Text>().autoSizeTextContainer = true;
 
             GameObject MaterialScrollView = Instantiate(MaterialScrollViewPrefab);
@@ -438,12 +439,12 @@ public class WorkSpace : MonoBehaviour
         }
     }
 
-    public void _OpenOrCloseScrollBar (Image btnImageBG)
+    public void _OpenOrCloseScrollBar ()
     {
-        if(timeScrollBar.activeSelf == false)
+        /*if(timeScrollBar.activeSelf == false)
             btnImageBG.color = new Color(1, 0.6572326f, 0.6572326f);
         else
-            btnImageBG.color = Color.white;
+            btnImageBG.color = Color.white;*/
 
         timeScrollBar.SetActive(!timeScrollBar.activeSelf);
         CameraManageObj.SetActive(!timeScrollBar.activeSelf);

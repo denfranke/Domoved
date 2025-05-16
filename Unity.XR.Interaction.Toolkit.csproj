@@ -172,8 +172,8 @@
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Locomotion\Continuous\DeviceBasedContinuousTurnProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Locomotion\LocomotionProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Interaction\Interactors\IXRTargetPriorityInteractor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Interaction\Transformers\XRBaseGrabTransformer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\AffordanceSystem\Receiver\Audio\AudioAffordanceReceiver.cs" />
+    <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Interaction\Transformers\XRBaseGrabTransformer.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Utilities\SmallRegistrationList.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\Locomotion\Teleportation\TeleportVolumeDestinationSettingsDatumProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.xr.interaction.toolkit@2.6.3\Runtime\AR\Interactables\GestureTransformationUtility.cs" />

@@ -1,0 +1,18 @@
+<svg width="440" height="790" viewBox="0 0 440 790" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-5.71428" y="0.857143" width="451.429" height="788.429"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(7.5px);clip-path:url(#bgblur_0_123_47_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_d_123_47)" data-figma-bg-blur-radius="15">
+<rect x="16" y="18" width="408" height="745" rx="40" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_123_47" x="-5.71428" y="0.857143" width="451.429" height="788.429" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4.57143"/>
+<feGaussianBlur stdDeviation="10.8571"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_123_47"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_123_47" result="shape"/>
+</filter>
+<clipPath id="bgblur_0_123_47_clip_path" transform="translate(5.71428 -0.857143)"><rect x="16" y="18" width="408" height="745" rx="40"/>
+</clipPath></defs>
+</svg>

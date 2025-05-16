@@ -16621,7 +16621,7 @@ IL_0108:
 		RuntimeObject* L_66 = V_0;
 		NullCheck(((SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187*)CastclassClass((RuntimeObject*)L_66, SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187_il2cpp_TypeInfo_var)));
 		SmiExtendedMetaDataU5BU5D_tB046A87F9324890E8C4859A1E2CEC2146E7A5FCF* L_67;
-		L_67 = VirtualFuncInvoker0< SmiExtendedMetaDataU5BU5D_tB046A87F9324890E8C4859A1E2CEC2146E7A5FCF* >::Invoke(47, ((SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187*)CastclassClass((RuntimeObject*)L_66, SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187_il2cpp_TypeInfo_var)));
+		L_67 = VirtualFuncInvoker0< SmiExtendedMetaDataU5BU5D_tB046A87F9324890E8C4859A1E2CEC2146E7A5FCF* >::Invoke(46, ((SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187*)CastclassClass((RuntimeObject*)L_66, SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187_il2cpp_TypeInfo_var)));
 		List_1_tD676C45F8F5B4E48EBD5E313449E12959CD46FFC* L_68 = (List_1_tD676C45F8F5B4E48EBD5E313449E12959CD46FFC*)il2cpp_codegen_object_new(List_1_tD676C45F8F5B4E48EBD5E313449E12959CD46FFC_il2cpp_TypeInfo_var);
 		List_1__ctor_m773C08AB560521AB8C89AE40F16F0AFAEBC62C3A(L_68, (RuntimeObject*)L_67, List_1__ctor_m773C08AB560521AB8C89AE40F16F0AFAEBC62C3A_RuntimeMethod_var);
 		*((RuntimeObject**)L_65) = (RuntimeObject*)L_68;
@@ -17228,7 +17228,7 @@ IL_03dd:
 		RuntimeObject* L_226 = V_0;
 		NullCheck(((DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F*)CastclassClass((RuntimeObject*)L_226, DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F_il2cpp_TypeInfo_var)));
 		DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* L_227;
-		L_227 = VirtualFuncInvoker0< DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* >::Invoke(28, ((DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F*)CastclassClass((RuntimeObject*)L_226, DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F_il2cpp_TypeInfo_var)));
+		L_227 = VirtualFuncInvoker0< DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* >::Invoke(27, ((DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F*)CastclassClass((RuntimeObject*)L_226, DbDataReader_tA1A9729B3ED5125A693F4442984CCE7D721F452F_il2cpp_TypeInfo_var)));
 		V_27 = L_227;
 		DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* L_228 = V_27;
 		NullCheck(L_228);
@@ -21627,7 +21627,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlReferenceCollection_NotifyItem_m5DC9F
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_2 = V_0;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtualFuncInvoker0< bool >::Invoke(18, L_2);
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(17, L_2);
 		if (L_3)
 		{
 			goto IL_0039;
@@ -21636,7 +21636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlReferenceCollection_NotifyItem_m5DC9F
 	{
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_4 = V_0;
 		NullCheck(L_4);
-		VirtualActionInvoker0::Invoke(48, L_4);
+		VirtualActionInvoker0::Invoke(47, L_4);
 		return;
 	}
 
@@ -21710,7 +21710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass5_0_U3CFindLiveRead
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_0 = ___0_dataReader;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(18, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(17, L_0);
 		if (L_1)
 		{
 			goto IL_0017;
@@ -21767,7 +21767,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CFindLiveReaderU3Eb__5_0_mA2F5
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_0 = ___0_dataReader;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(18, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(17, L_0);
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
@@ -21792,7 +21792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlSequentialStream_get_CanRead_m2E367F3
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_1 = __this->____reader;
 		NullCheck(L_1);
 		bool L_2;
-		L_2 = VirtualFuncInvoker0< bool >::Invoke(18, L_1);
+		L_2 = VirtualFuncInvoker0< bool >::Invoke(17, L_1);
 		return (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
 	}
 
@@ -23289,7 +23289,7 @@ FINALLY_0034:
 				SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_4 = __this->____reader;
 				NullCheck(L_4);
 				bool L_5;
-				L_5 = VirtualFuncInvoker0< bool >::Invoke(18, L_4);
+				L_5 = VirtualFuncInvoker0< bool >::Invoke(17, L_4);
 				if (L_5)
 				{
 					goto IL_002b_1;
@@ -23298,7 +23298,7 @@ FINALLY_0034:
 			{
 				SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_6 = __this->____reader;
 				NullCheck(L_6);
-				VirtualActionInvoker0::Invoke(21, L_6);
+				VirtualActionInvoker0::Invoke(20, L_6);
 			}
 
 IL_002b_1:
@@ -23615,7 +23615,7 @@ IL_0000:
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_0 = ___0_reader;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(46, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(45, L_0);
 		if (!L_1)
 		{
 			goto IL_000a;
@@ -23630,7 +23630,7 @@ IL_000a:
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_2 = ___0_reader;
 		NullCheck(L_2);
 		bool L_3;
-		L_3 = VirtualFuncInvoker0< bool >::Invoke(45, L_2);
+		L_3 = VirtualFuncInvoker0< bool >::Invoke(44, L_2);
 		if (L_3)
 		{
 			goto IL_0000;
@@ -23654,7 +23654,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlStream_ReadBytes_mA9C6DCA406925B8C
 		SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_0 = __this->____reader;
 		NullCheck(L_0);
 		bool L_1;
-		L_1 = VirtualFuncInvoker0< bool >::Invoke(18, L_0);
+		L_1 = VirtualFuncInvoker0< bool >::Invoke(17, L_0);
 		if (L_1)
 		{
 			goto IL_001b;
@@ -23729,7 +23729,7 @@ IL_0045_1:
 			int32_t L_10 = __this->____columnOrdinal;
 			NullCheck(L_9);
 			bool L_11;
-			L_11 = VirtualFuncInvoker1< bool, int32_t >::Invoke(44, L_9, L_10);
+			L_11 = VirtualFuncInvoker1< bool, int32_t >::Invoke(43, L_9, L_10);
 			if (L_11)
 			{
 				goto IL_00c9_1;
@@ -23756,7 +23756,7 @@ IL_006e_1:
 			int32_t L_18 = ___2_count;
 			NullCheck(L_13);
 			int64_t L_19;
-			L_19 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(50, L_13, L_14, L_15, L_16, L_17, L_18);
+			L_19 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(49, L_13, L_14, L_15, L_16, L_17, L_18);
 			V_2 = ((int32_t)L_19);
 			int32_t L_20 = V_2;
 			int32_t L_21 = ___2_count;
@@ -23826,7 +23826,7 @@ IL_00d0_1:
 		{
 			SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_34 = __this->____reader;
 			NullCheck(L_34);
-			VirtualActionInvoker0::Invoke(21, L_34);
+			VirtualActionInvoker0::Invoke(20, L_34);
 		}
 
 IL_00e6_1:
@@ -23868,7 +23868,7 @@ CATCH_00e8:
 		{
 			SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_39 = __this->____reader;
 			NullCheck(L_39);
-			VirtualActionInvoker0::Invoke(21, L_39);
+			VirtualActionInvoker0::Invoke(20, L_39);
 		}
 
 IL_0104:

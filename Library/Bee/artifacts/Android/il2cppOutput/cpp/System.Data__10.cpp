@@ -24497,7 +24497,7 @@ IL_0054:
 				SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_6 = V_1;
 				NullCheck(L_6);
 				bool L_7;
-				L_7 = VirtualFuncInvoker0< bool >::Invoke(46, L_6);
+				L_7 = VirtualFuncInvoker0< bool >::Invoke(45, L_6);
 				if (!L_7)
 				{
 					goto IL_0049_1;
@@ -24507,7 +24507,7 @@ IL_0054:
 				SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* L_8 = V_1;
 				NullCheck(L_8);
 				int64_t L_9;
-				L_9 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_8, 0, ((int64_t)0), (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0);
+				L_9 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30, L_8, 0, ((int64_t)0), (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, 0);
 				V_2 = L_9;
 				int64_t L_10 = V_2;
 				if ((((int64_t)L_10) > ((int64_t)((int64_t)((int32_t)2147483647LL)))))
@@ -24526,7 +24526,7 @@ IL_0054:
 				int32_t L_16 = V_3;
 				NullCheck(L_14);
 				int64_t L_17;
-				L_17 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_14, 0, ((int64_t)0), L_15, 0, L_16);
+				L_17 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(30, L_14, 0, ((int64_t)0), L_15, 0, L_16);
 			}
 
 IL_0049_1:

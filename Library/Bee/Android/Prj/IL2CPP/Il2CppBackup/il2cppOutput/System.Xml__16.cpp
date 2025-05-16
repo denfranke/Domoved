@@ -3399,7 +3399,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CStartParsingAsyncU3Ed__38_MoveNext_mE
 			XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_9 = __this->___reader;
 			NullCheck(L_9);
 			XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* L_10;
-			L_10 = VirtualFuncInvoker0< XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* >::Invoke(51, L_9);
+			L_10 = VirtualFuncInvoker0< XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* >::Invoke(52, L_9);
 			NullCheck(L_8);
 			L_8->___namespaceManager = L_10;
 			Il2CppCodeGenWriteBarrier((void**)(&L_8->___namespaceManager), (void*)L_10);
@@ -3451,7 +3451,7 @@ IL_006b_1:
 			XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_22 = __this->___reader;
 			NullCheck(L_22);
 			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_23;
-			L_23 = VirtualFuncInvoker0< Task_1_t824317F4B958F7512E8F7300511752937A6C6043* >::Invoke(54, L_22);
+			L_23 = VirtualFuncInvoker0< Task_1_t824317F4B958F7512E8F7300511752937A6C6043* >::Invoke(55, L_22);
 			NullCheck(L_23);
 			ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C L_24;
 			L_24 = Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA(L_23, (bool)0, Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_RuntimeMethod_var);

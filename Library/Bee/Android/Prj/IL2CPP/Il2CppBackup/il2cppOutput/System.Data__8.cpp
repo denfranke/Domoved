@@ -569,7 +569,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral64176CD951D0332DE17C059BCE8FBED7095C5704
 IL2CPP_EXTERN_C String_t* _stringLiteral65A0F9B64ACE7C859A284EA54B1190CBF83E1260;
 IL2CPP_EXTERN_C String_t* _stringLiteral68ED3D576EB5A72374EE4A2329E2AFC21C08915C;
 IL2CPP_EXTERN_C String_t* _stringLiteral6E21C2A20112AEFCBA66B5CE7F5185D5212BE243;
-IL2CPP_EXTERN_C String_t* _stringLiteral70486315C7AA830C9A81F9F7689459F71AE9865E;
 IL2CPP_EXTERN_C String_t* _stringLiteral739467894A3955BA22F911546C8FB6D8C5D4EC84;
 IL2CPP_EXTERN_C String_t* _stringLiteral75C670EA0F7AE5A776E170D1A225F267CA674091;
 IL2CPP_EXTERN_C String_t* _stringLiteral7DB02F5AA24B20ECBF7FAFF2D05EBDFB471C4D1D;
@@ -693,7 +692,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* SqlDataReader_TryNextResult_mB258D3E37EC393
 IL2CPP_EXTERN_C const RuntimeMethod* SqlDataReader_TryReadColumnHeader_mBEA5E403F2259247FC02A3AFBE5787CF373B32D5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SqlDataReader_TryReadInternal_m38827EAC0A1AD52C535EFBA4BFCA54F238000714_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SqlDataReader_get_FieldCount_m30C8AE026830A2D27D984ED95D1E285E4CC3BB75_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* SqlDataReader_get_HasRows_m628899CB771BFF5B07FAC6D28F3298491EE281BE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SqlDataReader_get_MetaData_m8653D522EFA3EFA72878817E107D1CF6FD7651B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SqlDelegatedTransaction_GetValidConnection_mF2B468C10C38BC54D615DAA919BCA92CEA5A74A3_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SqlDelegatedTransaction_Initialize_m563F56B6F3AA6132EC1BF79F95CB7B30D680DFAE_RuntimeMethod_var;
@@ -5964,7 +5962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SqlDataReader_get_FieldCount_m30C8AE0
 {
 	{
 		bool L_0;
-		L_0 = VirtualFuncInvoker0< bool >::Invoke(18, __this);
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(17, __this);
 		if (!L_0)
 		{
 			goto IL_0013;
@@ -6014,44 +6012,6 @@ IL_002b:
 		return L_6;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDataReader_get_HasRows_m628899CB771BFF5B07FAC6D28F3298491EE281BE (SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* __this, const RuntimeMethod* method) 
-{
-	{
-		bool L_0;
-		L_0 = VirtualFuncInvoker0< bool >::Invoke(18, __this);
-		if (!L_0)
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ADP_t2C39CD1D5CEFC1B88FF6F7C7AD1916F0FD538CC0_il2cpp_TypeInfo_var)));
-		Exception_t* L_1;
-		L_1 = ADP_DataReaderClosed_m25DA7446DD7A14C4C30C541891338616E0309464(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral70486315C7AA830C9A81F9F7689459F71AE9865E)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqlDataReader_get_HasRows_m628899CB771BFF5B07FAC6D28F3298491EE281BE_RuntimeMethod_var)));
-	}
-
-IL_0013:
-	{
-		Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_2 = __this->____currentTask;
-		if (!L_2)
-		{
-			goto IL_0021;
-		}
-	}
-	{
-		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ADP_t2C39CD1D5CEFC1B88FF6F7C7AD1916F0FD538CC0_il2cpp_TypeInfo_var)));
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_3;
-		L_3 = ADP_AsyncOperationPending_m70E46B4E4CEFC858BC10BC99230325B119D971DB(NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SqlDataReader_get_HasRows_m628899CB771BFF5B07FAC6D28F3298491EE281BE_RuntimeMethod_var)));
-	}
-
-IL_0021:
-	{
-		bool L_4 = __this->____hasRows;
-		return L_4;
-	}
-}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SqlDataReader_get_IsClosed_mFFAA578F496FC466A824CDC8A2625E455B2DBBDE (SqlDataReader_t685770A6BB75F4EC0609A3CD35767666E91F0187* __this, const RuntimeMethod* method) 
 {
 	{
@@ -6078,7 +6038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR _SqlMetaDataSet_t66A9A4581BD4E22D647F1467E8F7
 {
 	{
 		bool L_0;
-		L_0 = VirtualFuncInvoker0< bool >::Invoke(18, __this);
+		L_0 = VirtualFuncInvoker0< bool >::Invoke(17, __this);
 		if (!L_0)
 		{
 			goto IL_0013;
@@ -6592,7 +6552,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDataReader_get_Item_mF27D0E
 	{
 		int32_t L_0 = ___0_i;
 		RuntimeObject* L_1;
-		L_1 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(42, __this, L_0);
+		L_1 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(41, __this, L_0);
 		return L_1;
 	}
 }
@@ -6601,9 +6561,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SqlDataReader_get_Item_mA2702C
 	{
 		String_t* L_0 = ___0_name;
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker1< int32_t, String_t* >::Invoke(27, __this, L_0);
+		L_1 = VirtualFuncInvoker1< int32_t, String_t* >::Invoke(26, __this, L_0);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(42, __this, L_1);
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, int32_t >::Invoke(41, __this, L_1);
 		return L_2;
 	}
 }
@@ -8220,7 +8180,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDataReader_Dispose_m5BEEE3079E6D678CC
 		}
 	}
 	{
-		VirtualActionInvoker0::Invoke(21, __this);
+		VirtualActionInvoker0::Invoke(20, __this);
 	}
 
 IL_0009:
@@ -8889,7 +8849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlDataReader_CloseReaderFromConnection_
 		}
 	}
 	{
-		VirtualActionInvoker0::Invoke(21, __this);
+		VirtualActionInvoker0::Invoke(20, __this);
 		return;
 	}
 
@@ -10063,7 +10023,7 @@ FINALLY_0086:
 			int32_t L_23 = ___3_bufferIndex;
 			int32_t L_24 = ___4_length;
 			int64_t L_25;
-			L_25 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(50, __this, L_20, L_21, L_22, L_23, L_24);
+			L_25 = VirtualFuncInvoker5< int64_t, int32_t, int64_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(49, __this, L_20, L_21, L_22, L_23, L_24);
 			V_1 = L_25;
 			int32_t L_26 = ___0_i;
 			__this->____lastColumnWithDataChunkRead = L_26;
@@ -10593,7 +10553,7 @@ IL_0233:
 	{
 		int32_t L_116 = ___0_i;
 		SqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347 L_117;
-		L_117 = VirtualFuncInvoker1< SqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347, int32_t >::Invoke(51, __this, L_116);
+		L_117 = VirtualFuncInvoker1< SqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347, int32_t >::Invoke(50, __this, L_116);
 		V_7 = L_117;
 		il2cpp_codegen_runtime_class_init_inline(SqlBinary_tEFB13C14B44E4388798A2F7DB48438E16DE4E347_il2cpp_TypeInfo_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_118;
@@ -10606,7 +10566,7 @@ IL_0261:
 	{
 		int32_t L_119 = ___0_i;
 		SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D L_120;
-		L_120 = VirtualFuncInvoker1< SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D, int32_t >::Invoke(53, __this, L_119);
+		L_120 = VirtualFuncInvoker1< SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D, int32_t >::Invoke(52, __this, L_119);
 		V_8 = L_120;
 		_SqlMetaDataSet_t66A9A4581BD4E22D647F1467E8F719647F3CE8EE* L_121 = __this->____metaData;
 		int32_t L_122 = ___0_i;
@@ -11425,7 +11385,7 @@ IL_0162_1:
 			{
 				int32_t L_70 = ___0_i;
 				SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D L_71;
-				L_71 = VirtualFuncInvoker1< SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D, int32_t >::Invoke(53, __this, L_70);
+				L_71 = VirtualFuncInvoker1< SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D, int32_t >::Invoke(52, __this, L_70);
 				V_7 = L_71;
 				il2cpp_codegen_runtime_class_init_inline(SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_il2cpp_TypeInfo_var);
 				String_t* L_72;
@@ -14095,7 +14055,7 @@ FINALLY_017b:
 				int64_t L_3 = __this->____defaultTimeoutMilliseconds;
 				SqlDataReader_SetTimeout_m2FD7441FA86B80F8F1FD632ECFCA3DECC94C3F52(__this, L_3, NULL);
 				bool L_4;
-				L_4 = VirtualFuncInvoker0< bool >::Invoke(18, __this);
+				L_4 = VirtualFuncInvoker0< bool >::Invoke(17, __this);
 				if (!L_4)
 				{
 					goto IL_002d_1;
@@ -14778,7 +14738,7 @@ IL_0200_1:
 IL_020c_1:
 			{
 				bool L_61;
-				L_61 = VirtualFuncInvoker0< bool >::Invoke(18, __this);
+				L_61 = VirtualFuncInvoker0< bool >::Invoke(17, __this);
 				if (!L_61)
 				{
 					goto IL_021f_1;

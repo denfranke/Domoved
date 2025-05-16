@@ -15079,7 +15079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlValidatingReaderImpl_ValidateDtd_m6CA
 		XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B* L_0 = __this->___coreReaderImpl;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(52, L_0);
+		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(53, L_0);
 		V_0 = L_1;
 		RuntimeObject* L_2 = V_0;
 		if (!L_2)
@@ -15470,7 +15470,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XmlNamespaceManager_t95431ADE7A94108629DFF894
 		XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B* L_0 = __this->___coreReaderImpl;
 		NullCheck(L_0);
 		XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* L_1;
-		L_1 = VirtualFuncInvoker0< XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* >::Invoke(51, L_0);
+		L_1 = VirtualFuncInvoker0< XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* >::Invoke(52, L_0);
 		return L_1;
 	}
 }
@@ -15531,7 +15531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XmlValidatingReaderImpl_get_Dt
 		XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B* L_0 = __this->___coreReaderImpl;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(52, L_0);
+		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(53, L_0);
 		return L_1;
 	}
 }
@@ -15575,7 +15575,7 @@ IL_000b:
 		XmlTextReaderImpl_t5F48FDC8E88C9E27593266F6C660B3973AE2167B* L_4 = ___1_coreReader;
 		NullCheck(L_4);
 		RuntimeObject* L_5;
-		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(52, L_4);
+		L_5 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(53, L_4);
 		V_1 = ((SchemaInfo_t42F4B1099B63BCF2D3BBF7F35A79AF6B90B0927E*)IsInstClass((RuntimeObject*)L_5, SchemaInfo_t42F4B1099B63BCF2D3BBF7F35A79AF6B90B0927E_il2cpp_TypeInfo_var));
 		SchemaInfo_t42F4B1099B63BCF2D3BBF7F35A79AF6B90B0927E* L_6 = V_1;
 		if (L_6)
@@ -15611,7 +15611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A
 		XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_0 = __this->___coreReader;
 		NullCheck(L_0);
 		Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* L_1;
-		L_1 = VirtualFuncInvoker0< Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* >::Invoke(53, L_0);
+		L_1 = VirtualFuncInvoker0< Task_1_t3D7638C82ED289AF156EDBAE76842D8DF4C4A9E0* >::Invoke(54, L_0);
 		return L_1;
 	}
 }
@@ -15942,7 +15942,7 @@ IL_0052_1:
 			XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_7 = L_6->___coreReader;
 			NullCheck(L_7);
 			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_8;
-			L_8 = VirtualFuncInvoker0< Task_1_t824317F4B958F7512E8F7300511752937A6C6043* >::Invoke(54, L_7);
+			L_8 = VirtualFuncInvoker0< Task_1_t824317F4B958F7512E8F7300511752937A6C6043* >::Invoke(55, L_7);
 			NullCheck(L_8);
 			ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C L_9;
 			L_9 = Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA(L_8, (bool)0, Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_RuntimeMethod_var);
@@ -16586,7 +16586,7 @@ IL_002d_1:
 			XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD* L_9 = L_8->___outerReader;
 			NullCheck(L_9);
 			Task_1_t824317F4B958F7512E8F7300511752937A6C6043* L_10;
-			L_10 = VirtualFuncInvoker0< Task_1_t824317F4B958F7512E8F7300511752937A6C6043* >::Invoke(54, L_9);
+			L_10 = VirtualFuncInvoker0< Task_1_t824317F4B958F7512E8F7300511752937A6C6043* >::Invoke(55, L_9);
 			NullCheck(L_10);
 			ConfiguredTaskAwaitable_1_t8CD88E253ADEFD17912937E545828FCB7A2F079C L_11;
 			L_11 = Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA(L_10, (bool)0, Task_1_ConfigureAwait_m6D6E50B04D1C9D7BCE597450FFAA1668FB2E11EA_RuntimeMethod_var);

@@ -11063,7 +11063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XdrValidator_Init_mDADF3F3B24CDEC2ADAE96
 		XmlValidatingReaderImpl_t5E1938148F73C4871F4B28C234B1EEF586998EA8* L_0 = ((BaseValidator_t76E42AEBD013AC709BA36D782908C7B708BA8DAB*)__this)->___reader;
 		NullCheck(L_0);
 		XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* L_1;
-		L_1 = VirtualFuncInvoker0< XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* >::Invoke(51, L_0);
+		L_1 = VirtualFuncInvoker0< XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* >::Invoke(52, L_0);
 		__this->___nsManager = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___nsManager), (void*)L_1);
 		XmlNamespaceManager_t95431ADE7A94108629DFF894819FB1A9709D810F* L_2 = __this->___nsManager;

@@ -1,3 +1,4 @@
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -53,11 +54,17 @@ public class ChangeImageInBtn : MonoBehaviour
     }
     */
 
-    public Image RotateBtnBgCirlceImg;
-    public Image TransparentBtnBgCirlceImg;
-    public Image InclineBtnBgCirlceImg;
-    public Image MoveObjBtnBgCirlceImg;
-    public Image RotateObjBtnBgCirlceImg;
+    //public Image RotateBtnBgCirlceImg;
+    //public Image TransparentBtnBgCirlceImg;
+    //public Image InclineBtnBgCirlceImg;
+    //public Image MoveObjBtnBgCirlceImg;
+    //public Image RotateObjBtnBgCirlceImg;
+
+    public SVGImage RotateBtnBgCirlceSVGImg;
+    public SVGImage TransparentBtnBgCirlceSVGImg;
+    public SVGImage InclineBtnBgCirlceSVGImg;
+    public SVGImage MoveObjBtnBgCirlceImg;
+    public SVGImage RotateObjBtnBgCirlceImg;
 
     public GameObject RotateObjScrollbar;
 
@@ -68,19 +75,19 @@ public class ChangeImageInBtn : MonoBehaviour
         if(thisBtn.name == "TransparentBtn")
         {
             setAllImageWhite();
-            SetSelectColor(TransparentBtnBgCirlceImg);
+            SetSelectColor(TransparentBtnBgCirlceSVGImg);
             currInd = 2;
         }
         else if(thisBtn.name == "RotateCamBtn")
         {
             setAllImageWhite();
-            SetSelectColor(RotateBtnBgCirlceImg);
+            SetSelectColor(RotateBtnBgCirlceSVGImg);
             currInd = 1;
         }
         else if(thisBtn.name == "InclineBtn")
         {
             setAllImageWhite();
-            SetSelectColor(InclineBtnBgCirlceImg);
+            SetSelectColor(InclineBtnBgCirlceSVGImg);
             currInd = 0;
         }
         else if(thisBtn.name == "DeleteBtn")
@@ -114,13 +121,18 @@ public class ChangeImageInBtn : MonoBehaviour
     public void setAllImageWhite ()
     {
         RotateObjScrollbar.SetActive(false);
-        TransparentBtnBgCirlceImg.color = Color.white;
-        RotateBtnBgCirlceImg.color = Color.white;
-        InclineBtnBgCirlceImg.color = Color.white;
+        TransparentBtnBgCirlceSVGImg.color = Color.white;
+        RotateBtnBgCirlceSVGImg.color = Color.white;
+        InclineBtnBgCirlceSVGImg.color = Color.white;
         MoveObjBtnBgCirlceImg.color = Color.white;
         RotateObjBtnBgCirlceImg.color = Color.white;
     }
 
+    public void SetSelectColor (SVGImage image)
+    {
+        //setAllImageWhite();
+        image.color = new Color(0, 0.5803922f, 0.9803922f);
+    }
     public void SetSelectColor (Image image)
     {
         //setAllImageWhite();
@@ -137,7 +149,7 @@ public class ChangeImageInBtn : MonoBehaviour
         setAllImageWhite();
         if(ind == 2)
         {
-            SetSelectColor(TransparentBtnBgCirlceImg);
+            SetSelectColor(TransparentBtnBgCirlceSVGImg);
         }
         currInd = ind;
     }
