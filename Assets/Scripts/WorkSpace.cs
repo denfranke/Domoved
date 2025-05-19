@@ -24,6 +24,8 @@ public class WorkSpace : MonoBehaviour
     private GameObject FurnitureManageObj;
     //private GameObject BGFurnitureManageObj;
 
+    public SVGImage SunSVGbg;
+
     public GameObject MainSpaceInAR;
     public GameObject InfoSpaceInAR;
     public GameObject SettingsSpaceInAR;
@@ -174,6 +176,7 @@ public class WorkSpace : MonoBehaviour
                 if(l.tag == "LightInFlat")
                 {
                     l.intensity = 0.333f;
+                    //l.intensity = 1f;
                 }
             }
         }
@@ -274,7 +277,7 @@ public class WorkSpace : MonoBehaviour
                 }
                 foreach(MeshRenderer b in objFlatInVrMode)
                 {
-                    if(obj.name == b.gameObject.transform.parent.name || obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
+                    if((obj.name == b.gameObject.transform.parent.name && obj.tag == b.gameObject.transform.parent.tag) || (obj.name == b.gameObject.name && obj.tag == b.gameObject.tag))
                     {
                         b.material = mat;
                         //Debug.Log(obj.name);
@@ -441,10 +444,10 @@ public class WorkSpace : MonoBehaviour
 
     public void _OpenOrCloseScrollBar ()
     {
-        /*if(timeScrollBar.activeSelf == false)
-            btnImageBG.color = new Color(1, 0.6572326f, 0.6572326f);
+        if(timeScrollBar.activeSelf == false)
+            SunSVGbg.color = new Color(0, 0.5803922f, 0.9803922f);
         else
-            btnImageBG.color = Color.white;*/
+            SunSVGbg.color = Color.white;
 
         timeScrollBar.SetActive(!timeScrollBar.activeSelf);
         CameraManageObj.SetActive(!timeScrollBar.activeSelf);

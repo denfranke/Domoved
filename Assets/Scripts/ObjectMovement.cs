@@ -26,6 +26,7 @@ public class ObjectMovement : MonoBehaviour
     private Vector3 pos;
     private int StartRotY;
     public TMP_Text TextYRotation;
+    public Scrollbar RotateObjScrollbar;
 
     public float delayTimeMax;
     [SerializeField] private float timer = 0;
@@ -138,8 +139,10 @@ public class ObjectMovement : MonoBehaviour
         if(timer >= delayTimeMax)
         {
             target = obj;
-            StartRotY = (int) target.transform.eulerAngles.y;
-            TextYRotation.text = StartRotY.ToString();
+            StartRotY = (int) target.transform.localEulerAngles.y;// .eulerAngles.y;
+            TextYRotation.text = "Y=" + StartRotY.ToString();
+            //Debug.Log(StartRotY);
+            RotateObjScrollbar.value = StartRotY / 360.0f;
             changeImageInBtn.setCurrInd(5);
             changeImageInBtn.SetSelectColor(changeImageInBtn.MoveObjBtnBgCirlceImg);
             timer = 0;
@@ -169,7 +172,9 @@ public class ObjectMovement : MonoBehaviour
 
     public void Updater (Scrollbar scrollbar)
     {
-        target.transform.rotation = Quaternion.Euler(target.transform.eulerAngles.x, StartRotY + (360 * scrollbar.value), target.transform.eulerAngles.z);
-        TextYRotation.text = "Y=" + ((int) target.transform.eulerAngles.y).ToString();
+        //target.transform.rotation = Quaternion.Euler(target.transform.localEulerAngles.x, 360 * scrollbar.value, target.transform.localEulerAngles.z);
+        target.transform.localEulerAngles = new Vector3(target.transform.localEulerAngles.x, 360 * scrollbar.value, target.transform.localEulerAngles.z);
+        //Debug.Log(360 * scrollbar.value);
+        TextYRotation.text = "Y=" + ((int) (360 * scrollbar.value)).ToString();
     }
 }

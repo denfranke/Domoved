@@ -1,10 +1,11 @@
 using TMPro;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.UI;
 using Vuforia;
 public class ArBtnManager : MonoBehaviour
 {
-    public UnityEngine.UI.Image FixBtnBg;
+    public SVGImage FixBtnBg;
     public AnchorInputListenerBehaviour AnchorInputListenerBehaviour;
     public PlaneFinderBehaviour PlaneFinderBehaviour;
     private bool flag = true;
@@ -26,7 +27,7 @@ public class ArBtnManager : MonoBehaviour
     {
         if(flag)
         {
-            FixBtnBg.color = new Color(1, 0.7821057f, 0.4496855f);
+            FixBtnBg.color = new Color(0, 0.5803922f, 0.9803922f);
             AnchorInputListenerBehaviour.enabled = false;
             PlaneFinderBehaviour.enabled = false;
             flag = !flag;

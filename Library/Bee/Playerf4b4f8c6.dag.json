@@ -1529,25 +1529,7 @@
         1521,
         1522,
         1523,
-        1524,
-        1525,
-        1526,
-        1527,
-        1528,
-        1529,
-        1530,
-        1531,
-        1532,
-        1533,
-        1534,
-        1535,
-        1536,
-        1537,
-        1538,
-        1539,
-        1540,
-        1541,
-        1542
+        1524
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -31718,21 +31700,6 @@
       "DebugActionIndex": 1344
     },
     {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
-      "DisplayName": "Copying icallsummary.txt",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
-      ],
-      "ToBuildDependencies": [
-        20
-      ],
-      "DebugActionIndex": 1345
-    },
-    {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
@@ -31745,7 +31712,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1346
+      "DebugActionIndex": 1345
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -31760,7 +31727,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1347
+      "DebugActionIndex": 1346
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/NativeGallery.Runtime.dll",
@@ -31775,7 +31742,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1348
+      "DebugActionIndex": 1347
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/NativeGallery.Runtime.pdb",
@@ -31790,7 +31757,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1349
+      "DebugActionIndex": 1348
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.dll",
@@ -31805,7 +31772,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1350
+      "DebugActionIndex": 1349
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.pdb",
@@ -31820,7 +31787,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1351
+      "DebugActionIndex": 1350
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -31835,7 +31802,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1352
+      "DebugActionIndex": 1351
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -31850,7 +31817,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1353
+      "DebugActionIndex": 1352
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Data.dll",
@@ -31865,7 +31832,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1354
+      "DebugActionIndex": 1353
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -31880,7 +31847,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1355
+      "DebugActionIndex": 1354
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Drawing.dll",
@@ -31895,7 +31862,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1356
+      "DebugActionIndex": 1355
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll",
@@ -31910,7 +31877,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1357
+      "DebugActionIndex": 1356
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Runtime.Serialization.dll",
@@ -31925,7 +31892,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1358
+      "DebugActionIndex": 1357
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Transactions.dll",
@@ -31940,7 +31907,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1359
+      "DebugActionIndex": 1358
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -31955,7 +31922,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1360
+      "DebugActionIndex": 1359
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.Linq.dll",
@@ -31970,7 +31937,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1361
+      "DebugActionIndex": 1360
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -31985,7 +31952,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1362
+      "DebugActionIndex": 1361
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -32000,7 +31967,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1363
+      "DebugActionIndex": 1362
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InternalAPIEngineBridge.003.dll",
@@ -32015,7 +31982,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1364
+      "DebugActionIndex": 1363
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InternalAPIEngineBridge.003.pdb",
@@ -32030,7 +31997,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1365
+      "DebugActionIndex": 1364
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll",
@@ -32045,7 +32012,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1366
+      "DebugActionIndex": 1365
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb",
@@ -32060,7 +32027,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1367
+      "DebugActionIndex": 1366
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Analytics.dll",
@@ -32075,7 +32042,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1368
+      "DebugActionIndex": 1367
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Analytics.pdb",
@@ -32090,7 +32057,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1369
+      "DebugActionIndex": 1368
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.dll",
@@ -32105,7 +32072,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1370
+      "DebugActionIndex": 1369
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.pdb",
@@ -32120,7 +32087,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1371
+      "DebugActionIndex": 1370
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.dll",
@@ -32135,7 +32102,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1372
+      "DebugActionIndex": 1371
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.pdb",
@@ -32150,7 +32117,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1373
+      "DebugActionIndex": 1372
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.dll",
@@ -32165,7 +32132,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1374
+      "DebugActionIndex": 1373
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -32180,7 +32147,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1375
+      "DebugActionIndex": 1374
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.pdb",
@@ -32195,7 +32162,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1376
+      "DebugActionIndex": 1375
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.dll",
@@ -32210,7 +32177,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1377
+      "DebugActionIndex": 1376
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.pdb",
@@ -32225,7 +32192,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1378
+      "DebugActionIndex": 1377
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.pdb",
@@ -32240,7 +32207,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1379
+      "DebugActionIndex": 1378
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.dll",
@@ -32255,7 +32222,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1380
+      "DebugActionIndex": 1379
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.pdb",
@@ -32270,7 +32237,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1381
+      "DebugActionIndex": 1380
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.dll",
@@ -32285,7 +32252,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1382
+      "DebugActionIndex": 1381
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.pdb",
@@ -32300,7 +32267,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1383
+      "DebugActionIndex": 1382
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.dll",
@@ -32315,7 +32282,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1384
+      "DebugActionIndex": 1383
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.pdb",
@@ -32330,7 +32297,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1385
+      "DebugActionIndex": 1384
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.dll",
@@ -32345,7 +32312,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1386
+      "DebugActionIndex": 1385
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.pdb",
@@ -32360,7 +32327,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1387
+      "DebugActionIndex": 1386
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -32375,7 +32342,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1388
+      "DebugActionIndex": 1387
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -32390,7 +32357,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1389
+      "DebugActionIndex": 1388
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VectorGraphics.dll",
@@ -32405,7 +32372,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1390
+      "DebugActionIndex": 1389
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VectorGraphics.pdb",
@@ -32420,7 +32387,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1391
+      "DebugActionIndex": 1390
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Core.dll",
@@ -32435,7 +32402,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1392
+      "DebugActionIndex": 1391
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Core.pdb",
@@ -32450,7 +32417,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1393
+      "DebugActionIndex": 1392
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Flow.dll",
@@ -32465,7 +32432,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1394
+      "DebugActionIndex": 1393
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.VisualScripting.Flow.pdb",
@@ -32480,7 +32447,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1395
+      "DebugActionIndex": 1394
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARCore.dll",
@@ -32495,7 +32462,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1396
+      "DebugActionIndex": 1395
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARCore.pdb",
@@ -32510,7 +32477,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1397
+      "DebugActionIndex": 1396
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.dll",
@@ -32525,7 +32492,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1398
+      "DebugActionIndex": 1397
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.InternalUtils.dll",
@@ -32540,7 +32507,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1399
+      "DebugActionIndex": 1398
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.InternalUtils.pdb",
@@ -32555,7 +32522,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1400
+      "DebugActionIndex": 1399
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.pdb",
@@ -32570,7 +32537,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1401
+      "DebugActionIndex": 1400
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.VisualScripting.dll",
@@ -32585,7 +32552,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1402
+      "DebugActionIndex": 1401
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARFoundation.VisualScripting.pdb",
@@ -32600,7 +32567,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1403
+      "DebugActionIndex": 1402
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARSubsystems.dll",
@@ -32615,7 +32582,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1404
+      "DebugActionIndex": 1403
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.ARSubsystems.pdb",
@@ -32630,7 +32597,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1405
+      "DebugActionIndex": 1404
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.dll",
@@ -32645,7 +32612,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1406
+      "DebugActionIndex": 1405
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.pdb",
@@ -32660,7 +32627,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1407
+      "DebugActionIndex": 1406
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.dll",
@@ -32675,7 +32642,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1408
+      "DebugActionIndex": 1407
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.pdb",
@@ -32690,7 +32657,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1409
+      "DebugActionIndex": 1408
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
@@ -32705,7 +32672,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1410
+      "DebugActionIndex": 1409
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb",
@@ -32720,7 +32687,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1411
+      "DebugActionIndex": 1410
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll",
@@ -32735,7 +32702,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1412
+      "DebugActionIndex": 1411
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb",
@@ -32750,7 +32717,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1413
+      "DebugActionIndex": 1412
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -32765,7 +32732,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1414
+      "DebugActionIndex": 1413
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -32780,7 +32747,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1415
+      "DebugActionIndex": 1414
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -32795,7 +32762,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1416
+      "DebugActionIndex": 1415
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -32810,7 +32777,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1417
+      "DebugActionIndex": 1416
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -32825,7 +32792,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1418
+      "DebugActionIndex": 1417
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -32840,7 +32807,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1419
+      "DebugActionIndex": 1418
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -32855,7 +32822,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1420
+      "DebugActionIndex": 1419
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -32870,7 +32837,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1421
+      "DebugActionIndex": 1420
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -32885,7 +32852,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1422
+      "DebugActionIndex": 1421
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -32900,7 +32867,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1423
+      "DebugActionIndex": 1422
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -32915,7 +32882,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1424
+      "DebugActionIndex": 1423
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ImageConversionModule.dll",
@@ -32930,7 +32897,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1425
+      "DebugActionIndex": 1424
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ImageConversionModule.pdb",
@@ -32945,7 +32912,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1426
+      "DebugActionIndex": 1425
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -32960,7 +32927,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1427
+      "DebugActionIndex": 1426
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -32975,7 +32942,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1428
+      "DebugActionIndex": 1427
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -32990,7 +32957,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1429
+      "DebugActionIndex": 1428
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -33005,7 +32972,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1430
+      "DebugActionIndex": 1429
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -33020,7 +32987,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1431
+      "DebugActionIndex": 1430
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -33035,7 +33002,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1432
+      "DebugActionIndex": 1431
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -33050,7 +33017,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1433
+      "DebugActionIndex": 1432
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -33065,7 +33032,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1434
+      "DebugActionIndex": 1433
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -33080,7 +33047,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1435
+      "DebugActionIndex": 1434
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -33095,7 +33062,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1436
+      "DebugActionIndex": 1435
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -33110,7 +33077,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1437
+      "DebugActionIndex": 1436
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -33125,7 +33092,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1438
+      "DebugActionIndex": 1437
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -33140,7 +33107,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1439
+      "DebugActionIndex": 1438
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -33155,7 +33122,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1440
+      "DebugActionIndex": 1439
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -33170,7 +33137,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1441
+      "DebugActionIndex": 1440
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -33185,7 +33152,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1442
+      "DebugActionIndex": 1441
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -33200,7 +33167,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1443
+      "DebugActionIndex": 1442
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll",
@@ -33215,7 +33182,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1444
+      "DebugActionIndex": 1443
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb",
@@ -33230,7 +33197,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1445
+      "DebugActionIndex": 1444
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -33245,7 +33212,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1446
+      "DebugActionIndex": 1445
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -33260,7 +33227,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1447
+      "DebugActionIndex": 1446
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -33275,7 +33242,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1448
+      "DebugActionIndex": 1447
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -33290,7 +33257,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1449
+      "DebugActionIndex": 1448
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -33305,7 +33272,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1450
+      "DebugActionIndex": 1449
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -33320,7 +33287,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1451
+      "DebugActionIndex": 1450
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -33335,7 +33302,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1452
+      "DebugActionIndex": 1451
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -33350,7 +33317,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1453
+      "DebugActionIndex": 1452
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -33365,7 +33332,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1454
+      "DebugActionIndex": 1453
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -33380,7 +33347,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1455
+      "DebugActionIndex": 1454
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -33395,7 +33362,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1456
+      "DebugActionIndex": 1455
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -33410,7 +33377,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1457
+      "DebugActionIndex": 1456
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -33425,7 +33392,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1458
+      "DebugActionIndex": 1457
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -33440,7 +33407,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1459
+      "DebugActionIndex": 1458
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -33455,7 +33422,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1460
+      "DebugActionIndex": 1459
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -33470,7 +33437,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1461
+      "DebugActionIndex": 1460
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -33485,7 +33452,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1462
+      "DebugActionIndex": 1461
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -33500,7 +33467,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1463
+      "DebugActionIndex": 1462
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -33515,7 +33482,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1464
+      "DebugActionIndex": 1463
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
@@ -33530,7 +33497,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1465
+      "DebugActionIndex": 1464
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -33545,7 +33512,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1466
+      "DebugActionIndex": 1465
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -33560,7 +33527,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1467
+      "DebugActionIndex": 1466
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -33575,7 +33542,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1468
+      "DebugActionIndex": 1467
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -33590,7 +33557,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1469
+      "DebugActionIndex": 1468
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -33605,7 +33572,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1470
+      "DebugActionIndex": 1469
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -33620,7 +33587,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1471
+      "DebugActionIndex": 1470
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -33635,7 +33602,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1472
+      "DebugActionIndex": 1471
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -33650,7 +33617,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1473
+      "DebugActionIndex": 1472
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -33665,7 +33632,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1474
+      "DebugActionIndex": 1473
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -33680,7 +33647,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1475
+      "DebugActionIndex": 1474
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -33695,7 +33662,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1476
+      "DebugActionIndex": 1475
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Vuforia.Unity.Engine.dll",
@@ -33710,7 +33677,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1477
+      "DebugActionIndex": 1476
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Vuforia.Unity.Wrapper.dll",
@@ -33725,7 +33692,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1478
+      "DebugActionIndex": 1477
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VuforiaScripts.dll",
@@ -33740,7 +33707,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1479
+      "DebugActionIndex": 1478
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/VuforiaScripts.pdb",
@@ -33755,7 +33722,7 @@
       "ToBuildDependencies": [
         20
       ],
-      "DebugActionIndex": 1480
+      "DebugActionIndex": 1479
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -33767,7 +33734,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1481
+      "DebugActionIndex": 1480
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_t7l7.info",
@@ -33780,7 +33747,7 @@
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_t7l7.info"
       ],
-      "DebugActionIndex": 1482
+      "DebugActionIndex": 1481
     },
     {
       "Annotation": "ActionGenerateProjectFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+8 others)",
@@ -33816,12 +33783,12 @@
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        1482
+        1481
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1483
+      "DebugActionIndex": 1482
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -33833,7 +33800,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1484
+      "DebugActionIndex": 1483
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -33845,7 +33812,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1485
+      "DebugActionIndex": 1484
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -33857,7 +33824,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1486
+      "DebugActionIndex": 1485
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -33869,7 +33836,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1487
+      "DebugActionIndex": 1486
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -33881,7 +33848,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1488
+      "DebugActionIndex": 1487
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml",
@@ -33893,7 +33860,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml"
       ],
-      "DebugActionIndex": 1489
+      "DebugActionIndex": 1488
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -33905,7 +33872,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1490
+      "DebugActionIndex": 1489
     },
     {
       "Annotation": "WriteText D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml",
@@ -33918,7 +33885,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml"
       ],
-      "DebugActionIndex": 1491
+      "DebugActionIndex": 1490
     },
     {
       "Annotation": "WriteText D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
@@ -33931,7 +33898,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
-      "DebugActionIndex": 1492
+      "DebugActionIndex": 1491
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -33943,7 +33910,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1493
+      "DebugActionIndex": 1492
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -33955,7 +33922,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1494
+      "DebugActionIndex": 1493
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -33967,7 +33934,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1495
+      "DebugActionIndex": 1494
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -33979,19 +33946,19 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1496
+      "DebugActionIndex": 1495
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
       "DisplayName": "Copying app_icon.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Temp/StagingArea/res.mdpi.app_icon.png"
+        "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/app_icon.png"
       ],
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1497
+      "DebugActionIndex": 1496
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -34003,151 +33970,19 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1498
+      "DebugActionIndex": 1497
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
       "DisplayName": "Copying ic_launcher_foreground.png",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Temp/StagingArea/res.mdpi.adaptive_icon-1.png"
+        "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/PlaybackEngines/AndroidPlayer/Apk/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1499
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png",
-      "DisplayName": "Copying app_icon.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.ldpi.app_icon.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon.png"
-      ],
-      "DebugActionIndex": 1500
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png",
-      "DisplayName": "Copying app_icon.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.hdpi.app_icon.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon.png"
-      ],
-      "DebugActionIndex": 1501
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png",
-      "DisplayName": "Copying app_icon.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xhdpi.app_icon.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon.png"
-      ],
-      "DebugActionIndex": 1502
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png",
-      "DisplayName": "Copying app_icon.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xxhdpi.app_icon.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon.png"
-      ],
-      "DebugActionIndex": 1503
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png",
-      "DisplayName": "Copying app_icon.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xxxhdpi.app_icon.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon.png"
-      ],
-      "DebugActionIndex": 1504
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png",
-      "DisplayName": "Copying app_icon_round.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.ldpi.app_icon_round.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/app_icon_round.png"
-      ],
-      "DebugActionIndex": 1505
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png",
-      "DisplayName": "Copying app_icon_round.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.mdpi.app_icon_round.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon_round.png"
-      ],
-      "DebugActionIndex": 1506
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png",
-      "DisplayName": "Copying app_icon_round.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.hdpi.app_icon_round.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/app_icon_round.png"
-      ],
-      "DebugActionIndex": 1507
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png",
-      "DisplayName": "Copying app_icon_round.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xhdpi.app_icon_round.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/app_icon_round.png"
-      ],
-      "DebugActionIndex": 1508
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png",
-      "DisplayName": "Copying app_icon_round.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xxhdpi.app_icon_round.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/app_icon_round.png"
-      ],
-      "DebugActionIndex": 1509
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png",
-      "DisplayName": "Copying app_icon_round.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xxxhdpi.app_icon_round.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
-      ],
-      "DebugActionIndex": 1510
+      "DebugActionIndex": 1498
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png",
@@ -34159,7 +33994,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1511
+      "DebugActionIndex": 1499
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png",
@@ -34171,7 +34006,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1512
+      "DebugActionIndex": 1500
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png",
@@ -34183,7 +34018,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1513
+      "DebugActionIndex": 1501
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png",
@@ -34195,7 +34030,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1514
+      "DebugActionIndex": 1502
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png",
@@ -34207,67 +34042,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1515
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.ldpi.adaptive_icon-1.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-ldpi/ic_launcher_foreground.png"
-      ],
-      "DebugActionIndex": 1516
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.hdpi.adaptive_icon-1.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
-      ],
-      "DebugActionIndex": 1517
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xhdpi.adaptive_icon-1.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
-      ],
-      "DebugActionIndex": 1518
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xxhdpi.adaptive_icon-1.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
-      ],
-      "DebugActionIndex": 1519
-    },
-    {
-      "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
-      "DisplayName": "Copying ic_launcher_foreground.png",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Temp/StagingArea/res.xxxhdpi.adaptive_icon-1.png"
-      ],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
-      ],
-      "DebugActionIndex": 1520
+      "DebugActionIndex": 1503
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -34279,7 +34054,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1521
+      "DebugActionIndex": 1504
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -34287,24 +34062,24 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        1521,
-        1534
+        1504,
+        1517
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1522
+      "DebugActionIndex": 1505
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 355938,
-      "PayloadLength": 16997,
+      "PayloadLength": 16998,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 1523
+      "DebugActionIndex": 1506
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -34492,25 +34267,25 @@
         178,
         180,
         182,
-        1523
+        1506
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1524
+      "DebugActionIndex": 1507
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_ft69.info",
       "DisplayName": "Writing UnityClassRegistration.cpp_ft69.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 373039,
+      "PayloadOffset": 373040,
       "PayloadLength": 1248,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Cl",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_ft69.info"
       ],
-      "DebugActionIndex": 1525
+      "DebugActionIndex": 1508
     },
     {
       "Annotation": "ClassRegistrationGenerator D:/Documents/Unity/My project3/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -34561,12 +34336,12 @@
       ],
       "ToBuildDependencies": [
         20,
-        1525
+        1508
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1526
+      "DebugActionIndex": 1509
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -34581,11 +34356,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1526
+        1509
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1527
+      "DebugActionIndex": 1510
     },
     {
       "Annotation": "ICallRegistrationGenerator D:/Documents/Unity/My project3/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -34630,7 +34405,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1528
+      "DebugActionIndex": 1511
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -34645,11 +34420,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1528
+        1511
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1529
+      "DebugActionIndex": 1512
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -34667,12 +34442,12 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1527,
-        1529
+        1510,
+        1512
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1530
+      "DebugActionIndex": 1513
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -34686,11 +34461,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1530
+        1513
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1531
+      "DebugActionIndex": 1514
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -34704,11 +34479,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1531
+        1514
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1532
+      "DebugActionIndex": 1515
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -34722,11 +34497,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1530
+        1513
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1533
+      "DebugActionIndex": 1516
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -34742,12 +34517,12 @@
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1532,
-        1533
+        1515,
+        1516
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1534
+      "DebugActionIndex": 1517
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -34759,7 +34534,7 @@
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1535
+      "DebugActionIndex": 1518
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -34774,7 +34549,7 @@
       "ToBuildDependencies": [
         848
       ],
-      "DebugActionIndex": 1536
+      "DebugActionIndex": 1519
     },
     {
       "Annotation": "CopyFiles D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -34787,35 +34562,22 @@
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1532
+        1515
       ],
-      "DebugActionIndex": 1537
-    },
-    {
-      "Annotation": "WriteText D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files",
-      "DisplayName": "Writing pram-shadow-files",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 374405,
-      "PayloadLength": 214,
-      "PayloadDebugContentSnippet": "unityLibrary/src/main/assets/b",
-      "Inputs": [],
-      "Outputs": [
-        "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files"
-      ],
-      "DebugActionIndex": 1538
+      "DebugActionIndex": 1520
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_ajt9.info",
       "DisplayName": "Writing unity_app_guid_ajt9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 374711,
+      "PayloadOffset": 374380,
       "PayloadLength": 1662,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_ajt9.info"
       ],
-      "DebugActionIndex": 1539
+      "DebugActionIndex": 1521
     },
     {
       "Annotation": "GuidGenerator D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -34851,25 +34613,25 @@
       "ToBuildDependencies": [
         5,
         184,
-        1539
+        1521
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1540
+      "DebugActionIndex": 1522
     },
     {
       "Annotation": "WriteText D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 376557,
+      "PayloadOffset": 376226,
       "PayloadLength": 72,
       "PayloadDebugContentSnippet": "2022.3.50f1;IL2CPP;Development",
       "Inputs": [],
       "Outputs": [
         "D:/Documents/Unity/My project3/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1541
+      "DebugActionIndex": 1523
     },
     {
       "Annotation": "Player",
@@ -35599,7 +35361,7 @@
         1478,
         1479,
         1480,
-        1481,
+        1482,
         1483,
         1484,
         1485,
@@ -35622,31 +35384,13 @@
         1502,
         1503,
         1504,
-        1505,
-        1506,
         1507,
-        1508,
-        1509,
-        1510,
-        1511,
-        1512,
-        1513,
-        1514,
-        1515,
-        1516,
         1517,
-        1518,
-        1519,
-        1520,
-        1521,
-        1524,
-        1534,
-        1538,
-        1540,
-        1541
+        1522,
+        1523
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1542
+      "DebugActionIndex": 1524
     }
   ],
   "FileSignatures": [
@@ -36208,8 +35952,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1522,
-          "Player": 1542
+          "SourceBuildPlayerFiles": 1505,
+          "Player": 1524
         }
 ,  "DefaultNodes": [
     0

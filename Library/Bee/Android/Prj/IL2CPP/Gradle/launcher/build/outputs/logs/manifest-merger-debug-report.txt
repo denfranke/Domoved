@@ -84,7 +84,7 @@ INJECTED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Grad
 	android:installLocation
 		ADDED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:117-157
 application
-ADDED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-126
+ADDED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
 MERGED from [:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:5-86:19
 MERGED from [:unityLibrary] D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:5-86:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\Δενθρ\.gradle\caches\transforms-3\b4663f81e26c8ae5f971877736cee71c\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
@@ -135,8 +135,6 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Δε
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Δενθρ\.gradle\caches\transforms-3\f5e4bff6dddc95c1e4569b2a41c648ee\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:label
 		ADDED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
-	android:roundIcon
-		ADDED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:81-123
 	android:icon
 		ADDED from D:\Documents\Unity\My project3\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
 supports-screens

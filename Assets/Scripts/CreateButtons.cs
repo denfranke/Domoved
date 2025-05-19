@@ -64,6 +64,7 @@ public class CreateButtons : MonoBehaviour
         btn.transform.SetParent(parentInFlats.transform, false);
         btn.name = name;
         btn.GetComponentInChildren<TMP_Text>().text = name;
+        //btn.GetComponentInChildren<TMP_Text>().alignment = TextAlignmentOptions.Left;
         btn.GetComponent<Button>().onClick.AddListener(() => FlatsListener(FlatNameInUnity, NorthDirectionOfFlatInDegrees, nameCity, nameDistrict, nameStreet, nameHouse));
     }
 

@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArBtnManager">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIEACAAAAAAAIEAEAAAAACAAIQAAQAAQABAAAA=</HashCode>
+      <FileName>Assets\Scripts\ArBtnManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraMovement">
+    <Position X="13.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>GAQAAAACACAAAAAAAAAHEAAAUAAAAEAUQAAQADACAQA=</HashCode>
+      <FileName>Assets\Scripts\CameraMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraZooming">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAgACAAEABQAAQAAAAAQAAAAQAABAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraZooming.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeImageInBtn">
+    <Position X="2.25" Y="7.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAAgAgACAgAACEAACAAAAAAIIAAAgAI=</HashCode>
+      <FileName>Assets\Scripts\ChangeImageInBtn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChangeReality">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgAAAAAAAAARACAAQAICACIEAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ChangeReality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreateButtons">
+    <Position X="5" Y="6.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEAAKAAAARgAAEAABAAAAAAEkAAAEAAAAIghgA=</HashCode>
+      <FileName>Assets\Scripts\CreateButtons.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DayTimeScrollbar">
+    <Position X="15.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAgAAKAAAAAAAAAAAAAAAAAAAABAAAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Scripts\DayTimeScrollbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAIQADAgygQQACAKQAAIEMAAAAQEAAAAQAAgA=</HashCode>
+      <FileName>Assets\Scripts\DbConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DbConnector">
+    <Position X="7.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAgAAACAAAQDCAgRAAEAQARABAigCSAAhAQAEEUI=</HashCode>
+      <FileName>Assets\Scripts\DbConnector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HintsManagerToAR">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAgAAAAAIAAAABAAAAAAAAAAAAAAAQAAACAAAE=</HashCode>
+      <FileName>Assets\Scripts\HintsManagerToAR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoPanel">
+    <Position X="7.75" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAIAAAAAAQBAAAAAAABAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InfoPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjectMovement">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAoAGAAAgAAIAABEIAAIAAAAAQAQCCADREAAIA=</HashCode>
+      <FileName>Assets\Scripts\ObjectMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsBtn">
+    <Position X="21.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACBAACAEAAAAAIAAAAAIEggBAIAAAQBAAQCAACA=</HashCode>
+      <FileName>Assets\Scripts\SettingsBtn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SunConroller">
+    <Position X="13.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAQAAAAAAAAAAAAAAAQBAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SunConroller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeleportManager">
+    <Position X="17.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAABAAAAAAAAAAAAAAQAAAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\TeleportManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TeleportPoint">
+    <Position X="19.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAIAEAAAACAAgAgABAAAAAACA=</HashCode>
+      <FileName>Assets\Scripts\TeleportPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VRModeController">
+    <Position X="21.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AYQAAAAAACAAAAAAAAUIAACIEACAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\VRModeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkSpace">
+    <Position X="10.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AB4AAAJkIChIHgoAAYIESAQKwABAAhBQEBBgxQAAIEA=</HashCode>
+      <FileName>Assets\Scripts\WorkSpace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
