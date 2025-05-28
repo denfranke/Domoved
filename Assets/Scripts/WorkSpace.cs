@@ -2,12 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Data.Common;
+using System.IO;
 using System.Linq;
+using System.Net;
 using TMPro;
 using Unity.VectorGraphics;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -131,15 +134,88 @@ public class WorkSpace : MonoBehaviour
         }
     }
 
+    private void FetchGameObjectFromServer2 (string url, string FlatNameInUnity)
+    {
+        string path = Path.Combine(Application.persistentDataPath, FlatNameInUnity);
+        AssetBundle assetBundle;
+
+        if(File.Exists(path))
+        {
+            assetBundle = AssetBundle.LoadFromFileAsync(path).assetBundle;
+
+            if(assetBundle == null)
+            {
+                Debug.Log("Не удалось загрузить AssetBundle");
+            }
+        }
+        else
+        {
+            Debug.Log("Файл AssetBundle не найден");
+
+            UnityWebRequest webrequest = UnityWebRequestAssetBundle.GetAssetBundle(url);
+
+            webrequest.SendWebRequest();
+
+            while(!webrequest.isDone)
+            {
+                Debug.Log(webrequest.downloadProgress);
+            }
+
+            assetBundle = DownloadHandlerAssetBundle.GetContent(webrequest);
+            File.WriteAllBytes(path, webrequest.downloadHandler.data);
+        }
+
+        if(assetBundle == null)
+            return;
+
+        string[] allAssetNames = assetBundle.GetAllAssetNames();
+        Debug.Log(allAssetNames.Length + " objects inside prefab bundle");
+        foreach(string gameObjectsName in allAssetNames)
+        {
+            string gameObjectName = Path.GetFileNameWithoutExtension(gameObjectsName).ToString();
+            FlatPrefab = assetBundle.LoadAsset(gameObjectName) as GameObject;
+            assetBundle.Unload(false);
+        }
+    }
+
+    private void FetchGameObjectFromServer (string url)
+    {
+        UnityWebRequest webrequest = UnityWebRequestAssetBundle.GetAssetBundle(url);
+
+        webrequest.SendWebRequest();
+
+        while(!webrequest.isDone)
+        {
+            Debug.Log(webrequest.downloadProgress);
+        }
+
+        AssetBundle assetBundle = DownloadHandlerAssetBundle.GetContent(webrequest);
+
+        if(assetBundle == null)
+            return;
+
+        string[] allAssetNames = assetBundle.GetAllAssetNames();
+        Debug.Log(allAssetNames.Length + " objects inside prefab bundle");
+        foreach(string gameObjectsName in allAssetNames)
+        {
+            string gameObjectName = Path.GetFileNameWithoutExtension(gameObjectsName).ToString();
+            FlatPrefab = assetBundle.LoadAsset(gameObjectName) as GameObject;
+            assetBundle.Unload(false);
+        }
+    }
+
     private void CreateFlatsAtScene ()
     {
         NorthDirectionOfFlatInDegrees = PlayerPrefs.GetInt("NorthDirectionOfFlatInDegrees");
         FlatNameInUnity = PlayerPrefs.GetString("FlatNameInUnity");
 
-        if(FlatNameInUnity == "" || FlatNameInUnity == null || SceneManager.GetActiveScene().name== "TutorialScene")
+        if(FlatNameInUnity == "" || FlatNameInUnity == null || SceneManager.GetActiveScene().name == "TutorialScene")
             FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/FlatTutorial");
         else
+        {
             FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/" + FlatNameInUnity);
+            //FetchGameObjectFromServer(PlayerPrefs.GetString("Url"));
+        }
 
         Transform FlatInNormalMode = Instantiate(FlatPrefab).transform;
         FlatInNormalMode.SetParent(ParentInNormalModeWhereFlat.transform, false);
@@ -163,7 +239,7 @@ public class WorkSpace : MonoBehaviour
 
         foreach(TeleportPoint teleportPoint in FlatInArMode.GetComponentsInChildren<TeleportPoint>())
         {
-            if(teleportPoint.tag== "TeleportPoint")
+            if(teleportPoint.tag == "TeleportPoint")
             {
                 teleportPoint.gameObject.SetActive(false);
             }
@@ -285,7 +361,7 @@ public class WorkSpace : MonoBehaviour
                 }
                 foreach(MeshRenderer b in objFlatInNormalMode)
                 {
-                        //Debug.Log(obj.name+" "+ b.gameObject.transform.parent.name +" "+ obj.name +" " + b.gameObject.name +" "+ obj.tag == b.gameObject.tag);
+                    //Debug.Log(obj.name+" "+ b.gameObject.transform.parent.name +" "+ obj.name +" " + b.gameObject.name +" "+ obj.tag == b.gameObject.tag);
                     if(obj.name == b.gameObject.transform.parent.name || obj.name == b.gameObject.name && obj.tag == b.gameObject.tag)
                     {
                         if((obj.name == b.gameObject.transform.parent.name && obj.tag == b.gameObject.transform.parent.tag) || (obj.name == b.gameObject.name && obj.tag == b.gameObject.tag))

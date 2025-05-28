@@ -58,22 +58,23 @@ public class CreateButtons : MonoBehaviour
         btn.GetComponent<Button>().onClick.AddListener(() => HousesListener(btn, nameCity, nameDistrict, nameStreet));
     }
 
-    public void InstantiateFlatsBtnPrefab (string name, string FlatNameInUnity, int NorthDirectionOfFlatInDegrees, string nameCity, string nameDistrict, string nameStreet, string nameHouse)
+    public void InstantiateFlatsBtnPrefab (string name, string Url, string FlatNameInUnity, int NorthDirectionOfFlatInDegrees, string nameCity, string nameDistrict, string nameStreet, string nameHouse)
     {
         GameObject btn = Instantiate(buttonPrefab);
         btn.transform.SetParent(parentInFlats.transform, false);
         btn.name = name;
         btn.GetComponentInChildren<TMP_Text>().text = name;
         //btn.GetComponentInChildren<TMP_Text>().alignment = TextAlignmentOptions.Left;
-        btn.GetComponent<Button>().onClick.AddListener(() => FlatsListener(FlatNameInUnity, NorthDirectionOfFlatInDegrees, nameCity, nameDistrict, nameStreet, nameHouse));
+        btn.GetComponent<Button>().onClick.AddListener(() => FlatsListener(Url,FlatNameInUnity, NorthDirectionOfFlatInDegrees, nameCity, nameDistrict, nameStreet, nameHouse));
     }
 
-    private void FlatsListener (string FlatNameInUnity, int NorthDirectionOfFlatInDegrees, string nameCity, string nameDistrict, string nameStreet, string nameHouse)
+    private void FlatsListener (string Url,string FlatNameInUnity, int NorthDirectionOfFlatInDegrees, string nameCity, string nameDistrict, string nameStreet, string nameHouse)
     {
         /*PlayerPrefs.SetString("nameCity", nameCity);
         PlayerPrefs.SetString("nameDistrict", nameDistrict);
         PlayerPrefs.SetString("nameStreet", nameStreet);
         PlayerPrefs.SetString("nameHouse", nameHouse);*/
+        PlayerPrefs.SetString("Url", Url);
         PlayerPrefs.SetString("FlatNameInUnity", FlatNameInUnity);
         PlayerPrefs.SetInt("NorthDirectionOfFlatInDegrees", NorthDirectionOfFlatInDegrees);
         SceneManager.LoadScene("WorkSpace");

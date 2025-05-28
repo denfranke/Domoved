@@ -1444,6 +1444,10 @@
       <Project>{4DE50A88-8F9D-7579-2CEB-F2A7091911BC}</Project>
       <Name>Unity.AI.Navigation.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{642FE38F-DC6F-0893-E22D-A5A282879503}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{52C2088D-ADF8-5FC8-984C-C9C6EAB5C95F}</Project>
       <Name>Unity.VisualScripting.State</Name>

@@ -39,6 +39,7 @@ public class Item
     public string DistrictName { get; set; }
     public int Id_City { get; set; }
     public string CityName { get; set; }
+    public string Url { get; set; }
 }
 
 public class DbConnector : MonoBehaviour
@@ -193,6 +194,7 @@ public class DbConnector : MonoBehaviour
                 XmlNode w = node.SelectSingleNode("DistrictName");
                 XmlNode x = node.SelectSingleNode("Id_City");
                 XmlNode y = node.SelectSingleNode("CityName");
+                XmlNode z = node.SelectSingleNode("Url");
 
                 if(a != null) item.Id_Flat = int.Parse(a.InnerText);
                 if(b != null) item.Floor = int.Parse(b.InnerText);
@@ -227,6 +229,7 @@ public class DbConnector : MonoBehaviour
                 if(w != null) item.DistrictName = w.InnerText;
                 if(x != null) item.Id_City = int.Parse(x.InnerText);
                 if(y != null) item.CityName = y.InnerText;
+                if(z != null) item.Url = z.InnerText;
 
                 itemList.Add(item);
 
@@ -388,7 +391,7 @@ public class DbConnector : MonoBehaviour
         {
             if((uniqueFlats.Count == 0 || !uniqueFlats.Contains(item.FlatNameInUnity)) && item.CityName == nameCity && item.DistrictName == nameDistrict && item.StreetName == nameStreet && item.HouseName == nameHouse && item.FlatNameInUnity != "FlatTutorial")
             {
-                createBtn.InstantiateFlatsBtnPrefab("Кол-во комнат:" + item.RoomsCount.ToString() + " Этаж:" + item.Floor.ToString(), item.FlatNameInUnity, item.NorthDirectionOfFlatInDegrees, nameCity, nameDistrict, nameStreet, nameHouse);
+                createBtn.InstantiateFlatsBtnPrefab("Кол-во комнат:" + item.RoomsCount.ToString() + " Этаж:" + item.Floor.ToString(), item.Url, item.FlatNameInUnity, item.NorthDirectionOfFlatInDegrees, nameCity, nameDistrict, nameStreet, nameHouse);
                 uniqueFlats.Add(item.FlatNameInUnity);
             }
         }

@@ -988,6 +988,34 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Application
 
+	//Start Registrations for type : UnityEngine.AssetBundle
+
+		//System.String[] UnityEngine.AssetBundle::GetAllAssetNames()
+		void Register_UnityEngine_AssetBundle_GetAllAssetNames();
+		Register_UnityEngine_AssetBundle_GetAllAssetNames();
+
+		//System.Void UnityEngine.AssetBundle::Unload(System.Boolean)
+		void Register_UnityEngine_AssetBundle_Unload();
+		Register_UnityEngine_AssetBundle_Unload();
+
+		//UnityEngine.AssetBundleCreateRequest UnityEngine.AssetBundle::LoadFromFileAsync_Internal(System.String,System.UInt32,System.UInt64)
+		void Register_UnityEngine_AssetBundle_LoadFromFileAsync_Internal();
+		Register_UnityEngine_AssetBundle_LoadFromFileAsync_Internal();
+
+		//UnityEngine.Object UnityEngine.AssetBundle::LoadAsset_Internal(System.String,System.Type)
+		void Register_UnityEngine_AssetBundle_LoadAsset_Internal();
+		Register_UnityEngine_AssetBundle_LoadAsset_Internal();
+
+	//End Registrations for type : UnityEngine.AssetBundle
+
+	//Start Registrations for type : UnityEngine.AssetBundleCreateRequest
+
+		//UnityEngine.AssetBundle UnityEngine.AssetBundleCreateRequest::get_assetBundle()
+		void Register_UnityEngine_AssetBundleCreateRequest_get_assetBundle();
+		Register_UnityEngine_AssetBundleCreateRequest_get_assetBundle();
+
+	//End Registrations for type : UnityEngine.AssetBundleCreateRequest
+
 	//Start Registrations for type : UnityEngine.AsyncOperation
 
 		//System.Boolean UnityEngine.AsyncOperation::get_isDone()
@@ -3356,6 +3384,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.Networking.DownloadHandler
 
+	//Start Registrations for type : UnityEngine.Networking.DownloadHandlerAssetBundle
+
+		//System.IntPtr UnityEngine.Networking.DownloadHandlerAssetBundle::Create(UnityEngine.Networking.DownloadHandlerAssetBundle,System.String,System.UInt32)
+		void Register_UnityEngine_Networking_DownloadHandlerAssetBundle_Create();
+		Register_UnityEngine_Networking_DownloadHandlerAssetBundle_Create();
+
+		//UnityEngine.AssetBundle UnityEngine.Networking.DownloadHandlerAssetBundle::get_assetBundle()
+		void Register_UnityEngine_Networking_DownloadHandlerAssetBundle_get_assetBundle();
+		Register_UnityEngine_Networking_DownloadHandlerAssetBundle_get_assetBundle();
+
+	//End Registrations for type : UnityEngine.Networking.DownloadHandlerAssetBundle
+
 	//Start Registrations for type : UnityEngine.Networking.DownloadHandlerBuffer
 
 		//System.IntPtr UnityEngine.Networking.DownloadHandlerBuffer::Create(UnityEngine.Networking.DownloadHandlerBuffer)
@@ -3378,6 +3418,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Networking.UnityWebRequest
 
+		//System.Boolean UnityEngine.Networking.UnityWebRequest::IsExecuting()
+		void Register_UnityEngine_Networking_UnityWebRequest_IsExecuting();
+		Register_UnityEngine_Networking_UnityWebRequest_IsExecuting();
+
 		//System.Boolean UnityEngine.Networking.UnityWebRequest::get_isModifiable()
 		void Register_UnityEngine_Networking_UnityWebRequest_get_isModifiable();
 		Register_UnityEngine_Networking_UnityWebRequest_get_isModifiable();
@@ -3389,6 +3433,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.IntPtr UnityEngine.Networking.UnityWebRequest::Create()
 		void Register_UnityEngine_Networking_UnityWebRequest_Create();
 		Register_UnityEngine_Networking_UnityWebRequest_Create();
+
+		//System.Single UnityEngine.Networking.UnityWebRequest::GetDownloadProgress()
+		void Register_UnityEngine_Networking_UnityWebRequest_GetDownloadProgress();
+		Register_UnityEngine_Networking_UnityWebRequest_GetDownloadProgress();
 
 		//System.String UnityEngine.Networking.UnityWebRequest::GetHTTPStatusString(System.Int64)
 		void Register_UnityEngine_Networking_UnityWebRequest_GetHTTPStatusString();

@@ -2,18 +2,21 @@ Using template 'C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Playba
 
 android.permission.INTERNET was added because:
 	UnityEngine.Networking was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 		NativeGallery.Runtime-FeaturesChecked.txt
 		Unity.InputSystem-FeaturesChecked.txt
 		Unity.Services.Analytics-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.XR.ARCore-FeaturesChecked.txt
 	UnityEngine.Network was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 		NativeGallery.Runtime-FeaturesChecked.txt
 		Unity.InputSystem-FeaturesChecked.txt
 		Unity.Services.Analytics-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
 		Unity.XR.ARCore-FeaturesChecked.txt
 	UnityEngine.Networking.UnityWebRequest was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 		NativeGallery.Runtime-FeaturesChecked.txt
 		Unity.Services.Analytics-FeaturesChecked.txt
 		Unity.Services.Core.Internal-FeaturesChecked.txt
