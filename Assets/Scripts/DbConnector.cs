@@ -500,6 +500,7 @@ public class DbConnector : MonoBehaviour
     {
         PlayerPrefs.SetString("FlatNameInUnity", "FlatTutorial");
         PlayerPrefs.SetInt("NorthDirectionOfFlatInDegrees", -200);
+        PlayerPrefs.SetString("Url", "https://drive.google.com/uc?export=download&id=1P3E_pa7ABbZ2_h2KcI6-11SSdXqxn8qV");
         SceneManager.LoadScene("TutorialScene");
     }
 }

@@ -23829,7 +23829,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1939769,
-      "PayloadLength": 36866,
+      "PayloadLength": 36893,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -23841,7 +23841,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1300b0aP.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1976722,
+      "PayloadOffset": 1976749,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -24125,6 +24125,7 @@
         "Assets/Scripts/TeleportPoint.cs",
         "Assets/Scripts/VRModeController.cs",
         "Assets/Scripts/WorkSpace.cs",
+        "Assets/VuforiaLicense.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1300b0aP.dag/Assembly-CSharp.rsp"
@@ -24427,7 +24428,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1300b0aP.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1976818,
+      "PayloadOffset": 1976845,
       "PayloadLength": 8129,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -24643,14 +24644,14 @@
       "DebugActionIndex": 366
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
       "DisplayName": "Copying UnityEngine.TestRunner.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.TestRunner.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll"
       ],
       "ToBuildDependencies": [
         4
@@ -24658,14 +24659,14 @@
       "DebugActionIndex": 367
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb",
       "DisplayName": "Copying UnityEngine.TestRunner.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.TestRunner.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.pdb"
       ],
       "ToBuildDependencies": [
         4
@@ -24673,14 +24674,14 @@
       "DebugActionIndex": 368
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.UI.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
       "DisplayName": "Copying UnityEngine.UI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.UI.dll"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
       ],
       "ToBuildDependencies": [
         75
@@ -24688,14 +24689,14 @@
       "DebugActionIndex": 369
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.UI.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb",
       "DisplayName": "Copying UnityEngine.UI.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.UI.pdb"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.pdb"
       ],
       "ToBuildDependencies": [
         75
@@ -24703,14 +24704,14 @@
       "DebugActionIndex": 370
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/NativeGallery.Runtime.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/NativeGallery.Runtime.dll",
       "DisplayName": "Copying NativeGallery.Runtime.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/NativeGallery.Runtime.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/NativeGallery.Runtime.dll"
+        "Library/Bee/PlayerScriptAssemblies/NativeGallery.Runtime.dll"
       ],
       "ToBuildDependencies": [
         82
@@ -24718,14 +24719,14 @@
       "DebugActionIndex": 371
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/NativeGallery.Runtime.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/NativeGallery.Runtime.pdb",
       "DisplayName": "Copying NativeGallery.Runtime.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/NativeGallery.Runtime.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/NativeGallery.Runtime.pdb"
+        "Library/Bee/PlayerScriptAssemblies/NativeGallery.Runtime.pdb"
       ],
       "ToBuildDependencies": [
         82
@@ -24733,14 +24734,14 @@
       "DebugActionIndex": 372
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
       "DisplayName": "Copying Unity.AI.Navigation.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.AI.Navigation.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
       ],
       "ToBuildDependencies": [
         89
@@ -24748,14 +24749,14 @@
       "DebugActionIndex": 373
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.AI.Navigation.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb",
       "DisplayName": "Copying Unity.AI.Navigation.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.AI.Navigation.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.AI.Navigation.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.pdb"
       ],
       "ToBuildDependencies": [
         89
@@ -24763,14 +24764,14 @@
       "DebugActionIndex": 374
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
       "DisplayName": "Copying Unity.Analytics.DataPrivacy.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Analytics.DataPrivacy.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll"
       ],
       "ToBuildDependencies": [
         95
@@ -24778,14 +24779,14 @@
       "DebugActionIndex": 375
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.pdb",
       "DisplayName": "Copying Unity.Analytics.DataPrivacy.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Analytics.DataPrivacy.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.pdb"
       ],
       "ToBuildDependencies": [
         95
@@ -24793,14 +24794,14 @@
       "DebugActionIndex": 376
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.InputSystem.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
       "DisplayName": "Copying Unity.InputSystem.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.InputSystem.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll"
       ],
       "ToBuildDependencies": [
         101
@@ -24808,14 +24809,14 @@
       "DebugActionIndex": 377
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.InputSystem.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.pdb",
       "DisplayName": "Copying Unity.InputSystem.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.InputSystem.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.pdb"
       ],
       "ToBuildDependencies": [
         101
@@ -24823,14 +24824,14 @@
       "DebugActionIndex": 378
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll",
       "DisplayName": "Copying Unity.InternalAPIEngineBridge.003.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.InternalAPIEngineBridge.003.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll"
       ],
       "ToBuildDependencies": [
         107
@@ -24838,14 +24839,14 @@
       "DebugActionIndex": 379
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.pdb",
       "DisplayName": "Copying Unity.InternalAPIEngineBridge.003.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.InternalAPIEngineBridge.003.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.pdb"
       ],
       "ToBuildDependencies": [
         107
@@ -24853,14 +24854,14 @@
       "DebugActionIndex": 380
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Mathematics.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
       "DisplayName": "Copying Unity.Mathematics.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Mathematics.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Mathematics.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll"
       ],
       "ToBuildDependencies": [
         113
@@ -24868,14 +24869,14 @@
       "DebugActionIndex": 381
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Mathematics.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb",
       "DisplayName": "Copying Unity.Mathematics.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Mathematics.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Mathematics.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
       ],
       "ToBuildDependencies": [
         113
@@ -24883,14 +24884,14 @@
       "DebugActionIndex": 382
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.dll",
       "DisplayName": "Copying Unity.Services.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.dll"
       ],
       "ToBuildDependencies": [
         119
@@ -24898,14 +24899,14 @@
       "DebugActionIndex": 383
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.pdb",
       "DisplayName": "Copying Unity.Services.Core.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.pdb"
       ],
       "ToBuildDependencies": [
         119
@@ -24913,14 +24914,14 @@
       "DebugActionIndex": 384
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
       "DisplayName": "Copying Unity.TextMeshPro.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.TextMeshPro.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
       ],
       "ToBuildDependencies": [
         125
@@ -24928,14 +24929,14 @@
       "DebugActionIndex": 385
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.TextMeshPro.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb",
       "DisplayName": "Copying Unity.TextMeshPro.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.TextMeshPro.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.pdb"
       ],
       "ToBuildDependencies": [
         125
@@ -24943,14 +24944,14 @@
       "DebugActionIndex": 386
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Timeline.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
       "DisplayName": "Copying Unity.Timeline.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Timeline.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Timeline.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
       ],
       "ToBuildDependencies": [
         131
@@ -24958,14 +24959,14 @@
       "DebugActionIndex": 387
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Timeline.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb",
       "DisplayName": "Copying Unity.Timeline.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Timeline.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Timeline.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.pdb"
       ],
       "ToBuildDependencies": [
         131
@@ -24973,14 +24974,14 @@
       "DebugActionIndex": 388
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.Management.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.dll",
       "DisplayName": "Copying Unity.XR.Management.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Management.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.Management.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.dll"
       ],
       "ToBuildDependencies": [
         137
@@ -24988,14 +24989,14 @@
       "DebugActionIndex": 389
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.Management.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.pdb",
       "DisplayName": "Copying Unity.XR.Management.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Management.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.Management.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.pdb"
       ],
       "ToBuildDependencies": [
         137
@@ -25003,14 +25004,14 @@
       "DebugActionIndex": 390
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.dll",
       "DisplayName": "Copying UnityEngine.Advertisements.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.Advertisements.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.dll"
       ],
       "ToBuildDependencies": [
         143
@@ -25018,14 +25019,14 @@
       "DebugActionIndex": 391
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.Advertisements.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.pdb",
       "DisplayName": "Copying UnityEngine.Advertisements.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.Advertisements.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.Advertisements.pdb"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.pdb"
       ],
       "ToBuildDependencies": [
         143
@@ -25033,14 +25034,14 @@
       "DebugActionIndex": 392
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
       "DisplayName": "Copying UnityEngine.SpatialTracking.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.SpatialTracking.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll"
       ],
       "ToBuildDependencies": [
         149
@@ -25048,14 +25049,14 @@
       "DebugActionIndex": 393
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.pdb",
       "DisplayName": "Copying UnityEngine.SpatialTracking.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.SpatialTracking.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.pdb"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.pdb"
       ],
       "ToBuildDependencies": [
         149
@@ -25063,14 +25064,14 @@
       "DebugActionIndex": 394
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Google.XR.Cardboard.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Google.XR.Cardboard.dll",
       "DisplayName": "Copying Google.XR.Cardboard.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Google.XR.Cardboard.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Google.XR.Cardboard.dll"
+        "Library/Bee/PlayerScriptAssemblies/Google.XR.Cardboard.dll"
       ],
       "ToBuildDependencies": [
         155
@@ -25078,14 +25079,14 @@
       "DebugActionIndex": 395
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Google.XR.Cardboard.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Google.XR.Cardboard.pdb",
       "DisplayName": "Copying Google.XR.Cardboard.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Google.XR.Cardboard.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Google.XR.Cardboard.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Google.XR.Cardboard.pdb"
       ],
       "ToBuildDependencies": [
         155
@@ -25093,14 +25094,14 @@
       "DebugActionIndex": 396
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
       "DisplayName": "Copying Unity.InputSystem.ForUI.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.ForUI.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll"
       ],
       "ToBuildDependencies": [
         163
@@ -25108,14 +25109,14 @@
       "DebugActionIndex": 397
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb",
       "DisplayName": "Copying Unity.InputSystem.ForUI.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.InputSystem.ForUI.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.pdb"
       ],
       "ToBuildDependencies": [
         163
@@ -25123,14 +25124,14 @@
       "DebugActionIndex": 398
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
       "DisplayName": "Copying Unity.Services.Core.Analytics.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Analytics.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll"
       ],
       "ToBuildDependencies": [
         169
@@ -25138,14 +25139,14 @@
       "DebugActionIndex": 399
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Analytics.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.pdb",
       "DisplayName": "Copying Unity.Services.Core.Analytics.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Analytics.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Analytics.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.pdb"
       ],
       "ToBuildDependencies": [
         169
@@ -25153,14 +25154,14 @@
       "DebugActionIndex": 400
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll",
       "DisplayName": "Copying Unity.Services.Core.Internal.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Internal.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll"
       ],
       "ToBuildDependencies": [
         176
@@ -25168,14 +25169,14 @@
       "DebugActionIndex": 401
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Internal.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.pdb",
       "DisplayName": "Copying Unity.Services.Core.Internal.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Internal.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Internal.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.pdb"
       ],
       "ToBuildDependencies": [
         176
@@ -25183,14 +25184,14 @@
       "DebugActionIndex": 402
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VectorGraphics.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VectorGraphics.dll",
       "DisplayName": "Copying Unity.VectorGraphics.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VectorGraphics.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VectorGraphics.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VectorGraphics.dll"
       ],
       "ToBuildDependencies": [
         182
@@ -25198,14 +25199,14 @@
       "DebugActionIndex": 403
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VectorGraphics.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VectorGraphics.pdb",
       "DisplayName": "Copying Unity.VectorGraphics.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VectorGraphics.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VectorGraphics.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VectorGraphics.pdb"
       ],
       "ToBuildDependencies": [
         182
@@ -25213,14 +25214,14 @@
       "DebugActionIndex": 404
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
       "DisplayName": "Copying Unity.VisualScripting.Core.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Core.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
       ],
       "ToBuildDependencies": [
         189
@@ -25228,14 +25229,14 @@
       "DebugActionIndex": 405
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb",
       "DisplayName": "Copying Unity.VisualScripting.Core.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Core.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.pdb"
       ],
       "ToBuildDependencies": [
         189
@@ -25243,14 +25244,14 @@
       "DebugActionIndex": 406
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARSubsystems.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARSubsystems.dll",
       "DisplayName": "Copying Unity.XR.ARSubsystems.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARSubsystems.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARSubsystems.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARSubsystems.dll"
       ],
       "ToBuildDependencies": [
         195
@@ -25258,14 +25259,14 @@
       "DebugActionIndex": 407
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARSubsystems.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARSubsystems.pdb",
       "DisplayName": "Copying Unity.XR.ARSubsystems.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARSubsystems.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARSubsystems.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARSubsystems.pdb"
       ],
       "ToBuildDependencies": [
         195
@@ -25273,14 +25274,14 @@
       "DebugActionIndex": 408
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll",
       "DisplayName": "Copying Unity.XR.CoreUtils.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.CoreUtils.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll"
       ],
       "ToBuildDependencies": [
         201
@@ -25288,14 +25289,14 @@
       "DebugActionIndex": 409
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.CoreUtils.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.pdb",
       "DisplayName": "Copying Unity.XR.CoreUtils.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.CoreUtils.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.CoreUtils.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.pdb"
       ],
       "ToBuildDependencies": [
         201
@@ -25303,14 +25304,14 @@
       "DebugActionIndex": 410
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
       "DisplayName": "Copying UnityEngine.XR.LegacyInputHelpers.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
       ],
       "ToBuildDependencies": [
         208
@@ -25318,14 +25319,14 @@
       "DebugActionIndex": 411
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb",
       "DisplayName": "Copying UnityEngine.XR.LegacyInputHelpers.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb"
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.pdb"
       ],
       "ToBuildDependencies": [
         208
@@ -25333,14 +25334,14 @@
       "DebugActionIndex": 412
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/CardboardSamples.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/CardboardSamples.dll",
       "DisplayName": "Copying CardboardSamples.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/CardboardSamples.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/CardboardSamples.dll"
+        "Library/Bee/PlayerScriptAssemblies/CardboardSamples.dll"
       ],
       "ToBuildDependencies": [
         214
@@ -25348,14 +25349,14 @@
       "DebugActionIndex": 413
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/CardboardSamples.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/CardboardSamples.pdb",
       "DisplayName": "Copying CardboardSamples.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/CardboardSamples.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/CardboardSamples.pdb"
+        "Library/Bee/PlayerScriptAssemblies/CardboardSamples.pdb"
       ],
       "ToBuildDependencies": [
         214
@@ -25363,14 +25364,14 @@
       "DebugActionIndex": 414
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Analytics.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.dll",
       "DisplayName": "Copying Unity.Services.Analytics.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Analytics.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Analytics.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.dll"
       ],
       "ToBuildDependencies": [
         220
@@ -25378,14 +25379,14 @@
       "DebugActionIndex": 415
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Analytics.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.pdb",
       "DisplayName": "Copying Unity.Services.Analytics.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Analytics.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Analytics.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.pdb"
       ],
       "ToBuildDependencies": [
         220
@@ -25393,14 +25394,14 @@
       "DebugActionIndex": 416
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
       "DisplayName": "Copying Unity.Services.Core.Configuration.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Configuration.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll"
       ],
       "ToBuildDependencies": [
         227
@@ -25408,14 +25409,14 @@
       "DebugActionIndex": 417
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Configuration.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.pdb",
       "DisplayName": "Copying Unity.Services.Core.Configuration.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Configuration.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Configuration.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.pdb"
       ],
       "ToBuildDependencies": [
         227
@@ -25423,14 +25424,14 @@
       "DebugActionIndex": 418
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
       "DisplayName": "Copying Unity.Services.Core.Device.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Device.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Device.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll"
       ],
       "ToBuildDependencies": [
         233
@@ -25438,14 +25439,14 @@
       "DebugActionIndex": 419
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Device.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.pdb",
       "DisplayName": "Copying Unity.Services.Core.Device.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Device.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Device.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.pdb"
       ],
       "ToBuildDependencies": [
         233
@@ -25453,14 +25454,14 @@
       "DebugActionIndex": 420
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll",
       "DisplayName": "Copying Unity.Services.Core.Environments.Internal.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Environments.Internal.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll"
       ],
       "ToBuildDependencies": [
         239
@@ -25468,14 +25469,14 @@
       "DebugActionIndex": 421
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.pdb",
       "DisplayName": "Copying Unity.Services.Core.Environments.Internal.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Environments.Internal.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.pdb"
       ],
       "ToBuildDependencies": [
         239
@@ -25483,14 +25484,14 @@
       "DebugActionIndex": 422
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
       "DisplayName": "Copying Unity.Services.Core.Environments.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Environments.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll"
       ],
       "ToBuildDependencies": [
         245
@@ -25498,14 +25499,14 @@
       "DebugActionIndex": 423
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.pdb",
       "DisplayName": "Copying Unity.Services.Core.Environments.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Environments.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.pdb"
       ],
       "ToBuildDependencies": [
         245
@@ -25513,14 +25514,14 @@
       "DebugActionIndex": 424
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll",
       "DisplayName": "Copying Unity.Services.Core.Networking.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Networking.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll"
       ],
       "ToBuildDependencies": [
         251
@@ -25528,14 +25529,14 @@
       "DebugActionIndex": 425
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Networking.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Networking.pdb",
       "DisplayName": "Copying Unity.Services.Core.Networking.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Networking.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Networking.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Networking.pdb"
       ],
       "ToBuildDependencies": [
         251
@@ -25543,14 +25544,14 @@
       "DebugActionIndex": 426
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
       "DisplayName": "Copying Unity.Services.Core.Scheduler.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Scheduler.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll"
       ],
       "ToBuildDependencies": [
         257
@@ -25558,14 +25559,14 @@
       "DebugActionIndex": 427
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.pdb",
       "DisplayName": "Copying Unity.Services.Core.Scheduler.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Scheduler.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.pdb"
       ],
       "ToBuildDependencies": [
         257
@@ -25573,14 +25574,14 @@
       "DebugActionIndex": 428
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
       "DisplayName": "Copying Unity.Services.Core.Telemetry.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Telemetry.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll"
       ],
       "ToBuildDependencies": [
         263
@@ -25588,14 +25589,14 @@
       "DebugActionIndex": 429
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.pdb",
       "DisplayName": "Copying Unity.Services.Core.Telemetry.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Telemetry.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.pdb"
       ],
       "ToBuildDependencies": [
         263
@@ -25603,14 +25604,14 @@
       "DebugActionIndex": 430
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll",
       "DisplayName": "Copying Unity.Services.Core.Threading.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Threading.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll"
       ],
       "ToBuildDependencies": [
         269
@@ -25618,14 +25619,14 @@
       "DebugActionIndex": 431
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Threading.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.pdb",
       "DisplayName": "Copying Unity.Services.Core.Threading.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Threading.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Threading.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.pdb"
       ],
       "ToBuildDependencies": [
         269
@@ -25633,14 +25634,14 @@
       "DebugActionIndex": 432
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
       "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
       ],
       "ToBuildDependencies": [
         275
@@ -25648,14 +25649,14 @@
       "DebugActionIndex": 433
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb",
       "DisplayName": "Copying Unity.VisualScripting.Flow.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.pdb"
       ],
       "ToBuildDependencies": [
         275
@@ -25663,14 +25664,14 @@
       "DebugActionIndex": 434
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARCore.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARCore.dll",
       "DisplayName": "Copying Unity.XR.ARCore.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARCore.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARCore.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARCore.dll"
       ],
       "ToBuildDependencies": [
         282
@@ -25678,14 +25679,14 @@
       "DebugActionIndex": 435
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARCore.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARCore.pdb",
       "DisplayName": "Copying Unity.XR.ARCore.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARCore.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARCore.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARCore.pdb"
       ],
       "ToBuildDependencies": [
         282
@@ -25693,14 +25694,14 @@
       "DebugActionIndex": 436
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll",
       "DisplayName": "Copying Unity.XR.ARFoundation.InternalUtils.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARFoundation.InternalUtils.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll"
       ],
       "ToBuildDependencies": [
         289
@@ -25708,14 +25709,14 @@
       "DebugActionIndex": 437
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.pdb",
       "DisplayName": "Copying Unity.XR.ARFoundation.InternalUtils.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARFoundation.InternalUtils.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.pdb"
       ],
       "ToBuildDependencies": [
         289
@@ -25723,14 +25724,14 @@
       "DebugActionIndex": 438
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll",
       "DisplayName": "Copying Unity.Services.Core.Registration.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Registration.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll"
       ],
       "ToBuildDependencies": [
         296
@@ -25738,14 +25739,14 @@
       "DebugActionIndex": 439
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.Services.Core.Registration.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.pdb",
       "DisplayName": "Copying Unity.Services.Core.Registration.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.Services.Core.Registration.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Registration.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.pdb"
       ],
       "ToBuildDependencies": [
         296
@@ -25753,14 +25754,14 @@
       "DebugActionIndex": 440
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
       "DisplayName": "Copying Unity.VisualScripting.State.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
       ],
       "ToBuildDependencies": [
         309
@@ -25768,14 +25769,14 @@
       "DebugActionIndex": 441
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb",
       "DisplayName": "Copying Unity.VisualScripting.State.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.pdb"
       ],
       "ToBuildDependencies": [
         309
@@ -25783,14 +25784,14 @@
       "DebugActionIndex": 442
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.dll",
       "DisplayName": "Copying Unity.XR.ARFoundation.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARFoundation.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.dll"
       ],
       "ToBuildDependencies": [
         316
@@ -25798,14 +25799,14 @@
       "DebugActionIndex": 443
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.pdb",
       "DisplayName": "Copying Unity.XR.ARFoundation.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARFoundation.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.pdb"
       ],
       "ToBuildDependencies": [
         316
@@ -25813,14 +25814,14 @@
       "DebugActionIndex": 444
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll",
       "DisplayName": "Copying Unity.XR.ARFoundation.VisualScripting.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARFoundation.VisualScripting.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll"
       ],
       "ToBuildDependencies": [
         323
@@ -25828,14 +25829,14 @@
       "DebugActionIndex": 445
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.pdb",
       "DisplayName": "Copying Unity.XR.ARFoundation.VisualScripting.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.ARFoundation.VisualScripting.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.pdb"
       ],
       "ToBuildDependencies": [
         323
@@ -25843,14 +25844,14 @@
       "DebugActionIndex": 446
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
       "DisplayName": "Copying Unity.XR.Interaction.Toolkit.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Interaction.Toolkit.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll"
       ],
       "ToBuildDependencies": [
         330
@@ -25858,14 +25859,14 @@
       "DebugActionIndex": 447
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb",
       "DisplayName": "Copying Unity.XR.Interaction.Toolkit.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Interaction.Toolkit.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.pdb"
       ],
       "ToBuildDependencies": [
         330
@@ -25873,14 +25874,14 @@
       "DebugActionIndex": 448
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/VuforiaScripts.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/VuforiaScripts.dll",
       "DisplayName": "Copying VuforiaScripts.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/VuforiaScripts.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/VuforiaScripts.dll"
+        "Library/Bee/PlayerScriptAssemblies/VuforiaScripts.dll"
       ],
       "ToBuildDependencies": [
         338
@@ -25888,14 +25889,14 @@
       "DebugActionIndex": 449
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/VuforiaScripts.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/VuforiaScripts.pdb",
       "DisplayName": "Copying VuforiaScripts.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/VuforiaScripts.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/VuforiaScripts.pdb"
+        "Library/Bee/PlayerScriptAssemblies/VuforiaScripts.pdb"
       ],
       "ToBuildDependencies": [
         338
@@ -25903,14 +25904,14 @@
       "DebugActionIndex": 450
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
       "DisplayName": "Copying Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll"
       ],
       "ToBuildDependencies": [
         344
@@ -25918,14 +25919,14 @@
       "DebugActionIndex": 451
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb",
       "DisplayName": "Copying Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb"
       ],
       "ToBuildDependencies": [
         344
@@ -25933,14 +25934,14 @@
       "DebugActionIndex": 452
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Assembly-CSharp.dll",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
       "DisplayName": "Copying Assembly-CSharp.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Assembly-CSharp.dll"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Assembly-CSharp.dll"
+        "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
       ],
       "ToBuildDependencies": [
         351
@@ -25948,14 +25949,14 @@
       "DebugActionIndex": 453
     },
     {
-      "Annotation": "CopyFiles Library/PlayerScriptAssemblies/Assembly-CSharp.pdb",
+      "Annotation": "CopyFiles Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb",
       "DisplayName": "Copying Assembly-CSharp.pdb",
       "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/1300b0aP.dag/Assembly-CSharp.pdb"
       ],
       "Outputs": [
-        "Library/PlayerScriptAssemblies/Assembly-CSharp.pdb"
+        "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.pdb"
       ],
       "ToBuildDependencies": [
         351
@@ -25965,7 +25966,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json (+1 other)",
       "DisplayName": "BuildPlayerDataGenerator RuntimeInitializeOnLoads",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.CJK.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.MidEast.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.Other.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\CardboardSamples.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Google.XR.Cardboard.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\NativeGallery.Runtime.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Analytics.DataPrivacy.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.InputSystem.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.003.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Mathematics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.VectorGraphics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.ARCore.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.ARFoundation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.ARFoundation.InternalUtils.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.ARFoundation.VisualScripting.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.ARSubsystems.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\Unity.XR.Management.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\UnityEngine.Advertisements.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\\VuforiaScripts.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Android\\Vuforia.Unity.Engine.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Android\\Vuforia.Unity.Wrapper.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Documents\\Unity\\My project3\\Assets\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PlayerScriptAssemblies\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Android\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.CJK.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.MidEast.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Assets\\I18N.Other.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\CardboardSamples.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Google.XR.Cardboard.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\NativeGallery.Runtime.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.AI.Navigation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Analytics.DataPrivacy.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InputSystem.ForUI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.003.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VectorGraphics.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.ARCore.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.ARFoundation.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.ARFoundation.InternalUtils.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.ARFoundation.VisualScripting.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.ARSubsystems.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.CoreUtils.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\Unity.XR.Management.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.Advertisements.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.SpatialTracking.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.XR.LegacyInputHelpers.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\\VuforiaScripts.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Android\\Vuforia.Unity.Engine.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Android\\Vuforia.Unity.Wrapper.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\\Newtonsoft.Json.dll\" -a=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"D:\\Documents\\Unity\\My project3\\Assets\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.50f1\\Editor\\Data\\UnityReferenceAssemblies\\unity-4.8-api\\Facades\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\Bee\\PlayerScriptAssemblies\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.ptc.vuforia.engine@5c22b2884c76\\Vuforia\\Plugins\\Managed\\Android\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.2.1\\Runtime\\AOT\" -s=\"D:\\Documents\\Unity\\My project3\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Player\" -rn=\"RuntimeInitializeOnLoads.json\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.50f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -25973,50 +25974,50 @@
         "Assets/I18N.dll",
         "Assets/I18N.MidEast.dll",
         "Assets/I18N.Other.dll",
-        "Library/PlayerScriptAssemblies/Assembly-CSharp.dll",
-        "Library/PlayerScriptAssemblies/CardboardSamples.dll",
-        "Library/PlayerScriptAssemblies/Google.XR.Cardboard.dll",
-        "Library/PlayerScriptAssemblies/NativeGallery.Runtime.dll",
-        "Library/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
-        "Library/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
-        "Library/PlayerScriptAssemblies/Unity.InputSystem.dll",
-        "Library/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
-        "Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll",
-        "Library/PlayerScriptAssemblies/Unity.Mathematics.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Analytics.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
-        "Library/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll",
-        "Library/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
-        "Library/PlayerScriptAssemblies/Unity.Timeline.dll",
-        "Library/PlayerScriptAssemblies/Unity.VectorGraphics.dll",
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
-        "Library/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.ARCore.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.ARSubsystems.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
-        "Library/PlayerScriptAssemblies/Unity.XR.Management.dll",
-        "Library/PlayerScriptAssemblies/UnityEngine.Advertisements.dll",
-        "Library/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
-        "Library/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
-        "Library/PlayerScriptAssemblies/UnityEngine.UI.dll",
-        "Library/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
-        "Library/PlayerScriptAssemblies/VuforiaScripts.dll",
+        "Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "Library/Bee/PlayerScriptAssemblies/CardboardSamples.dll",
+        "Library/Bee/PlayerScriptAssemblies/Google.XR.Cardboard.dll",
+        "Library/Bee/PlayerScriptAssemblies/NativeGallery.Runtime.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Analytics.DataPrivacy.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Analytics.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Analytics.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Configuration.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Device.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Environments.Internal.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Internal.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Networking.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Registration.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Scheduler.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Telemetry.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Services.Core.Threading.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.VectorGraphics.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARCore.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARFoundation.VisualScripting.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.ARSubsystems.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.CoreUtils.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
+        "Library/Bee/PlayerScriptAssemblies/Unity.XR.Management.dll",
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.Advertisements.dll",
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.SpatialTracking.dll",
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "Library/Bee/PlayerScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "Library/Bee/PlayerScriptAssemblies/VuforiaScripts.dll",
         "Library/PackageCache/com.ptc.vuforia.engine@5c22b2884c76/Vuforia/Plugins/Managed/Android/Vuforia.Unity.Engine.dll",
         "Library/PackageCache/com.ptc.vuforia.engine@5c22b2884c76/Vuforia/Plugins/Managed/Android/Vuforia.Unity.Wrapper.dll",
         "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
@@ -26229,6 +26230,9 @@
       "File": "Library/Bee/1300b0aP-inputdata.json"
     },
     {
+      "File": "Library/Bee/PlayerScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
       "File": "Library/PackageCache/com.google.xr.cardboard@de21979f29/Runtime/csc.rsp"
     },
     {
@@ -26362,9 +26366,6 @@
     },
     {
       "File": "Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/csc.rsp"
-    },
-    {
-      "File": "Library/PlayerScriptAssemblies/Unity.InputSystem.TestFramework.dll"
     }
   ],
   "GlobSignatures": [

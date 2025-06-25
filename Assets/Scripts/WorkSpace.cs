@@ -214,8 +214,11 @@ public class WorkSpace : MonoBehaviour
         else
         {
             FlatPrefab = Resources.Load<GameObject>("Prefabs/Flats/" + FlatNameInUnity);
-            //FetchGameObjectFromServer(PlayerPrefs.GetString("Url"));
         }
+
+        if(FlatPrefab==null)
+            FetchGameObjectFromServer(PlayerPrefs.GetString("Url"));
+
 
         Transform FlatInNormalMode = Instantiate(FlatPrefab).transform;
         FlatInNormalMode.SetParent(ParentInNormalModeWhereFlat.transform, false);

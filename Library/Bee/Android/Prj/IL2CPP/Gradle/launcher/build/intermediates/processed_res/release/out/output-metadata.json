@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "PROCESSED_RES",
+    "kind": "Directory"
+  },
+  "applicationId": "com.vuforia.engine.VuforiaEngine",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 10273,
+      "versionName": "10.27.3",
+      "outputFile": "resources-release.ap_"
+    }
+  ],
+  "elementType": "File"
+}

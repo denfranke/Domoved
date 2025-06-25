@@ -383,6 +383,7 @@
 "Assets/Scripts/TeleportPoint.cs"
 "Assets/Scripts/VRModeController.cs"
 "Assets/Scripts/WorkSpace.cs"
+"Assets/VuforiaLicense.cs"
 -langversion:9.0
 /deterministic
 /optimize+
